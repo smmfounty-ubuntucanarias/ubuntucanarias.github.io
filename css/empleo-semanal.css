@@ -1,0 +1,182 @@
+/* =========================================================
+   PÁGINA "EMPLEO SEMANAL" (empleo-semanal.html / acceso-ofertas.html)
+   Usa las variables de marca ya definidas en css/style.css.
+   Prefijo "semanal-" en todas las clases para no chocar con
+   ninguna clase existente en el resto del sitio.
+   ========================================================= */
+
+/* --- Hero --- */
+.semanal-hero{padding:56px 0 32px}
+.semanal-hero__interior{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.semanal-hero__eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--turquesa);font-weight:700;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:18px}
+.semanal-hero__eyebrow:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--amarillo)}
+.semanal-hero h1{font-size:clamp(2rem,4vw,2.7rem);line-height:1.16;color:var(--azul);font-weight:800;letter-spacing:-.01em;margin-bottom:18px}
+.semanal-hero h1 em{font-style:normal;color:var(--turquesa)}
+.semanal-hero__subtitulo{font-size:16.5px;color:var(--texto-suave);max-width:46ch;margin-bottom:26px}
+.semanal-hero__lista{display:flex;flex-direction:column;gap:12px}
+.semanal-hero__lista li{display:flex;align-items:flex-start;gap:10px;font-size:14.5px;font-weight:600;color:var(--azul)}
+.semanal-hero__lista li strong{color:var(--azul);font-weight:700}
+.semanal-hero__lista li span{font-weight:400;color:var(--texto-suave)}
+.semanal-hero__lista svg{width:18px;height:18px;color:var(--turquesa);flex-shrink:0;margin-top:2px}
+
+.semanal-hero__ilustracion{max-width:400px;margin:0 auto}
+.semanal-hero__foto{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radio-l);box-shadow:var(--sombra-l);border:6px solid var(--blanco)}
+
+/* Foto ya diseñada (con sus propias formas decorativas integradas en la
+   propia imagen): se muestra tal cual, sin marco, borde ni recorte extra
+   para no chocar con su composición. Usada en empleo-semanal.html. */
+.semanal-hero__foto-integrada{display:block;width:100%;height:auto}
+.semanal-hero__ilustracion--ancha{max-width:none}
+
+/* Foto principal del hero de esta página: la propia imagen ya viene
+   desvanecida en los cuatro bordes hacia el color de fondo del sitio,
+   así que se publica tal cual, sin marco, máscara ni recorte. */
+
+@media(max-width:860px){
+  .semanal-hero__interior{grid-template-columns:1fr}
+  .semanal-hero__ilustracion{max-width:240px;margin-top:8px}
+  .semanal-hero__ilustracion--ancha{max-width:100%;margin-top:16px}
+}
+
+/* --- Banner CTA principal --- */
+.semanal-banner{background:linear-gradient(135deg,var(--azul) 0%,var(--azul-oscuro) 100%);border-radius:var(--radio-l);box-shadow:var(--sombra-l);padding:56px 48px;margin:16px 0 88px;position:relative;overflow:hidden;color:var(--blanco)}
+.semanal-banner:before{content:"";position:absolute;width:280px;height:280px;background:var(--amarillo);opacity:.14;border-radius:50%;top:-120px;right:-80px}
+.semanal-banner:after{content:"";position:absolute;width:200px;height:200px;background:var(--turquesa);opacity:.22;border-radius:50%;bottom:-100px;left:-60px}
+.semanal-banner__interior{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap}
+.semanal-banner__texto{max-width:600px}
+.semanal-banner__eyebrow{display:inline-block;background:#ffffff1f;color:var(--amarillo);font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-bottom:16px}
+.semanal-banner h2{font-size:clamp(1.5rem,2.8vw,2.1rem);font-weight:800;line-height:1.22;margin-bottom:12px}
+.semanal-banner p{color:#ffffffcc;font-size:15.5px;max-width:48ch}
+.semanal-banner__boton{display:inline-flex;align-items:center;gap:10px;background:var(--amarillo);color:var(--azul-oscuro);font-weight:700;font-size:15.5px;padding:16px 30px;border-radius:999px;box-shadow:0 10px 24px rgba(0,0,0,.18);transition:transform .2s ease,box-shadow .2s ease,background .2s ease;flex-shrink:0}
+.semanal-banner__boton:hover{background:#d6a437;transform:translateY(-2px);box-shadow:0 14px 30px rgba(0,0,0,.22)}
+.semanal-banner__boton svg{width:18px;height:18px;transition:transform .2s ease}
+.semanal-banner__boton:hover svg{transform:translateX(3px)}
+@media(max-width:640px){
+  .semanal-banner{padding:36px 26px;margin-bottom:64px}
+  .semanal-banner__interior{flex-direction:column;align-items:flex-start}
+  .semanal-banner__boton{width:100%;justify-content:center}
+}
+
+/* --- Banner de WhatsApp --- */
+.semanal-whatsapp{background:#e6f8ed;border:1.5px solid #25D36655;border-radius:var(--radio-l);padding:32px 36px;margin:0 0 64px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.semanal-whatsapp__icono{width:52px;height:52px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.semanal-whatsapp__texto{flex:1;min-width:240px}
+.semanal-whatsapp__texto h3{color:var(--azul);font-size:16.5px;font-weight:800;margin-bottom:4px}
+.semanal-whatsapp__texto p{color:var(--texto-suave);font-size:14px}
+.semanal-whatsapp__boton{display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff;font-weight:700;font-size:15px;padding:14px 26px;border-radius:999px;white-space:nowrap;box-shadow:0 8px 20px rgba(37,211,102,.28);transition:background .2s ease,transform .2s ease}
+.semanal-whatsapp__boton:hover{background:#1eb857;transform:translateY(-2px)}
+@media(max-width:640px){
+  .semanal-whatsapp{padding:26px 22px;margin-bottom:48px}
+  .semanal-whatsapp__boton{width:100%;justify-content:center}
+}
+
+/* --- Cómo funciona --- */
+.semanal-pasos-seccion{padding-bottom:96px}
+.semanal-pasos-cabecera{max-width:520px;margin:0 auto 40px;text-align:center}
+.semanal-pasos-cabecera h2{color:var(--azul);font-size:clamp(1.4rem,2.4vw,1.8rem);font-weight:800;margin-bottom:10px}
+.semanal-pasos-cabecera p{color:var(--texto-suave);font-size:15px}
+.semanal-pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.semanal-paso{background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio-m);padding:28px 24px}
+.semanal-paso__numero{width:34px;height:34px;border-radius:10px;background:var(--turquesa-suave);color:var(--turquesa);font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.semanal-paso h3{color:var(--azul);font-size:15.5px;font-weight:700;margin-bottom:6px}
+.semanal-paso p{color:var(--texto-suave);font-size:14px}
+@media(max-width:760px){.semanal-pasos{grid-template-columns:1fr}}
+
+/* --- Modal de suscripción --- */
+.semanal-modal-fondo{position:fixed;inset:0;background:rgba(13,44,79,.55);backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:20px;z-index:1000;opacity:0;visibility:hidden;transition:opacity .25s ease,visibility .25s ease}
+.semanal-modal-fondo.semanal-modal-visible{opacity:1;visibility:visible}
+.semanal-modal{background:var(--blanco);border-radius:var(--radio-l);box-shadow:var(--sombra-l);max-width:440px;width:100%;padding:40px 36px;position:relative;transform:translateY(16px) scale(.98);transition:transform .25s ease}
+.semanal-modal-fondo.semanal-modal-visible .semanal-modal{transform:translateY(0) scale(1)}
+.semanal-modal__cerrar{position:absolute;top:18px;right:18px;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--texto-suave);transition:background .2s ease,color .2s ease}
+.semanal-modal__cerrar:hover{background:var(--fondo);color:var(--azul)}
+.semanal-modal__cerrar svg{width:18px;height:18px}
+.semanal-modal__icono{width:52px;height:52px;border-radius:14px;background:var(--turquesa-suave);color:var(--turquesa);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+.semanal-modal__icono svg{width:26px;height:26px}
+.semanal-modal h2{color:var(--azul);font-size:22px;font-weight:800;margin-bottom:8px;letter-spacing:-.01em}
+.semanal-modal p.semanal-modal__descripcion{color:var(--texto-suave);font-size:14.5px;margin-bottom:24px}
+.semanal-campo{margin-bottom:16px}
+.semanal-campo label{display:block;font-size:13.5px;font-weight:700;color:var(--azul);margin-bottom:6px}
+.semanal-campo input{width:100%;padding:13px 16px;border:1.5px solid var(--borde);border-radius:var(--radio-s);font-family:inherit;font-size:14.5px;color:var(--texto);transition:border-color .2s ease,box-shadow .2s ease}
+.semanal-campo input::placeholder{color:#9aa3af}
+.semanal-campo input:focus{outline:none;border-color:var(--turquesa);box-shadow:0 0 0 4px var(--turquesa-suave)}
+.semanal-campo input:invalid:not(:placeholder-shown){border-color:#d9534f}
+.semanal-modal__enviar{width:100%;background:var(--turquesa);color:var(--blanco);font-weight:700;font-size:15px;padding:15px;border-radius:999px;margin-top:8px;box-shadow:var(--sombra-s);transition:background .2s ease,transform .2s ease;display:flex;align-items:center;justify-content:center;gap:8px}
+.semanal-modal__enviar:hover{background:#0f7676;transform:translateY(-1px)}
+.semanal-modal__enviar:disabled{opacity:.7;cursor:progress;transform:none}
+.semanal-modal__privacidad{font-size:12px;color:var(--texto-suave);text-align:center;margin-top:16px;line-height:1.5}
+.semanal-icono-carga{width:16px;height:16px;border:2px solid #ffffff66;border-top-color:#fff;border-radius:50%;animation:semanal-girar .7s linear infinite;display:none}
+.semanal-modal__enviar.semanal-cargando .semanal-icono-carga{display:inline-block}
+.semanal-modal__enviar.semanal-cargando .semanal-modal__enviar-texto{display:none}
+@keyframes semanal-girar{to{transform:rotate(360deg)}}
+
+/* --- Página privada de ofertas (acceso-ofertas.html) --- */
+.semanal-encabezado{padding:48px 0 8px}
+.semanal-etiqueta-privada{display:inline-flex;align-items:center;gap:8px;background:var(--turquesa-suave);color:var(--turquesa);font-weight:700;font-size:12px;letter-spacing:.05em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-bottom:18px}
+.semanal-etiqueta-privada svg{width:13px;height:13px}
+.semanal-encabezado h1{color:var(--azul);font-size:clamp(1.7rem,3.4vw,2.3rem);font-weight:800;margin-bottom:10px}
+.semanal-encabezado p{color:var(--texto-suave);font-size:15.5px;max-width:56ch}
+.semanal-contador{margin-top:20px;font-size:13.5px;font-weight:600;color:var(--azul);display:flex;align-items:center;gap:8px}
+.semanal-contador .punto{width:7px;height:7px;border-radius:50%;background:var(--amarillo)}
+
+.semanal-listado{padding:32px 0 96px}
+.semanal-rejilla{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.semanal-oferta{background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio-m);padding:26px;display:flex;flex-direction:column;gap:14px;transition:transform .2s ease,box-shadow .2s ease}
+.semanal-oferta:hover{transform:translateY(-4px);box-shadow:var(--sombra-m)}
+.semanal-oferta__cabecera{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.semanal-oferta__empresa{display:flex;align-items:center;gap:10px}
+.semanal-oferta__logo{width:40px;height:40px;border-radius:10px;background:var(--amarillo-suave);color:var(--amarillo-texto);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;flex-shrink:0}
+.semanal-oferta__empresa-nombre{font-size:13px;font-weight:700;color:var(--texto-suave)}
+.semanal-etiqueta-contrato{font-size:11.5px;font-weight:700;padding:5px 11px;border-radius:999px;white-space:nowrap;background:var(--turquesa-suave);color:var(--turquesa)}
+.semanal-etiqueta-contrato--temporal{background:var(--amarillo-suave);color:var(--amarillo-texto)}
+.semanal-oferta h2{color:var(--azul);font-size:17.5px;font-weight:800}
+.semanal-oferta__meta{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--texto-suave)}
+.semanal-oferta__meta span{display:flex;align-items:center;gap:6px}
+.semanal-oferta__meta svg{width:14px;height:14px;flex-shrink:0}
+.semanal-oferta p.semanal-descripcion{color:var(--texto-suave);font-size:14px;flex-grow:1}
+.semanal-oferta__acciones{display:flex;gap:8px;justify-content:flex-end;margin-top:2px}
+.semanal-btn-compartir{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:32px;height:32px;border-radius:50%;border:1px solid var(--borde);
+  background:#fff;color:var(--texto-suave);cursor:pointer;
+  transition:background .15s ease,color .15s ease,border-color .15s ease,transform .1s ease;
+}
+.semanal-btn-compartir:hover{transform:translateY(-1px)}
+.semanal-btn-compartir--wa:hover{background:#25D366;border-color:#25D366;color:#fff}
+.semanal-btn-compartir--copiar:hover{background:var(--turquesa);border-color:var(--turquesa);color:#fff}
+.semanal-btn-compartir--copiado{background:var(--turquesa) !important;border-color:var(--turquesa) !important;color:#fff !important}
+.semanal-oferta__pie{display:flex;align-items:center;justify-content:space-between;padding-top:14px;border-top:1px solid var(--borde)}
+.semanal-oferta__fecha{font-size:12.5px;color:var(--texto-suave)}
+.semanal-oferta__enlace{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:700;color:var(--turquesa)}
+.semanal-oferta__enlace svg{width:15px;height:15px;transition:transform .2s ease}
+.semanal-oferta__enlace:hover svg{transform:translateX(3px)}
+@media(max-width:760px){.semanal-rejilla{grid-template-columns:1fr}}
+
+.semanal-aviso{margin-top:40px;background:var(--azul);color:var(--blanco);border-radius:var(--radio-l);padding:36px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.semanal-aviso h3{font-size:17px;font-weight:700;margin-bottom:6px}
+.semanal-aviso p{color:#ffffffbf;font-size:14px}
+
+/* ===== Ajustes RTL (versión árabe) ===== */
+html[dir=rtl] .semanal-modal__cerrar{right:auto;left:18px}
+html[dir=rtl] .semanal-hero__eyebrow:before{margin-left:8px;margin-right:0}
+
+/* --- Buscador y filtros por área (acceso-ofertas.html) --- */
+.semanal-buscador{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.semanal-buscador__campo{flex:1;min-width:240px;position:relative;display:flex;align-items:center}
+.semanal-buscador__campo svg{position:absolute;left:16px;width:18px;height:18px;color:var(--texto-suave);pointer-events:none}
+.semanal-buscador__campo input{width:100%;padding:13px 16px 13px 46px;border:1.5px solid var(--borde);border-radius:999px;font-family:inherit;font-size:14.5px;color:var(--texto);background:var(--blanco)}
+.semanal-buscador__campo input:focus{outline:none;border-color:var(--turquesa);box-shadow:0 0 0 4px var(--turquesa-suave)}
+.semanal-buscador__descargar{display:inline-flex;align-items:center;gap:8px;background:var(--azul);color:var(--blanco);font-weight:700;font-size:14px;padding:12px 20px;border-radius:999px;white-space:nowrap;transition:background .2s ease,transform .2s ease;box-shadow:var(--sombra-s)}
+.semanal-buscador__descargar:hover{background:var(--azul-oscuro);transform:translateY(-1px)}
+.semanal-buscador__descargar svg{width:17px;height:17px}
+
+.semanal-filtros{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.semanal-filtro{font-size:13.5px;font-weight:600;color:var(--azul);background:var(--blanco);border:1.5px solid var(--borde);padding:9px 16px;border-radius:999px;transition:background .2s ease,border-color .2s ease,color .2s ease}
+.semanal-filtro:hover{border-color:var(--turquesa)}
+.semanal-filtro[aria-pressed=true]{background:var(--azul);border-color:var(--azul);color:var(--blanco)}
+
+.semanal-sin-resultados{background:var(--fondo);border:1px dashed var(--borde);border-radius:var(--radio-m);padding:24px;text-align:center;color:var(--texto-suave);font-size:14.5px;margin-bottom:28px}
+
+@media(max-width:640px){
+  .semanal-buscador{flex-direction:column;align-items:stretch}
+  .semanal-buscador__descargar{justify-content:center}
+}

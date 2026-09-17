@@ -1,0 +1,12 @@
+.empleo-hero{padding:64px 0 32px;max-width:760px}
+.empleo-hero h1{font-size:clamp(2rem,3.6vw,2.8rem);color:var(--azul);font-weight:800;margin:14px 0 16px;line-height:1.2}
+.empleo-hero__subtitulo{color:var(--texto-suave);font-size:16.5px;max-width:64ch}
+.empleo-aviso{display:flex;gap:16px;align-items:flex-start;background:var(--amarillo-suave);border:1px solid #e5b24152;border-radius:var(--radio-m);padding:24px 26px;margin:12px 0 44px}
+.empleo-aviso__icono{flex-shrink:0;width:40px;height:40px;border-radius:50%;background:var(--amarillo);color:var(--amarillo-texto);display:flex;align-items:center;justify-content:center}
+.empleo-aviso__icono svg{width:20px;height:20px}
+.empleo-aviso__cuerpo{flex:1}
+.empleo-aviso__etiqueta{display:inline-flex;align-items:center;font-size:12.5px;font-weight:800;letter-spacing:.03em;text-transform:uppercase;color:var(--amarillo-texto);background:#ffffff85;padding:4px 12px;border-radius:999px;margin-bottom:10px}
+.empleo-aviso__cuerpo p{color:#5a4419;font-size:15px;line-height:1.55;margin:0}
+.empleo-volver{padding:8px 0 72px}
+.empleo-volver .boton{display:inline-flex}
+@media(max-width:640px){.empleo-aviso{flex-direction:column;padding:20px}}

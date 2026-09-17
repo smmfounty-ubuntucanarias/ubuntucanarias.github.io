@@ -1,0 +1,136 @@
+/* ============================================================
+   Publicaciones — rediseño editorial (asociación de trayectoria)
+   Ámbito: únicamente esta página. Todas las reglas cuelgan de
+   .pub-page para no afectar a recursos.html, voces-del-mundo, etc.
+   ============================================================ */
+
+.pub-page{background:var(--blanco)}
+
+/* ---------- Cabecera editorial ---------- */
+.pub-masthead{padding:64px 0 48px;border-bottom:1px solid var(--borde)}
+.pub-masthead__interior{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:start}
+.pub-masthead__marca{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.pub-masthead__marca span{font-size:12.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--turquesa)}
+.pub-masthead__marca i{display:block;width:34px;height:2px;background:var(--amarillo)}
+.pub-masthead__titulo{font-size:clamp(2.1rem,3.4vw,2.85rem);line-height:1.16;color:var(--azul);font-weight:800;letter-spacing:-.01em;margin-bottom:18px}
+.pub-masthead__texto{font-size:16.5px;color:var(--texto-suave);max-width:52ch;margin-bottom:22px}
+.pub-masthead__linea{display:flex;flex-wrap:wrap;gap:28px;padding-top:8px;border-top:1px solid var(--borde)}
+.pub-masthead__dato{display:flex;flex-direction:column;gap:2px}
+.pub-masthead__dato strong{font-size:13.5px;font-weight:700;color:var(--azul)}
+.pub-masthead__dato span{font-size:12.5px;color:var(--texto-suave)}
+.pub-masthead__imagen{position:relative}
+.pub-masthead__imagen:before{content:"";position:absolute;top:22px;left:-20px;width:100%;height:100%;background:var(--turquesa-suave);border-radius:37% 63% 46% 54%/53% 43% 57% 47%;transform:rotate(5deg);z-index:0}
+.pub-masthead__imagen picture,.pub-masthead__imagen img{display:block;width:100%;height:100%;position:relative;z-index:1}
+.pub-masthead__imagen img{object-fit:cover;aspect-ratio:5/3.6;border-radius:63% 37% 54% 46%/43% 47% 53% 57%;border:3px solid var(--turquesa);box-shadow:var(--sombra-l);transform:rotate(-1.6deg);transition:transform .4s ease}
+.pub-masthead__imagen:hover img{transform:rotate(-.4deg) scale(1.015)}
+html[dir=rtl] .pub-masthead__imagen:before{left:auto;right:-20px}
+@media(prefers-reduced-motion:reduce){.pub-masthead__imagen img{transition:none}}
+.pub-masthead__cinta{position:absolute;left:0;bottom:0;right:0;background:linear-gradient(0deg,rgba(13,44,79,.82),transparent);padding:22px 24px 16px;color:#fff;font-size:13px;font-weight:600;letter-spacing:.02em}
+
+@media(max-width:900px){
+  .pub-masthead__interior{grid-template-columns:1fr;gap:32px}
+  .pub-masthead__imagen{order:-1}
+}
+
+/* ---------- Barra de filtros tipo chips ---------- */
+.pub-filtros{position:sticky;top:100px;z-index:20;padding:16px 0;background:#f7f9fbf2;backdrop-filter:blur(10px);border-bottom:1px solid var(--borde)}
+.pub-filtros__interior{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.pub-filtros__etiqueta{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--texto-suave);flex-shrink:0}
+.pub-filtros__etiqueta svg{width:15px;height:15px;color:var(--turquesa)}
+.pub-filtros .blog-filtros{display:flex;gap:8px;flex-wrap:wrap}
+.pub-filtros .blog-filtros__boton{font-size:13.5px;font-weight:700;letter-spacing:.01em;color:var(--texto-suave);background:var(--blanco);border:1.5px solid var(--borde);border-radius:999px;padding:8px 18px;margin-right:0;position:relative;transition:color .2s ease,background .2s ease,border-color .2s ease,transform .2s ease,box-shadow .2s ease}
+.pub-filtros .blog-filtros__boton:hover{color:var(--azul);border-color:var(--turquesa);transform:translateY(-1px)}
+.pub-filtros .blog-filtros__boton[aria-pressed=true]{background:var(--turquesa);color:var(--blanco);border-color:var(--turquesa);box-shadow:var(--sombra-s)}
+.pub-filtros .blog-filtros__boton--noticia[aria-pressed=true]{background:var(--azul);border-color:var(--azul)}
+
+@media(max-width:1024px){.pub-filtros{top:82px}}
+@media(max-width:720px){.pub-filtros{top:78px}.pub-filtros__interior{gap:12px}.pub-filtros__etiqueta{width:100%}}
+
+/* ---------- Secciones y títulos ---------- */
+.pub-seccion{padding:64px 0}
+.pub-seccion__cabecera{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:36px;padding-bottom:18px;border-bottom:1px solid var(--borde)}
+.pub-seccion__titulo{font-size:clamp(1.5rem,2.4vw,1.9rem);color:var(--azul);font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:12px}
+.pub-seccion__titulo i{display:block;width:8px;height:8px;border-radius:2px;background:var(--turquesa)}
+[data-bloque="noticia"] .pub-seccion__titulo i{background:var(--azul)}
+.pub-seccion__conteo{font-size:13px;color:var(--texto-suave);font-weight:600}
+
+/* ---------- Artículo destacado ---------- */
+.pub-destacado{display:grid;grid-template-columns:1.05fr .95fr;gap:0;background:var(--fondo);border:1px solid var(--borde);border-radius:var(--radio-l);overflow:hidden;margin-bottom:40px}
+.pub-destacado__imagen{position:relative;min-height:280px}
+.pub-destacado__imagen picture,.pub-destacado__imagen img{width:100%;height:100%;display:block;object-fit:cover}
+.pub-destacado__cuerpo{padding:40px 44px;display:flex;flex-direction:column;gap:16px;justify-content:center}
+.pub-destacado__etiqueta{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--turquesa)}
+[data-bloque="noticia"] .pub-destacado__etiqueta{color:var(--azul)}
+.pub-destacado__etiqueta i{display:block;width:20px;height:2px;background:currentColor}
+.pub-destacado h2{font-size:clamp(1.4rem,2.6vw,1.85rem);color:var(--azul-oscuro);font-weight:800;line-height:1.28}
+.pub-destacado p{color:var(--texto-suave);font-size:16px;line-height:1.65;max-width:56ch}
+.pub-destacado__pie{display:flex;align-items:center;gap:18px;margin-top:6px;flex-wrap:wrap}
+.pub-destacado__enlace{display:inline-flex;align-items:center;gap:8px;font-size:14.5px;font-weight:800;color:var(--blanco);background:var(--azul);padding:12px 22px;border-radius:999px;transition:background .2s ease,transform .2s ease}
+.pub-destacado__enlace:hover{background:var(--azul-oscuro);transform:translateY(-2px)}
+.pub-destacado__enlace svg{width:16px;height:16px}
+.pub-destacado__meta{font-size:13px;color:var(--texto-suave);font-weight:600}
+
+@media(max-width:820px){
+  .pub-destacado{grid-template-columns:1fr}
+  .pub-destacado__imagen{min-height:220px}
+  .pub-destacado__cuerpo{padding:30px 26px}
+}
+
+/* ---------- Rejilla editorial de tarjetas ---------- */
+.pub-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+@media(max-width:980px){.pub-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.pub-grid{grid-template-columns:1fr}}
+
+.pub-grid .tarjeta-articulo{background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio-m);padding:0;gap:0;box-shadow:none;transition:border-color .2s ease,box-shadow .2s ease,transform .2s ease}
+.pub-grid .tarjeta-articulo::before,.pub-grid .tarjeta-articulo::after{display:none}
+.pub-grid .tarjeta-articulo:hover{transform:translateY(-4px);box-shadow:var(--sombra-m);border-color:#d7dee7}
+.pub-grid .tarjeta-articulo__miniatura{aspect-ratio:16/10}
+.pub-grid .tarjeta-articulo__cuerpo{padding:22px 24px 24px;gap:10px}
+.pub-grid .etiqueta{display:inline-flex;align-items:center;gap:7px;background:none;padding:0;border-radius:0;font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
+.pub-grid .etiqueta:before{content:"";display:block;width:14px;height:2px;background:currentColor}
+.pub-grid .etiqueta--blog{color:var(--turquesa)}
+.pub-grid .etiqueta--noticia{color:var(--azul)}
+.pub-grid .tarjeta-articulo h2{color:var(--azul-oscuro);font-size:17.5px;font-weight:700;line-height:1.35}
+.pub-grid .tarjeta-articulo p{color:var(--texto-suave);font-size:14px;line-height:1.55}
+.pub-grid .tarjeta-articulo__pie{border-top:1px solid var(--borde);margin-top:4px;padding-top:14px}
+.pub-grid .tarjeta-articulo__enlace{color:var(--azul);font-weight:700}
+.pub-grid .tarjeta-articulo__enlace:hover{color:var(--turquesa)}
+
+/* Botones de compartir, en tono discreto acorde al estilo institucional */
+.pub-grid .compartir-mini{margin-top:14px;padding-top:14px;border-top:1px dashed var(--borde)}
+.pub-grid .compartir-mini__etiqueta{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.pub-grid .compartir-mini__boton,.pub-grid .compartir-mini a.compartir-mini__boton{width:28px;height:28px;border-radius:8px}
+
+/* Tarjeta "próximamente" sin foto: que no rompa la rejilla */
+.pub-grid .tarjeta-articulo:not(.tarjeta-articulo--con-foto){padding:24px 24px 22px}
+
+/* ---------- Franja de confianza / trayectoria ---------- */
+.pub-confianza{background:var(--azul-oscuro);border-radius:var(--radio-l);margin:8px 0 0;padding:36px 44px;display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap}
+.pub-confianza p{color:#ffffffcc;font-size:15px;max-width:52ch;line-height:1.6}
+.pub-confianza strong{color:#fff}
+.pub-confianza__enlace{display:inline-flex;align-items:center;gap:8px;color:var(--amarillo);font-weight:800;font-size:14.5px;flex-shrink:0}
+.pub-confianza__enlace svg{width:16px;height:16px}
+
+@media(max-width:640px){
+  .pub-seccion__cabecera{flex-direction:column;align-items:flex-start;gap:10px}
+  .pub-filtros__interior{gap:16px}
+}
+
+/* ===== Banner de descarga del boletín ===== */
+.boletin-banner{padding:28px 0 0}
+.boletin-banner__tarjeta{position:relative;border-radius:var(--radio-m);overflow:hidden;box-shadow:var(--sombra-m);min-height:148px;display:flex;align-items:center;direction:ltr}
+.boletin-banner__foto{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;object-fit:cover;object-position:78% 55%;z-index:0}
+.boletin-banner__contenido{position:relative;z-index:1;max-width:430px;padding:26px 32px}
+.boletin-banner__eyebrow{display:inline-block;background:var(--amarillo);color:var(--amarillo-texto);font-weight:700;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:4px 12px;border-radius:999px;margin-bottom:10px}
+.boletin-banner__contenido h2{font-size:clamp(1.15rem,2vw,1.4rem);color:var(--azul);font-weight:800;margin-bottom:6px;line-height:1.2}
+.boletin-banner__contenido p{color:var(--texto);font-size:13.5px;margin-bottom:14px;max-width:40ch;line-height:1.5}
+.boletin-banner__acciones{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:0}
+.boletin-banner__acciones .boton{padding:10px 20px;font-size:13.5px}
+.boletin-banner__nota{font-size:12px;color:var(--texto-suave);margin:0}
+.boletin-banner__nota a{font-weight:600;color:var(--azul);text-decoration:underline}
+@media(max-width:760px){
+  .boletin-banner__tarjeta{min-height:auto}
+  .boletin-banner__contenido{max-width:100%;padding:24px 20px;background:linear-gradient(180deg, rgba(255,255,255,.5) 0%, rgba(255,255,255,.94) 55%, rgba(255,255,255,.97) 100%)}
+  .boletin-banner__acciones{flex-direction:column;align-items:flex-start;gap:10px}
+}
+html[dir=rtl] .boletin-banner__contenido{text-align:right;direction:rtl}

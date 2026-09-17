@@ -1,0 +1,851 @@
+{
+  "meta": {
+    "title": "Ubuntu Canarias — Welcoming and integrating migrants in the Canary Islands",
+    "description": "Ubuntu Canarias supports migrants and their families through their social, employment and community integration process in the Canary Islands."
+  },
+  "nav": {
+    "inicio": "Home",
+    "quienesSomos": "About us",
+    "queHacemos": "What we do",
+    "participa": "Get involved",
+    "recursos": "Resources",
+    "blog": "Blog",
+    "contacto": "Contact",
+    "noticias": "News",
+    "publicaciones": "Publications",
+    "vocesDelMundo": "Voices of the World"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Welcome and integration",
+      "titulo": "Building opportunities.<br>Standing beside people.",
+      "subtitulo": "Ubuntu Canarias supports migrants and their families through their social, employment and community integration process, offering guidance, support and new opportunities to build a future with hope.",
+      "botonPrimario": "Request guidance",
+      "botonSecundario": "Discover Ubuntu Canarias"
+    },
+    "servicios": {
+      "acogida": {
+        "titulo": "Welcome and guidance",
+        "texto": "First contact, information and personalised support from day one."
+      },
+      "empleo": {
+        "titulo": "Employment and training",
+        "texto": "Career guidance, skills training and access to real opportunities for the future."
+      },
+      "apoyo": {
+        "titulo": "Psychosocial support",
+        "texto": "Listening, emotional support and guidance through personal processes."
+      },
+      "mediacion": {
+        "titulo": "Intercultural mediation",
+        "texto": "A bridge between cultures for respectful coexistence and genuine integration."
+      }
+    },
+    "cierre": {
+      "titulo": "No one arrives alone. No one integrates alone.",
+      "texto": "We do it together, with respect and hope.",
+      "boton": "Get involved with us"
+    }
+  },
+  "quienesSomos": {
+    "hero": {
+      "eyebrow": "About us",
+      "titulo": "Our approach",
+      "subtitulo": "We believe in dignified, participatory and transformative integration.",
+      "descripcion": "For us, integration isn't a formality settled with a piece of paper or a contract, but a process built day by day, alongside the person and at their own pace. That's why we combine practical guidance — legal, employment, training — with psychosocial support that recognises what each person brings with them: their history, their capabilities and their right to decide over their own life. We work so that the person who arrives is not simply a recipient of help, but an active protagonist of their own process, and so that the host society is also transformed along the way, learning to see migration as an opportunity rather than a problem to be managed."
+    },
+    "historia": {
+      "eyebrow": "Our story",
+      "titulo": "Born from experience, not theory",
+      "parrafo1": "Ubuntu Canarias was born from the meeting of people who, from different backgrounds and paths, share one conviction: that welcome and integration are built by standing beside people, not from offices detached from the reality of those who arrive.",
+      "parrafo2": "The association was formed in Las Palmas de Gran Canaria, driven by four founding members, as a direct response to the needs the team witnessed, listened to and worked with over years of social work, employment guidance and psychosocial support for migrants across the archipelago.",
+      "parrafo3": "We are beginning to build a network with organisations, public bodies and citizens, with a will to grow without ever losing the closeness and listening we were born from.",
+      "hito1": {
+        "fecha": "The meeting"
+      },
+      "hito2": {
+        "fecha": "Legal incorporation"
+      },
+      "hito3": {
+        "fecha": "Today — The journey continues"
+      }
+    },
+    "confianza": {
+      "constituida": "Legally incorporated",
+      "registro": "Registered with the Canary Islands Register of Associations",
+      "sede": "Based in Las Palmas de Gran Canaria"
+    },
+    "video": {
+      "eyebrow": "Get to know us",
+      "titulo": "Ubuntu Canarias in 2 minutes",
+      "descripcion": "A short narrated journey through what we do and why we do it. (In Spanish, with subtitles.)",
+      "reproducir": "Play video: Ubuntu Canarias in 2 minutes",
+      "subtitulosNota": "· Turn them on from the <svg fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24'><circle cx='12' cy='12' r='3'></circle><path d='M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82 .33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z'></path></svg> settings icon in the player"
+    },
+    "compromiso": {
+      "titulo": "Commitment",
+      "texto": "We act with rigour and accountability towards the people we support, our partner organisations and Canarian society as a whole."
+    },
+    "gobernanza": {
+      "eyebrow": "How we work",
+      "titulo": "Governance and transparency",
+      "texto1": "Ubuntu Canarias is governed by a Board of Directors elected by the Assembly of members, responsible for ensuring compliance with our Statutes and the proper use of the association's resources.",
+      "texto2": "We believe trust is built by openly showing who we are, how we are organised and where our funds come from. That's why our legal and governance information is available to anyone.",
+      "botonTransparencia": "Legal information and transparency",
+      "botonJunta": "Meet the Board of Directors",
+      "fichaTitulo": "Legal profile of the organisation",
+      "denominacionLabel": "Name",
+      "nifLabel": "Tax ID",
+      "nifValor": "G93823086",
+      "registroLabel": "Register",
+      "registroValor": "Canary Islands Register of Associations",
+      "ambitoLabel": "Scope",
+      "ambitoValor": "Regional — Canary Islands",
+      "sedeLabel": "Headquarters",
+      "sedeValor": "Las Palmas de Gran Canaria"
+    },
+    "mision": {
+      "titulo": "Mission",
+      "texto": "To support migrants and their families through their social, employment and community integration process in the Canary Islands, offering guidance, training and psychosocial support that respects their autonomy and dignity."
+    },
+    "vision": {
+      "titulo": "Vision",
+      "texto": "A Canarian society where migration is understood as an opportunity for mutual enrichment, and where every person, whatever their origin, has real access to build their own life project."
+    },
+    "valores": {
+      "eyebrow": "Our values",
+      "titulo": "What guides every step we take together",
+      "escucha": {
+        "titulo": "Active listening",
+        "texto": "We listen without judgement to understand each story and respond to real needs."
+      },
+      "acompanamiento": {
+        "titulo": "Support without dependency",
+        "texto": "We walk alongside each person, encouraging their autonomy and their own decisions."
+      },
+      "mirada": {
+        "titulo": "An intercultural outlook",
+        "texto": "We value cultural diversity as a richness that builds more humane communities."
+      },
+      "transparencia": {
+        "titulo": "Transparency",
+        "texto": "We act with honesty and accountability, answering to people and to society."
+      },
+      "red": {
+        "titulo": "Working in networks",
+        "texto": "We collaborate with organisations, public administrations and citizens to multiply our impact."
+      }
+    },
+    "frase": "No one arrives alone. No one integrates alone. We do it together, with respect and hope.",
+    "citaFundadora": {
+      "texto": "I founded Ubuntu Canarias to build the project I always dreamed of: supporting migrants from lived experience, not just theory.",
+      "nombre": "Soraya Mohamedi Mohamed",
+      "cargo": "President and founding member"
+    },
+    "ctaEquipo": {
+      "titulo": "Meet the people who make this possible",
+      "texto": "A diverse, committed and close-knit team.",
+      "boton": "Meet our team"
+    }
+  },
+  "equipo": {
+    "eyebrow": "Our team",
+    "titulo": "The people who make integration in the Canary Islands possible",
+    "subtitulo": "We are a diverse team, committed and passionate about building a more inclusive and supportive society.",
+    "soraya": {
+      "cargo": "President",
+      "linea1": "Psychologist with over 30 years of experience in migration, social work and employment guidance.",
+      "linea2": "Founded Ubuntu Canarias to build the project she always dreamed of: supporting migrants from lived experience, not just theory.",
+      "conoceMasMini": "Learn more",
+      "conoceMas": "Learn more about me"
+    },
+    "araceli": {
+      "cargo": "Secretary General",
+      "linea1": "Nursing assistant with experience across several public hospitals on the island, and more patience than most.",
+      "linea2": "Joined Ubuntu Canarias eager to specialise in social work, especially with older people, children and migrants."
+    },
+    "kevin": {
+      "cargo": "Founding member and Treasurer",
+      "linea1": "IT technician with a clear career path already ahead of him, despite his young age.",
+      "linea2": "Collaborates with Ubuntu Canarias because he likes to help, and sees technology as a tool to do it better."
+    },
+    "elisa": {
+      "cargo": "Founding member",
+      "linea1": "Nutrition specialist, planning to continue training in the social field.",
+      "linea2": "Joined Ubuntu Canarias because she loves to help and believes in working up close."
+    },
+    "cta": {
+      "titulo": "Join our mission",
+      "texto": "Your time, experience or support can transform lives.",
+      "boton": "I want to help"
+    }
+  },
+  "queHacemos": {
+    "eyebrow": "What we do",
+    "titulo": "Full support, step by step",
+    "subtitulo": "From first contact to full independence, we offer comprehensive support tailored to each person and each stage of their process, in person or remotely.",
+    "orientacion": {
+      "titulo": "Legal guidance",
+      "texto": "Information and support on immigration, asylum and international protection, together with assistance in administrative procedures. We listen to each situation before pointing a way forward, so every person understands their real options."
+    },
+    "integracion": {
+      "titulo": "Integration and initial reception",
+      "texto": "We support the settling-in process: facilitating access to housing, education, and social and health services, and connecting each person with local associations and neighbourhoods across the Canary Islands."
+    },
+    "insercion": {
+      "titulo": "Employment guidance and job placement",
+      "texto": "We design personalised employment pathways, carry out job prospecting and support active job-seeking, working with companies to facilitate the hiring of migrant people.",
+      "boton": "Receive job offers"
+    },
+    "formacion": {
+      "titulo": "Training",
+      "texto": "As a complementary activity to our main areas, we run Spanish language courses, digital literacy and pre-employment training, together with workshops on transversal skills that open doors to new opportunities."
+    },
+    "acompanamiento": {
+      "titulo": "Psychosocial support",
+      "texto": "We provide individual and group psychological support, with particular attention to migratory grief, emotional accompaniment and referral to specialised mental health resources when needed."
+    },
+    "interculturalidad": {
+      "titulo": "Intercultural mediation and awareness-raising",
+      "texto": "We facilitate communication and conflict resolution between people of different cultures, institutions and the host society, and run talks, workshops and campaigns to combat racism and xenophobia."
+    },
+    "cta": {
+      "titulo": "Need guidance?",
+      "texto": "Write to us and we'll support you from the very first step, in person or remotely."
+    },
+    "fines": {
+      "eyebrow": "Our purpose",
+      "titulo": "Reception, integration and the defence of rights",
+      "texto": "Ubuntu Canarias is a non-profit association working for the social, legal and employment reception and integration of migrant people and their families in the Canary Islands. We combine legal guidance on immigration, asylum and international protection with psychosocial support, intercultural mediation, employment guidance and community awareness-raising, with the aim of facilitating equal access to rights, resources and opportunities."
+    },
+    "colectivos": {
+      "etiqueta": "Who is our work aimed at?",
+      "item1": "Migrant people and their families",
+      "item2": "Unaccompanied minors",
+      "item3": "Migrant women in vulnerable situations",
+      "item4": "Victims of trafficking and gender-based violence",
+      "item5": "People seeking international protection and asylum",
+      "item6": "The host society, through community awareness-raising"
+    },
+    "areas": {
+      "eyebrow": "Areas of work",
+      "titulo": "Our main lines of work",
+      "texto": "In line with our statutes, we organise our activity around five main areas of work. Training is added as a complementary activity, present across all of them."
+    },
+    "etiquetaPrincipal": "Main area",
+    "etiquetaComplementaria": "Complementary activity",
+    "ambitos": {
+      "eyebrow": "More areas of work",
+      "titulo": "Other areas that are also part of our work",
+      "texto": "Our statutes also cover the following lines of action, which we develop according to identified needs and available resources.",
+      "voluntariado": {
+        "titulo": "Volunteering",
+        "texto": "Recruitment, training and coordination of volunteers as a channel for community participation."
+      },
+      "vulnerabilidad": {
+        "titulo": "Groups in particularly vulnerable situations",
+        "texto": "Specific attention to unaccompanied minors, migrant women, victims of trafficking or gender-based violence, and people seeking international protection."
+      },
+      "primeraAcogida": {
+        "titulo": "Initial reception",
+        "texto": "Basic information, guidance and referral to the relevant public services in the first moments after arrival."
+      },
+      "tramites": {
+        "titulo": "Administrative procedures",
+        "texto": "Support with general procedures such as municipal registration, the health card, or booking appointments with public administrations."
+      },
+      "incidencia": {
+        "titulo": "Advocacy and network work",
+        "texto": "Participation in third-sector networks, platforms and forums, and collaboration with public administrations, universities and other organisations."
+      },
+      "materiales": {
+        "titulo": "Materials and outreach",
+        "texto": "Production of guides, leaflets and digital content on immigration, international protection and social resources, in several languages."
+      }
+    }
+  },
+  "participa": {
+    "eyebrow": "Get involved",
+    "titulo": "Join us in building opportunities",
+    "subtitulo": "There are many ways to be part of Ubuntu Canarias. Choose the one that suits you best.",
+    "voluntariado": {
+      "titulo": "Volunteering",
+      "texto": "Give your time and experience to directly support migrants through their integration process.",
+      "boton": "I want to volunteer"
+    },
+    "donaciones": {
+      "titulo": "Donations",
+      "texto": "Your financial contribution, one-off or recurring, sustains our welcome, training and psychosocial support programmes.",
+      "boton": "I want to donate"
+    },
+    "socio": {
+      "titulo": "Become a member",
+      "texto": "Become a steady part of the association and support our ongoing work in the Canary Islands with your membership fee.",
+      "boton": "I want to become a member"
+    },
+    "colabora": {
+      "titulo": "Collaborate",
+      "texto": "Companies, organisations and institutions can collaborate with resources, training, employment or strategic partnerships.",
+      "boton": "I want to collaborate"
+    }
+  },
+  "blog": {
+    "eyebrow": "Resources",
+    "titulo": "Useful resources",
+    "subtitulo": "Practical, downloadable materials for migrants and for anyone who wants to collaborate with us.",
+    "cta": {
+      "titulo": "Have something to share?",
+      "texto": "If you'd like to contribute content, resources or a story, get in touch."
+    }
+  },
+  "contacto": {
+    "eyebrow": "Contact",
+    "titulo": "Write to us",
+    "subtitulo": "Tell us about your situation or the reason for your enquiry. We'll get back to you as soon as possible.",
+    "campos": {
+      "nombre": "First name *",
+      "apellidos": "Last name *",
+      "email": "Email *",
+      "telefono": "Phone",
+      "motivo": "Reason for enquiry *",
+      "motivoPlaceholder": "Select an option",
+      "mensaje": "Message *",
+      "privacidadPre": "I have read and accept the"
+    },
+    "motivo": {
+      "informacion": "Information",
+      "primeraAcogida": "First-time reception",
+      "empleo": "Employment",
+      "formacion": "Training",
+      "participar": "Get involved",
+      "vocesDelMundo": "Voices of the World",
+      "voluntariado": "Volunteering",
+      "donacion": "Donation",
+      "colaboracionInstitucional": "Institutional partnership",
+      "empresaColaboradora": "Partner company",
+      "otraConsulta": "Other enquiry"
+    },
+    "enviar": "Send",
+    "directo": {
+      "titulo": "Prefer to email us directly?",
+      "copiar": "Copy",
+      "copiado": "Copied!"
+    },
+    "errorCampos": "Please check the highlighted fields before submitting the form.",
+    "errorEnvio": "We couldn't send the form. Please try again in a moment or write to us at info@ubuntucanarias.org."
+  },
+  "gracias": {
+    "titulo": "Thank you for trusting Ubuntu Canarias",
+    "texto1": "We have received your message. Our team will review it and get in touch with you as soon as possible.",
+    "texto2": "Thank you for trusting our association. Together we build opportunities, hope and integration.",
+    "boton": "Back to home"
+  },
+  "error404": {
+    "titulo": "We couldn't find this page",
+    "texto": "The link may be broken, the page may have moved, or it may no longer exist. Go back home or take a look at these sections.",
+    "botonPrimario": "Back to home",
+    "botonSecundario": "Contact us",
+    "enlacesTitulo": "You might be looking for..."
+  },
+  "footer": {
+    "tagline": "Welcome and Integration",
+    "eslogan": "We support migrants through their social, employment and community integration process in the Canary Islands.",
+    "navegacion": "Navigation",
+    "contacto": "Contact",
+    "avisoLegal": "Legal notice",
+    "privacidad": "Privacy policy",
+    "cookies": "Cookies",
+    "transparencia": "Transparency"
+  },
+  "recursos": {
+    "viviendaEmpleo": {
+      "etiqueta": "Housing & employment",
+      "titulo": "Housing, employment and social exclusion in Gran Canaria",
+      "texto": "A territorial analysis by Soraya Mohamedi Mohamed, psychologist specialising in migration, immigration law and socio-labour insertion, with up-to-date data on housing, employment, poverty and social resources in Gran Canaria. A document designed to support social intervention and socio-labour guidance with rigorous evidence about the territory.",
+      "boton": "Download PDF",
+      "formato": "PDF",
+      "soloEspanol": "Only available in Spanish"
+    },
+    "carrusel": {
+      "etiqueta": "Awareness",
+      "titulo": "Six ideas to question prejudice about migration",
+      "texto": "A visual resource with six key messages that challenge the most common stereotypes about migrants: where they come from, what they are looking for and what they contribute. Designed to share on social media or use in awareness sessions.",
+      "boton": "Download PDF",
+      "formato": "PDF",
+      "soloEspanol": "Only available in Spanish"
+    },
+    "noticiaPacto": {
+      "etiqueta": "News",
+      "titulo": "The European Migration Pact comes into force in the Canary Islands",
+      "texto": "The Canary Islands are calling on Brussels for fast-track transfer mechanisms to mainland Spain as the new European asylum framework tightens border detention periods.",
+      "fecha": "July 25, 2026",
+      "boton": "Keep reading",
+      "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+    },
+    "noticiaCompass": {
+      "etiqueta": "News",
+      "titulo": "Ubuntu Canarias joins the COMPASS Collaboration Network",
+      "texto": "Ubuntu Canarias has been officially admitted as a collaborating entity of the COMPASS Network, which brings together institutions, social organisations, universities and businesses committed to managing human mobility between West Africa and the Canary Islands.",
+      "boton": "Keep reading",
+      "fecha": "July 22, 2026"
+    },
+    "primeraCita": {
+      "etiqueta": "Blog",
+      "titulo": "What to expect at your first guidance appointment",
+      "texto": "What the first meeting with our team is like, what documents are worth bringing, and what happens after that first contact.",
+      "formato": "5 min read",
+      "boton": "Read article"
+    },
+    "leyenda": {
+      "noticias": "News",
+      "blog": "Blog",
+      "recursos": "Resources"
+    },
+    "proximamente": "Coming soon",
+    "mantenteAlTanto": "Stay tuned",
+    "proximo1": {
+      "etiqueta": "Blog",
+      "titulo": "The value of personalised support",
+      "texto": "Why listening before guiding makes a difference in integration processes, told by our psychosocial support team.",
+      "formato": "5 min read",
+      "boton": "Read article"
+    },
+    "proximo2": {
+      "etiqueta": "Paperwork & rights",
+      "titulo": "Basic guide to paperwork for newcomers",
+      "texto": "A downloadable document with the first administrative steps on arriving in the Canary Islands: registration, healthcare and appointments."
+    },
+    "proximo3": {
+      "etiqueta": "Health",
+      "titulo": "Directory of social and health services",
+      "texto": "An updated list of health centres, social services and support organisations in Las Palmas de Gran Canaria."
+    },
+    "filtro": {
+      "todo": "All",
+      "vacio": "No content in this category yet."
+    },
+    "clavesDerechos": {
+      "etiqueta": "Paperwork & rights",
+      "titulo": "Application in process: key rights you should know",
+      "texto": "What rights you keep while your application is reviewed, what the law says about admission to procedure, and what any employer needs to know before hiring you.",
+      "formato": "PDF · 4 languages",
+      "descarga": "Download in your language",
+      "compartir": "Share:",
+      "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+    },
+    "guiaSanitaria": {
+      "etiqueta": "Health",
+      "titulo": "Health guide for migrants in the Canary Islands",
+      "texto": "Simple information about healthcare if you don't have administrative documents: what to do if you're sick or have an emergency, and what rights you keep even without papers.",
+      "formato": "PDF · 4 languages",
+      "descarga": "Download in your language",
+      "compartir": "Share:",
+      "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+    },
+    "migracionesAfricanas": {
+      "etiqueta": "Awareness",
+      "titulo": "African migrations to Europe. Contexts of the Atlantic route",
+      "texto": "Directed by Alberto José Muro Castillo and coordinated by Raquel Rojas Rubio (Dykinson, 2026). An academic analysis of the social, economic and structural contexts of the Atlantic migration route to the Canary Islands, with a focus on human rights and public reception policies.",
+      "boton": "Download free e-book",
+      "formato": "E-book PDF",
+      "soloEspanol": "Only available in Spanish",
+      "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+    },
+    "filtroTodo": "All",
+    "filtroTramites": "Paperwork & rights",
+    "filtroSalud": "Health",
+    "filtroViviendaEmpleo": "Housing & employment",
+    "filtroContexto": "Awareness",
+    "noticiaFiestas": {
+      "etiqueta": "News",
+      "titulo": "Ubuntu Canarias at the Peruvian community's Fiestas Patrias",
+      "texto": "We joined the Fiestas Patrias organised by the Peruvian community in Las Palmas, together with Hatun Llaqta: dances, food, traditional dress and whole families sharing a space that filled up with Peru.",
+      "fecha": "July 27, 2026",
+      "boton": "Keep reading",
+      "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+    },
+    "noticiaEncuentro": {
+      "etiqueta": "News",
+      "titulo": "Ubuntu Canarias takes part in the Intercultural Life Encounter at Casa África",
+      "texto": "Ubuntu Canarias attended the Intercultural Life Encounter organised by Asociación Con•Fin at Casa África: music, art, fashion and community participation on a day of shared life between cultures.",
+      "fecha": "July 29, 2026",
+      "boton": "Keep reading",
+      "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+    },
+    "noticiaUruguay": {
+      "etiqueta": "News",
+      "titulo": "Uruguayan community in Gran Canaria celebrates Uruguay's Independence in Cruce de Arinaga",
+      "texto": "The Uruguayan community in Gran Canaria is throwing a free evening of music, food and tradition to celebrate the Declaration of Uruguay's Independence, on 22 August in Cruce de Arinaga.",
+      "fecha": "August 2, 2026",
+      "boton": "Keep reading",
+      "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+    }
+  },
+  "noticiaPacto": {
+    "etiqueta": "News",
+    "volver": "Back to news",
+    "titulo": "The European Migration Pact comes into force in the Canary Islands",
+    "fecha": "Published: July 25, 2026",
+    "lead": "The Canary Islands are calling on Brussels for fast-track transfer mechanisms to mainland Spain as the new European asylum framework takes effect.",
+    "parrafo1": "The European Pact on Migration and Asylum has applied in the Canary Islands since June 12, 2026. The Canary Islands Government has raised concerns about the border screening procedure, which can last up to six months, and is calling for automatic transfer mechanisms to mainland Spain to prevent the islands from becoming a place of prolonged detention.",
+    "listaTitulo": "What changes under the Pact",
+    "lista1": "Accelerated border procedure: people arriving irregularly can be held for up to 12 initial weeks, extendable by another 12 weeks in certain cases.",
+    "lista2": "Faster returns: expulsion is streamlined for those without a right to asylum. Detention periods are extended and return procedures of up to three months are allowed for nationals of countries with asylum acceptance rates below 20%.",
+    "lista3": "Limited transfers: the Pact does not guarantee automatic transfers to mainland Spain. The solidarity mechanism is voluntary, and several member states have said they will contribute only financially, not through relocations.",
+    "subtitulo2": "The Canary Islands Government's position",
+    "parrafo2": "Vice President Octavio Caraballo has said in Brussels that the agreement \"must give a voice to border regions\" and that, without fast-track transfer mechanisms, \"it will not be effective\" for the archipelago. President Fernando Clavijo has warned that the impact on border areas could push \"rights into the background.\"",
+    "parrafo2b": "The Canary Islands and the Basque Country have held sessions with NGOs and organisations working with migrants to analyse the consequences of the new framework, which directly affects both regions.",
+    "subtitulo3": "Effects on migrants",
+    "efecto1": "The average stay in reception centres could rise from one month to as much as six months in some cases.",
+    "efecto2": "Asylum and expulsion processes are being accelerated without clear guarantees of transfer to mainland Spain, increasing the need for legal support throughout the process.",
+    "efecto3": "People in an irregular situation from countries with low asylum recognition rates face a higher risk of rapid deportation.",
+    "subtitulo4": "Ubuntu Canarias' role",
+    "parrafo4": "Ubuntu Canarias informs and supports migrants in understanding their rights under the new European framework. If you need guidance on the Pact or your legal situation, <a href=\"contacto.html\">get in touch with us</a>.",
+    "cierre": "Ubuntu Canarias · European legal framework",
+    "compartir": "Share this news",
+    "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+  },
+  "noticiaCompass": {
+    "etiqueta": "News",
+    "volver": "Back to the blog",
+    "titulo": "Ubuntu Canarias joins the COMPASS Collaboration Network",
+    "fecha": "Published: July 22, 2026",
+    "lead": "A further step toward humane, coordinated and sustainable management of mobility between West Africa and the Canary Islands.",
+    "parrafo1": "We are pleased to announce that Ubuntu Canarias has been officially admitted as a collaborating entity of the COMPASS Collaboration Network, an initiative that brings together institutions, social organisations, universities, businesses and other actors committed to improving the management of human mobility between West Africa and the Canary Islands.",
+    "parrafo2": "Our membership has been approved as part of the COMPASS project – Observatory of Human Mobility between the Canary Islands and Africa, co-financed by the Interreg MAC 2021-2027 Territorial Cooperation Programme.",
+    "parrafo3": "The COMPASS project aims to promote innovative and sustainable solutions to address the challenges of human mobility across the cooperation area formed by the Canary Islands, Gambia, Mauritania and Senegal, encouraging joint work among the different actors involved.",
+    "listaTitulo": "Its main lines of action include:",
+    "lista1": "Promoting international cooperation between public and private entities.",
+    "lista2": "Identifying good practices and needs in the management of human mobility.",
+    "lista3": "Fostering the exchange of knowledge and experience.",
+    "lista4": "Designing strategies that help protect the lives of migrants and strengthen host communities.",
+    "parrafo4": "For Ubuntu Canarias, being part of this network is significant recognition of our commitment to reception, inclusion and social integration. It will also allow us to work with other organisations to develop initiatives that promote a fairer, more supportive and more inclusive society.",
+    "parrafo5": "We continue working to build bridges between people, cultures and institutions, convinced that cooperation is an essential tool for addressing today's and tomorrow's social challenges.",
+    "parrafo6": "Thank you to everyone who trusts in our work. This is only the beginning of a path full of new alliances and opportunities to make a positive impact in the Canary Islands.",
+    "cierre": "Ubuntu Canarias · Institutional cooperation",
+    "compartir": "Share this news",
+    "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+  },
+  "blogPrimeraCita": {
+    "volver": "Back to the blog",
+    "etiqueta": "Blog",
+    "titulo": "What to expect at your first guidance appointment",
+    "cabecera": "Ubuntu Canarias · Guidance",
+    "intro": "Taking the first step isn't easy, and it's normal to arrive with questions. This guide sums up how that first meeting with our team works, so you know what to expect and can come in feeling calmer.",
+    "seccion1Titulo": "Before the appointment",
+    "seccion1Texto": "It all starts with a first contact: through the <a href=\"contacto.html\">website form</a>, choosing \"First reception\" or \"Guidance\" as the reason. From there, someone from our team gets in touch with you to arrange the day and format of the meeting, whether in person or by phone, depending on your situation and availability.",
+    "seccion2Titulo": "What's worth bringing",
+    "seccion2Texto": "You don't need everything sorted or complete to come. If you have any documents related to your situation (identification, paperwork from your administrative process, previous appointments, notifications you've received...), bring them along: it helps us understand your case better. If you don't have anything on hand, that's fine too — what matters is that you come and tell us about your situation in your own words.",
+    "seccion3Titulo": "What the meeting is like",
+    "seccion3Texto": "The first appointment is, above all, about listening. Our team asks about your current situation, your journey so far, and what you need right now: information, paperwork, employment, training, or psychosocial support. It's not about rushing through a form, but about understanding your specific case before suggesting any path forward.",
+    "seccion4Titulo": "What happens next",
+    "seccion4Texto": "With that information, we explain the real options available to you and, if appropriate, refer you to the area of the association that best matches your needs: legal and paperwork guidance, job placement, training, interculturality, or psychosocial support. In most cases we set up ongoing follow-up, so it isn't a one-off contact but support throughout the process.",
+    "seccion5Titulo": "Before you come, keep in mind",
+    "seccion5Texto": "Every situation is different, and the steps can vary from person to person. If you have specific questions before your appointment — what to bring, how to get there, or what to expect in your particular case — write to us and we'll confirm it in advance.",
+    "ctaTexto": "Want to request your first guidance appointment?",
+    "ctaBoton": "Request guidance",
+    "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+  },
+  "blogAcompanamiento": {
+    "volver": "Back to the blog",
+    "etiqueta": "Blog",
+    "titulo": "The value of personalised support",
+    "cabecera": "Ubuntu Canarias · Psychosocial support",
+    "lead": "Why listening before guiding makes a difference in integration processes.",
+    "intro": "Throughout my professional career, I've listened to many people who arrive carrying a story with them. And if I've learned one thing in all this time, it's this: before telling someone what to do, you have to understand what has happened to them.",
+    "intro2": "It sounds obvious. It isn't. When we set up Ubuntu Canarias, I did it with exactly this in mind: that the first gesture wouldn't be a form, but a listening ear.",
+    "seccion1Titulo": "Guidance isn't giving instructions",
+    "seccion1Texto1": "I see it constantly: people who arrive expecting to leave the appointment with a list of steps to follow. And yes, that list does come, at some point. But something else has to happen first.",
+    "seccion1Texto2": "That person needs to be able to tell, in their own words and at their own pace, where they've come from and what they've left behind. We shouldn't interrupt them to fill in a box. They need to feel that what they're saying matters before we tell them which papers they need.",
+    "seccion1Texto3": "That's not a luxury or a matter of \"good manners\". It's simply what makes the support that follows actually work.",
+    "seccion2Titulo": "What changes when you listen first",
+    "seccion2Texto1": "When you truly understand someone's situation — not just their file, but their story — referrals stop being generic. You know whether that person needs reassurance first and paperwork later, or the other way round. You know whether behind a question about employment there's actually a different, more urgent need they haven't dared name yet.",
+    "seccion2Texto2": "This is something I'm seeing confirmed right now, almost in real time. We've only just started — we're still operating tentatively, taking our first steps — but I already see it with every person who walks through the door: we don't work with \"cases\", we work with people, and each one arrives with their own timing. Forcing that timing, going faster than the person can go, doesn't help: it breaks trust exactly when it's needed most.",
+    "seccion3Titulo": "Support means holding, not just solving",
+    "seccion3Texto1": "There's a difference between resolving a piece of paperwork and supporting a process. The first is closed in a day. The second can take months, sometimes years, and it isn't always a straight line: there are steps forward, steps back, moments when the person simply needs to know we're still there.",
+    "seccion3Texto2": "That's why at Ubuntu Canarias we insist so much on follow-up. We don't want to be a one-off contact in anyone's life. We want to be the people you can call again.",
+    "cierreTexto": "If there's one thing I'd ask of anyone reading this — whether you need help or you want to offer it — it's the same thing I ask of my team every day: listen a little more before answering.",
+    "firma": "— Soraya Mohamedi Mohamed, President of Ubuntu Canarias",
+    "compartir": "Share this article",
+    "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post.",
+    "ctaTexto": "Want to know more about our support?",
+    "ctaBoton": "Get in touch"
+  },
+  "newsletter": {
+    "hero": {
+      "etiqueta": "Blog",
+      "titulo": "No one arrives alone. No one integrates alone.",
+      "texto": "Subscribe and explore our blog: team stories, articles and news about welcoming and integrating migrants in the Canary Islands."
+    },
+    "suscripcion": {
+      "titulo": "Get our blog by email",
+      "texto": "Once a month, no spam. You can unsubscribe whenever you like.",
+      "extra": "Plus, every month you'll also get a curated selection of job openings in Gran Canaria, sorted by sector.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@email.com",
+      "boton": "Subscribe",
+      "errorValidacion": "Please enter a valid email address.",
+      "exito": "Thank you! Check your email to confirm your subscription.",
+      "error": "We couldn't send your subscription. Check your connection and try again, or write to us at info@ubuntucanarias.org."
+    },
+    "edicion": "Latest issue · July 2026",
+    "destacada": {
+      "tituloSeccion": "Featured news",
+      "etiqueta": "News",
+      "titulo": "Ubuntu Canarias joins the COMPASS Collaboration Network",
+      "texto": "Another step towards a humane, coordinated and sustainable management of mobility between West Africa and the Canary Islands. We are now a partner entity of the COMPASS project — Observatory of Human Mobility between the Canary Islands and Africa, co-funded by the Interreg MAC 2021-2027 Programme.",
+      "boton": "Read the full story"
+    },
+    "blog": {
+      "tituloSeccion": "From the blog",
+      "articulo1": {
+        "etiqueta": "Guidance",
+        "titulo": "What to expect at your first guidance appointment",
+        "texto": "Taking the first step isn't easy, and it's normal to arrive with questions. A guide to what that first meeting with our team looks like."
+      },
+      "articulo2": {
+        "etiqueta": "Psychosocial support",
+        "titulo": "The value of personalised support",
+        "texto": "Why listening before guiding makes all the difference in integration processes, told by our founder."
+      }
+    },
+    "cta": {
+      "titulo": "Join us in building opportunities",
+      "texto": "Volunteering, donations, becoming a member or partnering as a company: there are many ways to become part of Ubuntu Canarias.",
+      "boton": "I want to get involved"
+    }
+  },
+  "noticias": {
+    "eyebrow": "News",
+    "titulo": "Migration news in the Canary Islands",
+    "subtitulo": "Policy changes, third-sector partnerships and updates on the reception and integration of migrants in the Canary Islands.",
+    "proximo1": {
+      "etiqueta": "News",
+      "titulo": "Upcoming partnerships and updates",
+      "texto": "We're growing our network of collaboration. New updates on projects and partnerships will be posted here soon."
+    }
+  },
+  "compartirMini": {
+    "etiqueta": "Share on your networks",
+    "notaLinkedin": "We've copied the headline and the summary: paste them into your LinkedIn post's text box if you'd like to include them before sharing.",
+    "notaInstagram": "We've copied the headline, the summary and the link, and opened Instagram: paste them into your story or post."
+  },
+  "bannerCookies": {
+    "texto": "We use our own and third-party cookies that are necessary for the website to work (such as the contact form or the newsletter). You can accept them all or reject the ones that aren't essential. More information in our <a href=\"cookies.html\">cookie policy</a>.",
+    "rechazar": "Reject",
+    "aceptar": "Accept all",
+    "preferencias": "Cookie preferences",
+    "avisoAria": "Cookie notice"
+  },
+  "pageMeta": {
+    "home": {
+      "title": "Ubuntu Canarias — Welcoming and integrating migrants in the Canary Islands",
+      "description": "Ubuntu Canarias supports migrants and their families through social, employment and community integration in the Canary Islands."
+    },
+    "quienesSomos": {
+      "title": "About us — Ubuntu Canarias",
+      "description": "Learn about the history, mission, vision and values of Ubuntu Canarias, an organisation dedicated to welcoming and integrating migrants in the Canary Islands."
+    },
+    "equipo": {
+      "title": "Our team — Ubuntu Canarias",
+      "description": "Meet the Ubuntu Canarias team: the people who make the welcoming and integration of migrants in the Canary Islands possible."
+    },
+    "queHacemos": {
+      "title": "What we do — Ubuntu Canarias",
+      "description": "Guidance, training, job placement, personalised support and intercultural work: the services Ubuntu Canarias offers migrants in the Canary Islands."
+    },
+    "participa": {
+      "title": "Get involved — Ubuntu Canarias",
+      "description": "Become a volunteer, member or partner of Ubuntu Canarias. Join our work welcoming and integrating migrants in the Canary Islands."
+    },
+    "blog": {
+      "title": "Blog — Ubuntu Canarias",
+      "description": "Discover the Ubuntu Canarias blog: stories, articles and news on welcoming and integrating migrants in the Canary Islands."
+    },
+    "contacto": {
+      "title": "Contact — Ubuntu Canarias",
+      "description": "Get in touch with Ubuntu Canarias for guidance, volunteering, donations or institutional partnerships."
+    },
+    "gracias": {
+      "title": "Thank you — Ubuntu Canarias",
+      "description": "We've received your message. Thank you for trusting Ubuntu Canarias."
+    },
+    "error404": {
+      "title": "Page not found (404) — Ubuntu Canarias",
+      "description": "The page you're looking for doesn't exist or has moved. Return to the Ubuntu Canarias homepage or browse our main sections."
+    },
+    "noticias": {
+      "title": "News — Ubuntu Canarias",
+      "description": "Ubuntu Canarias news and updates: partnerships, projects and progress in our welcoming and integration work."
+    },
+    "noticiaPacto": {
+      "title": "The EU Migration Pact comes into force in the Canary Islands — Ubuntu Canarias",
+      "description": "What changes in the Canary Islands with the EU Pact on Migration and Asylum: border procedures, transfers to the Spanish mainland, and the effects on migrants."
+    },
+    "noticiaCompass": {
+      "title": "Ubuntu Canarias joins the COMPASS Collaboration Network — Ubuntu Canarias",
+      "description": "Ubuntu Canarias has been officially admitted as a partner entity of the COMPASS Collaboration Network, part of the Interreg MAC 2021-2027 project."
+    },
+    "blogPrimeraCita": {
+      "title": "What to expect at your first guidance appointment — Ubuntu Canarias",
+      "description": "What the first meeting with the Ubuntu Canarias team looks like, what to bring, and what happens after that first contact."
+    },
+    "blogAcompanamiento": {
+      "title": "The value of personalised support — Ubuntu Canarias",
+      "description": "Why listening before guiding makes all the difference in integration processes, by Soraya Mohamedi Mohamed, chair of Ubuntu Canarias."
+    },
+    "recursos": {
+      "title": "Resources — Ubuntu Canarias",
+      "description": "Practical, downloadable resources and materials for migrants in the Canary Islands."
+    }
+  },
+  "blogCulpa": {
+    "volver": "Back to the blog",
+    "etiqueta": "Blog",
+    "titulo": "Why do I feel guilty for having emigrated?",
+    "cabecera": "Soraya Mohamedi Mohamed · Psychologist, specialist in Migration and Social Inclusion · Founder and chair of Ubuntu Canarias",
+    "lead": "A person holds their phone while looking at a family photograph. On the other side of the screen, a video call with those who stayed in the home country. Sometimes distance is measured in kilometres. Other times, in moments that will never come back.",
+    "seccion1Titulo": "There's a question many people ask themselves in silence",
+    "seccion1Texto1": "Emigrating is usually associated with the search for opportunities, safety or a better life. But there's a part of that experience that gets talked about far less: guilt.",
+    "seccion1Texto2": "Not guilt for having done something wrong. Rather the feeling of having left important people behind right when they might need you too. Sometimes it appears after a phone call. Other times, when news arrives that would have been different had you been there. And sometimes it settles in for no clear reason, like background noise that lingers for months.",
+    "seccion1Texto3": "Not every migrant feels it. And those who do don't feel it in the same way. But it's a more common feeling than it seems.",
+    "seccion2Titulo": "Life goes on in both places",
+    "seccion2Texto1": "While you try to adapt to a new city, find work or sort out paperwork, life carries on in the place you came from.",
+    "seccion2Linea1": "Birthdays are celebrated without you.",
+    "seccion2Linea2": "Children grow up.",
+    "seccion2Linea3": "Your friends change jobs, start a family, or move away.",
+    "seccion2Linea4": "Parents grow older.",
+    "seccion2Texto2": "All of that happens even if you talk to them every week.",
+    "seccion2Texto3": "There are moments when the distance weighs especially heavily, because it can't be solved with a call or a message.",
+    "seccion3Titulo": "Sometimes guilt isn't born from what you do, but from what you can't do",
+    "seccion3Texto1": "Many people say the hardest part wasn't leaving. It was discovering they could no longer be there when someone fell ill, needed help, or simply wanted to share an important moment.",
+    "seccion3Texto2": "From here, people try to make up for that absence in many ways.",
+    "seccion3Linea1": "Money is sent when possible.",
+    "seccion3Linea2": "Calls happen almost daily.",
+    "seccion3Linea3": "People try to sound reassuring, even when they don't feel it themselves.",
+    "seccion3Texto3": "Without realising it, some people end up living with the feeling that they're always in debt to those who stayed behind.",
+    "seccion4Titulo": "There's also guilt for being okay",
+    "seccion4Texto1": "This aspect tends to be surprising.",
+    "seccion4Texto2": "Some people manage to settle in, find work, or start feeling better in the host country, and it's precisely then that another form of guilt appears.",
+    "seccion4Texto3": "Enjoying an opportunity can feel uncomfortable when you know that people you love are still going through hard times.",
+    "seccion4Texto4": "It's as if part of you thinks you have no right to feel relief while others keep waiting.",
+    "seccion4Texto5": "It doesn't always happen, but when it does, it can cause a lot of confusion.",
+    "seccion5Titulo": "Social media changes how distance is experienced",
+    "seccion5Texto1": "Years ago it was normal to hear from family every so often. Today it's possible to see almost everything in real time.",
+    "seccion5Linea1": "A family meal.",
+    "seccion5Linea2": "A celebration.",
+    "seccion5Linea3": "An old photograph someone decides to share.",
+    "seccion5Texto2": "That can make distance feel different. Not because there's more separation than before, but because now we witness so many moments we can't be part of.",
+    "seccion6Titulo": "There isn't always a perfect decision",
+    "seccion6Texto1": "Migration is often framed as a simple choice: stay or leave.",
+    "seccion6Texto2": "However, reality tends to be far more complex.",
+    "seccion6Texto3": "Some people emigrate because they feel they have no other option. Others do it thinking of their children's future. Some leave planning to return soon and discover the years pass much faster than they imagined.",
+    "seccion6Texto4": "Looking back with the information we have today is often unfair. The decision was made with the circumstances of that moment, not those of now.",
+    "seccion7Titulo": "An example, to understand it better",
+    "seccion7Texto1": "Let's imagine, purely as a hypothetical example, a man who emigrated four years ago. His mother starts having health problems and he can't travel as often as he'd like.",
+    "seccion7Texto2": "Every time he speaks to her, he feels he should be there. At the same time, he knows going back would mean losing the job it took him so much effort to get.",
+    "seccion7Texto3": "There's no fully satisfying solution.",
+    "seccion7Texto4": "And that's exactly why guilt appears: because any decision means giving something up.",
+    "seccion8Titulo": "What can help?",
+    "seccion8Texto1": "There's no way to stop feeling guilty overnight.",
+    "seccion8Texto2": "Some people find it helps to understand that loving their family and building a life in another country aren't two incompatible things.",
+    "seccion8Texto3": "Others discover that talking openly about that feeling, instead of hiding it, lightens some of the weight they'd been carrying.",
+    "seccion8Texto4": "It can also help to remember that distance doesn't measure commitment or love. Some people are very present while living thousands of kilometres away, and others live nearby yet are barely part of their family's life.",
+    "seccion8Texto5": "Every migration story has its own nuances. Comparing it to someone else's rarely helps.",
+    "seccion9Titulo": "A closing thought",
+    "seccion9Texto1": "Over time I've learned that many migrants miss more than just a place. They also miss the chance to be where they feel they should have been at certain moments.",
+    "seccion9Texto2": "Perhaps that's why guilt appears so easily.",
+    "seccion9Texto3": "It doesn't always go away completely. But once it's named, it stops being a confusing feeling and starts to be understood as part of a deeply human experience.",
+    "seccion9Texto4": "And perhaps that understanding won't close the distance, but it can help you look at yourself with a little more kindness.",
+    "seccion10Titulo": "When guilt takes up too much space",
+    "seccion10Texto1": "Guilt doesn't usually disappear because someone tells us we shouldn't feel it. Sometimes it needs time. Other times, it needs us to stop trying to hide it or play it down.",
+    "seccion10Texto2": "Some people find it helps to talk about it with someone they trust, without feeling obliged to pretend everything is fine. Others find relief when they accept that they can't be present for every important moment in their family's life, and that this limitation doesn't lessen the love they feel for them.",
+    "seccion10Texto3": "It can also help to set aside space to look after the life being built here. Allowing yourself to enjoy good news, make new friends, or feel at peace in the host country doesn't mean forgetting the place you came from or the people who stayed there. Both things can coexist, even if it's hard to believe at first.",
+    "seccion10Texto4": "Every migration process is different, and there's no single correct way to live it. Some people need to talk a lot about what they left behind, while others prefer to do so little by little. What matters isn't following a specific path, but finding a way to move forward without letting guilt take up all the space.",
+    "seccion10Texto5": "If, over time, this feeling becomes constant, gets in the way of rest, affects relationships, or means every moment of wellbeing comes with remorse, seeking professional support can be an option. Not because feeling guilty is a problem in itself, but because no one has to face what's causing them pain alone.",
+    "cierre": "Soraya Mohamedi Mohamed · Psychologist, specialist in Migration and Social Inclusion",
+    "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post.",
+    "ctaTexto": "Do you need to talk to someone about how you're feeling in your migration process?",
+    "ctaBoton": "Request psychosocial support",
+    "textoTarjeta": "Why guilt shows up during the migration process, even when things are going well, and what can help you understand it.",
+    "formato": "7 min read",
+    "boton": "Read article"
+  },
+  "publicaciones": {
+    "filtroTodo": "All",
+    "filtroBlog": "Blog",
+    "filtroNoticias": "News",
+    "tituloSeccion": "Latest publications",
+    "metaTitle": "Publications — Ubuntu Canarias",
+    "metaDescription": "Blog and news from Ubuntu Canarias: articles on migration and integration, and sector news in the Canary Islands.",
+    "tituloBlog": "Latest blog posts",
+    "tituloNoticias": "Latest news"
+  },
+  "ofertasEmpleo": {
+    "meta": {
+      "title": "Job offers — Ubuntu Canarias",
+      "description": "We track and gather job offers in Gran Canaria every week, free of charge. Check this week's selection."
+    },
+    "eyebrow": "Free job search service",
+    "titulo": "We find and gather job offers for you",
+    "subtitulo": "Ubuntu is a 100% free service. Every week we track and gather the vacancies available in Las Palmas de Gran Canaria to make your job search easier.",
+    "avisoEtiqueta": "Ubuntu is not the hiring company",
+    "suscripcionTitulo": "Get the job offers in your inbox",
+    "suscripcionTexto": "As soon as they're ready, we'll send them to you together with our newsletter. Once a month, no spam. You can unsubscribe whenever you like.",
+    "suscripcionExtra": "Besides the newsletter with news and stories from our team, you'll receive the monthly selection of job offers in Gran Canaria, organised by sector.",
+    "volver": "Back to what we do"
+  },
+  "graciasBoletin": {
+    "titulo": "Subscription confirmed!",
+    "texto1": "You're now part of our newsletter. As soon as we publish news, you'll receive it directly in your inbox.",
+    "texto2": "Thank you for trusting our association. Together we build opportunities, hope and integration.",
+    "boton": "Back to home"
+  },
+  "blogIdentidad": {
+    "etiqueta": "Blog",
+    "titulo": "When does someone stop being an immigrant?",
+    "textoTarjeta": "A reflection on identity, belonging and biculturalism: what it really means to stop being an immigrant, beyond the legal question.",
+    "formato": "6 min read",
+    "boton": "Read article",
+    "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+  },
+  "blogDuelo": {
+    "etiqueta": "Blog",
+    "titulo": "The part of migratory grief almost no one talks about",
+    "textoTarjeta": "Sometimes it's not just a country you lose. It's also part of who you were: what migratory grief is, how it shows up, and what can help you move through it.",
+    "formato": "7 min read",
+    "boton": "Read article",
+    "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post."
+  },
+  "blogMarMuro": {
+    "volver": "Back to the blog",
+    "etiqueta": "Blog",
+    "titulo": "When the sea stops being a wall",
+    "cabecera": "Soraya Mohamedi Mohamed · Psychologist, specialist in Migration and Social Inclusion · Founder and chair of Ubuntu Canarias",
+    "lead": "A Supreme Court ruling limits summary pushbacks for people who cross by swimming. It coincides with a surge in crossings in Ceuta. What the ruling says, what it doesn't explain, and why it's worth looking beyond the coincidence.",
+    "intro": "On 8 July, Spain's Supreme Court confirmed something that might look like a technicality but actually carries very concrete consequences: people intercepted at sea while trying to swim into Ceuta or Melilla cannot be subjected to a summary pushback.",
+    "seccion1Titulo": "What the ruling actually says",
+    "seccion1Texto1": "Spanish immigration law allows what's known as \"border rejection\" — immediate expulsion, without individual identification or legal assistance — for anyone who crosses a physical containment barrier, such as a fence. The Supreme Court has established that the sea does not fall into that category. There is nothing material to \"cross\" in the water, so anyone intercepted while swimming must be subject to the ordinary return procedure, which carries more safeguards: a prior hearing, a reasoned decision and judicial review.",
+    "seccion1Texto2": "It's a ruling that sets binding case law. There is no appeal against it.",
+    "seccion2Titulo": "Less than ten kilometres, several hours of darkness",
+    "seccion2Texto1": "Between Fnideq (Castillejos) and Ceuta there are less than ten kilometres in a straight line, at the narrowest point of the strait. On paper, that sounds like little. In the water, at night, with no boat and no professional support, it's something else entirely.",
+    "seccion2Texto2": "Accounts from people who have made it describe three to four hours of continuous swimming, with no rest, through fog, wind and swell, guided only by the lights of the Ceuta coastline. Not everyone makes it. In recent days, several bodies have been recovered from the waters off Ceuta of people who did not complete the crossing.",
+    "seccion2Texto3": "The land border fence, six metres high with a double structure, has become almost impossible to cross. That's why more and more people are choosing the sea: not because it's easier, but because they believe it gives them more of a chance.",
+    "seccion3Titulo": "What has happened since the ruling",
+    "seccion3Texto1": "In recent weeks, Ceuta has seen a notable surge in crossings: between 1,500 and 2,000 people entered irregularly in barely ten days, most of them by swimming. The president of the autonomous city has spoken of a humanitarian emergency. The Civil Guard, through its professional association, has warned of a possible \"pull effect\" and has called for clear protocols in what it describes as an operational vacuum.",
+    "seccion3Texto2": "It's tempting — and understandable — to weave these two facts into a single story: the ruling would have opened a door, and thousands of people would be walking through it. But that reading calls for caution. Two things happening in the same period of time doesn't automatically mean one caused the other. Migrants' decisions rarely respond to a single factor, and even less to a court ruling that most people probably don't even know about in any detail.",
+    "seccion3Texto3": "Someone who decides to get into the water for three or four hours of swimming isn't doing it because of a legal technicality. They do it after having exhausted other routes, carrying the accumulated exhaustion of previous attempts, and working with information that arrives in fragments, sometimes distorted by those who profit from selling the crossing as safer than it is.",
+    "seccion4Titulo": "The question that's actually worth asking",
+    "seccion4Texto1": "Beyond its immediate effects, what this ruling brings into view is an underlying tension that runs through the whole of current European migration policy. The European Pact on Migration and Asylum, in force since June this year, is moving toward a model centred on border control and faster return procedures. The Supreme Court's ruling, by contrast, moves in the opposite direction: it expands safeguards rather than reducing them.",
+    "seccion4Texto2": "That contradiction isn't a problem of the court or of European law taken separately. It reflects a system that still hasn't resolved what role it wants to give individual rights when set against border management as a security issue. And that lack of definition is paid for, almost always, in the bodies of the people who cross.",
+    "seccion5Titulo": "One last thought",
+    "seccion5Texto1": "Behind every figure like \"1,500 people in ten days\" are decisions made under a kind of pressure most of us will never fully grasp: three hours swimming in the dark, the exhaustion of previous attempts, incomplete information, the calculation of a risk that no ruling can reduce. Understanding that context doesn't exempt institutions from legislating responsibly. But it should push us, before jumping to conclusions about cause and effect, to look more carefully at what lies behind each crossing.",
+    "cierre": "— Soraya Mohamedi Mohamed · Psychologist, specialist in Migration and Social Inclusion",
+    "instagramNota": "Link copied and we've opened Instagram: just paste it into your story or post.",
+    "ctaTexto": "Want to understand your rights in a regularisation process?",
+    "ctaBoton": "See legal resources",
+    "textoTarjeta": "A Supreme Court ruling limits summary pushbacks for people who cross by swimming, just as crossings rise in Ceuta. What the ruling says, and why it's worth looking beyond the coincidence.",
+    "formato": "4 min read",
+    "boton": "Read article"
+  }
+}

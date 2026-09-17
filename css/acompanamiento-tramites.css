@@ -1,0 +1,30 @@
+/* ===========================================================
+   Página: Acompañamiento e Intermediación en Trámites
+   Reutiliza las variables definidas en :root de style.css
+   =========================================================== */
+
+/* ---------- Hero simple ---------- */
+.tramites-hero{padding:56px 0 48px;text-align:center}
+.tramites-hero__interior{max-width:760px;margin:0 auto}
+.tramites-hero h1{font-size:clamp(2rem,3.6vw,2.8rem);color:var(--azul);font-weight:800;margin:14px 0 18px;line-height:1.2}
+.tramites-hero__subtitulo{color:var(--texto-suave);font-size:17px;max-width:56ch;margin:0 auto}
+
+/* ---------- Introducción ---------- */
+.tramites-intro{padding-top:0;padding-bottom:16px}
+.tramites-intro__interior{max-width:780px;margin:0 auto;background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio-m);padding:32px 36px}
+.tramites-intro__interior p{color:var(--texto-suave);font-size:15.5px;line-height:1.7}
+
+/* ---------- Malla de tarjetas ---------- */
+.tramites-servicios{padding-top:48px}
+.tramites-servicios .encabezado-seccion{max-width:640px;margin:0 auto 40px;text-align:center}
+.tramites-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.tramite-card{background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio-m);padding:28px 26px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.tramite-card:hover{transform:translateY(-4px);box-shadow:var(--sombra-m);border-color:transparent}
+.tramite-card__icono{font-size:26px;line-height:1;margin-bottom:14px;display:block}
+.tramite-card h3{color:var(--azul);font-size:16.5px;font-weight:700;margin-bottom:8px}
+.tramite-card p{color:var(--texto-suave);font-size:14.5px;line-height:1.6}
+
+@media(max-width:760px){
+  .tramites-intro__interior{padding:26px 24px}
+  .tramites-grid{grid-template-columns:1fr}
+}

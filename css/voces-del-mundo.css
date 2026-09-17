@@ -1,0 +1,243 @@
+/* ===== Voces del Mundo — estilos propios ===== */
+
+.vdm-hero{padding:56px 0 72px}
+.vdm-hero__interior{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.vdm-hero h1{font-size:clamp(2.2rem,4.2vw,3.3rem);line-height:1.14;color:var(--azul);font-weight:800;letter-spacing:-.01em;margin-bottom:22px}
+.vdm-hero__subtitulo{font-size:17.5px;color:var(--texto-suave);max-width:46ch;margin-bottom:34px}
+.vdm-hero__botones{display:flex;gap:16px;flex-wrap:wrap}
+.vdm-hero__imagen{min-width:0}
+.vdm-hero__imagen img{width:100%;height:100%;display:block;object-fit:cover;aspect-ratio:4/3;object-position:center 30%}
+
+.vdm-linea-fina{width:64px;height:2px;background:var(--amarillo);margin-bottom:20px;border:none}
+
+/* Bloque 1b — otros testimonios (tarjeta con foto) */
+.vdm-testimonios-mini{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:22px;margin-top:44px}
+.vdm-testimonio-mini{display:flex;align-items:stretch;gap:0;background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio-m);overflow:hidden;text-decoration:none;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.vdm-testimonio-mini:hover{transform:translateY(-6px);box-shadow:var(--sombra-m);border-color:transparent}
+.vdm-testimonio-mini__foto{flex:0 0 42%;min-width:0}
+.vdm-testimonio-mini__foto img{width:100%;height:100%;display:block;object-fit:cover}
+.vdm-testimonio-mini__cuerpo{flex:1;min-width:0;padding:22px 24px;display:flex;flex-direction:column;gap:8px}
+.vdm-testimonio-mini__etiqueta{align-self:flex-start;font-size:12.5px;font-weight:700;letter-spacing:.02em;color:var(--turquesa);background:var(--turquesa-suave);padding:4px 12px;border-radius:999px}
+.vdm-testimonio-mini__cuerpo h3{font-size:17px;color:var(--azul);font-weight:800;line-height:1.32}
+.vdm-testimonio-mini__cuerpo p{font-size:14px;color:var(--texto-suave)}
+.vdm-testimonio-mini__enlace{margin-top:auto;display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;color:var(--turquesa)}
+.vdm-testimonio-mini__enlace svg{width:16px;height:16px}
+@media(max-width:560px){.vdm-testimonio-mini{flex-direction:column}.vdm-testimonio-mini__foto{aspect-ratio:16/9}}
+
+/* Bloque 2 — 6 tarjetas */
+.vdm-rejilla-6{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+.vdm-tarjeta{position:relative;background:var(--blanco);border-radius:var(--radio-m);overflow:hidden;box-shadow:var(--sombra-s);transition:transform .25s ease,box-shadow .25s ease}
+.vdm-tarjeta:hover{transform:translateY(-6px);box-shadow:var(--sombra-l)}
+.vdm-tarjeta:hover .vdm-tarjeta__foto img{transform:scale(1.06)}
+.vdm-tarjeta__foto{position:relative;height:190px;overflow:hidden;background:var(--fondo)}
+.vdm-tarjeta__foto img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.vdm-tarjeta__panel{position:relative;margin-top:-38px;background:var(--blanco);border-radius:52% 48% 0 0/34px 34px 0 0;padding:40px 24px 26px}
+.vdm-tarjeta__panel:before{content:"";position:absolute;right:-18px;bottom:-18px;width:90px;height:90px;border-radius:50%;background:var(--turquesa-suave);opacity:.6;z-index:0}
+.vdm-tarjeta:nth-child(2) .vdm-tarjeta__panel:before{background:var(--amarillo-suave)}
+.vdm-tarjeta:nth-child(3) .vdm-tarjeta__panel:before{background:#eaf0f8}
+.vdm-tarjeta:nth-child(5) .vdm-tarjeta__panel:before{background:var(--amarillo-suave)}
+.vdm-tarjeta:nth-child(6) .vdm-tarjeta__panel:before{background:#eaf0f8}
+.vdm-tarjeta__icono{position:relative;z-index:1;width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:16px;background:var(--turquesa-suave);border:3px solid var(--blanco);box-shadow:var(--sombra-s)}
+.vdm-tarjeta:nth-child(2) .vdm-tarjeta__icono{background:var(--amarillo-suave)}
+.vdm-tarjeta:nth-child(3) .vdm-tarjeta__icono{background:#eaf0f8}
+.vdm-tarjeta:nth-child(5) .vdm-tarjeta__icono{background:var(--amarillo-suave)}
+.vdm-tarjeta:nth-child(6) .vdm-tarjeta__icono{background:#eaf0f8}
+.vdm-tarjeta h3{position:relative;z-index:1;font-size:16.5px;color:var(--azul);margin-bottom:8px;font-weight:700}
+.vdm-tarjeta p{position:relative;z-index:1;font-size:14.5px;color:var(--texto-suave)}
+@media(max-width:640px){.vdm-tarjeta__foto{height:170px}}
+
+/* Bloque 3 — quién participa */
+.vdm-participa{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.vdm-participa__imagen{min-width:0}
+.vdm-participa__imagen img{width:100%;height:100%;display:block;object-fit:cover;aspect-ratio:3/2;object-position:center center}
+.vdm-participa__lista{display:grid;gap:14px;margin-top:8px}
+.vdm-participa__lista li{display:flex;align-items:center;gap:14px;font-size:15.5px;color:var(--texto);font-weight:600}
+.vdm-participa__check{flex-shrink:0;width:26px;height:26px;border-radius:50%;background:var(--turquesa-suave);color:var(--turquesa);display:flex;align-items:center;justify-content:center}
+.vdm-participa__check svg{width:14px;height:14px}
+
+/* Bloque 4 — cómo funciona */
+.vdm-timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:48px;position:relative}
+.vdm-timeline__paso{position:relative;padding:0 24px;text-align:center}
+.vdm-timeline__paso:before{content:"";position:absolute;top:27px;left:calc(-50% + 27px);width:calc(100% - 54px);height:2px;background:var(--borde)}
+.vdm-timeline__paso:first-child:before{display:none}
+.vdm-timeline__numero{width:54px;height:54px;border-radius:50%;background:var(--azul);color:var(--blanco);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:19px;margin:0 auto 20px;position:relative;z-index:1}
+.vdm-timeline__paso h3{font-size:16px;color:var(--azul);font-weight:700;margin-bottom:8px}
+.vdm-timeline__paso p{font-size:14px;color:var(--texto-suave)}
+
+/* Bloque 5 — mosaico de categorías */
+.vdm-mosaico{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:44px}
+.vdm-categoria{position:relative;display:flex;align-items:flex-end;aspect-ratio:4/3.4;border-radius:var(--radio-m);overflow:hidden;font-weight:800;font-size:16px;color:var(--blanco);box-shadow:var(--sombra-s);transition:transform .25s ease,box-shadow .25s ease}
+.vdm-categoria:hover{transform:translateY(-6px);box-shadow:var(--sombra-l)}
+.vdm-categoria:hover .vdm-categoria__foto img{transform:scale(1.08)}
+.vdm-categoria__foto{position:absolute;inset:0;z-index:0}
+.vdm-categoria__foto img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.vdm-categoria:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(13,44,79,.82) 0%,rgba(13,44,79,.28) 46%,rgba(13,44,79,0) 68%);z-index:1}
+.vdm-categoria__texto{position:relative;z-index:2;padding:18px 16px;text-shadow:0 1px 4px rgba(0,0,0,.35)}
+.vdm-categoria__icono{display:none}
+
+/* Bloque 6 — por qué colaborar (3 tarjetas con foto) */
+.vdm-rejilla-3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:44px}
+.vdm-porque{background:var(--blanco);border-radius:var(--radio-m);overflow:hidden;box-shadow:var(--sombra-s);transition:transform .25s ease,box-shadow .25s ease}
+.vdm-porque:hover{transform:translateY(-6px);box-shadow:var(--sombra-l)}
+.vdm-porque img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.vdm-porque__texto{padding:26px 24px 30px}
+.vdm-porque__texto span{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:var(--turquesa-suave);color:var(--turquesa);font-weight:800;font-size:13px;margin-bottom:14px}
+.vdm-porque:nth-child(2) .vdm-porque__texto span{background:var(--amarillo-suave);color:#8A5E18}
+.vdm-porque:nth-child(3) .vdm-porque__texto span{background:#eaf0f8;color:var(--azul)}
+.vdm-porque__texto h3{font-size:18px;color:var(--azul);font-weight:800;margin-bottom:8px}
+.vdm-porque__texto p{font-size:14.5px;color:var(--texto-suave);line-height:1.6}
+@media(max-width:720px){.vdm-rejilla-3{grid-template-columns:1fr}}
+
+/* Bloque 7 — así te acompañamos en el proceso */
+.vdm-proceso__imagen{border-radius:var(--radio-l);overflow:hidden;box-shadow:var(--sombra-m);margin-top:44px}
+.vdm-proceso__imagen img{width:100%;height:auto;display:block}
+.vdm-proceso__pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:44px}
+.vdm-proceso__paso{text-align:center;padding:0 16px}
+.vdm-proceso__numero{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;color:var(--blanco);margin:0 auto 16px}
+.vdm-proceso__paso--turquesa .vdm-proceso__numero{background:var(--turquesa)}
+.vdm-proceso__paso--azul .vdm-proceso__numero{background:var(--azul)}
+.vdm-proceso__paso--amarillo .vdm-proceso__numero{background:var(--amarillo);color:var(--azul-oscuro)}
+.vdm-proceso__paso h3{font-size:17px;color:var(--azul);font-weight:800;margin-bottom:8px}
+.vdm-proceso__paso p{font-size:14.5px;color:var(--texto-suave)}
+@media(max-width:720px){.vdm-proceso__pasos{grid-template-columns:1fr;gap:28px}}
+
+/* Bloque 7 — carrusel de historias */
+.vdm-carrusel{display:flex;gap:22px;overflow-x:auto;margin-top:44px;padding-bottom:12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.vdm-carrusel::-webkit-scrollbar{height:8px}
+.vdm-carrusel::-webkit-scrollbar-thumb{background:var(--borde);border-radius:99px}
+.vdm-historia{flex:0 0 320px;scroll-snap-align:start;background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio-m);overflow:hidden;transition:transform .25s ease,box-shadow .25s ease}
+.vdm-historia:hover{transform:translateY(-6px);box-shadow:var(--sombra-m)}
+.vdm-historia__imagen{aspect-ratio:16/10;overflow:hidden}
+.vdm-historia__imagen img{width:100%;height:100%;object-fit:cover}
+.vdm-historia__cuerpo{padding:22px}
+.vdm-historia__meta{display:flex;gap:10px;font-size:12.5px;color:var(--texto-suave);font-weight:600;margin-bottom:10px;flex-wrap:wrap}
+.vdm-historia__meta span{display:inline-flex;align-items:center;gap:5px}
+.vdm-historia h3{font-size:16.5px;color:var(--azul);font-weight:700;margin-bottom:10px;line-height:1.35}
+.vdm-historia__autor{font-size:13px;color:var(--texto-suave);font-weight:600}
+
+/* Bloque 8 — gran CTA */
+.vdm-cta-grande{position:relative;border-radius:var(--radio-l);overflow:hidden;margin:0 40px;min-height:420px;display:flex;align-items:center}
+.vdm-cta-grande img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 22%;z-index:0}
+.vdm-cta-grande:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,44,79,.92) 0%,rgba(13,44,79,.72) 46%,rgba(13,44,79,.2) 100%);z-index:1}
+.vdm-cta-grande__texto{position:relative;z-index:2;color:var(--blanco);max-width:640px;padding:56px}
+.vdm-cta-grande h2{font-size:clamp(1.8rem,3.2vw,2.5rem);font-weight:800;margin-bottom:18px;line-height:1.2}
+.vdm-cta-grande p{font-size:16px;color:#ffffffd6;margin-bottom:30px;max-width:48ch}
+
+/* Contacto */
+.vdm-contacto{background:var(--turquesa-suave);border-radius:var(--radio-l);padding:56px;text-align:center}
+.vdm-contacto h2{font-size:clamp(1.6rem,2.6vw,2.1rem);color:var(--azul);font-weight:800;margin-bottom:16px}
+.vdm-contacto p{color:var(--texto-suave);margin-bottom:8px;font-size:15.5px}
+.vdm-contacto__enlaces{display:flex;justify-content:center;gap:28px;flex-wrap:wrap;margin:22px 0 30px}
+.vdm-contacto__enlaces a{font-weight:700;color:var(--azul);display:inline-flex;align-items:center;gap:8px}
+.vdm-contacto__enlaces a:hover{color:var(--turquesa)}
+
+.vdm-lema{background:var(--azul);color:var(--blanco);text-align:center;padding:64px 0}
+.vdm-lema h2{font-size:clamp(1.6rem,3vw,2.3rem);font-weight:800;font-style:italic;margin-bottom:10px}
+.vdm-lema p{color:#ffffffb3;font-weight:600;letter-spacing:.02em}
+
+@media(max-width:1024px){
+  .vdm-hero{padding:40px 0 48px}
+  .vdm-hero__interior{grid-template-columns:1fr;gap:28px}
+  .vdm-hero__imagen{order:-1;max-width:420px;margin:0 auto}
+  .vdm-hero__imagen img{aspect-ratio:16/10}
+  .vdm-rejilla-6{grid-template-columns:repeat(2,1fr)}
+  .vdm-participa{grid-template-columns:1fr;gap:28px}
+  .vdm-participa__imagen{order:-1;max-width:320px;margin:0 auto}
+  .vdm-timeline{grid-template-columns:repeat(2,1fr);gap:36px 0}
+  .vdm-timeline__paso:nth-child(3):before{display:none}
+  .vdm-mosaico{grid-template-columns:repeat(2,1fr)}
+  .vdm-cta-grande{margin:0 28px}
+  .vdm-cta-grande__texto{padding:40px 32px}
+  .vdm-contacto{padding:40px 28px}
+}
+@media(max-width:720px){
+  .vdm-hero{padding:32px 0 40px}
+  .vdm-hero__imagen{max-width:280px}
+  .vdm-hero__imagen img{aspect-ratio:1/1}
+  .vdm-participa__imagen{max-width:220px}
+  .vdm-rejilla-6{grid-template-columns:1fr}
+  .vdm-timeline{grid-template-columns:1fr;gap:32px}
+  .vdm-timeline__paso:before{display:none}
+  .vdm-mosaico{grid-template-columns:1fr 1fr}
+  .vdm-cta-grande{margin:0 20px;min-height:380px}
+  .vdm-cta-grande__texto{padding:32px 24px}
+  .vdm-contacto__enlaces{flex-direction:column;gap:14px}
+}
+html[dir=rtl] .vdm-timeline__paso:before{left:auto;right:calc(-50% + 27px)}
+
+/* ============================================================
+   COMPONENTE "StoryArticle" — testimonio destacado
+   Pieza editorial reutilizable para publicar futuras historias
+   en Voces del Mundo. Ver voces-del-mundo.html para el marcado.
+   ============================================================ */
+.story-article{background:var(--blanco);padding:88px 0}
+.story-article__cabecera{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:center;margin-bottom:64px}
+/* Modificador temporal: testimonio sin foto todavía. Quitar cuando llegue la imagen
+   y usar la cabecera estándar de dos columnas (ver testimonio-mariam.html). */
+.story-article__cabecera--sin-imagen{display:block}
+.story-article__cabecera--sin-imagen .story-article__intro{max-width:68ch;margin:0 auto;text-align:center}
+.story-article__cabecera--sin-imagen .story-article__autor{margin-top:6px}
+
+/* Testimonio de Siham: ilustración con texto en árabe, nunca se recorta */
+#testimonio-siham-imagen{background:#f2e1c7}
+#testimonio-siham-imagen img{object-fit:contain;aspect-ratio:1996/1331}
+.vdm-testimonio-mini__foto--siham{background:#f2e1c7}
+.vdm-testimonio-mini__foto--siham img{object-fit:contain}
+.story-article__etiqueta{display:inline-block;color:#8A5E18;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:18px}
+.story-article__titulo{font-size:clamp(2rem,3.8vw,3rem);line-height:1.16;color:var(--azul);font-weight:800;letter-spacing:-.01em;margin-bottom:22px}
+.story-article__autor{font-size:15.5px;color:var(--texto-suave);line-height:1.7}
+.story-article__autor strong{color:var(--azul);font-weight:700}
+.story-article__imagen{min-width:0}
+.story-article__imagen img{width:100%;height:100%;display:block;object-fit:cover;aspect-ratio:4/3.1;object-position:center 30%}
+#testimonio-mariam .story-article__imagen img{object-position:38% 30%}
+.story-article__imagen--animada{opacity:0;transform:translateY(24px);transition:opacity 1s cubic-bezier(.22,.61,.36,1),transform 1s cubic-bezier(.22,.61,.36,1)}
+.story-article__imagen--animada.en-vista{opacity:1;transform:translateY(0)}
+
+.story-article__editorial{max-width:68ch;margin:0 auto 56px}
+.story-article__editorial h2,.story-article__editorial h3{font-size:clamp(1.4rem,2.2vw,1.8rem);color:var(--azul);font-weight:800;margin-bottom:18px}
+.story-article__editorial p{color:var(--texto);font-size:16px;line-height:1.8;margin-bottom:16px}
+.story-article__editorial p:last-child{margin-bottom:0}
+.story-article__editorial--cierre{margin-top:56px}
+
+.story-article__testimonio{position:relative;max-width:660px;margin:0 auto 40px;background:#FBFAF5;border:1px solid #E9D9AE;border-radius:var(--radio-l);padding:64px 60px;box-shadow:0 4px 20px rgba(18,59,105,.05);overflow:hidden}
+.story-article__testimonio-etiqueta{display:block;color:#8A5E18;font-weight:700;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:26px}
+.story-article__comillas{position:absolute;top:36px;inset-inline-end:40px;width:56px;height:56px;color:var(--amarillo);opacity:.35}
+.story-article__testimonio blockquote{margin:0;position:relative;z-index:1}
+.story-article__testimonio blockquote h4{font-size:clamp(1.3rem,2vw,1.6rem);color:var(--azul);font-weight:800;line-height:1.3;margin-bottom:24px}
+.story-article__testimonio blockquote p{font-size:17px;line-height:1.85;color:var(--texto);margin-bottom:20px}
+.story-article__testimonio blockquote p:last-of-type{margin-bottom:0}
+.story-article__testimonio figcaption{margin-top:30px;padding-top:22px;border-top:1px solid #E9D9AE;font-weight:700;color:var(--azul);font-size:15px;letter-spacing:.02em}
+
+.story-article__nota{max-width:60ch;margin:0 auto 64px;font-size:13.5px;line-height:1.7;color:var(--texto-suave);text-align:center;font-style:italic}
+.story-article__nota strong{font-style:normal;color:var(--texto)}
+
+.story-article__cta{margin:0 40px}
+.story-article__cta .vdm-cta-grande__texto h2,.story-article__cta .vdm-cta-grande__texto h3{font-size:clamp(1.8rem,3.2vw,2.5rem);font-weight:800;margin-bottom:18px;line-height:1.2}
+.story-article__cta-botones{display:flex;gap:14px;flex-wrap:wrap;margin-top:6px}
+.story-article__cta-botones .boton-secundario{border-color:#ffffff8c;color:#fff}
+.story-article__cta-botones .boton-secundario:hover{background:#ffffff1f;color:#fff}
+
+@media(prefers-reduced-motion:reduce){
+  .story-article__imagen--animada{transition:opacity .4s ease;transform:none;opacity:1}
+}
+@media(max-width:1024px){
+  .story-article{padding:56px 0}
+  .story-article__cabecera{grid-template-columns:1fr;gap:32px}
+  .story-article__imagen{order:-1;max-width:440px;margin:0 auto}
+  .story-article__testimonio{padding:44px 32px}
+  .story-article__cta{margin:0 28px}
+}
+@media(max-width:720px){
+  .story-article__testimonio{padding:36px 22px}
+  .story-article__comillas{width:40px;height:40px;top:24px;inset-inline-end:22px}
+  .story-article__cta{margin:0 20px}
+  .story-article__cta-botones{flex-direction:column}
+  .story-article__cta-botones .boton{justify-content:center}
+}
+html[dir=rtl] .story-article__testimonio figcaption{text-align:right}
+
+/* Botón brillante (degradado animado en 3 colores), estilo igual al de "Conoce más de mí" en equipo.html */
+.boton-brillante{position:relative;background:linear-gradient(120deg,var(--turquesa),var(--amarillo),var(--azul),var(--turquesa));background-size:300% 100%;color:var(--blanco);border:none;animation:vdm-boton-brillante-degradado 6s ease infinite;box-shadow:var(--sombra-s)}
+.boton-brillante:hover{transform:translateY(-2px);box-shadow:var(--sombra-m)}
+@keyframes vdm-boton-brillante-degradado{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@media(prefers-reduced-motion:reduce){.boton-brillante{animation:none}}

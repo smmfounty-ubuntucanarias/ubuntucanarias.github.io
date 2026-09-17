@@ -1,0 +1,231 @@
+/* ===========================================================
+   COMPASS — Banner de red de colaboración (footer) y estilos
+   de la página institucional /proyecto-compass.html
+   Reutiliza las variables definidas en :root de style.css
+   =========================================================== */
+
+/* ---------- Franja / banner COMPASS ---------- */
+.franja-compass{
+  background:linear-gradient(135deg,var(--azul-oscuro) 0%,var(--azul) 100%);
+  color:var(--blanco);
+  padding:52px 0;
+}
+.franja-compass__interior{
+  max-width:1280px;
+  margin:0 auto;
+  padding:0 40px;
+  display:grid;
+  grid-template-columns:1.3fr auto auto;
+  gap:40px;
+  align-items:center;
+}
+.franja-compass__texto h3{
+  font-size:clamp(1.05rem,2vw,1.3rem);
+  font-weight:700;
+  line-height:1.35;
+  margin-bottom:10px;
+}
+.franja-compass__texto p{
+  font-size:14.5px;
+  color:#ffffffbf;
+  line-height:1.6;
+  max-width:56ch;
+}
+.franja-compass__logos{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  flex-wrap:wrap;
+}
+.franja-compass__logo{
+  background:var(--blanco);
+  border-radius:14px;
+  padding:10px 14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:64px;
+  box-shadow:var(--sombra-m);
+}
+.franja-compass__logo img{
+  max-height:44px;
+  max-width:120px;
+  width:auto;
+  height:auto;
+  display:block;
+  object-fit:contain;
+}
+.franja-compass__logo--texto{
+  color:var(--azul);
+  font-weight:800;
+  font-size:13px;
+  letter-spacing:.02em;
+  text-align:center;
+  line-height:1.25;
+  padding:6px 10px;
+}
+.franja-compass__cta{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  background:var(--amarillo);
+  color:var(--azul-oscuro);
+  font-weight:700;
+  font-size:14.5px;
+  padding:15px 26px;
+  border-radius:999px;
+  white-space:nowrap;
+  transition:transform .2s ease,box-shadow .2s ease,background .2s ease;
+  box-shadow:var(--sombra-m);
+}
+.franja-compass__cta:hover{
+  background:#d6a437;
+  transform:translateY(-2px);
+}
+.franja-compass__cta svg{
+  width:16px;height:16px;
+  transition:transform .2s ease;
+}
+.franja-compass__cta:hover svg{transform:translateX(3px)}
+
+@media(max-width:980px){
+  .franja-compass__interior{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+  .franja-compass__logos{justify-content:center}
+  .franja-compass__cta{justify-self:center}
+}
+@media(max-width:520px){
+  .franja-compass{padding:40px 0}
+  .franja-compass__interior{padding:0 20px;gap:26px}
+  .franja-compass__logo{height:56px;padding:8px 12px}
+  .franja-compass__logo img{max-height:36px;max-width:96px}
+}
+
+/* ---------- Página /proyecto-compass.html ---------- */
+.compass-intro{color:var(--texto-suave);font-size:16.5px;line-height:1.7;max-width:70ch;margin-bottom:10px}
+.compass-frase{border-left:3px solid var(--turquesa);background:#f4f9f9;padding:14px 20px;margin:20px 0 28px;font-size:15px;color:var(--azul);font-weight:600;font-style:italic}
+
+.compass-socios{margin-top:8px}
+.compass-socios h3{color:var(--azul);font-size:16px;font-weight:800;margin:26px 0 12px}
+.compass-socios ul{margin:0 0 6px;padding-left:0;list-style:none}
+.compass-socios li{
+  display:flex;align-items:flex-start;gap:10px;
+  color:var(--texto-suave);font-size:15px;
+  padding:10px 0;border-bottom:1px solid var(--borde);
+}
+.compass-socios li:last-child{border-bottom:none}
+.compass-socios li .icono{flex-shrink:0;font-size:17px;line-height:1.4}
+.compass-socios li strong{color:var(--texto)}
+
+.compass-red-destacada{
+  margin:36px 0;
+  background:linear-gradient(135deg,var(--turquesa-suave),var(--amarillo-suave));
+  border-radius:var(--radio-m);
+  padding:30px 32px;
+  border:1px solid var(--borde);
+}
+.compass-red-destacada .etiqueta{margin-bottom:12px}
+.compass-red-destacada h3{color:var(--azul);font-size:19px;font-weight:800;margin-bottom:8px}
+.compass-red-destacada p{color:var(--texto);font-size:15px;margin:0}
+
+.compass-cita{
+  margin:32px 0;
+  padding:28px 32px;
+  background:var(--azul);
+  color:var(--blanco);
+  border-radius:var(--radio-m);
+  position:relative;
+}
+.compass-cita p{
+  font-size:16px;
+  font-style:italic;
+  line-height:1.6;
+  margin:0 0 10px;
+  color:var(--blanco);
+}
+.compass-cita cite{
+  display:block;
+  font-style:normal;
+  font-size:13.5px;
+  font-weight:700;
+  color:#ffffffbf;
+}
+
+.compass-lista-check{margin:0 0 16px;padding-left:0;list-style:none}
+.compass-lista-check li{
+  display:flex;align-items:flex-start;gap:10px;
+  color:var(--texto-suave);font-size:15.5px;margin-bottom:10px;
+}
+.compass-lista-check li .icono{flex-shrink:0;font-size:16px}
+
+@media(max-width:640px){
+  .compass-red-destacada,.compass-cita{padding:24px 22px}
+}
+
+/* ---------- Franja "Colaboramos junto a" (Casa África + Red COMPASS) — página principal ---------- */
+.franja-colabora{padding:20px 0 76px}
+.franja-colabora__interior{
+  max-width:920px;margin:0 auto;
+  display:flex;flex-direction:column;gap:32px;
+}
+.franja-colabora__linea{
+  display:flex;align-items:center;gap:14px;width:100%;
+  color:var(--texto-suave);
+}
+.franja-colabora__linea:before,.franja-colabora__linea:after{
+  content:"";flex:1;height:1px;background:var(--borde);
+}
+.franja-colabora__eyebrow{
+  color:var(--turquesa);font-weight:700;font-size:12.5px;
+  letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;
+}
+
+.franja-colabora__cuerpo{
+  display:flex;align-items:center;gap:40px;
+  background:linear-gradient(135deg,var(--turquesa-suave) 0%,var(--amarillo-suave) 100%);
+  border:1px solid var(--borde);
+  border-radius:var(--radio-l);
+  padding:40px 44px;
+}
+.franja-colabora__logo{
+  position:relative;display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  width:150px;height:150px;border-radius:50%;
+  background:var(--blanco);box-shadow:var(--sombra-m);
+  padding:26px;transition:transform .3s ease,box-shadow .3s ease;
+}
+.franja-colabora__logo:before{
+  content:"";position:absolute;inset:-14px;z-index:-1;border-radius:50%;
+  background:conic-gradient(from 200deg,var(--turquesa-suave),var(--amarillo-suave),var(--turquesa-suave));
+  opacity:.9;
+}
+.franja-colabora__logo:hover{transform:translateY(-5px);box-shadow:var(--sombra-l)}
+.franja-colabora__logo img{max-width:100%;max-height:100%;object-fit:contain;display:block}
+
+.franja-colabora__contenido{flex:1;min-width:0}
+.franja-colabora__titulo{
+  color:var(--azul);font-size:clamp(1.05rem,2vw,1.25rem);
+  font-weight:800;line-height:1.35;margin-bottom:10px;
+}
+.franja-colabora__texto{color:var(--texto-suave);font-size:14.5px;line-height:1.6;max-width:56ch;margin-bottom:20px}
+.franja-colabora__texto a{color:var(--turquesa);font-weight:700;text-decoration:underline}
+
+.franja-colabora__logos-extra{display:flex;align-items:center;gap:14px;margin-bottom:22px;flex-wrap:wrap}
+.franja-colabora__logo-mini{
+  background:var(--blanco);border-radius:12px;padding:8px 14px;
+  display:flex;align-items:center;justify-content:center;height:52px;
+  box-shadow:var(--sombra-s);
+}
+.franja-colabora__logo-mini img{max-height:34px;max-width:104px;width:auto;height:auto;display:block;object-fit:contain}
+
+.franja-colabora__cta{font-size:14.5px}
+
+@media(max-width:760px){
+  .franja-colabora__cuerpo{flex-direction:column;text-align:center;padding:36px 28px}
+  .franja-colabora__logos-extra{justify-content:center}
+}
+@media(max-width:640px){
+  .franja-colabora{padding:8px 0 56px}
+  .franja-colabora__logo{width:130px;height:130px;padding:22px}
+}

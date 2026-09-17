@@ -1,0 +1,110 @@
+.pagina-hero{padding:64px 0 80px}.pagina-hero__interior{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:center}.pagina-hero h1{font-size:clamp(2.1rem,4vw,3.1rem);color:var(--azul);font-weight:800;margin:14px 0 18px;letter-spacing:-.01em;line-height:1.15}.pagina-hero__imagen{position:relative}.pagina-hero__imagen img{width:100%;height:100%;aspect-ratio:4 / 3;object-fit:cover}.pagina-hero__imagen.marco-organico:before{border-radius:69% 31% 36% 64%/58% 33% 67% 42%}.pagina-hero__imagen.marco-organico>img{border-radius:71% 29% 41% 59%/55% 38% 62% 45%}@media(max-width:1024px){.pagina-hero__interior{grid-template-columns:1fr}}.lista-servicios{padding-top:0}.servicio-detalle{display:grid;grid-template-columns:88px 1fr 280px;gap:28px;padding:34px 0;border-bottom:1px solid var(--borde);align-items:center}.servicio-detalle:nth-child(2n){grid-template-columns:280px 88px 1fr}.servicio-detalle:nth-child(2n) .servicio-detalle__imagen{order:-1}.servicio-detalle:first-child{padding-top:0}.servicio-detalle__imagen{position:relative}.servicio-detalle__imagen img{width:100%;height:100%;aspect-ratio:4 / 3;object-fit:cover;display:block}.servicio-detalle__numero{font-size:15px;font-weight:800;color:var(--turquesa);background:var(--turquesa-suave);width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center}.servicio-detalle__contenido h2{color:var(--azul);font-size:21px;font-weight:800;margin-bottom:10px}.servicio-detalle__contenido p{color:var(--texto-suave);font-size:15.5px;max-width:68ch}@media(max-width:860px){.servicio-detalle,.servicio-detalle:nth-child(2n){grid-template-columns:1fr;gap:16px}.servicio-detalle__imagen,.servicio-detalle:nth-child(2n) .servicio-detalle__imagen{order:-1}}
+
+/* ---- Marco de fines y colectivos destinatarios ---- */
+.marco-fines{padding-top:0;padding-bottom:64px}
+.marco-fines .encabezado-seccion{max-width:760px;margin-bottom:36px}
+.colectivos{background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio-l);padding:44px 48px;box-shadow:var(--sombra-s)}
+.colectivos__etiqueta{display:block;font-size:clamp(1.3rem,2vw,1.6rem);font-weight:800;color:var(--azul);margin-bottom:26px;letter-spacing:-.01em;line-height:1.25}
+.colectivos__lista{display:grid;grid-template-columns:1fr 1fr;column-gap:48px}
+.colectivos__item{display:flex;align-items:center;gap:14px;padding:14px 6px;border-bottom:1px solid var(--borde);transition:padding-left .25s ease,background .25s ease}
+.colectivos__item:nth-last-child(-n+2){border-bottom:none}
+.colectivos__item:hover{padding-left:10px;background:var(--fondo)}
+.colectivos__marca{flex-shrink:0;width:9px;height:9px;border-radius:3px;transform:rotate(45deg)}
+
+
+
+.colectivos__item--turquesa .colectivos__marca{background:var(--turquesa)}
+.colectivos__item--amarillo .colectivos__marca{background:var(--amarillo)}
+.colectivos__item--azul .colectivos__marca{background:var(--azul)}
+.colectivos__texto{font-weight:600;font-size:15px;color:var(--texto);line-height:1.4}
+
+/* ---- Cabecera de la sección de áreas de actuación ---- */
+.lista-servicios .encabezado-seccion{margin-bottom:12px}
+
+/* ---- Ámbitos complementarios ---- */
+.ambitos-complementarios .encabezado-seccion{max-width:760px}
+.ambitos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.ambito-card{background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio-m);padding:26px 24px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.ambito-card:hover{transform:translateY(-4px);box-shadow:var(--sombra-m);border-color:transparent}
+.ambito-card h3{color:var(--azul);font-size:16px;font-weight:700;margin-bottom:8px}
+.ambito-card p{color:var(--texto-suave);font-size:14.5px}
+
+@media(max-width:860px){
+  .colectivos{padding:32px 26px}
+  .colectivos__lista{grid-template-columns:1fr}
+  .colectivos__item:nth-last-child(-n+2){border-bottom:1px solid var(--borde)}
+  .colectivos__item:last-child{border-bottom:none}
+  .ambitos-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+  .ambitos-grid{grid-template-columns:1fr}
+}
+
+/* ---- Aviso/CTA destacado dentro de cada bloque de servicio ---- */
+.servicio-detalle__aviso{margin-top:16px;padding:14px 18px;background:var(--turquesa-suave);border-left:3px solid var(--turquesa);border-radius:var(--radio-s);color:var(--texto);font-size:14.5px;line-height:1.6;max-width:68ch}
+
+/* ---- Botón "Recibe ofertas de empleo" (estilo degradado, igual que el botón de LinkedIn del equipo) ---- */
+.servicio-detalle__contenido{display:flex;flex-direction:column;align-items:flex-start}
+.servicio-detalle__boton-empleo{position:relative;display:inline-flex;align-items:center;gap:7px;margin-top:18px;padding:9px 18px;border-radius:999px;color:var(--blanco);font-weight:700;font-size:13px;background:linear-gradient(120deg,var(--turquesa),var(--amarillo),var(--azul),var(--turquesa));background-size:300% 100%;animation:empleo-degradado 8s ease infinite;box-shadow:var(--sombra-s);transition:transform .2s ease,box-shadow .2s ease}
+.servicio-detalle__boton-empleo svg{width:13px;height:13px;transition:transform .2s ease}
+.servicio-detalle__boton-empleo:hover{transform:translateY(-2px);box-shadow:var(--sombra-m)}
+.servicio-detalle__boton-empleo:hover svg{transform:translateX(4px)}
+@keyframes empleo-degradado{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@media(prefers-reduced-motion:reduce){.servicio-detalle__boton-empleo{animation:none}}
+
+/* ---- Hero "Qué hacemos" rediseñado: título bicolor, características, collage y cierre ---- */
+.pagina-hero--nueva{padding:56px 0 0}
+.pagina-hero--nueva .pagina-hero__interior{grid-template-columns:1fr 1fr;align-items:start;gap:64px}
+.pagina-hero--nueva .hero__eyebrow{display:inline-flex;align-items:center;gap:10px}
+.pagina-hero--nueva .hero__eyebrow:before{content:"";width:26px;height:2px;border-radius:2px;background:var(--amarillo);display:inline-block}
+.pagina-hero--nueva h1{margin-top:14px}
+.pagina-hero--nueva .pagina-hero__resaltado{color:var(--amarillo-texto)}
+.pagina-hero--nueva .hero__subtitulo{margin-bottom:36px}
+
+.pagina-hero__caracteristicas{display:grid;grid-template-columns:repeat(2,1fr);gap:28px 20px}
+.pagina-hero__caracteristica-icono{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--blanco);margin-bottom:14px}
+.pagina-hero__caracteristica-icono svg{width:24px;height:24px}
+.pagina-hero__caracteristica-icono--turquesa{background:var(--turquesa)}
+.pagina-hero__caracteristica-icono--amarillo{background:var(--amarillo)}
+.pagina-hero__caracteristica h3{color:var(--azul);font-size:15.5px;font-weight:700;margin-bottom:6px}
+.pagina-hero__caracteristica p{color:var(--texto-suave);font-size:13.5px;line-height:1.5}
+
+.pagina-hero__collage{position:relative;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:26px;padding:10px 24px 10px 10px}
+.pagina-hero__collage:before{content:"";position:absolute;inset:36px -10px -10px 30px;background:var(--turquesa-suave);border-radius:42% 58% 61% 39%/48% 44% 56% 52%;z-index:0}
+.pagina-hero__collage-item{position:relative;z-index:1;overflow:hidden;box-shadow:var(--sombra-m);border:3px solid var(--blanco)}
+.pagina-hero__collage-item img{width:100%;height:100%;object-fit:cover;display:block;aspect-ratio:1/1}
+.pagina-hero__collage-item--1{border-radius:62% 38% 45% 55%/55% 40% 60% 45%;transform:translateY(-10px)}
+.pagina-hero__collage-item--2{border-radius:38% 62% 55% 45%/45% 55% 45% 55%;transform:translateY(14px)}
+.pagina-hero__collage-item--3{border-radius:45% 55% 62% 38%/58% 45% 55% 42%;transform:translateY(-6px)}
+.pagina-hero__collage-item--4{border-radius:55% 45% 38% 62%/42% 58% 42% 58%;transform:translateY(10px)}
+
+.pagina-hero__cierre{display:flex;align-items:center;gap:20px;background:var(--turquesa-suave);border-radius:var(--radio-l);padding:26px 32px;margin:56px 0 0}
+.pagina-hero__cierre-icono{flex-shrink:0;width:48px;height:48px;border-radius:50%;background:var(--turquesa);color:var(--blanco);display:flex;align-items:center;justify-content:center}
+.pagina-hero__cierre-icono svg{width:22px;height:22px}
+.pagina-hero__cierre p{color:var(--texto);font-size:15px;line-height:1.7}
+.pagina-hero__cierre strong{color:var(--azul);font-size:16.5px}
+.pagina-hero__cierre-tagline{color:var(--turquesa)!important;font-size:15px!important}
+
+@media(max-width:1024px){
+  .pagina-hero--nueva .pagina-hero__interior{grid-template-columns:1fr}
+  .pagina-hero__collage{max-width:520px;margin:0 auto}
+}
+@media(max-width:640px){
+  .pagina-hero__caracteristicas{grid-template-columns:1fr}
+  .pagina-hero__collage{grid-template-columns:1fr 1fr;padding:6px}
+  .pagina-hero__cierre{flex-direction:column;text-align:center;padding:24px}
+}
+
+/* ===== Banner de ofertas de empleo (sustituye al botón de texto) ===== */
+.servicio-detalle__banner-empleo{display:block;max-width:280px;border-radius:50%;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease;box-shadow:var(--sombra-s)}
+.servicio-detalle__banner-empleo:hover{transform:translateY(-4px);box-shadow:var(--sombra-m)}
+.servicio-detalle__banner-empleo img{width:100%;height:auto;display:block;border-radius:50%}
+@media(max-width:640px){.servicio-detalle__banner-empleo{max-width:220px}}
+
+/* Enlace secundario y discreto al grupo de WhatsApp para personas recién
+   llegadas, dentro del bloque "Integración y primera acogida". Deliberadamente
+   más sobrio que .servicio-detalle__boton-empleo para no competir con el CTA
+   principal de esa tarjeta. */
+.servicio-detalle__enlace-whatsapp{display:inline-flex;align-items:center;gap:7px;margin-top:12px;font-size:13.5px;font-weight:600;color:var(--turquesa);text-decoration:none}
+.servicio-detalle__enlace-whatsapp svg{width:15px;height:15px;flex-shrink:0}
+.servicio-detalle__enlace-whatsapp:hover{text-decoration:underline}
