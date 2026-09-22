@@ -9,3 +9,22 @@
 @media(max-width:720px){.articulo-tarjeta{padding:36px 26px 44px}.articulo-tarjeta::before{width:110px;height:110px;top:-46px;right:-50px}.articulo-tarjeta::after{width:78px;height:78px;bottom:-38px;left:-40px}}
 .contenedor-legal a.boton-primario{color:var(--blanco)}
 .contenedor-legal a.boton-secundario{color:var(--azul)}
+
+/* ===== Tabla comparativa dentro de un artículo ===== */
+.articulo__tabla-envoltorio{margin:22px 0 28px;overflow-x:auto;border-radius:var(--radio-m);box-shadow:var(--sombra-s)}
+.articulo__tabla{width:100%;border-collapse:collapse;font-size:14.5px;min-width:640px}
+.articulo__tabla thead th{background:var(--turquesa);color:var(--blanco);text-align:left;padding:12px 16px;font-weight:700}
+.articulo__tabla tbody td{padding:12px 16px;border-bottom:1px solid var(--borde);vertical-align:top;color:var(--texto)}
+.articulo__tabla tbody tr:last-child td{border-bottom:none}
+.articulo__tabla tbody tr:nth-child(even){background:var(--fondo)}
+[dir="rtl"] .articulo__tabla thead th{text-align:right}
+
+/* ===== Listas dentro de un artículo ===== */
+.articulo__lista{margin:14px 0 20px;padding-left:22px;color:var(--texto);line-height:1.65}
+.articulo__lista li{margin-bottom:8px}
+[dir="rtl"] .articulo__lista{padding-left:0;padding-right:22px}
+.articulo__lista--fuentes{padding-left:0;list-style:none}
+[dir="rtl"] .articulo__lista--fuentes{padding-right:0}
+.articulo__lista--fuentes li{padding:10px 14px;background:var(--fondo);border-radius:var(--radio-s);margin-bottom:10px}
+.articulo__lista--fuentes a{color:var(--turquesa);font-weight:600;text-decoration:none}
+.articulo__lista--fuentes a:hover{text-decoration:underline}
