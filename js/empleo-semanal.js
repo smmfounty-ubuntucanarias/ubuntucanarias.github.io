@@ -4,15 +4,15 @@
   // Idioma actual, tal y como lo mantiene js/idiomas.js en <html lang="...">
   function idiomaActual() {
     const idioma = document.documentElement.getAttribute("lang") || "es";
-    return ["es", "en", "fr", "ar"].includes(idioma) ? idioma : "es";
+    return ["es", "en", "fr", "ar", "pt"].includes(idioma) ? idioma : "es";
   }
 
   // Calcula la ruta a la raíz del sitio según la carpeta de idioma actual
-  // (index.html / en/index.html / fr/index.html / ar/index.html), para que
+  // (index.html / en/index.html / fr/index.html / ar/index.html / pt/index.html), para que
   // la descarga del PDF funcione igual desde cualquier idioma.
   function prefijoRaiz() {
     const ruta = window.location.pathname;
-    if (/\/(en|fr|ar)\//.test(ruta)) return "../";
+    if (/\/(en|fr|ar|pt)\//.test(ruta)) return "../";
     return "";
   }
 
@@ -91,6 +91,25 @@
         "construccion": "البناء والصيانة",
         "formacion": "التدريب والتعليم",
         "sociosanitario": "الرعاية الصحية والاجتماعية",
+      },
+    },
+    pt: {
+      contador: (n) => n + " ofertas ativas esta semana",
+      verOferta: "Ver oferta",
+      compartirWa: "Partilhar no WhatsApp",
+      copiarEnlace: "Copiar",
+      copiado: "Copiado!",
+      mensajeCompartir: (puesto, empresa, ubicacion, enlace) =>
+        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 Mais informação e candidatura: ${enlace}\n\nVia Ubuntu Canarias — mais ofertas de emprego em Gran Canaria: https://ubuntucanarias.org/pt/acceso-ofertas.html`,
+      contrato: { Indefinido: "Efetivo", Temporal: "Temporário" },
+      botonAcceso: "Ver ofertas (já tem acesso)",
+      areas: {
+        "tercer-sector": "Terceiro Setor e Cuidados",
+        "hosteleria": "Hotelaria e Serviços",
+        "almacen": "Comércio, Armazém e Distribuição",
+        "construccion": "Construção e Manutenção",
+        "formacion": "Formação e Ensino",
+        "sociosanitario": "Sociossanitário",
       },
     },
   };
