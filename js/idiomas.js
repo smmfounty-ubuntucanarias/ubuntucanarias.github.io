@@ -59,6 +59,7 @@
       en: "/img/banderas/gb.svg",
       fr: "/img/banderas/fr.svg",
       ar: "/img/banderas/sa.svg",
+      pt: "/img/banderas/pt.svg",
     };
     const imgBandera = document.querySelector(".selector-idioma__boton .bandera-actual");
     if (imgBandera && banderas[idioma]) imgBandera.src = banderas[idioma];

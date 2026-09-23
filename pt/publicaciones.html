@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+
+<html data-page="publicaciones.html" dir="ltr" lang="pt">
+<head>
+<meta charset="utf-8"/><link href="https://ubuntucanarias.org/pt/publicaciones.html" rel="canonical"/><link href="https://ubuntucanarias.org/publicaciones.html" hreflang="es" rel="alternate"/><link href="https://ubuntucanarias.org/en/publicaciones.html" hreflang="en" rel="alternate"/><link href="https://ubuntucanarias.org/fr/publicaciones.html" hreflang="fr" rel="alternate"/><link href="https://ubuntucanarias.org/ar/publicaciones.html" hreflang="ar" rel="alternate"/><link href="https://ubuntucanarias.org/pt/publicaciones.html" hreflang="pt" rel="alternate"/><link href="https://ubuntucanarias.org/publicaciones.html" hreflang="x-default" rel="alternate"/>
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Publicações — Ubuntu Canarias</title>
+<meta content="Blogue e notícias da Ubuntu Canarias: artigos sobre migração e integração, e novidades do setor nas Canárias." name="description"/>
+<meta content="Publicações — Ubuntu Canarias" property="og:title"/>
+<meta content="Blogue e notícias da Ubuntu Canarias: artigos sobre migração e integração, e novidades do setor nas Canárias." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://ubuntucanarias.org/img/publicaciones-hero-nueva.jpg?v=20260731b" property="og:image"/>
+<meta content="https://ubuntucanarias.org/pt/publicaciones.html" property="og:url"/>
+<link href="../img/favicon.png?v=20260726a" rel="icon" type="image/png"/>
+
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="../css/style.css?v=20260731c" rel="stylesheet"/>
+<link href="../css/responsive.css?v=20260726a" rel="stylesheet"/>
+<link href="../css/compass.css?v=20260727a" rel="stylesheet"/>
+<link href="../css/recursos.css?v=20260726a" rel="stylesheet"/>
+<link href="../css/contacto.css?v=20260726a" rel="stylesheet"/>
+<link href="../css/newsletter.css?v=20260726a" rel="stylesheet"/>
+<link href="../css/publicaciones.css?v=20260804b" rel="stylesheet"/>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar para o conteúdo</a>
+<header class="cabecera">
+<div class="cabecera__interior">
+<a aria-label="Ubuntu Canarias — Início" class="logo" href="index.html">
+<img alt="Ubuntu Canarias — Asociación de Ayuda al Inmigrante. Acogida e Integración" height="202" src="../img/logo-ubuntu-canarias-pt.png?v=20260802a" width="470"/>
+</a>
+<nav aria-label="Navegación principal" class="nav-principal" data-abierto="false">
+<a data-i18n="nav.inicio" href="index.html">Início</a>
+<a data-i18n="nav.quienesSomos" href="quienes-somos.html">Quem somos</a>
+<a data-i18n="nav.queHacemos" href="que-hacemos.html">O que fazemos</a>
+<a data-i18n="nav.participa" href="participa.html">Participa</a>
+<a data-i18n="nav.recursos" href="recursos.html">Recursos</a>
+<a aria-current="page" data-i18n="nav.publicaciones" href="publicaciones.html">Publicações</a>
+<a data-i18n="nav.vocesDelMundo" href="voces-del-mundo.html">Vozes do Mundo</a>
+<a data-i18n="nav.contacto" href="contacto.html">Contacto</a>
+<a class="nav-principal__cta" href="empleo-semanal.html">Empregos Recolhidos</a></nav>
+<div class="selector-idioma" data-abierto="false">
+<button aria-expanded="false" aria-haspopup="true" aria-label="Cambiar idioma" class="selector-idioma__boton">
+<img alt="" class="bandera bandera-actual" loading="lazy" src="../img/banderas/pt.svg?v=20260726a"/><span class="idioma-actual-texto">PT</span><span class="flecha">▾</span>
+</button>
+<div class="selector-idioma__lista" role="menu">
+<button aria-label="Español" data-idioma="es" role="menuitem" type="button"><img alt="" class="bandera" loading="lazy" src="../img/banderas/es.svg?v=20260726a"/><span>Español</span></button>
+<button aria-label="English" data-idioma="en" role="menuitem" type="button"><img alt="" class="bandera" loading="lazy" src="../img/banderas/gb.svg?v=20260726a"/><span>English</span></button>
+<button aria-label="Français" data-idioma="fr" role="menuitem" type="button"><img alt="" class="bandera" loading="lazy" src="../img/banderas/fr.svg?v=20260726a"/><span>Français</span></button>
+<button aria-label="العربية" data-idioma="ar" role="menuitem" type="button"><img alt="" class="bandera" loading="lazy" src="../img/banderas/sa.svg?v=20260726a"/><span>العربية</span></button><button aria-label="Português" data-idioma="pt" role="menuitem" type="button"><img alt="" class="bandera" loading="lazy" src="../img/banderas/pt.svg?v=20260726a"/><span>Português</span></button>
+</div>
+</div>
+<button aria-expanded="false" aria-label="Abrir menú" class="boton-menu-movil">
+<span></span><span></span><span></span>
+</button>
+</div>
+</header>
+<main class="pub-page" id="contenido">
+<section class="pub-filtros">
+<div class="contenedor pub-filtros__interior">
+<span class="pub-filtros__etiqueta">Filtrar por</span>
+<div class="blog-filtros" role="group" aria-label="Filtrar publicaciones">
+<button aria-pressed="true" class="blog-filtros__boton" data-filtro="todo" data-i18n="publicaciones.filtroTodo" type="button">Tudo</button>
+<button aria-pressed="false" class="blog-filtros__boton blog-filtros__boton--blog" data-filtro="blog" data-i18n="publicaciones.filtroBlog" type="button">Blog</button>
+<button aria-pressed="false" class="blog-filtros__boton blog-filtros__boton--noticia" data-filtro="noticia" data-i18n="publicaciones.filtroNoticias" type="button">Notícias</button>
+</div>
+</div>
+</section>
+
+<section class="boletin-banner">
+<div class="contenedor">
+<div class="boletin-banner__tarjeta">
+<picture>
+<source srcset="../img/boletin-banner.webp?v=20260804b" type="image/webp"/>
+<img alt="Mulher a consultar o telemóvel à beira-mar em Las Palmas de Gran Canaria ao pôr do sol" class="boletin-banner__foto" height="1024" src="../img/boletin-banner.jpg?v=20260804b" width="1536"/>
+</picture>
+</div>
+</div>
+</section>
+
+
+<section class="pub-seccion" data-bloque="blog" id="rejilla-blog">
+<div class="contenedor">
+<div class="pub-seccion__cabecera">
+<h2 class="pub-seccion__titulo" data-i18n="publicaciones.tituloBlog"><i aria-hidden="true"></i>Últimas publicações do blogue</h2>
+</div>
+
+<article class="pub-destacado" data-categoria="blog">
+<div class="pub-destacado__imagen">
+<picture>
+<source srcset="../img/thumbs/blog-homologacion-titulos-hero-thumb.webp?v=20260922a" type="image/webp"/>
+<img alt="Homem pensativo com um portátil, rodeado de ícones de educação, justiça, saúde e trâmites ligados a um mapa de Espanha." height="240" loading="lazy" src="../img/thumbs/blog-homologacion-titulos-hero-thumb.jpg?v=20260922a" width="400"/>
+</picture>
+</div>
+<div class="pub-destacado__cuerpo">
+<span class="pub-destacado__etiqueta"><i aria-hidden="true"></i>Blog</span>
+<h2>Homologar um título estrangeiro em Espanha: o que ninguém explica no início</h2>
+<p>Homologação, equivalência, convalidação ou reconhecimento: que procedimento precisa consoante o seu título estrangeiro, que documentos pede o Ministério e o que esperar quanto aos prazos — pela Ubuntu Canarias.</p>
+<div class="pub-destacado__pie">
+<a class="pub-destacado__enlace" href="blog-homologacion-titulos.html"><span>Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<span class="pub-destacado__meta">Leitura de 10 min</span>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Homologação, equivalência, convalidação ou reconhecimento: que procedimento precisa consoante o seu título estrangeiro, que documentos pede o Ministério e o que esperar quanto aos prazos — pela Ubuntu Canarias." data-compartir-recurso-titulo="Homologar um título estrangeiro em Espanha: o que ninguém explica no início" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-homologacion-titulos.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="compartirMini.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+
+<div class="pub-grid">
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/blog-como-hacer-cv-hero.webp" type="image/webp"/>
+<img alt="Miniatura do artigo: Como fazer um currículo para procurar trabalho em Espanha: guia passo a passo para pessoas migrantes" height="240" loading="lazy" src="../img/blog-como-hacer-cv-hero.jpg" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog">Blog</span>
+<h2>Como fazer um currículo para procurar trabalho em Espanha: guia passo a passo para pessoas migrantes</h2>
+<p>Um guia prático para preparar um currículo claro e honesto se está à procura de trabalho em Gran Canaria, incluindo experiência adquirida noutro país.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo">Leitura de 6 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-como-hacer-cv.html"><span>Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Um guia prático para preparar um currículo claro e honesto se está à procura de trabalho em Gran Canaria, incluindo experiência adquirida noutro país." data-compartir-recurso-titulo="Como fazer um currículo para procurar trabalho em Espanha: guia passo a passo para pessoas migrantes" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-como-hacer-cv.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes sociais</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="compartirMini.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/blog-entrevista-trabajo-hero-thumb.webp?v=20260901a" type="image/webp"/>
+<img alt="Miniatura do artigo: A entrevista de trabalho quando a sua experiência vem de outro país" height="240" loading="lazy" src="../img/thumbs/blog-entrevista-trabajo-hero-thumb.jpg?v=20260901a" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog">Blog</span>
+<h2>A entrevista de trabalho quando a sua experiência vem de outro país</h2>
+<p>Porque é que a experiência profissional anterior nem sempre se explica da mesma forma numa entrevista de trabalho em Espanha, e o que realmente ajuda ao falar dela.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo">Leitura de 7 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-entrevista-trabajo.html"><span>Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Porque é que a experiência profissional anterior nem sempre se explica da mesma forma numa entrevista de trabalho em Espanha, e o que realmente ajuda ao falar dela." data-compartir-recurso-titulo="A entrevista de trabalho quando a sua experiência vem de outro país" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-entrevista-trabajo.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes sociais</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="compartirMini.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/blog-empadronamiento-hero-thumb.webp?v=20260901a" type="image/webp"/>
+<img alt="Miniatura do artigo: Inscrever-se no padrón nas Canárias: o trâmite que quase ninguém prioriza" height="240" loading="lazy" src="../img/thumbs/blog-empadronamiento-hero-thumb.jpg?v=20260901a" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog">Blog</span>
+<h2>Inscrever-se no padrón nas Canárias: o trâmite que quase ninguém prioriza</h2>
+<p>O que é o registo municipal (padrón), que documentos costumam ser necessários e porque vale a pena tratar disso cedo, mesmo quando não parece urgente.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo">Leitura de 8 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-empadronamiento.html"><span>Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="O que é o registo municipal (padrón), que documentos costumam ser necessários e porque vale a pena tratar disso cedo, mesmo quando não parece urgente." data-compartir-recurso-titulo="Inscrever-se no padrón nas Canárias: o trâmite que quase ninguém prioriza" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-empadronamiento.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes sociais</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="compartirMini.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/blog-identidad-migrante-hero-thumb.webp?v=20260731b" type="image/webp"/>
+<img alt="Miniatura do artigo: Quando é que se deixa de ser imigrante?" height="240" loading="lazy" src="../img/thumbs/blog-identidad-migrante-hero-thumb.jpg?v=20260731b" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog" data-i18n="blogIdentidad.etiqueta"><i aria-hidden="true"></i>Blog</span>
+<h2 data-i18n="blogIdentidad.titulo">Quando é que se deixa de ser imigrante?</h2>
+<p data-i18n="blogIdentidad.textoTarjeta">Uma reflexão sobre identidade, pertença e biculturalidade: o que significa realmente deixar de ser imigrante, para além da questão jurídica.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo">Leitura de 6 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-cuando-se-deja-de-ser-inmigrante.html"><span>Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Uma reflexão sobre identidade, pertença e biculturalidade: o que significa deixar de ser imigrante, para além da questão jurídica." data-compartir-recurso-titulo="Quando é que se deixa de ser imigrante?" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-cuando-se-deja-de-ser-inmigrante.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="blogIdentidad.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/blog-biculturalidad-hero-thumb.webp" type="image/webp"/>
+<img alt="Miniatura do artigo: Não vivo entre dois mundos. Vivo onde ambos se encontram" height="240" loading="lazy" src="../img/thumbs/blog-biculturalidad-hero-thumb.jpg" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog">Blog</span>
+<h2>Não vivo entre dois mundos. Vivo onde ambos se encontram.</h2>
+<p>Uma reflexão sobre biculturalidade, identidade e pertença: o que significa viver entre duas culturas sem ter de escolher entre elas, por Soraya Mohamedi Mohamed.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo">Leitura de 4 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-biculturalidad.html"><span>Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Uma reflexão sobre biculturalidade, identidade e pertença: o que significa viver entre duas culturas sem ter de escolher entre elas, por Soraya Mohamedi Mohamed." data-compartir-recurso-titulo="Não vivo entre dois mundos. Vivo onde ambos se encontram" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-biculturalidad.html">
+<span class="compartir-mini__etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/blog-mar-muro-hero-thumb.webp?v=20260731a" type="image/webp"/>
+<img alt="Miniatura do artigo: Quando o mar deixa de ser um muro" height="240" loading="lazy" src="../img/thumbs/blog-mar-muro-hero-thumb.jpg?v=20260731a" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog" data-i18n="blogMarMuro.etiqueta">Blog</span>
+<h2 data-i18n="blogMarMuro.titulo">Quando o mar deixa de ser um muro</h2>
+<p data-i18n="blogMarMuro.textoTarjeta">Uma sentença do Supremo Tribunal limita as devoluções sumárias a quem atravessa a nado, precisamente quando aumentam as travessias em Ceuta. O que diz a sentença e porque vale a pena olhar para além da coincidência.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo" data-i18n="blogMarMuro.formato">Leitura de 4 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-cuando-el-mar-deja-de-ser-un-muro.html"><span data-i18n="blogMarMuro.boton">Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Uma sentença do Supremo Tribunal limita as devoluções sumárias a quem atravessa a nado, precisamente quando aumentam as travessias em Ceuta. O que diz a sentença e porque vale a pena olhar para além da coincidência." data-compartir-recurso-titulo="Quando o mar deixa de ser um muro" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-cuando-el-mar-deja-de-ser-un-muro.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="blogMarMuro.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/blog-culpa-migratoria-hero-thumb.webp?v=20260726c" type="image/webp"/>
+<img alt="Miniatura do artigo: Porque me sinto culpado por ter emigrado?" height="240" loading="lazy" src="../img/thumbs/blog-culpa-migratoria-hero-thumb.jpg?v=20260726c" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog" data-i18n="blogCulpa.etiqueta">Blog</span>
+<h2 data-i18n="blogCulpa.titulo">Porque me sinto culpado por ter emigrado?</h2>
+<p data-i18n="blogCulpa.textoTarjeta">Porque surge a culpa no processo migratório, mesmo quando as coisas correm bem, e o que pode ajudar a compreendê-la.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo" data-i18n="blogCulpa.formato">Leitura de 7 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-culpa-migratoria.html"><span data-i18n="blogCulpa.boton">Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Porque surge a culpa no processo migratório, mesmo quando as coisas correm bem, e o que pode ajudar a compreendê-la." data-compartir-recurso-titulo="Porque me sinto culpado por ter emigrado?" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-culpa-migratoria.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="blogCulpa.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/blog-duelo-migratorio-hero-thumb.webp?v=20260726c" type="image/webp"/>
+<img alt="Miniatura do artigo: A parte do luto migratório da qual quase ninguém fala" height="240" loading="lazy" src="../img/thumbs/blog-duelo-migratorio-hero-thumb.jpg?v=20260726c" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog" data-i18n="blogDuelo.etiqueta">Blog</span>
+<h2 data-i18n="blogDuelo.titulo">A parte do luto migratório da qual quase ninguém fala</h2>
+<p data-i18n="blogDuelo.textoTarjeta">Às vezes não se perde apenas um país. Perde-se também parte de quem se era: o que é o luto migratório, como se manifesta e o que pode ajudar a atravessá-lo.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo" data-i18n="blogDuelo.formato">Leitura de 7 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-duelo-migratorio.html"><span data-i18n="blogDuelo.boton">Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="O que é o luto migratório, como se manifesta mesmo sem lhe dar nome, se tem fases e o que pode ajudar a atravessá-lo, por Soraya Mohamedi Mohamed." data-compartir-recurso-titulo="A parte do luto migratório da qual quase ninguém fala" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-duelo-migratorio.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="blogDuelo.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/blog-primera-cita-orientacion-thumb.webp?v=20260801a" type="image/webp"/>
+<img alt="Miniatura do artigo: O que esperar na sua primeira consulta de orientação" height="240" loading="lazy" src="../img/thumbs/blog-primera-cita-orientacion-thumb.jpg?v=20260801a" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog" data-i18n="recursos.primeraCita.etiqueta">Blog</span>
+<h2 data-i18n="recursos.primeraCita.titulo">O que esperar na sua primeira consulta de orientação</h2>
+<p data-i18n="recursos.primeraCita.texto">Como é o primeiro encontro com a nossa equipa, que documentos vale a pena trazer e o que acontece depois desse primeiro contacto.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo" data-i18n="recursos.primeraCita.formato">Leitura de 5 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-primera-cita-orientacion.html"><span data-i18n="recursos.primeraCita.boton">Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Como é o primeiro encontro com a nossa equipa, que documentos vale a pena trazer e o que acontece depois desse primeiro contacto." data-compartir-recurso-titulo="O que esperar na sua primeira consulta de orientação" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-primera-cita-orientacion.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="blogPrimeraCita.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="blog">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/que-hacemos-acompanamiento-thumb.webp?v=20260726c" type="image/webp"/>
+<img alt="Miniatura do artigo: O valor do acompanhamento personalizado" height="240" loading="lazy" src="../img/thumbs/que-hacemos-acompanamiento-thumb.jpg?v=20260726c" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--blog" data-i18n="recursos.proximo1.etiqueta">Blog</span>
+<h2 data-i18n="recursos.proximo1.titulo">O valor do acompanhamento personalizado</h2>
+<p data-i18n="recursos.proximo1.texto">Porque escutar antes de orientar faz a diferença nos processos de integração, contado pela nossa equipa de apoio psicossocial.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato tarjeta-articulo__formato--tiempo" data-i18n="recursos.proximo1.formato">Leitura de 5 min</span>
+<a class="tarjeta-articulo__enlace" href="blog-acompanamiento-personalizado.html"><span data-i18n="recursos.proximo1.boton">Ler artigo</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Porque escutar antes de orientar faz a diferença nos processos de integração, por Soraya Mohamedi Mohamed, presidenta da Ubuntu Canarias." data-compartir-recurso-titulo="O valor do acompanhamento personalizado" data-compartir-recurso-url="https://ubuntucanarias.org/pt/blog-acompanamiento-personalizado.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="blogAcompanamiento.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+
+<section class="pub-seccion" data-bloque="noticia" id="rejilla-noticias">
+<div class="contenedor">
+<div class="pub-seccion__cabecera">
+<h2 class="pub-seccion__titulo" data-i18n="publicaciones.tituloNoticias"><i aria-hidden="true"></i>Últimas notícias</h2>
+</div>
+
+<article class="pub-destacado" data-categoria="noticia">
+<div class="pub-destacado__imagen">
+<picture>
+<source srcset="../img/thumbs/noticia-compass-thumb.webp?v=20260726c" type="image/webp"/>
+<img alt="Miniatura do artigo: A Ubuntu Canarias junta-se à Rede de Colaboração COMPASS" height="240" loading="lazy" src="../img/thumbs/noticia-compass-thumb.jpg?v=20260726c" width="400"/>
+</picture>
+</div>
+<div class="pub-destacado__cuerpo">
+<span class="pub-destacado__etiqueta" data-i18n="recursos.noticiaCompass.etiqueta"><i aria-hidden="true"></i>Notícias</span>
+<h2 data-i18n="recursos.noticiaCompass.titulo">A Ubuntu Canarias junta-se à Rede de Colaboração COMPASS</h2>
+<p data-i18n="recursos.noticiaCompass.texto">A Ubuntu Canarias foi oficialmente admitida como entidade colaboradora da Rede COMPASS, que reúne instituições, organizações sociais, universidades e empresas comprometidas com a gestão da mobilidade humana entre a África Ocidental e as Canárias.</p>
+<div class="pub-destacado__pie">
+<a class="pub-destacado__enlace" href="noticia-red-compass.html">
+<span data-i18n="recursos.noticiaCompass.boton">Continuar a ler</span>
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+</a>
+<time class="pub-destacado__meta" data-i18n="recursos.noticiaCompass.fecha" datetime="2026-07-22">22 de julho de 2026</time>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="A Ubuntu Canarias foi oficialmente admitida como entidade colaboradora da Rede de Colaboração COMPASS, no âmbito do projeto Interreg MAC 2021-2027." data-compartir-recurso-titulo="A Ubuntu Canarias junta-se à Rede de Colaboração COMPASS" data-compartir-recurso-url="https://ubuntucanarias.org/pt/noticia-red-compass.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="recursos.clavesDerechos.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+
+<div class="pub-grid">
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="noticia">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/noticia-independencia-uruguay-thumb.webp?v=20260803b" type="image/webp"/>
+<img alt="Miniatura do artigo: Celebração do Dia da Independência do Uruguai em Cruce de Arinaga" height="1003" loading="lazy" src="../img/thumbs/noticia-independencia-uruguay-thumb.jpg?v=20260803b" width="1568"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--noticia" data-i18n="recursos.noticiaUruguay.etiqueta">Notícias</span>
+<h2 data-i18n="recursos.noticiaUruguay.titulo">Comunidade uruguaia em Gran Canaria celebra a Independência do Uruguai em Cruce de Arinaga</h2>
+<p data-i18n="recursos.noticiaUruguay.texto">A comunidade uruguaia em Gran Canaria organiza uma noite gratuita de música, gastronomia e tradição para celebrar a Declaração da Independência do Uruguai, a 22 de agosto em Cruce de Arinaga.</p>
+<div class="tarjeta-articulo__pie">
+<time data-i18n="recursos.noticiaUruguay.fecha" datetime="2026-08-02">2 de agosto de 2026</time>
+<a class="tarjeta-articulo__enlace" href="noticia-independencia-uruguay.html">
+<span data-i18n="recursos.noticiaUruguay.boton">Continuar a ler</span>
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+</a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="A comunidade uruguaia em Gran Canaria organiza uma noite gratuita de música, gastronomia e tradição para celebrar a Declaração da Independência do Uruguai, a 22 de agosto em Cruce de Arinaga." data-compartir-recurso-titulo="Comunidade uruguaia em Gran Canaria celebra a Independência do Uruguai em Cruce de Arinaga" data-compartir-recurso-url="https://ubuntucanarias.org/pt/noticia-independencia-uruguay.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="recursos.noticiaUruguay.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="noticia">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/noticia-pacto-migracion-thumb.webp?v=20260726c" type="image/webp"/>
+<img alt="Miniatura do artigo: O Pacto Europeu de Migração entra em vigor nas Canárias" height="240" loading="lazy" src="../img/thumbs/noticia-pacto-migracion-thumb.jpg?v=20260726c" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--noticia" data-i18n="recursos.noticiaPacto.etiqueta">Notícias</span>
+<h2 data-i18n="recursos.noticiaPacto.titulo">O Pacto Europeu de Migração entra em vigor nas Canárias</h2>
+<p data-i18n="recursos.noticiaPacto.texto">As Canárias pedem a Bruxelas mecanismos de transferência rápida para a Península, à medida que o novo quadro europeu de asilo aperta os prazos de detenção na fronteira.</p>
+<div class="tarjeta-articulo__pie">
+<time data-i18n="recursos.noticiaPacto.fecha" datetime="2026-07-25">25 de julho de 2026</time>
+<a class="tarjeta-articulo__enlace" href="noticia-pacto-migracion.html">
+<span data-i18n="recursos.noticiaPacto.boton">Continuar a ler</span>
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+</a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="O que muda nas Canárias com a aplicação do Pacto Europeu de Migração e Asilo: procedimento de fronteira, transferência para a Península e efeitos para as pessoas migrantes." data-compartir-recurso-titulo="O Pacto Europeu de Migração entra em vigor nas Canárias" data-compartir-recurso-url="https://ubuntucanarias.org/pt/noticia-pacto-migracion.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="recursos.noticiaPacto.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="noticia">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/noticia-casa-africa-thumb.webp?v=20260729b" type="image/webp"/>
+<img alt="Miniatura do artigo: A Ubuntu Canarias participa no Encontro de Vida Intercultural na Casa África" height="240" loading="lazy" src="../img/thumbs/noticia-casa-africa-thumb.jpg?v=20260729b" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--noticia" data-i18n="recursos.noticiaEncuentro.etiqueta">Notícias</span>
+<h2 data-i18n="recursos.noticiaEncuentro.titulo">A Ubuntu Canarias participa no Encontro de Vida Intercultural na Casa África</h2>
+<p data-i18n="recursos.noticiaEncuentro.texto">A Ubuntu Canarias esteve presente no Encontro de Vida Intercultural organizado pela Asociación Con•Fin na Casa África: música, arte, moda e participação comunitária num dia de convivência entre culturas.</p>
+<div class="tarjeta-articulo__pie">
+<time data-i18n="recursos.noticiaEncuentro.fecha" datetime="2026-07-29">29 de julho de 2026</time>
+<a class="tarjeta-articulo__enlace" href="noticia-encuentro-vida-intercultural.html">
+<span data-i18n="recursos.noticiaEncuentro.boton">Continuar a ler</span>
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+</a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="A Ubuntu Canarias esteve presente no Encontro de Vida Intercultural organizado pela Asociación Con•Fin na Casa África: música, arte, moda e participação comunitária num dia de convivência entre culturas." data-compartir-recurso-titulo="A Ubuntu Canarias participa no Encontro de Vida Intercultural na Casa África" data-compartir-recurso-url="https://ubuntucanarias.org/pt/noticia-encuentro-vida-intercultural.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="recursos.noticiaEncuentro.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="noticia">
+<div class="tarjeta-articulo__miniatura">
+<picture>
+<source srcset="../img/thumbs/noticia-fiestas-patrias-peru-thumb.webp?v=20260727a" type="image/webp"/>
+<img alt="Miniatura do artigo: A Ubuntu Canarias nas Fiestas Patrias da comunidade peruana" height="240" loading="lazy" src="../img/thumbs/noticia-fiestas-patrias-peru-thumb.jpg?v=20260727a" width="400"/>
+</picture>
+</div>
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--noticia" data-i18n="recursos.noticiaFiestas.etiqueta">Notícias</span>
+<h2 data-i18n="recursos.noticiaFiestas.titulo">A Ubuntu Canarias nas Fiestas Patrias da comunidade peruana</h2>
+<p data-i18n="recursos.noticiaFiestas.texto">Estivemos nas Fiestas Patrias organizadas pela comunidade peruana em Las Palmas, junto com a Hatun Llaqta: danças, gastronomia, trajes tradicionais e famílias inteiras a partilhar um espaço que se encheu de Peru.</p>
+<div class="tarjeta-articulo__pie">
+<time data-i18n="recursos.noticiaFiestas.fecha" datetime="2026-07-27">27 de julho de 2026</time>
+<a class="tarjeta-articulo__enlace" href="noticia-fiestas-patrias-peru.html">
+<span data-i18n="recursos.noticiaFiestas.boton">Continuar a ler</span>
+<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+</a>
+</div>
+<div class="compartir-mini" data-compartir-recurso="" data-compartir-recurso-resumen="Estivemos nas Fiestas Patrias organizadas pela comunidade peruana em Las Palmas, junto com a Hatun Llaqta: danças, gastronomia, trajes tradicionais e famílias inteiras a partilhar um espaço que se encheu de Peru." data-compartir-recurso-titulo="A Ubuntu Canarias nas Fiestas Patrias da comunidade peruana" data-compartir-recurso-url="https://ubuntucanarias.org/pt/noticia-fiestas-patrias-peru.html">
+<span class="compartir-mini__etiqueta" data-i18n="compartirMini.etiqueta">Partilhe nas suas redes</span>
+<button aria-label="Copiar enlace para compartir en Instagram" class="compartir-mini__boton compartir-mini__boton--instagram" data-compartir="instagram" type="button"><svg fill="none" height="14" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="14"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></button>
+<a aria-label="Compartir en LinkedIn" class="compartir-mini__boton compartir-mini__boton--linkedin" data-compartir="linkedin" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.2h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.6H9z"></path></svg></a><a aria-label="Compartir por WhatsApp" class="compartir-mini__boton compartir-mini__boton--whatsapp" data-compartir="whatsapp" href="#" rel="noopener noreferrer" target="_blank"><svg fill="currentColor" height="14" viewbox="0 0 24 24" width="14"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.9-4.44 9.9-9.9 0-2.64-1.03-5.13-2.9-7-1.87-1.87-4.35-2.9-6.99-2.9zm0 18.12a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.36c0-4.53 3.68-8.21 8.21-8.21a8.16 8.16 0 0 1 5.8 2.4 8.16 8.16 0 0 1 2.41 5.8c0 4.53-3.68 8.21-8.2 8.21zm4.5-6.15c-.25-.12-1.46-.72-1.68-.8-.23-.08-.4-.12-.56.13-.17.25-.65.8-.79.96-.15.17-.29.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.45-1.37-1.7-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.16-.24.25-.4.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.08 0 1.22.89 2.4 1.01 2.57.12.17 1.76 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.46-.6 1.67-1.16.2-.58.2-1.07.14-1.17-.06-.11-.23-.17-.48-.29z"></path></svg></a>
+<p class="compartir-mini__nota" data-i18n="recursos.noticiaFiestas.instagramNota" data-nota-instagram="" hidden="">Copiámos a hiperligação e abrimos o Instagram: basta colá-la na sua história ou publicação.</p>
+</div>
+</div>
+</article>
+<article class="tarjeta-articulo tarjeta-articulo--con-foto" data-categoria="noticia">
+<div class="tarjeta-articulo__cuerpo">
+<span class="etiqueta etiqueta--noticia" data-i18n="noticias.proximo1.etiqueta">Notícias</span>
+<h2 data-i18n="noticias.proximo1.titulo">Próximas parcerias e novidades</h2>
+<p data-i18n="noticias.proximo1.texto">Estamos a expandir a nossa rede de colaboração. Em breve publicaremos aqui novidades sobre projetos e parcerias.</p>
+<div class="tarjeta-articulo__pie">
+<span class="tarjeta-articulo__formato" data-i18n="recursos.proximamente">Brevemente</span>
+<a class="tarjeta-articulo__enlace" href="contacto.html"><span data-i18n="recursos.mantenteAlTanto">Fique atento</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<section class="pub-seccion" style="padding-top:0;padding-bottom:44px">
+<div class="contenedor">
+<div class="pub-confianza">
+<p><strong data-i18n="footer.eslogan">Apoiamos pessoas migrantes no seu processo de integração social, laboral e comunitária nas Ilhas Canárias.</strong></p>
+<a class="pub-confianza__enlace" href="quienes-somos.html"><span data-i18n="nav.quienesSomos">Quem somos</span> <svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</section>
+
+<section class="seccion-legal seccion-boletin">
+<div class="contenedor">
+<div class="suscripcion suscripcion--estrecha">
+<span aria-hidden="true" class="suscripcion__decoracion"></span>
+<div class="suscripcion__interior">
+<div class="suscripcion__intro">
+<span aria-hidden="true" class="suscripcion__icono">
+<svg fill="none" height="18" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="18"><rect height="14" rx="3" width="18" x="3" y="5"></rect><path d="m4 7 8 6 8-6"></path></svg>
+</span>
+<h2 data-i18n="newsletter.suscripcion.titulo">Receba o nosso blogue por email</h2>
+<p data-i18n="newsletter.suscripcion.texto">Uma vez por mês, sem spam. Pode cancelar a subscrição quando quiser.</p>
+<p class="suscripcion__extra">
+<svg aria-hidden="true" class="suscripcion__extra-icono" fill="none" height="16" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="16"><rect height="13" rx="2" width="20" x="2" y="7"></rect><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"></path><path d="M2 13h20"></path></svg>
+<span data-i18n="newsletter.suscripcion.extra">Além disso, todos os meses também receberá uma seleção de ofertas de emprego em Gran Canaria, organizadas por setor.</span>
+</p>
+</div>
+<div class="sib-form-container" id="sib-form-container">
+<div class="sib-container--large sib-container--vertical" id="sib-container">
+<form action="https://286bece4.sibforms.com/serve/MUIFABPGPMHd3A7HcqRM1A6RzPRXfnj6UVcoGjRXz2S3iEzOs4km8t2pC2pQRu1NojPFSqMO6IUmLf6xuQMp-tFZhKmV9Vv5jTErOjyk0ce43Xu7WviqDLNQBxYZKpRoA-NkhpPrz71-9oqmwcG-YjEUm3WAkBe3QJUR2OoqyULrIkmKHGaEFBGJ9n8YwYezGGbCwYHbeguXBxBzqw==" data-type="subscription" id="sib-form" method="POST" target="sib-marco-oculto">
+<input id="suscripcion-locale" name="locale" type="hidden" value="es"/>
+<!-- Honeypot anti-spam propio de Brevo -->
+<div aria-hidden="true" class="suscripcion__campo-honeypot">
+<label for="email-verificacion-newsletter">Não preencher este campo</label>
+<input autocomplete="off" id="email-verificacion-newsletter" name="email_address_check" tabindex="-1" type="text"/>
+</div>
+<div class="sib-input sib-form-block formulario-suscripcion">
+<div class="form__entry entry_block formulario-suscripcion__campo">
+<div class="form__label-row">
+<label class="entry__label visualmente-oculto" data-i18n="newsletter.suscripcion.emailLabel" data-required="*" for="EMAIL">Endereço de email</label>
+<div class="entry__field">
+<svg aria-hidden="true" class="formulario-suscripcion__icono" fill="none" height="16" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="16"><rect height="14" rx="3" width="18" x="3" y="5"></rect><path d="m4 7 8 6 8-6"></path></svg>
+<input autocomplete="email" class="input formulario-suscripcion__input" data-i18n-placeholder="newsletter.suscripcion.emailPlaceholder" data-required="true" id="EMAIL" name="EMAIL" placeholder="you@email.com" required="" type="text" value=""/>
+</div>
+</div>
+<label class="entry__error entry__error--primary" for="EMAIL"></label>
+</div>
+<button class="formulario-suscripcion__boton" form="sib-form" id="boton-suscripcion" type="submit">
+<span data-i18n="newsletter.suscripcion.boton">Subscrever</span>
+<svg aria-hidden="true" fill="none" height="15" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="15"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+</button>
+</div>
+<p class="suscripcion__mensaje" hidden="" id="suscripcion-mensaje" role="status"></p>
+</form>
+<iframe aria-hidden="true" id="sib-marco-oculto" name="sib-marco-oculto" style="display:none" tabindex="-1" title="Envio de subscrição"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="seccion-legal seccion-boletin">
+<div class="contenedor">
+<div class="cta-boletin">
+<h2 data-i18n="newsletter.cta.titulo">Junte-se a nós para construir oportunidades</h2>
+<p data-i18n="newsletter.cta.texto">Voluntariado, donativos, associar-se ou ser parceiro como empresa: há muitas formas de fazer parte da Ubuntu Canarias.</p>
+<a class="boton-cta-boletin" data-i18n="newsletter.cta.boton" href="participa.html">Quero participar</a>
+</div>
+</div>
+</section>
+</main>
+<section class="franja-compass">
+<div class="franja-compass__interior">
+<div class="franja-compass__texto">
+<h3>A Ubuntu Canarias é membro da Rede de Colaboração COMPASS – Observatório da Mobilidade Humana entre as Canárias e África (Programa Interreg MAC 2021-2027)</h3>
+<p>Trabalhamos junto da Casa África, instituições públicas e organismos da África Ocidental por uma abordagem integral e humana dos fluxos migratórios.</p>
+</div>
+<div class="franja-compass__logos">
+<div class="franja-compass__logo">
+<img alt="Proyecto COMPASS" loading="lazy" src="../img/logo-compass.webp?v=20260727a"/>
+</div>
+<div class="franja-compass__logo">
+<img alt="Interreg MAC 2021-2027 — Cofinanciado por la Unión Europea" loading="lazy" src="../img/logo-mac-interreg.jpg?v=20260727a"/>
+</div>
+</div>
+<a class="franja-compass__cta" href="proyecto-compass.html">
+Saber mais sobre o COMPASS
+<svg fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewbox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7"></path></svg>
+</a>
+</div>
+</section>
+<footer class="pie">
+<div class="contenedor">
+<div class="pie__interior">
+<div class="pie__marca-col">
+<div class="pie__marca">
+<img alt="Ubuntu Canarias" height="202" loading="lazy" src="../img/logo-ubuntu-canarias-pt.png?v=20260802a" width="470"/>
+</div>
+<p class="pie__eslogan" data-i18n="footer.eslogan">Apoiamos pessoas migrantes no seu processo de integração social, laboral e comunitária nas Ilhas Canárias.</p>
+<div class="pie__redes">
+<a aria-label="Instagram" href="https://www.instagram.com/ubuntucanarias?igsh=MXZ6MTJkZm82Z3N6ZA==" rel="noopener noreferrer" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+<a aria-label="LinkedIn" href="https://www.linkedin.com/company/ubuntu-canarias/" rel="noopener noreferrer" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><rect height="18" rx="3" width="18" x="3" y="3"></rect><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 13v4"></path></svg></a>
+</div>
+</div>
+<div>
+<h4 data-i18n="footer.navegacion">Navegação</h4>
+<ul>
+<li><a data-i18n="nav.quienesSomos" href="quienes-somos.html">Quem somos</a></li>
+<li><a data-i18n="nav.queHacemos" href="que-hacemos.html">O que fazemos</a></li>
+<li><a data-i18n="nav.participa" href="participa.html">Participa</a></li>
+<li><a data-i18n="nav.recursos" href="recursos.html">Recursos</a></li>
+<li><a data-i18n="nav.publicaciones" href="publicaciones.html">Publicações</a></li>
+<li><a data-i18n="nav.vocesDelMundo" href="voces-del-mundo.html">Vozes do Mundo</a></li>
+<li><a data-i18n="nav.contacto" href="contacto.html">Contacto</a></li>
+</ul>
+</div>
+<div>
+<h4 data-i18n="footer.contacto">Contacto</h4>
+<ul><li><a href="mailto:info@ubuntucanarias.org">info@ubuntucanarias.org</a></li></ul>
+</div>
+</div>
+<div class="pie__inferior">
+<span>© 2026 Ubuntu Canarias</span>
+<ul>
+<li><a data-i18n="footer.avisoLegal" href="aviso-legal.html">Aviso legal</a></li>
+<li><a data-i18n="footer.privacidad" href="privacidad.html">Política de privacidade</a></li>
+<li><a data-i18n="footer.cookies" href="cookies.html">Cookies</a></li>
+<li><a data-i18n="footer.transparencia" href="transparencia.html">Transparência</a></li>
+</ul>
+</div>
+</div>
+</footer>
+<script defer="" src="../js/idiomas.js?v=20260726a"></script>
+<script defer="" src="../js/app.js?v=20260730a"></script>
+<script>
+(function () {
+  var botones = document.querySelectorAll('.blog-filtros__boton');
+  var contenidoBloques = document.querySelectorAll('[data-bloque]:not(.pagina-hero-simple)');
+  var heroBloques = document.querySelectorAll('.pagina-hero-simple[data-bloque]');
+  botones.forEach(function (boton) {
+    boton.addEventListener('click', function () {
+      botones.forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+      boton.setAttribute('aria-pressed', 'true');
+      var filtro = boton.getAttribute('data-filtro');
+      contenidoBloques.forEach(function (bloque) {
+        bloque.hidden = !(filtro === 'todo' || bloque.getAttribute('data-bloque') === filtro);
+      });
+      heroBloques.forEach(function (bloque) {
+        var esElBloqueBlog = bloque.getAttribute('data-bloque') === 'blog';
+        bloque.hidden = filtro === 'todo' ? !esElBloqueBlog : bloque.getAttribute('data-bloque') !== filtro;
+      });
+    });
+  });
+})();
+</script>
+<script>
+(function () {
+  var imagenHero = document.querySelector('.newsletter-hero__imagen--animada');
+  if (!imagenHero) return;
+  if (!('IntersectionObserver' in window)) { imagenHero.classList.add('en-vista'); return; }
+  var observador = new IntersectionObserver(function (entradas) {
+    entradas.forEach(function (entrada) {
+      if (entrada.isIntersecting) { imagenHero.classList.add('en-vista'); observador.unobserve(entrada.target); }
+    });
+  }, { threshold: 0.2 });
+  observador.observe(imagenHero);
+})();
+</script>
+<script>
+(function () {
+  var idioma = localStorage.getItem('ubuntu-canarias-idioma') || 'es';
+  var mensajes = {
+    es: { requerido: 'Este campo no puede quedarse vacío.', formato: 'La información que has proporcionado no es válida. Comprueba el formato del campo e inténtalo de nuevo.' },
+    en: { requerido: 'This field cannot be left blank.', formato: 'The information you provided is not valid. Please check the field format and try again.' },
+    pt: { requerido: 'Este campo não pode ficar vazio.', formato: 'A informação fornecida não é válida. Verifique o formato do campo e tente novamente.' },
+    fr: { requerido: 'Ce champ ne peut pas rester vide.', formato: "Les informations fournies ne sont pas valides. Vérifiez le format du champ et réessayez." },
+    ar: { requerido: 'هذا الحقل لا يمكن أن يبقى فارغًا.', formato: 'المعلومات التي قدمتها غير صحيحة. يرجى التحقق من تنسيق الحقل والمحاولة مرة أخرى.' }
+  };
+  var textos = mensajes[idioma] || mensajes.es;
+  window.REQUIRED_CODE_ERROR_MESSAGE = textos.requerido;
+  window.LOCALE = idioma;
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = textos.formato;
+  window.REQUIRED_ERROR_MESSAGE = textos.requerido;
+  window.GENERIC_INVALID_MESSAGE = textos.formato;
+  window.INVALID_NUMBER = textos.formato;
+  window.INVALID_DATE = textos.formato;
+  window.REQUIRED_MULTISELECT_MESSAGE = textos.requerido;
+  window.translation = { common: { selectedList: '{quantity} lista seleccionada', selectedLists: '{quantity} listas seleccionadas', selectedOption: '{quantity} seleccionado', selectedOptions: '{quantity} seleccionados' } };
+  var AUTOHIDE = Boolean(0);
+})();
+document.addEventListener('DOMContentLoaded', () => {
+  const campoLocale = document.getElementById('suscripcion-locale');
+  function sincronizarLocale() { if (campoLocale) campoLocale.value = localStorage.getItem('ubuntu-canarias-idioma') || 'es'; }
+  sincronizarLocale();
+  document.querySelectorAll('[data-idioma]').forEach((botonIdioma) => { botonIdioma.addEventListener('click', () => setTimeout(sincronizarLocale, 0)); });
+  const formulario = document.getElementById('sib-form');
+  const campoEmail = document.getElementById('EMAIL');
+  const boton = document.getElementById('boton-suscripcion');
+  const mensaje = document.getElementById('suscripcion-mensaje');
+  const REGEX_EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const TEXTOS_POR_DEFECTO = {
+    errorValidacion: 'Introduce un correo electrónico válido.',
+    exito: '¡Gracias! Revisa tu correo para confirmar la suscripción.',
+    error: 'No hemos podido enviar tu suscripción. Comprueba tu conexión e inténtalo de nuevo, o escríbenos a info@ubuntucanarias.org.'
+  };
+  async function obtenerTextosSuscripcion() {
+    const idioma = localStorage.getItem('ubuntu-canarias-idioma') || 'es';
+    if (idioma === 'es') return TEXTOS_POR_DEFECTO;
+    try {
+      const respuesta = await fetch(`js/i18n/${idioma}.json`);
+      if (!respuesta.ok) throw new Error('No se pudo cargar el idioma');
+      const datos = await respuesta.json();
+      return { ...TEXTOS_POR_DEFECTO, ...(datos.newsletter && datos.newsletter.suscripcion) };
+    } catch (error) { return TEXTOS_POR_DEFECTO; }
+  }
+  const marcoOculto = document.getElementById('sib-marco-oculto');
+  // Con doble opt-in activado, Brevo no redirige el iframe a una página
+  // nuestra al enviar el formulario: muestra su propio mensaje interno
+  // ("revisa tu correo") dentro de sibforms.com. La redirección a una
+  // página nuestra solo ocurre cuando la persona confirma desde el
+  // enlace del correo, en otra pestaña — este iframe nunca la ve.
+  // Por tanto, aquí NO se puede (ni se debe) esperar a leer esa URL para
+  // decidir si mostrar éxito: en cuanto el iframe recibe cualquier
+  // respuesta de Brevo, se interpreta como "formulario recibido" y se
+  // muestra el mensaje de "revisa tu correo", que es la verdad en ese
+  // momento tanto si Brevo aceptó como si lo rechazó server-side.
+  let envioEnCurso = false;
+  let avisoSinRespuesta = null;
+  function mostrarExito(textos) {
+    formulario.reset();
+    boton.disabled = false;
+    mensaje.textContent = textos.exito;
+    mensaje.className = 'suscripcion__mensaje suscripcion__mensaje--exito';
+    mensaje.hidden = false;
+  }
+  function mostrarError(textos) {
+    boton.disabled = false;
+    mensaje.textContent = textos.error;
+    mensaje.className = 'suscripcion__mensaje suscripcion__mensaje--error';
+    mensaje.hidden = false;
+  }
+  if (marcoOculto) {
+    marcoOculto.addEventListener('load', async () => {
+      if (!envioEnCurso) return;
+      envioEnCurso = false;
+      if (avisoSinRespuesta) clearTimeout(avisoSinRespuesta);
+      const textos = await obtenerTextosSuscripcion();
+      mostrarExito(textos);
+    });
+  }
+  if (formulario && campoEmail && boton && mensaje) {
+    formulario.addEventListener('submit', async (evento) => {
+      const textos = await obtenerTextosSuscripcion();
+      if (!campoEmail.value || !REGEX_EMAIL.test(campoEmail.value)) {
+        evento.preventDefault();
+        mensaje.textContent = textos.errorValidacion;
+        mensaje.className = 'suscripcion__mensaje suscripcion__mensaje--error';
+        mensaje.hidden = false;
+        campoEmail.focus();
+        return;
+      }
+      mensaje.hidden = true;
+      boton.disabled = true;
+      envioEnCurso = true;
+      // Solo es un fallo real si el iframe no responde absolutamente nada
+      // en 20s (red caída, endpoint inaccesible, o bloqueado por un
+      // bloqueador de anuncios/privacidad). Si responde algo, aunque no
+      // podamos leer el contenido, es el listener 'load' de arriba el que
+      // decide, no este timeout.
+      avisoSinRespuesta = setTimeout(() => {
+        if (!envioEnCurso) return;
+        envioEnCurso = false;
+        mostrarError(textos);
+      }, 20000);
+    });
+  }
+});
+</script>
+</body>
+</html>

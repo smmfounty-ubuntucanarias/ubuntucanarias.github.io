@@ -1,0 +1,909 @@
+{
+  "meta": {
+    "title": "Ubuntu Canarias — Acolhimento e integração de pessoas migrantes nas Canárias",
+    "description": "A Ubuntu Canarias acompanha pessoas migrantes e as suas famílias no processo de integração social, laboral e comunitária nas Ilhas Canárias."
+  },
+  "nav": {
+    "inicio": "Início",
+    "quienesSomos": "Quem somos",
+    "queHacemos": "O que fazemos",
+    "participa": "Participe",
+    "recursos": "Recursos",
+    "blog": "Blog",
+    "contacto": "Contacto",
+    "noticias": "Notícias",
+    "publicaciones": "Publicações",
+    "vocesDelMundo": "Vozes do Mundo"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Acolhimento e integração",
+      "titulo": "Construímos oportunidades.<br>Acompanhamos pessoas.",
+      "subtitulo": "A Ubuntu Canarias acompanha pessoas migrantes e as suas famílias durante o seu processo de integração social, laboral e comunitária, oferecendo orientação, apoio e novas oportunidades para construir um futuro com esperança.",
+      "botonPrimario": "Pedir orientação",
+      "botonSecundario": "Conheça a Ubuntu Canarias"
+    },
+    "servicios": {
+      "acogida": {
+        "titulo": "Acolhimento e orientação",
+        "texto": "Primeiro contacto, informação e acompanhamento personalizado desde o primeiro dia."
+      },
+      "empleo": {
+        "titulo": "Emprego e formação",
+        "texto": "Orientação laboral, capacitação e acesso a oportunidades reais de futuro."
+      },
+      "apoyo": {
+        "titulo": "Apoio psicossocial",
+        "texto": "Escuta, contenção emocional e acompanhamento nos processos pessoais."
+      },
+      "mediacion": {
+        "titulo": "Mediação intercultural",
+        "texto": "Uma ponte entre culturas para uma convivência respeitosa e uma integração real."
+      }
+    },
+    "cierre": {
+      "titulo": "Ninguém chega sozinho. Ninguém se integra sozinho.",
+      "texto": "Fazemo-lo juntos, com respeito e esperança.",
+      "boton": "Participe connosco"
+    }
+  },
+  "quienesSomos": {
+    "hero": {
+      "eyebrow": "Quem somos",
+      "titulo": "A nossa abordagem",
+      "subtitulo": "Acreditamos numa integração digna, participativa e transformadora.",
+      "descripcion": "Para nós, a integração não é um trâmite que se resolve com um papel ou um contrato, mas sim um processo que se constrói dia após dia, junto da pessoa e ao seu ritmo. Por isso, combinamos a orientação prática — jurídica, laboral, formativa — com um acompanhamento psicossocial que reconhece aquilo que cada pessoa traz consigo: a sua história, as suas capacidades e o seu direito a decidir sobre a própria vida. Trabalhamos para que quem chega não seja um mero recetor de ajuda, mas sim protagonista ativo do seu próprio processo, e para que a sociedade de acolhimento também se transforme pelo caminho, aprendendo a olhar para a migração como uma oportunidade e não como um problema a gerir."
+    },
+    "historia": {
+      "eyebrow": "A nossa história",
+      "titulo": "Nasce da experiência, não da teoria",
+      "parrafo1": "A Ubuntu Canarias nasce do encontro entre pessoas que, vindas de lugares e percursos diferentes, partilham uma mesma convicção: a de que o acolhimento e a integração se constroem acompanhando, e não a partir de gabinetes alheios à realidade de quem chega.",
+      "parrafo2": "A associação constitui-se em Las Palmas de Gran Canaria, impulsionada por quatro sócias e sócios fundadores, como resposta direta às necessidades que a equipa viu, ouviu e trabalhou durante anos de intervenção social, orientação laboral e apoio psicossocial a pessoas migrantes no arquipélago.",
+      "parrafo3": "Começámos a tecer uma rede com entidades, administrações e cidadania, com a vocação de crescer sem nunca perder a proximidade e a escuta com que nascemos.",
+      "hito1": {
+        "fecha": "O encontro"
+      },
+      "hito2": {
+        "fecha": "Constituição legal"
+      },
+      "hito3": {
+        "fecha": "Hoje — O caminho continua"
+      }
+    },
+    "confianza": {
+      "constituida": "Constituída legalmente",
+      "registro": "Inscrita no Registo de Associações das Canárias",
+      "sede": "Sede em Las Palmas de Gran Canaria"
+    },
+    "video": {
+      "eyebrow": "Conheça-nos",
+      "titulo": "Ubuntu Canarias em 2 minutos",
+      "descripcion": "Um breve percurso narrado sobre o que fazemos e porque o fazemos.",
+      "reproducir": "Reproduzir vídeo: Ubuntu Canarias em 2 minutos",
+      "subtitulosNota": "· Ative-as a partir do ícone <svg fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24'><circle cx='12' cy='12' r='3'></circle><path d='M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82 .33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z'></path></svg> de definições do leitor"
+    },
+    "compromiso": {
+      "titulo": "Compromisso",
+      "texto": "Atuamos com rigor e prestação de contas perante as pessoas que acompanhamos, as nossas entidades parceiras e a sociedade canária no seu conjunto."
+    },
+    "gobernanza": {
+      "eyebrow": "Como trabalhamos",
+      "titulo": "Governação e transparência",
+      "texto1": "A Ubuntu Canarias rege-se por uma Direção eleita pela Assembleia de sócias e sócios, responsável por zelar pelo cumprimento dos nossos Estatutos e pela boa utilização dos recursos da associação.",
+      "texto2": "Acreditamos que a confiança se constrói mostrando abertamente quem somos, como nos organizamos e de onde vêm os nossos fundos. Por isso, disponibilizamos a qualquer pessoa a nossa informação legal e de governação.",
+      "botonTransparencia": "Informação legal e transparência",
+      "botonJunta": "Conheça a Direção",
+      "fichaTitulo": "Ficha legal da entidade",
+      "denominacionLabel": "Denominação",
+      "nifLabel": "NIF",
+      "nifValor": "G93823086",
+      "registroLabel": "Registo",
+      "registroValor": "Registo de Associações das Canárias",
+      "ambitoLabel": "Âmbito",
+      "ambitoValor": "Regional — Canárias",
+      "sedeLabel": "Sede",
+      "sedeValor": "Las Palmas de Gran Canaria"
+    },
+    "mision": {
+      "titulo": "Missão",
+      "texto": "Acompanhar pessoas migrantes e as suas famílias no seu processo de integração social, laboral e comunitária nas Canárias, oferecendo orientação, formação e apoio psicossocial a partir do respeito pela sua autonomia e dignidade."
+    },
+    "vision": {
+      "titulo": "Visão",
+      "texto": "Uma sociedade canária onde a migração seja entendida como uma oportunidade de enriquecimento mútuo, e onde toda a pessoa, seja qual for a sua origem, tenha acesso real a construir o seu próprio projeto de vida."
+    },
+    "valores": {
+      "eyebrow": "Os nossos valores",
+      "titulo": "O que guia cada acompanhamento",
+      "escucha": {
+        "titulo": "Escuta ativa",
+        "texto": "Ouvimos sem julgamentos para compreender cada história e responder a necessidades reais."
+      },
+      "acompanamiento": {
+        "titulo": "Acompanhamento sem dependência",
+        "texto": "Caminhamos junto de cada pessoa, fomentando a sua autonomia e as suas próprias decisões."
+      },
+      "mirada": {
+        "titulo": "Olhar intercultural",
+        "texto": "Valorizamos a diversidade cultural como uma riqueza que constrói comunidades mais humanas."
+      },
+      "transparencia": {
+        "titulo": "Transparência",
+        "texto": "Atuamos com honestidade e responsabilidade, prestando contas às pessoas e à sociedade."
+      },
+      "red": {
+        "titulo": "Trabalho em rede",
+        "texto": "Colaboramos com entidades, administrações e cidadania para multiplicar o nosso impacto."
+      }
+    },
+    "frase": "Ninguém chega sozinho. Ninguém se integra sozinho. Fazemo-lo juntos, com respeito e esperança.",
+    "citaFundadora": {
+      "texto": "Fundei a Ubuntu Canarias para construir o projeto com que sempre sonhei: acompanhar pessoas migrantes a partir da experiência vivida, não só da teoria.",
+      "nombre": "Soraya Mohamedi Mohamed",
+      "cargo": "Presidente e sócia fundadora"
+    },
+    "ctaEquipo": {
+      "titulo": "Conheça as pessoas que tornam isto possível",
+      "texto": "Uma equipa diversa, empenhada e próxima.",
+      "boton": "Conheça a nossa equipa"
+    }
+  },
+  "equipo": {
+    "eyebrow": "A nossa equipa",
+    "titulo": "Pessoas que tornam possível a integração nas Canárias",
+    "subtitulo": "Somos uma equipa diversa, empenhada e apaixonada por construir uma sociedade mais inclusiva e solidária.",
+    "soraya": {
+      "cargo": "Presidente",
+      "linea1": "Psicóloga com mais de 30 anos de experiência em migração, intervenção social e orientação sociolaboral.",
+      "linea2": "Fundou a Ubuntu Canarias para construir o projeto com que sempre sonhou: acompanhar pessoas migrantes a partir da experiência vivida, não só da teoria.",
+      "conoceMasMini": "Conheça-me mais",
+      "conoceMas": "Conheça mais sobre mim"
+    },
+    "araceli": {
+      "cargo": "Secretária-Geral",
+      "linea1": "Auxiliar de enfermagem com experiência em vários hospitais públicos da ilha, e uma paciência que poucos têm.",
+      "linea2": "Juntou-se à Ubuntu Canarias com a ilusão de se especializar na área social, especialmente com pessoas idosas, crianças e imigrantes."
+    },
+    "kevin": {
+      "cargo": "Sócio fundador e Tesoureiro",
+      "linea1": "Técnico informático com um percurso profissional já bem definido, apesar da sua juventude.",
+      "linea2": "Colabora com a Ubuntu Canarias porque gosta de ajudar, e vê na tecnologia uma ferramenta para o fazer melhor."
+    },
+    "elisa": {
+      "cargo": "Sócia fundadora",
+      "linea1": "Especialista em nutrição, com planos de continuar a formar-se na área social.",
+      "linea2": "Juntou-se à Ubuntu Canarias porque adora ajudar e acredita no trabalho de proximidade."
+    },
+    "cta": {
+      "titulo": "Junte-se à nossa missão",
+      "texto": "O seu tempo, a sua experiência ou o seu apoio podem transformar vidas.",
+      "boton": "Quero colaborar"
+    }
+  },
+  "queHacemos": {
+    "eyebrow": "O que fazemos",
+    "titulo": "Um acompanhamento completo, passo a passo",
+    "subtitulo": "Do primeiro contacto até à plena autonomia, oferecemos um acompanhamento integral adaptado a cada pessoa e a cada momento do seu processo, tanto presencialmente como à distância.",
+    "orientacion": {
+      "titulo": "Orientação jurídica",
+      "texto": "Informação e acompanhamento em matéria de estrangeiros, asilo e proteção internacional, juntamente com assistência na tramitação de processos administrativos. Ouvimos cada situação antes de indicar um caminho, para que cada pessoa entenda as suas opções reais."
+    },
+    "integracion": {
+      "titulo": "Integração e primeiro acolhimento",
+      "texto": "Acompanhamos o processo de instalação na comunidade: facilitamos o acesso à habitação, à educação e aos serviços sociais e de saúde, e ligamos cada pessoa ao tecido associativo e de vizinhança das Canárias."
+    },
+    "insercion": {
+      "titulo": "Orientação sociolaboral e intermediação laboral",
+      "texto": "Concebemos percursos personalizados de inserção laboral, realizamos prospeção de emprego e acompanhamos na procura ativa, colaborando com empresas para facilitar a contratação de pessoas migrantes.",
+      "boton": "Receba ofertas de emprego"
+    },
+    "formacion": {
+      "titulo": "Formação",
+      "texto": "Como atividade complementar às nossas áreas principais, promovemos cursos de espanhol, alfabetização digital e formação pré-laboral, juntamente com workshops de competências transversais que abrem portas a novas oportunidades."
+    },
+    "acompanamiento": {
+      "titulo": "Apoio psicossocial",
+      "texto": "Oferecemos apoio psicológico individual e em grupo, com especial atenção aos processos de luto migratório, ao acompanhamento emocional e ao encaminhamento para recursos especializados de saúde mental quando necessário."
+    },
+    "interculturalidad": {
+      "titulo": "Mediação intercultural e sensibilização",
+      "texto": "Facilitamos a comunicação e a resolução de conflitos entre pessoas de culturas diferentes, as instituições e a sociedade de acolhimento, e promovemos palestras, workshops e campanhas destinadas a combater o racismo e a xenofobia."
+    },
+    "cta": {
+      "titulo": "Precisa de orientação?",
+      "texto": "Escreva-nos e acompanhamo-lo desde o primeiro passo, presencialmente ou à distância."
+    },
+    "fines": {
+      "eyebrow": "A nossa razão de ser",
+      "titulo": "Acolhimento, integração e defesa de direitos",
+      "texto": "A Ubuntu Canarias é uma associação sem fins lucrativos que trabalha pelo acolhimento e pela integração social, jurídica e laboral das pessoas migrantes e das suas famílias nas Canárias. Combinamos a orientação jurídica em matéria de estrangeiros, asilo e proteção internacional com o apoio psicossocial, a mediação intercultural, a orientação sociolaboral e a sensibilização comunitária, com o objetivo de facilitar o acesso a direitos, recursos e oportunidades em condições de igualdade."
+    },
+    "colectivos": {
+      "etiqueta": "A quem dirigimos a nossa atuação?",
+      "item1": "Pessoas migrantes e as suas famílias",
+      "item2": "Menores não acompanhados",
+      "item3": "Mulheres migrantes em situação de vulnerabilidade",
+      "item4": "Vítimas de tráfico humano e de violência de género",
+      "item5": "Pessoas requerentes de proteção internacional e asilo",
+      "item6": "Sociedade de acolhimento, através da sensibilização comunitária"
+    },
+    "areas": {
+      "eyebrow": "Áreas de atuação",
+      "titulo": "As nossas principais linhas de trabalho",
+      "texto": "Segundo os nossos estatutos, desenvolvemos a nossa atividade em cinco áreas de trabalho principais. A formação soma-se como atividade complementar, presente de forma transversal nas restantes áreas."
+    },
+    "etiquetaPrincipal": "Área principal",
+    "etiquetaComplementaria": "Atividade complementar",
+    "ambitos": {
+      "eyebrow": "Mais áreas de trabalho",
+      "titulo": "Outras áreas que também fazem parte da nossa atividade",
+      "texto": "Os nossos estatutos contemplam ainda as seguintes linhas de atuação, que desenvolvemos consoante as necessidades identificadas e os recursos disponíveis.",
+      "voluntariado": {
+        "titulo": "Voluntariado",
+        "texto": "Captação, formação e coordenação de pessoas voluntárias como via de participação social solidária."
+      },
+      "vulnerabilidad": {
+        "titulo": "Grupos em especial vulnerabilidade",
+        "texto": "Atenção específica a menores não acompanhados, mulheres migrantes, vítimas de tráfico humano ou de violência de género, e pessoas requerentes de proteção internacional."
+      },
+      "primeraAcogida": {
+        "titulo": "Primeiro acolhimento",
+        "texto": "Informação básica, orientação e encaminhamento para os serviços públicos competentes nos primeiros momentos após a chegada."
+      },
+      "tramites": {
+        "titulo": "Trâmites administrativos",
+        "texto": "Acompanhamento em diligências de carácter geral, como o registo de residência, o cartão de saúde ou o pedido de marcações junto das administrações públicas."
+      },
+      "incidencia": {
+        "titulo": "Incidência e trabalho em rede",
+        "texto": "Participação em redes, plataformas e fóruns de entidades do terceiro setor, e colaboração com administrações públicas, universidades e outras organizações."
+      },
+      "materiales": {
+        "titulo": "Materiais e divulgação",
+        "texto": "Elaboração de guias, folhetos e conteúdo digital sobre estrangeiros, proteção internacional e recursos sociais, em vários idiomas."
+      }
+    },
+    "tituloLinea1": "Um acompanhamento completo,",
+    "tituloLinea2": "passo a passo",
+    "caracteristicas": {
+      "escucha": {
+        "titulo": "Escuta e orientação",
+        "texto": "Ouvimo-lo, compreendemos a sua situação e orientamo-lo desde o primeiro momento."
+      },
+      "planificacion": {
+        "titulo": "Planeamento personalizado",
+        "texto": "Concebemos consigo um plano adaptado às suas necessidades e objetivos."
+      },
+      "acompanamiento": {
+        "titulo": "Acompanhamento contínuo",
+        "texto": "Apoiamo-lo em cada passo do processo, esclarecendo dúvidas e abrindo caminhos."
+      },
+      "autonomia": {
+        "titulo": "Autonomia e futuro",
+        "texto": "Trabalhamos para que ganhe confiança, autonomia e possa construir o seu projeto de vida."
+      }
+    },
+    "cierre": {
+      "titulo": "Não está sozinho, estamos consigo.",
+      "texto": "Em cada passo, em cada decisão, em cada novo começo.",
+      "tagline": "Acompanhamento real, humano e próximo."
+    }
+  },
+  "participa": {
+    "eyebrow": "Participe",
+    "titulo": "Junte-se a nós para construir oportunidades",
+    "subtitulo": "Há muitas formas de fazer parte da Ubuntu Canarias. Escolha a que melhor se adapta a si.",
+    "voluntariado": {
+      "titulo": "Voluntariado",
+      "texto": "Dedique o seu tempo e a sua experiência a acompanhar diretamente pessoas migrantes no seu processo de integração.",
+      "boton": "Quero ser voluntário/a"
+    },
+    "donaciones": {
+      "titulo": "Donativos",
+      "texto": "A sua contribuição económica, pontual ou periódica, sustenta os programas de acolhimento, formação e apoio psicossocial.",
+      "boton": "Quero doar"
+    },
+    "socio": {
+      "titulo": "Torne-se sócio/a",
+      "texto": "Faça parte da associação de forma estável e apoie com a sua quota o nosso trabalho contínuo nas Canárias.",
+      "boton": "Quero tornar-me sócio/a"
+    },
+    "colabora": {
+      "titulo": "Colabore",
+      "texto": "Empresas, entidades e instituições podem colaborar com recursos, formação, emprego ou parcerias estratégicas.",
+      "boton": "Quero colaborar"
+    }
+  },
+  "blog": {
+    "eyebrow": "Recursos",
+    "titulo": "Recursos úteis",
+    "subtitulo": "Materiais práticos e para download, destinados a pessoas migrantes e a quem quer colaborar connosco.",
+    "cta": {
+      "titulo": "Tem algo para contar ou partilhar?",
+      "texto": "Se quiser colaborar com conteúdo, recursos ou uma história, escreva-nos."
+    }
+  },
+  "contacto": {
+    "eyebrow": "Contacto",
+    "titulo": "Escreva-nos",
+    "subtitulo": "Conte-nos a sua situação ou o motivo da sua consulta. Responderemos o mais rapidamente possível.",
+    "campos": {
+      "nombre": "Nome *",
+      "apellidos": "Apelidos *",
+      "email": "Correio eletrónico *",
+      "telefono": "Telefone",
+      "motivo": "Motivo da consulta *",
+      "motivoPlaceholder": "Selecione uma opção",
+      "mensaje": "Mensagem *",
+      "privacidadPre": "Li e aceito a"
+    },
+    "motivo": {
+      "informacion": "Informação",
+      "primeraAcogida": "Primeiro acolhimento",
+      "empleo": "Emprego",
+      "formacion": "Formação",
+      "participar": "Participar",
+      "vocesDelMundo": "Vozes do Mundo",
+      "voluntariado": "Voluntariado",
+      "donacion": "Donativo",
+      "colaboracionInstitucional": "Colaboração institucional",
+      "empresaColaboradora": "Empresa parceira",
+      "otraConsulta": "Outra consulta"
+    },
+    "enviar": "Enviar",
+    "directo": {
+      "titulo": "Prefere escrever-nos diretamente?",
+      "copiar": "Copiar",
+      "copiado": "Copiado!"
+    },
+    "errorCampos": "Reveja os campos assinalados antes de enviar o formulário.",
+    "errorEnvio": "Não foi possível enviar o formulário. Tente novamente dentro de instantes ou escreva-nos para info@ubuntucanarias.org."
+  },
+  "gracias": {
+    "titulo": "Obrigado por confiar na Ubuntu Canarias",
+    "texto1": "Recebemos corretamente a sua mensagem. A nossa equipa irá analisá-la e entrará em contacto consigo o mais brevemente possível.",
+    "texto2": "Obrigado por confiar na nossa associação. Juntos construímos oportunidades, esperança e integração.",
+    "boton": "Voltar ao início"
+  },
+  "error404": {
+    "titulo": "Não encontrámos esta página",
+    "texto": "É possível que a ligação esteja quebrada, que a página tenha sido movida ou que já não exista. Volte ao início ou consulte estas secções.",
+    "botonPrimario": "Voltar ao início",
+    "botonSecundario": "Contactar-nos",
+    "enlacesTitulo": "Ou talvez procurasse..."
+  },
+  "footer": {
+    "tagline": "Acolhimento e Integração",
+    "eslogan": "Acompanhamos pessoas migrantes no seu processo de integração social, laboral e comunitária nas Ilhas Canárias.",
+    "navegacion": "Navegação",
+    "contacto": "Contacto",
+    "avisoLegal": "Aviso legal",
+    "privacidad": "Política de privacidade",
+    "cookies": "Cookies",
+    "transparencia": "Transparência"
+  },
+  "recursos": {
+    "viviendaEmpleo": {
+      "etiqueta": "Habitação e emprego",
+      "titulo": "Habitação, emprego e exclusão social em Gran Canaria",
+      "texto": "Uma análise territorial de Soraya Mohamedi Mohamed, psicóloga especialista em migração, estrangeiros e inserção sociolaboral, com dados atualizados sobre habitação, emprego, pobreza e recursos sociais em Gran Canaria. Um documento pensado para apoiar a intervenção social e a orientação sociolaboral com evidência rigorosa sobre o território.",
+      "boton": "Descarregar PDF",
+      "formato": "PDF",
+      "soloEspanol": "Disponível apenas em espanhol"
+    },
+    "carrusel": {
+      "etiqueta": "Sensibilização",
+      "titulo": "Seis ideias para questionar os preconceitos sobre a migração",
+      "texto": "Um recurso visual com seis mensagens-chave para contrariar os estereótipos mais comuns sobre as pessoas migrantes: de onde vêm, o que procuram e o que trazem. Pensado para partilhar nas redes sociais ou usar em sessões de sensibilização.",
+      "boton": "Descarregar PDF",
+      "formato": "PDF",
+      "soloEspanol": "Disponível apenas em espanhol"
+    },
+    "noticiaPacto": {
+      "etiqueta": "Notícias",
+      "titulo": "O Pacto Europeu sobre Migração entra em vigor nas Canárias",
+      "texto": "As Canárias reivindicam em Bruxelas mecanismos de transferência rápida para o continente perante a aplicação do novo quadro europeu de asilo, que endurece os prazos de retenção na fronteira.",
+      "fecha": "25 de julho de 2026",
+      "boton": "Continuar a ler",
+      "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+    },
+    "noticiaCompass": {
+      "etiqueta": "Notícias",
+      "titulo": "A Ubuntu Canarias junta-se à Rede de Colaboração COMPASS",
+      "texto": "A Ubuntu Canarias foi admitida oficialmente como entidade colaboradora da Rede COMPASS, que reúne instituições, organizações sociais, universidades e empresas empenhadas na gestão da mobilidade humana entre a África Ocidental e as Canárias.",
+      "boton": "Continuar a ler",
+      "fecha": "22 de julho de 2026"
+    },
+    "primeraCita": {
+      "etiqueta": "Blog",
+      "titulo": "O que esperar na sua primeira consulta de orientação",
+      "texto": "Como é o primeiro encontro com a nossa equipa, que documentação convém trazer e o que acontece depois desse primeiro contacto.",
+      "formato": "5 min de leitura",
+      "boton": "Ler artigo"
+    },
+    "leyenda": {
+      "noticias": "Notícias",
+      "blog": "Blog",
+      "recursos": "Recursos"
+    },
+    "proximamente": "Brevemente",
+    "mantenteAlTanto": "Fique a par",
+    "proximo1": {
+      "etiqueta": "Blog",
+      "titulo": "O valor do acompanhamento personalizado",
+      "texto": "Porque escutar antes de orientar faz a diferença nos processos de integração, contado pela nossa equipa de apoio psicossocial.",
+      "formato": "5 min de leitura",
+      "boton": "Ler artigo"
+    },
+    "proximo2": {
+      "etiqueta": "Trâmites e direitos",
+      "titulo": "Guia básico de trâmites para recém-chegados",
+      "texto": "Um documento para download com os primeiros passos administrativos ao chegar às Canárias: registo de residência, saúde e marcação de consultas."
+    },
+    "proximo3": {
+      "etiqueta": "Saúde",
+      "titulo": "Diretório de recursos sociais e de saúde",
+      "texto": "Lista atualizada de centros de saúde, serviços sociais e entidades de apoio em Las Palmas de Gran Canaria."
+    },
+    "filtro": {
+      "todo": "Tudo",
+      "vacio": "Ainda não há conteúdo nesta categoria."
+    },
+    "clavesDerechos": {
+      "etiqueta": "Trâmites e direitos",
+      "titulo": "Regularização em curso: direitos e pontos-chave que deve conhecer",
+      "texto": "Que direitos mantém enquanto o seu pedido está a ser analisado, o que diz a lei sobre a admissão a trâmite e o que deve saber a empresa que o queira contratar.",
+      "formato": "PDF · 4 idiomas",
+      "descarga": "Descarregue no seu idioma",
+      "compartir": "Partilhar:",
+      "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+    },
+    "guiaSanitaria": {
+      "etiqueta": "Saúde",
+      "titulo": "Guia de saúde para pessoas migrantes nas Canárias",
+      "texto": "Informação simples sobre cuidados de saúde caso não tenha documentação administrativa: o que fazer se estiver doente ou tiver uma urgência, e que direitos mantém mesmo sem documentos.",
+      "formato": "PDF · 4 idiomas",
+      "descarga": "Descarregue no seu idioma",
+      "compartir": "Partilhar:",
+      "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+    },
+    "migracionesAfricanas": {
+      "etiqueta": "Sensibilização",
+      "titulo": "Migrações africanas para a Europa. Contextos da rota atlântica",
+      "texto": "Dirigido por Alberto José Muro Castillo e coordenado por Raquel Rojas Rubio (Dykinson, 2026). Uma análise académica dos contextos sociais, económicos e estruturais da rota migratória atlântica para as Canárias, com enfoque nos direitos humanos e nas políticas públicas de acolhimento.",
+      "boton": "Descarregar e-book gratuito",
+      "formato": "E-book PDF",
+      "soloEspanol": "Disponível apenas em espanhol",
+      "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+    },
+    "filtroTodo": "Tudo",
+    "filtroTramites": "Trâmites e direitos",
+    "filtroSalud": "Saúde",
+    "filtroViviendaEmpleo": "Habitação e emprego",
+    "filtroContexto": "Sensibilização",
+    "noticiaFiestas": {
+      "etiqueta": "Notícias",
+      "titulo": "Ubuntu Canarias nas Fiestas Patrias da comunidade peruana",
+      "texto": "Estivemos nas Fiestas Patrias organizadas pela comunidade peruana em Las Palmas, junto com a Hatun Llaqta: danças, gastronomia, trajes tradicionais e famílias inteiras a partilhar um espaço que se encheu de Peru.",
+      "fecha": "27 de julho de 2026",
+      "boton": "Continuar a ler",
+      "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+    },
+    "noticiaEncuentro": {
+      "etiqueta": "Notícias",
+      "titulo": "A Ubuntu Canarias participa no Encontro de Vida Intercultural na Casa África",
+      "texto": "A Ubuntu Canarias assistiu ao Encontro de Vida Intercultural organizado pela Associação Con•Fin na Casa África: música, arte, moda e participação cidadã num dia de convivência entre culturas.",
+      "fecha": "29 de julho de 2026",
+      "boton": "Continuar a ler",
+      "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+    },
+    "noticiaUruguay": {
+      "etiqueta": "Notícias",
+      "titulo": "Festejos pela independência do Uruguai em Cruce de Arinaga",
+      "texto": "A associação Uruguayos en Gran Canaria organiza uma noite de música, gastronomia e tradição para celebrar a Declaração da Independência do Uruguai: entrada gratuita, a 22 de agosto, em Cruce de Arinaga.",
+      "fecha": "2 de agosto de 2026",
+      "boton": "Continuar a ler",
+      "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+    }
+  },
+  "noticiaPacto": {
+    "etiqueta": "Notícias",
+    "volver": "Voltar às notícias",
+    "titulo": "O Pacto Europeu sobre Migração entra em vigor nas Canárias",
+    "fecha": "Publicado: 25 de julho de 2026",
+    "lead": "As Canárias reivindicam em Bruxelas mecanismos de transferência rápida para o continente perante a aplicação do novo quadro europeu de asilo.",
+    "parrafo1": "O Pacto Europeu sobre Migração e Asilo aplica-se nas Canárias desde 12 de junho de 2026. O Governo das Canárias manifestou a sua preocupação com o procedimento de triagem na fronteira, que pode prolongar-se até seis meses, e exige mecanismos automáticos de transferência para o continente para evitar que o arquipélago se torne num espaço de retenção prolongada de pessoas migrantes.",
+    "listaTitulo": "O que muda com o Pacto",
+    "lista1": "Procedimento acelerado na fronteira: as pessoas que cheguem de forma irregular podem ser retidas até 12 semanas iniciais, prorrogáveis por mais 12 semanas adicionais em determinados casos.",
+    "lista2": "Devoluções mais rápidas: agiliza-se a expulsão de quem não tem direito a asilo. Alargam-se os prazos de detenção e permitem-se procedimentos de retorno de até três meses para nacionais de países com taxas de aceitação de asilo inferiores a 20%.",
+    "lista3": "Transferência limitada: o Pacto não garante transferências automáticas para o continente. O mecanismo de solidariedade é voluntário, e vários Estados já anunciaram que participarão apenas com contribuições financeiras, não com realojamentos.",
+    "subtitulo2": "A posição do Governo canário",
+    "parrafo2": "O vice-presidente Octavio Caraballo assinalou a partir de Bruxelas que o acordo «deve dar voz às regiões de fronteira» e que, sem mecanismos de transferência rápida, «não será eficaz» para o arquipélago. O presidente Fernando Clavijo alertou de que o impacto nas zonas fronteiriças pode deixar «os direitos em segundo plano».",
+    "parrafo2b": "As Canárias e o País Basco organizaram jornadas com ONG e entidades que apoiam pessoas migrantes para analisar as consequências do novo quadro, que afeta diretamente ambas as regiões.",
+    "subtitulo3": "Efeitos sobre as pessoas migrantes",
+    "efecto1": "A estadia média nos centros de acolhimento poderá passar de um mês atual para até seis meses em alguns casos.",
+    "efecto2": "Os processos de asilo e expulsão aceleram-se sem garantias claras de transferência para o continente, o que aumenta a necessidade de apoio jurídico durante a tramitação.",
+    "efecto3": "As pessoas em situação irregular provenientes de países com baixas taxas de reconhecimento de asilo enfrentam maior risco de deportação rápida.",
+    "subtitulo4": "O papel da Ubuntu Canarias",
+    "parrafo4": "A Ubuntu Canarias informa e acompanha as pessoas migrantes na compreensão dos seus direitos dentro do novo quadro europeu. Se precisar de orientação sobre o Pacto ou sobre a sua situação legal, <a href=\"contacto.html\">contacte-nos</a>.",
+    "cierre": "Ubuntu Canarias · Quadro legal europeu",
+    "compartir": "Partilhar esta notícia",
+    "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+  },
+  "noticiaCompass": {
+    "etiqueta": "Notícias",
+    "volver": "Voltar ao blog",
+    "titulo": "A Ubuntu Canarias junta-se à Rede de Colaboração COMPASS",
+    "fecha": "Publicado: 22 de julho de 2026",
+    "lead": "Mais um passo rumo a uma gestão humana, coordenada e sustentável da mobilidade entre a África Ocidental e as Canárias.",
+    "parrafo1": "É com satisfação que anunciamos que a Ubuntu Canarias foi admitida oficialmente como entidade colaboradora da Rede de Colaboração COMPASS, uma iniciativa que reúne instituições, organizações sociais, universidades, empresas e outros agentes empenhados em melhorar a gestão da mobilidade humana entre a África Ocidental e as Canárias.",
+    "parrafo2": "A nossa adesão foi aprovada no âmbito do projeto COMPASS – Observatório da Mobilidade Humana entre as Canárias e a África, cofinanciado pelo Programa de Cooperação Interreg MAC 2021-2027.",
+    "parrafo3": "O projeto COMPASS tem como objetivo promover soluções inovadoras e sustentáveis para enfrentar os desafios da mobilidade humana no espaço de cooperação formado pelas Canárias, Gâmbia, Mauritânia e Senegal, fomentando o trabalho conjunto entre os diferentes atores envolvidos.",
+    "listaTitulo": "Entre as suas principais linhas de atuação encontram-se:",
+    "lista1": "Impulsionar a cooperação internacional entre entidades públicas e privadas.",
+    "lista2": "Identificar boas práticas e necessidades na gestão da mobilidade humana.",
+    "lista3": "Favorecer o intercâmbio de conhecimento e experiências.",
+    "lista4": "Conceber estratégias que contribuam para proteger a vida das pessoas migrantes e reforçar as comunidades de acolhimento.",
+    "parrafo4": "Para a Ubuntu Canarias, fazer parte desta rede representa um reconhecimento importante do nosso compromisso com o acolhimento, a inclusão e a integração social. Além disso, permitir-nos-á colaborar com outras entidades no desenvolvimento de iniciativas que promovam uma sociedade mais justa, solidária e inclusiva.",
+    "parrafo5": "Continuamos a trabalhar para construir pontes entre pessoas, culturas e instituições, convictos de que a cooperação é uma ferramenta essencial para enfrentar os desafios sociais presentes e futuros.",
+    "parrafo6": "Obrigado a todas as pessoas e entidades que confiam no nosso projeto. Este é apenas o começo de um caminho cheio de novas alianças e oportunidades para gerar um impacto positivo nas Canárias.",
+    "cierre": "Ubuntu Canarias · Cooperação institucional",
+    "compartir": "Partilhar esta notícia",
+    "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+  },
+  "blogPrimeraCita": {
+    "volver": "Voltar ao blog",
+    "etiqueta": "Blog",
+    "titulo": "O que esperar na sua primeira consulta de orientação",
+    "cabecera": "Ubuntu Canarias · Orientação",
+    "intro": "Dar o primeiro passo custa, e é normal chegar com dúvidas. Este guia resume como funciona esse primeiro encontro com a nossa equipa, para que saiba o que esperar e chegue mais tranquilo ou tranquila.",
+    "seccion1Titulo": "Antes da consulta",
+    "seccion1Texto": "Tudo começa com um primeiro contacto: através do <a href=\"contacto.html\">formulário do site</a>, selecionando o motivo \"Primeiro acolhimento\" ou \"Orientação\". A partir daí, alguém da nossa equipa entra em contacto consigo para combinar o dia e a forma do encontro, seja presencial ou telefónico, consoante a sua situação e disponibilidade.",
+    "seccion2Titulo": "O que convém trazer",
+    "seccion2Texto": "Não precisa de ter tudo resolvido nem completo para vir. Se dispuser de documentação relacionada com a sua situação (identificação, papéis do seu processo administrativo, marcações anteriores, notificações que tenha recebido...), traga-os: ajuda-nos a compreender melhor o seu caso. Se não tiver nada à mão, não faz mal: o importante é que venha e nos conte a sua situação com as suas próprias palavras.",
+    "seccion3Titulo": "Como é o encontro",
+    "seccion3Texto": "A primeira consulta é, acima de tudo, um momento de escuta. A nossa equipa pergunta pela sua situação atual, pelo seu percurso até agora e pelo que precisa neste momento: informação, trâmites, emprego, formação ou apoio psicossocial. Não se trata de preencher um formulário à pressa, mas sim de compreender o seu caso concreto antes de propor qualquer caminho.",
+    "seccion4Titulo": "O que acontece depois",
+    "seccion4Texto": "Com essa informação, explicamos-lhe as opções reais que tem e, se for o caso, encaminhamo-lo para a área da associação que melhor se ajusta à sua necessidade: orientação jurídica e de trâmites, inserção laboral, formação, interculturalidade ou apoio psicossocial. Na maioria dos casos estabelece-se um acompanhamento contínuo, para que não seja um contacto pontual, mas sim um apoio ao longo de todo o processo.",
+    "seccion5Titulo": "Antes de vir, tenha em conta",
+    "seccion5Texto": "Cada situação é diferente e os passos podem variar de pessoa para pessoa. Se tiver dúvidas concretas antes da sua consulta — o que trazer, como chegar ou o que esperar no seu caso particular — escreva-nos e confirmamo-lo com antecedência.",
+    "ctaTexto": "Quer pedir a sua primeira consulta de orientação?",
+    "ctaBoton": "Pedir orientação",
+    "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+  },
+  "blogAcompanamiento": {
+    "volver": "Voltar ao blog",
+    "etiqueta": "Blog",
+    "titulo": "O valor do acompanhamento personalizado",
+    "cabecera": "Ubuntu Canarias · Apoio psicossocial",
+    "lead": "Porque escutar antes de orientar faz a diferença nos processos de integração.",
+    "intro": "Ao longo do meu percurso profissional, ouvi muitas pessoas que chegam a carregar uma história consigo. E se há algo que aprendi em todo este tempo é isto: antes de dizer a alguém o que fazer, é preciso entender o que lhe aconteceu.",
+    "intro2": "Parece óbvio. Não é. Quando criámos a Ubuntu Canarias, fi-lo a pensar exatamente nisto: que o primeiro gesto não fosse um formulário, mas sim uma escuta.",
+    "seccion1Titulo": "Orientar não é dar instruções",
+    "seccion1Texto1": "Vejo isto constantemente: pessoas que chegam a pensar que vão sair da consulta com uma lista de passos a seguir. E sim, essa lista chega, em algum momento. Mas antes tem de acontecer outra coisa.",
+    "seccion1Texto2": "Tem de acontecer que essa pessoa conte, com as suas próprias palavras e ao seu ritmo, de onde vem e o que deixou para trás. Que não a interrompamos para preencher uma casinha. Que sinta que o que diz importa antes de lhe dizermos que papéis precisa.",
+    "seccion1Texto3": "Isso não é um luxo nem uma questão de \"boas maneiras\". É, simplesmente, o que faz com que o acompanhamento funcione depois.",
+    "seccion2Titulo": "O que muda quando se escuta primeiro",
+    "seccion2Texto1": "Quando se compreende verdadeiramente a situação de alguém — não apenas o seu processo, mas a sua história —, os encaminhamentos deixam de ser genéricos. Sabe-se se essa pessoa precisa primeiro de tranquilidade e depois de trâmites, ou o contrário. Sabe-se se por trás de uma pergunta sobre emprego há, na realidade, uma urgência de outro tipo que ainda não se atreveu a nomear.",
+    "seccion2Texto2": "Isto é algo que estou a comprovar neste preciso momento, quase em tempo real. Estamos em atividade há muito pouco tempo — mal começámos a operar, ainda com passo hesitante — mas já o vejo com cada pessoa que entra pela porta: não trabalhamos com \"casos\", trabalhamos com pessoas, e cada uma chega com o seu próprio tempo. Forçar esse tempo, ir mais depressa do que a pessoa consegue ir, não ajuda: quebra a confiança precisamente quando ela mais falta faz.",
+    "seccion3Titulo": "Acompanhar é sustentar, não só resolver",
+    "seccion3Texto1": "Há uma diferença entre resolver um trâmite e acompanhar um processo. O primeiro fecha-se num dia. O segundo pode durar meses, às vezes anos, e nem sempre é linear: há avanços, há recuos, há momentos em que a pessoa simplesmente precisa de saber que continuamos ali.",
+    "seccion3Texto2": "Por isso, na Ubuntu Canarias insistimos tanto no acompanhamento contínuo. Não queremos ser um contacto pontual na vida de ninguém. Queremos ser as pessoas a quem se pode voltar a recorrer.",
+    "cierreTexto": "Se há algo que posso pedir a quem lê isto — seja alguém que precisa de ajuda ou alguém que quer oferecê-la — é o mesmo que peço à minha equipa todos os dias: ouvir um pouco mais antes de responder.",
+    "firma": "— Soraya Mohamedi Mohamed, Presidente da Ubuntu Canarias",
+    "compartir": "Partilhar este artigo",
+    "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação.",
+    "ctaTexto": "Quer saber mais sobre o nosso acompanhamento?",
+    "ctaBoton": "Contacte-nos"
+  },
+  "newsletter": {
+    "hero": {
+      "etiqueta": "Blog",
+      "titulo": "Ninguém chega sozinho. Ninguém se integra sozinho.",
+      "texto": "Subscreva e descubra o nosso blog: histórias da equipa, artigos e novidades sobre acolhimento e integração de pessoas migrantes nas Canárias."
+    },
+    "suscripcion": {
+      "titulo": "Receba o blog no seu email",
+      "texto": "Uma vez por mês, sem spam. Pode cancelar a subscrição quando quiser.",
+      "extra": "Além disso, todos os meses receberá também uma seleção de ofertas de emprego em Gran Canaria, organizadas por setores.",
+      "emailLabel": "Endereço de email",
+      "emailPlaceholder": "voce@email.com",
+      "boton": "Subscrever",
+      "errorValidacion": "Introduza um endereço de email válido.",
+      "exito": "Obrigado! Verifique o seu email para confirmar a subscrição.",
+      "error": "Não foi possível enviar a sua subscrição. Verifique a sua ligação e tente novamente, ou escreva-nos para info@ubuntucanarias.org."
+    },
+    "edicion": "Última edição · Julho de 2026",
+    "destacada": {
+      "tituloSeccion": "Notícia em destaque",
+      "etiqueta": "Notícias",
+      "titulo": "A Ubuntu Canarias junta-se à Rede de Colaboração COMPASS",
+      "texto": "Mais um passo rumo a uma gestão humana, coordenada e sustentável da mobilidade entre a África Ocidental e as Canárias. Já somos entidade colaboradora do projeto COMPASS — Observatório da Mobilidade Humana entre as Canárias e a África, cofinanciado pelo Programa Interreg MAC 2021-2027.",
+      "boton": "Ler a notícia completa"
+    },
+    "blog": {
+      "tituloSeccion": "Do blog",
+      "articulo1": {
+        "etiqueta": "Orientação",
+        "titulo": "O que esperar na sua primeira consulta de orientação",
+        "texto": "Dar o primeiro passo custa, e é normal chegar com dúvidas. Um guia sobre como é esse primeiro encontro com a nossa equipa."
+      },
+      "articulo2": {
+        "etiqueta": "Apoio psicossocial",
+        "titulo": "O valor do acompanhamento personalizado",
+        "texto": "Porque escutar antes de orientar faz a diferença nos processos de integração, contado pela nossa fundadora."
+      }
+    },
+    "cta": {
+      "titulo": "Junte-se a nós para construir oportunidades",
+      "texto": "Voluntariado, donativos, torne-se sócio ou colabore como empresa: há muitas formas de fazer parte da Ubuntu Canarias.",
+      "boton": "Quero participar"
+    }
+  },
+  "noticias": {
+    "eyebrow": "Notícias",
+    "titulo": "Atualidade migratória nas Canárias",
+    "subtitulo": "Alterações normativas, parcerias do terceiro setor e novidades sobre o acolhimento e a integração de pessoas migrantes nas Ilhas Canárias.",
+    "proximo1": {
+      "etiqueta": "Notícias",
+      "titulo": "Próximas parcerias e novidades",
+      "texto": "Continuamos a alargar a nossa rede de colaboração. Em breve partilharemos aqui novas notícias sobre projetos e parcerias."
+    }
+  },
+  "compartirMini": {
+    "etiqueta": "Partilhe nas suas redes",
+    "notaLinkedin": "Copiámos o título e o resumo: cole-os na caixa de texto da sua publicação no LinkedIn caso queira incluí-los antes de partilhar.",
+    "notaInstagram": "Copiámos o título, o resumo e a ligação, e abrimos o Instagram: cole-os na sua história ou publicação."
+  },
+  "bannerCookies": {
+    "texto": "Utilizamos cookies próprios e de terceiros necessários para o funcionamento do site (como o formulário de contacto ou a newsletter). Pode aceitá-las todas ou rejeitar as que não são essenciais. Mais informações na nossa <a href=\"cookies.html\">política de cookies</a>.",
+    "rechazar": "Rejeitar",
+    "aceptar": "Aceitar todas",
+    "preferencias": "Preferências de cookies",
+    "avisoAria": "Aviso de cookies"
+  },
+  "pageMeta": {
+    "home": {
+      "title": "Ubuntu Canarias — Acolhimento e integração de pessoas migrantes nas Canárias",
+      "description": "A Ubuntu Canarias acompanha pessoas migrantes e as suas famílias na integração social, laboral e comunitária nas Ilhas Canárias."
+    },
+    "quienesSomos": {
+      "title": "Quem somos — Ubuntu Canarias",
+      "description": "Conheça a história, missão, visão e valores da Ubuntu Canarias, associação de acolhimento e integração de pessoas migrantes nas Canárias."
+    },
+    "equipo": {
+      "title": "A nossa equipa — Ubuntu Canarias",
+      "description": "Conheça a equipa da Ubuntu Canarias: as pessoas que tornam possível o acolhimento e a integração de migrantes nas Canárias."
+    },
+    "queHacemos": {
+      "title": "O que fazemos — Ubuntu Canarias",
+      "description": "Orientação, formação, inserção laboral, acompanhamento e interculturalidade: os serviços da Ubuntu Canarias para pessoas migrantes nas Canárias."
+    },
+    "participa": {
+      "title": "Participe — Ubuntu Canarias",
+      "description": "Torne-se voluntário, sócio ou colaborador da Ubuntu Canarias. Junte-se ao acolhimento e à integração de pessoas migrantes nas Canárias."
+    },
+    "blog": {
+      "title": "Blog — Ubuntu Canarias",
+      "description": "Descubra o blog da Ubuntu Canarias: histórias, artigos e novidades sobre acolhimento e integração de pessoas migrantes nas Canárias."
+    },
+    "contacto": {
+      "title": "Contacto — Ubuntu Canarias",
+      "description": "Contacte a Ubuntu Canarias para orientação, voluntariado, donativos ou colaboração institucional."
+    },
+    "gracias": {
+      "title": "Obrigado — Ubuntu Canarias",
+      "description": "Recebemos a sua mensagem. Obrigado por confiar na Ubuntu Canarias."
+    },
+    "error404": {
+      "title": "Página não encontrada (404) — Ubuntu Canarias",
+      "description": "A página que procura não existe ou foi movida. Volte ao início da Ubuntu Canarias ou consulte as nossas secções principais."
+    },
+    "noticias": {
+      "title": "Notícias — Ubuntu Canarias",
+      "description": "Atualidade e novidades da Ubuntu Canarias: parcerias, projetos e avanços no nosso trabalho de acolhimento e integração."
+    },
+    "noticiaPacto": {
+      "title": "O Pacto Europeu sobre Migração entra em vigor nas Canárias — Ubuntu Canarias",
+      "description": "O que muda nas Canárias com a aplicação do Pacto Europeu sobre Migração e Asilo: procedimento na fronteira, transferência para o continente e efeitos para as pessoas migrantes."
+    },
+    "noticiaCompass": {
+      "title": "A Ubuntu Canarias junta-se à Rede de Colaboração COMPASS — Ubuntu Canarias",
+      "description": "A Ubuntu Canarias foi admitida oficialmente como entidade colaboradora da Rede de Colaboração COMPASS, no âmbito do projeto Interreg MAC 2021-2027."
+    },
+    "blogPrimeraCita": {
+      "title": "O que esperar na sua primeira consulta de orientação — Ubuntu Canarias",
+      "description": "Como é o primeiro encontro com a equipa da Ubuntu Canarias, o que convém trazer e o que acontece depois desse primeiro contacto."
+    },
+    "blogAcompanamiento": {
+      "title": "O valor do acompanhamento personalizado — Ubuntu Canarias",
+      "description": "Porque escutar antes de orientar faz a diferença nos processos de integração, por Soraya Mohamedi Mohamed, presidente da Ubuntu Canarias."
+    },
+    "recursos": {
+      "title": "Recursos — Ubuntu Canarias",
+      "description": "Recursos e materiais práticos, disponíveis para download, para pessoas migrantes nas Canárias."
+    }
+  },
+  "blogCulpa": {
+    "volver": "Voltar ao blog",
+    "etiqueta": "Blog",
+    "titulo": "Porque me sinto culpado por ter emigrado?",
+    "cabecera": "Soraya Mohamedi Mohamed · Psicóloga, especialista em Migração e Inclusão Social · Fundadora e presidente da Ubuntu Canarias",
+    "lead": "Uma pessoa segura o telemóvel enquanto observa uma fotografia de família. Do outro lado do ecrã, uma videochamada com quem ficou no país de origem. Às vezes a distância mede-se em quilómetros. Outras vezes, em momentos que já não voltarão.",
+    "seccion1Titulo": "Há uma pergunta que muitas pessoas fazem a si mesmas em silêncio",
+    "seccion1Texto1": "Emigrar costuma associar-se à procura de oportunidades, de segurança ou de uma vida melhor. Mas há uma parte dessa experiência de que se fala bastante menos: a culpa.",
+    "seccion1Texto2": "Não a culpa por ter feito algo incorreto. Mais a sensação de ter deixado para trás pessoas importantes precisamente quando também podiam precisar de nós. Às vezes surge depois de uma chamada. Outras, quando chega uma notícia que teria sido diferente se lá tivéssemos estado. E, por vezes, instala-se sem um motivo concreto, como um ruído de fundo que acompanha durante meses.",
+    "seccion1Texto3": "Nem todas as pessoas migrantes a sentem. E quem a sente não o faz da mesma maneira. Mas é um sentimento mais frequente do que parece.",
+    "seccion2Titulo": "A vida continua nos dois lugares",
+    "seccion2Texto1": "Enquanto tenta adaptar-se a uma nova cidade, arranjar trabalho ou resolver questões administrativas, a vida segue o seu curso no lugar de onde veio.",
+    "seccion2Linea1": "Os aniversários são celebrados sem si.",
+    "seccion2Linea2": "As crianças crescem.",
+    "seccion2Linea3": "Os seus amigos mudam de emprego, formam família ou mudam-se.",
+    "seccion2Linea4": "Os pais envelhecem.",
+    "seccion2Texto2": "Tudo isso acontece mesmo que fale com eles todas as semanas.",
+    "seccion2Texto3": "Há momentos em que a distância pesa especialmente, porque não se resolve com uma chamada ou uma mensagem.",
+    "seccion3Titulo": "Por vezes a culpa não nasce do que se faz, mas sim do que não se pode fazer",
+    "seccion3Texto1": "Muitas pessoas contam que o mais difícil não foi partir. Foi descobrir que já não podiam estar presentes quando alguém adoecia, precisava de ajuda ou simplesmente queria partilhar um momento importante.",
+    "seccion3Texto2": "Daqui tenta-se compensar essa ausência de muitas formas.",
+    "seccion3Linea1": "Envia-se dinheiro quando possível.",
+    "seccion3Linea2": "Fazem-se chamadas quase todos os dias.",
+    "seccion3Linea3": "Tenta-se transmitir tranquilidade, mesmo quando não se sente.",
+    "seccion3Texto3": "Sem se aperceberem, algumas pessoas acabam por viver com a sensação de estarem sempre em dívida para com quem ficou.",
+    "seccion4Titulo": "Também existe a culpa por estar bem",
+    "seccion4Texto1": "Este aspeto costuma surpreender.",
+    "seccion4Texto2": "Há pessoas que conseguem estabilizar-se, arranjam trabalho ou começam a sentir-se melhor no país de acolhimento e, precisamente aí, surge outra forma de culpa.",
+    "seccion4Texto3": "Desfrutar de uma oportunidade pode ser desconfortável quando se sabe que pessoas de quem se gosta continuam a atravessar dificuldades.",
+    "seccion4Texto4": "É como se uma parte de nós pensasse que não tem direito a sentir alívio enquanto outros continuam à espera.",
+    "seccion4Texto5": "Nem sempre acontece, mas quando surge pode gerar bastante confusão.",
+    "seccion5Titulo": "As redes sociais mudam a forma de viver a distância",
+    "seccion5Texto1": "Há anos era habitual ter notícias da família de vez em quando. Hoje é possível ver quase tudo em tempo real.",
+    "seccion5Linea1": "Uma refeição em família.",
+    "seccion5Linea2": "Uma celebração.",
+    "seccion5Linea3": "Uma fotografia antiga que alguém decide partilhar.",
+    "seccion5Texto2": "Isso pode fazer com que a distância se sinta de forma diferente. Não porque exista mais separação do que antes, mas porque agora assistimos a muitos momentos dos quais não podemos fazer parte.",
+    "seccion6Titulo": "Nem sempre há uma decisão perfeita",
+    "seccion6Texto1": "Com frequência apresenta-se a migração como uma escolha simples: ficar ou partir.",
+    "seccion6Texto2": "No entanto, a realidade costuma ser bastante mais complexa.",
+    "seccion6Texto3": "Há pessoas que emigram porque sentem que não têm outra alternativa. Outras fazem-no a pensar no futuro dos filhos. Algumas partem com a ideia de regressar em breve e descobrem que os anos passam muito mais depressa do que imaginavam.",
+    "seccion6Texto4": "Olhar para trás com a informação que hoje temos costuma ser injusto. A decisão foi tomada com as circunstâncias daquele momento, não com as de agora.",
+    "seccion7Titulo": "Um exemplo para compreender melhor",
+    "seccion7Texto1": "Imaginemos, apenas como exemplo hipotético, um homem que emigrou há quatro anos. A mãe começa a ter problemas de saúde e ele não pode viajar com a frequência que gostaria.",
+    "seccion7Texto2": "Sempre que fala com ela sente que devia estar ali. Ao mesmo tempo, sabe que regressar significaria perder o emprego que tanto esforço lhe custou conseguir.",
+    "seccion7Texto3": "Não há uma solução completamente satisfatória.",
+    "seccion7Texto4": "E é precisamente por isso que surge a culpa: porque qualquer decisão implica renunciar a algo.",
+    "seccion8Titulo": "O que pode ajudar?",
+    "seccion8Texto1": "Não existe uma forma de deixar de sentir culpa de um dia para o outro.",
+    "seccion8Texto2": "A algumas pessoas ajuda compreender que amar a família e construir uma vida noutro país não são duas coisas incompatíveis.",
+    "seccion8Texto3": "Outras descobrem que falar abertamente desse sentimento, em vez de o esconder, alivia parte do peso que iam acumulando.",
+    "seccion8Texto4": "Também pode ser útil lembrar que a distância não mede o compromisso nem o carinho. Há pessoas muito presentes a viver a milhares de quilómetros e outras muito próximas que mal fazem parte da vida da sua família.",
+    "seccion8Texto5": "Cada história migratória tem as suas próprias nuances. Compará-la com a de outras pessoas raramente ajuda.",
+    "seccion9Titulo": "Uma ideia para terminar",
+    "seccion9Texto1": "Com o tempo aprendi que muitas pessoas migrantes não sentem falta apenas de um lugar. Também sentem falta da possibilidade de estar onde sentem que deveriam estar em determinados momentos.",
+    "seccion9Texto2": "Talvez por isso a culpa surja com tanta facilidade.",
+    "seccion9Texto3": "Nem sempre desaparece por completo. Mas quando se lhe dá um nome, deixa de ser uma sensação confusa e começa a entender-se como parte de uma experiência profundamente humana.",
+    "seccion9Texto4": "E talvez essa compreensão não resolva a distância, mas permite olhar para si mesmo com um pouco mais de bondade.",
+    "seccion10Titulo": "Quando a culpa ocupa demasiado espaço",
+    "seccion10Texto1": "A culpa não costuma desaparecer porque alguém nos diz que não a devíamos sentir. Por vezes precisa de tempo. Outras vezes, precisa que deixemos de tentar escondê-la ou de lhe restar importância.",
+    "seccion10Texto2": "Há pessoas a quem ajuda falar sobre isso com alguém de confiança, sem se sentirem obrigadas a aparentar que está tudo bem. Outras encontram alívio quando aceitam que não podem estar presentes em todos os momentos importantes da vida da sua família e que essa limitação não diminui o carinho que sentem por ela.",
+    "seccion10Texto3": "Também pode ser útil reservar um espaço para cuidar da vida que se está a construir aqui. Permitir-se desfrutar de uma boa notícia, fazer novas amizades ou sentir-se em paz no lugar de acolhimento não significa esquecer o lugar de onde se veio nem as pessoas que lá ficaram. As duas coisas podem coexistir, ainda que ao início custe acreditar nisso.",
+    "seccion10Texto4": "Cada processo migratório é diferente e não existe uma forma correta de o viver. Há quem precise de falar muito sobre o que deixou para trás e quem prefira fazê-lo pouco a pouco. O importante não é seguir um caminho concreto, mas encontrar uma forma de avançar sem que a culpa acabe por ocupar todo o espaço.",
+    "seccion10Texto5": "Se, com o passar do tempo, esse sentimento se tornar constante, dificultar o descanso, afetar as relações ou fizer com que qualquer momento de bem-estar venha acompanhado de remorso, procurar apoio profissional pode ser uma opção. Não porque sentir culpa seja um problema em si mesmo, mas porque ninguém tem de enfrentar sozinho aquilo que o está a fazer sofrer.",
+    "cierre": "Soraya Mohamedi Mohamed · Psicóloga, especialista em Migração e Inclusão Social",
+    "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação.",
+    "ctaTexto": "Precisa de falar com alguém sobre como se sente no seu processo migratório?",
+    "ctaBoton": "Pedir apoio psicossocial",
+    "textoTarjeta": "Porque surge a culpa no processo migratório, mesmo quando as coisas correm bem, e o que pode ajudar a compreendê-la.",
+    "formato": "7 min de leitura",
+    "boton": "Ler artigo"
+  },
+  "publicaciones": {
+    "filtroTodo": "Tudo",
+    "filtroBlog": "Blog",
+    "filtroNoticias": "Notícias",
+    "tituloSeccion": "Últimas publicações",
+    "metaTitle": "Publicações — Ubuntu Canarias",
+    "metaDescription": "Blog e notícias da Ubuntu Canarias: artigos sobre migração e integração, e atualidade do setor nas Canárias.",
+    "tituloBlog": "Últimas entradas do blog",
+    "tituloNoticias": "Últimas notícias"
+  },
+  "ofertasEmpleo": {
+    "meta": {
+      "title": "Ofertas de emprego — Ubuntu Canarias",
+      "description": "Fazemos o acompanhamento e reunimos ofertas de emprego em Gran Canaria todas as semanas, de forma gratuita. Consulte a seleção desta semana."
+    },
+    "eyebrow": "Serviço gratuito de procura de emprego",
+    "titulo": "Procuramos e reunimos ofertas de emprego por si",
+    "subtitulo": "A Ubuntu é um serviço 100% gratuito. Todas as semanas acompanhamos e reunimos as vagas disponíveis em Las Palmas de Gran Canaria para facilitar a sua procura de emprego.",
+    "avisoEtiqueta": "A Ubuntu não é a entidade contratante",
+    "avisoTexto": "A nossa equipa de orientação sociolaboral está a terminar de preparar este espaço. Entretanto, subscreva mais abaixo: assim que a seleção de ofertas estiver pronta, enviamo-la por email junto com a nossa newsletter mensal.",
+    "suscripcionTitulo": "Receba as ofertas de emprego no seu email",
+    "suscripcionTexto": "Assim que estiverem prontas, enviamo-las juntamente com a nossa newsletter. Uma vez por mês, sem spam. Pode cancelar a subscrição quando quiser.",
+    "suscripcionExtra": "Além da newsletter com notícias e histórias da nossa equipa, receberá a seleção mensal de ofertas de emprego em Gran Canaria, organizadas por setores.",
+    "volver": "Voltar a O que fazemos"
+  },
+  "graciasBoletin": {
+    "titulo": "Subscrição confirmada!",
+    "texto1": "Já faz parte da nossa newsletter. Assim que publicarmos novidades, recebê-las-á diretamente no seu email.",
+    "texto2": "Obrigado por confiar na nossa associação. Juntos construímos oportunidades, esperança e integração.",
+    "boton": "Voltar ao início"
+  },
+  "blogIdentidad": {
+    "etiqueta": "Blog",
+    "titulo": "Quando se deixa de ser imigrante?",
+    "textoTarjeta": "Uma reflexão sobre identidade, pertença e biculturalidade: o que significa deixar de ser imigrante, para além do aspeto jurídico.",
+    "formato": "6 min de leitura",
+    "boton": "Ler artigo",
+    "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+  },
+  "blogDuelo": {
+    "etiqueta": "Blog",
+    "titulo": "A parte do luto migratório de que quase ninguém fala",
+    "textoTarjeta": "Às vezes não se perde apenas um país. Também uma parte de quem se era: o que é o luto migratório, como se manifesta e o que pode ajudar a atravessá-lo.",
+    "formato": "7 min de leitura",
+    "boton": "Ler artigo",
+    "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação."
+  },
+  "blogMarMuro": {
+    "volver": "Voltar ao blog",
+    "etiqueta": "Blog",
+    "titulo": "Quando o mar deixa de ser um muro",
+    "cabecera": "Soraya Mohamedi Mohamed · Psicóloga, especialista em Migração e Inclusão Social · Fundadora e presidente da Ubuntu Canarias",
+    "lead": "Uma sentença do Supremo Tribunal espanhol limita as devoluções a quente a quem atravessa a nado. Coincide com um aumento das travessias em Ceuta. O que diz a decisão, o que não explica, e porque convém olhar para além da coincidência.",
+    "intro": "No passado dia 8 de julho, o Supremo Tribunal espanhol confirmou algo que pode parecer um pormenor técnico e que, na realidade, tem consequências muito concretas: às pessoas interceptadas no mar enquanto tentam entrar a nado em Ceuta ou Melilla não se pode aplicar a devolução a quente.",
+    "seccion1Titulo": "O que diz exatamente a sentença",
+    "seccion1Texto1": "A lei de Estrangeiros espanhola permite a chamada «rejeição na fronteira» — a expulsão imediata, sem identificação individualizada nem assistência jurídica — a quem ultrapassa um elemento de contenção físico, como uma vedação. O Supremo Tribunal estabeleceu que o mar não entra nessa categoria. Não há nada material a «ultrapassar» na água, pelo que a quem é interceptado a nadar deve aplicar-se o procedimento ordinário de devolução, com mais garantias: audiência prévia, fundamentação da decisão e revisão judicial.",
+    "seccion1Texto2": "É uma sentença que fixa jurisprudência. Não admite recurso.",
+    "seccion2Titulo": "Menos de dez quilómetros, várias horas de escuridão",
+    "seccion2Texto1": "Entre Fnideq (Castillejos) e Ceuta há menos de dez quilómetros em linha reta, no ponto mais estreito da faixa marítima. No papel, parece pouco. Na água, de noite, sem embarcação nem apoio profissional, é outra coisa.",
+    "seccion2Texto2": "Os testemunhos de quem o conseguiu falam de três e até quatro horas seguidas a nadar, sem descanso, entre nevoeiro, vento e ondulação, guiando-se apenas pelas luzes da costa de Ceuta. Nem sempre se chega ao destino. Nos últimos dias recuperaram-se vários corpos nas águas de Ceuta de pessoas que não conseguiram concluir a travessia.",
+    "seccion2Texto3": "A vedação terrestre, de seis metros e dupla estrutura, tornou-se quase impossível de ultrapassar. Por isso, cada vez mais pessoas escolhem o mar: não porque seja mais fácil, mas porque sentem que têm mais margem.",
+    "seccion3Titulo": "O que aconteceu depois da sentença",
+    "seccion3Texto1": "Nas últimas semanas, Ceuta viveu um aumento notável de travessias: entre 1500 e 2000 pessoas entraram de forma irregular em apenas dez dias, a maioria a nado. O presidente da cidade autónoma falou de emergência humanitária. A Guarda Civil, através da sua associação profissional, alertou para um possível «efeito de chamada» e pediu protocolos claros perante o que descrevem como um vazio operacional.",
+    "seccion3Texto2": "É tentador — e compreensível — unir estes dois factos numa só história: a sentença teria aberto uma porta, e milhares de pessoas estariam a atravessá-la. Mas convém ter cuidado com essa leitura. O facto de duas coisas acontecerem no mesmo período de tempo não significa automaticamente que uma seja a causa da outra. As decisões das pessoas migrantes raramente respondem a um único fator, e muito menos a uma decisão judicial que a maioria provavelmente nem sequer conhece em detalhe.",
+    "seccion3Texto3": "Quem decide entrar na água durante três ou quatro horas de travessia não o faz por um tecnicismo legal. Fá-lo depois de ter esgotado outras vias, com o cansaço acumulado de tentativas anteriores, e com uma informação que chega fragmentada, por vezes manipulada por quem beneficia de vender a travessia como algo mais seguro do que é.",
+    "seccion4Titulo": "A pergunta que vale mesmo a pena fazer",
+    "seccion4Texto1": "O que esta sentença torna visível, para além dos seus efeitos imediatos, é uma tensão de fundo que atravessa toda a política migratória europeia atual. O Pacto Europeu sobre Migração e Asilo, em vigor desde junho deste ano, avança para um modelo centrado no controlo de fronteiras e na rapidez dos procedimentos de retorno. A sentença do Supremo, pelo contrário, vai na direção oposta: amplia garantias, não as reduz.",
+    "seccion4Texto2": "Essa contradição não é um problema do tribunal nem da lei europeia isoladamente. É o reflexo de um sistema que ainda não resolveu que papel quer dar aos direitos individuais face à gestão de fronteiras como problema de segurança. E essa indefinição paga-se, quase sempre, no corpo de quem atravessa.",
+    "seccion5Titulo": "Uma última reflexão",
+    "seccion5Texto1": "Por trás de cada número como «1500 pessoas em dez dias» há decisões tomadas sob uma pressão que a maioria de nós não chegará a compreender por completo: três horas a nadar na escuridão, o cansaço de tentativas anteriores, a informação incompleta, o cálculo de um risco que nenhuma sentença pode reduzir. Compreender esse contexto não isenta as instituições de legislar com responsabilidade. Mas devia obrigar-nos, antes de tirar conclusões rápidas sobre causas e efeitos, a olhar com mais cuidado para o que há por trás de cada travessia.",
+    "cierre": "— Soraya Mohamedi Mohamed · Psicóloga, especialista em Migração e Inclusão Social",
+    "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação.",
+    "ctaTexto": "Quer conhecer os seus direitos num processo de regularização?",
+    "ctaBoton": "Ver recursos jurídicos",
+    "textoTarjeta": "Uma sentença do Supremo Tribunal espanhol limita as devoluções a quente a quem atravessa a nado, precisamente quando aumentam as travessias em Ceuta. O que diz a decisão e porque convém olhar para além da coincidência.",
+    "formato": "4 min de leitura",
+    "boton": "Ler artigo"
+  },
+  "blogHomologacion": {
+    "volver": "Voltar ao blog",
+    "etiqueta": "Blog",
+    "titulo": "Reconhecer um diploma estrangeiro em Espanha: o que ninguém explica ao início",
+    "cabecera": "Equipa Ubuntu Canarias · Orientação sociolaboral",
+    "lead": "Alguém que exerceu como enfermeira dez anos no seu país, ou que tem um mestrado em engenharia, chega aqui e depara-se com uma pergunta incómoda: esse diploma vale alguma coisa, ou é preciso começar do zero? A resposta curta é \"depende\", e essa resposta curta é precisamente o que gera mais ansiedade, porque ninguém explica bem de que depende.",
+    "s1Titulo": "Quatro trâmites que se confundem sob a mesma palavra",
+    "s1Texto": "<p>“Homologação” tornou-se o termo genérico para “fazer o meu diploma valer aqui”, mas na realidade há quatro vias distintas, e confundi-las faz perder tempo e, por vezes, dinheiro em trâmites que não correspondiam.</p>",
+    "tablaHtml": "<div class=\"articulo__tabla-envoltorio\">\n<table class=\"articulo__tabla\">\n<thead><tr><th>Procedimento</th><th>Para que serve</th><th>A quem se destina</th><th>Onde se solicita</th><th>Requisitos-chave</th></tr></thead>\n<tbody>\n<tr><td><strong>Homologação</strong></td><td>Torna o seu diploma estrangeiro equivalente a um espanhol para exercer uma profissão regulamentada</td><td>Diplomados/as em medicina, educação, engenharia, direito…</td><td>Sede eletrónica do Ministério da Ciência, Inovação e Universidades</td><td>Diploma legalizado, apostilado e traduzido, certificado académico e comprovativo do pagamento da taxa, sobretudo</td></tr>\n<tr><td><strong>Equivalência</strong></td><td>Reconhece o nível académico do seu diploma de licenciatura ou mestrado oficial, sem o associar a uma profissão regulamentada</td><td>Diplomados/as que não precisam de exercer profissões regulamentadas</td><td>Sede eletrónica do mesmo Ministério (ou numa universidade, se for doutoramento)</td><td>Os mesmos documentos que a homologação</td></tr>\n<tr><td><strong>Convalidação</strong></td><td>Reconhece disciplinas ou créditos já concluídos</td><td>Estudantes que queiram continuar estudos numa universidade espanhola</td><td>A própria universidade espanhola onde se quer estudar</td><td>Certificado académico e programas curriculares; sujeito a prazos e taxas próprios de cada universidade</td></tr>\n<tr><td><strong>Reconhecimento</strong></td><td>Permite exercer uma profissão regulamentada em Espanha se o diploma foi obtido na UE</td><td>Cidadãos/ãs da UE com profissões regulamentadas</td><td>O Ministério competente consoante a profissão (Saúde, Educação, etc.)</td><td>Diploma oficial e documentação específica consoante a profissão</td></tr>\n</tbody>\n</table>\n</div>",
+    "s2Titulo": "A pergunta que é preciso fazer antes de iniciar qualquer trâmite",
+    "s2Texto": "<p>Não é “posso homologar o meu diploma?”, é <strong>“preciso de o homologar para o que quero fazer?”</strong>. E é aí que muita gente perde meses.</p>\n<p>Um dado que surpreende muita gente: <strong>não é preciso ter autorização de trabalho em Espanha, nem sequer residir aqui,</strong> para iniciar o trâmite de homologação. Se o diploma for oficial no país de origem, pode-se iniciar o processo a partir do estrangeiro, mesmo antes de emigrar.</p>\n<p>Em contrapartida, <strong>nem tudo pode ser homologado.</strong> Ficam de fora os diplomas de formação contínua, os títulos que não sejam de licenciatura ou mestrado oficial, os que já tiveram uma decisão negativa anterior, e os obtidos maioritariamente por reconhecimento de experiência profissional em vez de estudos regulados. E se já se estiver a tramitar uma convalidação desses estudos diretamente com uma universidade espanhola, não é preciso passar também pela homologação — são caminhos que não se combinam.</p>\n<p>Se o objetivo é trabalhar numa profissão regulamentada — dar aulas numa escola pública, exercer medicina, enfermagem, advocacia — é necessária homologação completa, sem atalhos. Se o objetivo é trabalhar em algo não regulamentado, muitas vezes convém <strong>começar a procurar emprego com o diploma por homologar</strong>, explicando-o bem na entrevista, e deixar a homologação a decorrer em paralelo, e não como requisito prévio. Esperar por ter o diploma homologado antes de procurar trabalho, quando isso não é necessário para o posto, é um dos erros mais comuns e mais dispendiosos em tempo.</p>",
+    "s3Titulo": "Que profissões precisam de homologação completa",
+    "s3Texto": "<p>Nem toda a licenciatura exige o trâmite longo. As profissões regulamentadas — as que exigem homologação se o diploma for de fora da UE — concentram-se em alguns setores concretos: saúde (medicina, enfermagem, fisioterapia, medicina dentária, farmácia, psicologia clínica, entre outras), engenharias superiores e técnicas e arquitetura, ensino (desde a educação pré-escolar até à formação profissional), e a área jurídica (advocacia e solicitadoria). Esta lista está incluída no anexo do Real Decreto 889/2022.</p>\n<p>Uma nuance importante para quem vem de fora com estudos de Direito: no caso da advocacia, homologar o diploma não é o último passo. Depois é preciso concluir o Mestrado de Acesso à Advocacia e passar no respetivo exame estatal antes de poder exercer.</p>",
+    "s4Titulo": "Se o que quer homologar não é um diploma universitário",
+    "s4Texto": "<p>Tudo o que foi dito acima — Ministério da Ciência, Inovação e Universidades, taxa de 166,50 € — aplica-se a <strong>diplomas de licenciatura, mestrado ou equivalente</strong>. Se o que se concluiu no país de origem foi o ensino secundário ou o equivalente ao 12.º ano, o trâmite é gerido pelo <strong>Ministério da Educação, Formação Profissional e Desporto</strong>, com informação geral no seu site oficial.</p>\n<p>Se se tratar especificamente de um diploma de <strong>Formação Profissional</strong>, e o objetivo for aceder a estudos de FP em Espanha apresentando esse diploma estrangeiro, é preciso homologá-lo antes através da sede eletrónica desse mesmo Ministério. Perante qualquer dúvida sobre o procedimento, o próprio Ministério dispõe de um serviço de Apoio ao Cidadão.</p>\n<p><strong>Se residir nas Canárias</strong>, há ainda um trâmite próprio do Governo das Canárias para o reconhecimento da equivalência de um diploma ou de estudos concluídos, quando essa equivalência necessita de uma decisão individualizada. Ao contrário da homologação universitária, este trâmite <strong>não tem taxa</strong>, pode ser apresentado durante todo o ano, e admite duas vias:</p>\n<ul class=\"articulo__lista\">\n<li><strong>Pela internet</strong>, com o formulário de pedido, o documento de identificação e o diploma académico ou certificado de estudos.</li>\n<li><strong>Presencialmente</strong>, em qualquer gabinete de registo do Governo das Canárias, com os mesmos documentos.</li>\n</ul>\n<p>Um esclarecimento importante: este reconhecimento <strong>dá os mesmos efeitos académicos ou profissionais</strong> que o diploma com que é comparado, mas <strong>não confere o diploma espanhol em si</strong>.</p>",
+    "s5Titulo": "O que pede, na prática, o trâmite universitário",
+    "s5Texto": "<p>Desde novembro de 2022, a homologação de diplomas universitários estrangeiros é gerida <strong>exclusivamente através da sede eletrónica</strong> do Ministério da Ciência, Inovação e Universidades. Não se faz em papel, não se faz ao balcão.</p>\n<p><strong>Os documentos a carregar, com o seu nome exato no sistema:</strong></p>\n<ul class=\"articulo__lista\">\n<li><strong>IDENTIDAD</strong> — o documento de identificação (normalmente, o passaporte).</li>\n<li><strong>TITULO</strong> — o diploma original, com a respetiva legalização ou apostila, se for o caso.</li>\n<li><strong>TRADTITULO</strong> — a tradução juramentada do diploma, se não estiver em espanhol.</li>\n<li><strong>CAO</strong> — o certificado académico oficial (as disciplinas concluídas), ou em alternativa o Suplemento Europeu ao Diploma, se dispuser dele.</li>\n<li><strong>TRADCAO</strong> — tradução juramentada desse certificado, se não estiver em espanhol.</li>\n<li><strong>LINGU</strong> — comprovativo do nível de espanhol, obrigatório apenas para as homologações (não para as declarações de equivalência).</li>\n<li><strong>TASA</strong> — o comprovativo de pagamento da taxa.</li>\n</ul>\n<p>Quanto à legalização do diploma original, há dois caminhos válidos: fazê-lo junto das autoridades educativas do país onde foi obtido, ou junto do consulado espanhol nesse mesmo país. Qualquer um dos dois serve.</p>\n<p>Um pormenor prático: embora o limite técnico seja de 10 MB por ficheiro, é melhor não ultrapassar os 5 MB, para evitar problemas no envio.</p>\n<p><strong>A taxa custa 166,50 €</strong> e pode ser paga de quatro formas: com o modelo 790 impresso e pago num banco espanhol, por transferência para uma conta do Banco de Espanha habilitada para pagamentos do estrangeiro, de forma eletrónica com cartão ou conta, ou fica isenta caso seja beneficiário de proteção temporária.</p>\n<p><strong>Quanto ao acesso:</strong> é preciso identificar-se com Cl@ve (se tiver NIF ou NIE) ou, se não os tiver, criar um utilizador com o passaporte ou outra documentação do país de origem. Um pormenor curioso: se, ao criar o utilizador, o sistema der erro porque o passaporte “coincide no formato” com um NIF ou NIE, basta acrescentar três zeros antes do número para evitar o conflito.</p>\n<p>O pedido pode ser guardado como rascunho e retomado mais tarde — ainda que os documentos já carregados não se conservem entre sessões, apenas os dados escritos —, por isso convém ter tudo reunido antes de se sentar a preenchê-lo por completo.</p>",
+    "s6Titulo": "O que quase ninguém conta: a espera não é só burocrática, é emocional",
+    "s6Texto": "<p>Esperar mais de um ano por uma resposta sobre se a sua formação “vale” aqui não é apenas um trâmite lento. Para muitas pessoas, toca diretamente na identidade profissional: anos de estudo e de experiência ficam numa espécie de limbo, sem que ninguém — nem o sistema, nem por vezes a própria pessoa — saiba bem o que fazer com eles entretanto. Não há forma de acelerar isto que não dependa da administração, e fingir que existe um atalho mágico não ajuda ninguém.</p>\n<p>A lei fixa um <strong>prazo de 6 meses</strong> para decidir, mas na prática é habitual que se prolongue bastante mais. Quanto mais completa e clara for a documentação desde o início, menos motivos terá a administração para pedir esclarecimentos que atrasem ainda mais o processo.</p>\n<p>Se a decisão acabar por ser desfavorável, não é um ponto final: pode apresentar-se uma reclamação junto do próprio Ministério no prazo de um mês a partir da notificação, e se essa reclamação também não for aceite, cabe recurso pela via contencioso-administrativa. Não é o caminho que ninguém gostaria de percorrer, mas existe.</p>\n<p>O que ajuda é não parar a vida enquanto se espera. Trabalhar noutra coisa durante esse tempo não é um fracasso nem um passo atrás — é simplesmente o que há a fazer enquanto um trâmite avança ao seu ritmo, que quase nunca é o que gostaríamos.</p>",
+    "s7Titulo": "O que os trâmites oficiais não contam: a comunidade sim",
+    "s7Texto": "<p>Há algo revelador em tudo isto: <strong>nem o Ministério das Universidades publica dados sobre quanto tempo demoram realmente as homologações.</strong> O que se sabe sobre tempos de espera reais vem quase sempre das próprias pessoas que estão a passar pelo trâmite, partilhando-o entre si.</p>\n<p>Durante a análise pode chegar um <strong>pedido de esclarecimentos (requerimiento)</strong> — um pedido de documentação adicional que o Ministério considere necessária. A partir do momento em que é recebido, há <strong>10 dias úteis</strong> para responder, com possibilidade de pedir uma prorrogação se for preciso mais tempo. Não o resolver a tempo pode levar ao arquivamento do processo, embora, se isso acontecer devido a uma comunicação que nunca chegou, se possa apresentar uma alegação a explicá-lo.</p>\n<p>Também é habitual que, sobretudo em profissões de saúde, seja pedido um <strong>certificado de continuidade profissional</strong> se tiverem passado seis anos ou mais desde a obtenção do diploma — um documento que certifica a experiência de trabalho, e que também tem de ser legalizado e apostilado como os restantes.</p>\n<p>Como o Ministério não disponibiliza esta informação de forma oficial, existem comunidades e plataformas de cidadãos formadas por pessoas a homologar os seus diplomas, onde se partilham tempos reais, dúvidas sobre o processo e experiências concretas. Não substituem a informação oficial, mas para as questões do dia a dia do trâmite costumam ser mais úteis do que qualquer site institucional.</p>",
+    "fuentesTitulo": "Fontes oficiais",
+    "fuentesHtml": "<ul class=\"articulo__lista articulo__lista--fuentes\">\n<li><strong>Homologação de diplomas universitários</strong> — Ministério da Ciência, Inovação e Universidades: <a href=\"https://universidades.sede.gob.es/procedimientos/portada/ida/3513/idp/1029\" rel=\"noopener noreferrer\" target=\"_blank\">universidades.sede.gob.es</a></li>\n<li><strong>Declaração de equivalência a nível académico</strong> — Ministério da Ciência, Inovação e Universidades: <a href=\"https://universidades.sede.gob.es/procedimientos/portada/ida/3513/idp/1407\" rel=\"noopener noreferrer\" target=\"_blank\">universidades.sede.gob.es</a></li>\n<li><strong>Homologação de estudos não universitários</strong> (ensino secundário) — Ministério da Educação, Formação Profissional e Desporto: <a href=\"https://www.educacionfpydeportes.gob.es/mc/convalidacion-homologacion/convalidacion-no-universitaria/solicitud.html\" rel=\"noopener noreferrer\" target=\"_blank\">educacionfpydeportes.gob.es</a></li>\n<li><strong>Homologação de diplomas de Formação Profissional</strong> — Ministério da Educação, Formação Profissional e Desporto: <a href=\"https://www.educacionyfp.gob.es/servicios-al-ciudadano/catalogo/gestion-titulos/estudios-no-universitarios/titulos-extranjeros/homologacion-convalidacion-no-universitarios.html\" rel=\"noopener noreferrer\" target=\"_blank\">educacionyfp.gob.es</a></li>\n<li><strong>Equivalência de estudos não universitários nas Canárias</strong> (sem taxa) — Governo das Canárias: <a href=\"https://sede.gobiernodecanarias.org/sede/procedimientos_servicios/tramites/5862\" rel=\"noopener noreferrer\" target=\"_blank\">sede.gobiernodecanarias.org — trâmite 5862</a></li>\n</ul>",
+    "recursosTitulo": "Recursos da comunidade",
+    "recursosTexto": "<p>Além das fontes oficiais, existem plataformas de cidadãos criadas por pessoas que já passaram pelo processo de homologação, onde se partilham experiências, tempos reais e dúvidas frequentes do trâmite: <strong>homologacionjustaya.org</strong>. Não é uma fonte oficial, mas pode ser útil para questões do dia a dia que a administração nem sempre resolve.</p>",
+    "instagramNota": "Ligação copiada e abrimos o Instagram: basta colá-la na sua história ou publicação.",
+    "ctaTexto": "Precisa de orientação para iniciar o seu trâmite de homologação?",
+    "ctaBoton": "Pedir orientação sociolaboral",
+    "textoTarjeta": "Homologação, equivalência, convalidação ou reconhecimento: quatro trâmites que se confundem sob o mesmo nome. O que precisa consoante o seu diploma estrangeiro e o que esperar do processo.",
+    "formato": "10 min de leitura",
+    "boton": "Ler artigo"
+  }
+}
