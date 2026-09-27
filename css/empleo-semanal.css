@@ -65,6 +65,9 @@
 .semanal-whatsapp__texto p{color:var(--texto-suave);font-size:14px}
 .semanal-whatsapp__boton{display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff;font-weight:700;font-size:15px;padding:14px 26px;border-radius:999px;white-space:nowrap;box-shadow:0 8px 20px rgba(37,211,102,.28);transition:background .2s ease,transform .2s ease}
 .semanal-whatsapp__boton:hover{background:#1eb857;transform:translateY(-2px)}
+.semanal-whatsapp__qr{display:flex;flex-direction:column;align-items:center;gap:6px;flex-shrink:0}
+.semanal-whatsapp__qr img{width:104px;height:104px;border-radius:12px;background:#fff;padding:6px;border:1.5px solid #25D36655}
+.semanal-whatsapp__qr span{color:var(--texto-suave);font-size:11.5px;text-align:center;max-width:110px}
 @media(max-width:640px){
   .semanal-whatsapp{padding:26px 22px;margin-bottom:48px}
   .semanal-whatsapp__boton{width:100%;justify-content:center}
