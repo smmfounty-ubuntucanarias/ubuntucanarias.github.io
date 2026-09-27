@@ -181,8 +181,6 @@ html[dir=rtl] .vdm-timeline__paso:before{left:auto;right:calc(-50% + 27px)}
 /* Testimonio de Siham: ilustración con texto en árabe, nunca se recorta */
 #testimonio-siham-imagen{background:#f2e1c7}
 #testimonio-siham-imagen img{object-fit:contain;aspect-ratio:1996/1331}
-.vdm-testimonio-mini__foto--siham{background:#f2e1c7}
-.vdm-testimonio-mini__foto--siham img{object-fit:contain}
 .story-article__etiqueta{display:inline-block;color:#8A5E18;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:18px}
 .story-article__titulo{font-size:clamp(2rem,3.8vw,3rem);line-height:1.16;color:var(--azul);font-weight:800;letter-spacing:-.01em;margin-bottom:22px}
 .story-article__autor{font-size:15.5px;color:var(--texto-suave);line-height:1.7}

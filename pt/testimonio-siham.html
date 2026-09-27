@@ -190,5 +190,18 @@ Voltar a Vozes do Mundo
 </footer>
 <script defer="" src="../js/idiomas.js?v=20260726a"></script>
 <script defer="" src="../js/app.js?v=20260730a"></script>
+<script>
+(function () {
+  var imagenes = document.querySelectorAll(".story-article__imagen--animada");
+  if (!imagenes.length) return;
+  if (!("IntersectionObserver" in window)) { imagenes.forEach(function (img) { img.classList.add("en-vista"); }); return; }
+  var observador = new IntersectionObserver(function (entradas) {
+    entradas.forEach(function (entrada) {
+      if (entrada.isIntersecting) { entrada.target.classList.add("en-vista"); observador.unobserve(entrada.target); }
+    });
+  }, { threshold: 0.2 });
+  imagenes.forEach(function (img) { observador.observe(img); });
+})();
+</script>
 </body>
 </html>
