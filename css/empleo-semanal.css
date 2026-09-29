@@ -57,6 +57,19 @@
   .semanal-banner__boton{width:100%;justify-content:center}
 }
 
+/* --- Banner para empresas --- */
+.semanal-empresas{background:#EAF5F5;border:1.5px solid #138C8C55;border-radius:var(--radio-l);padding:32px 36px;margin:0 0 28px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.semanal-empresas__icono{width:52px;height:52px;border-radius:50%;background:#138C8C;color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.semanal-empresas__texto{flex:1;min-width:240px}
+.semanal-empresas__texto h3{color:var(--azul);font-size:16.5px;font-weight:800;margin-bottom:4px}
+.semanal-empresas__texto p{color:var(--texto-suave);font-size:14px}
+.semanal-empresas__boton{display:inline-flex;align-items:center;gap:8px;background:#138C8C;color:#fff;font-weight:700;font-size:15px;padding:14px 26px;border-radius:999px;white-space:nowrap;box-shadow:0 8px 20px rgba(19,140,140,.28);transition:background .2s ease,transform .2s ease}
+.semanal-empresas__boton:hover{background:#0f6f6f;transform:translateY(-2px)}
+@media(max-width:640px){
+  .semanal-empresas{padding:26px 22px;margin-bottom:24px}
+  .semanal-empresas__boton{width:100%;justify-content:center}
+}
+
 /* --- Banner de WhatsApp --- */
 .semanal-whatsapp{background:#e6f8ed;border:1.5px solid #25D36655;border-radius:var(--radio-l);padding:32px 36px;margin:0 0 64px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
 .semanal-whatsapp__icono{width:52px;height:52px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0}
