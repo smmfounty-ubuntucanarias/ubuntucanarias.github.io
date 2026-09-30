@@ -1,5 +1,1276 @@
 const OFERTAS_SEMANA = [
   {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Auxiliar de Soporte al Cliente",
+      "en": "Customer Support Assistant",
+      "fr": "Assistant/e support client",
+      "ar": "مساعد/ة دعم العملاء",
+      "pt": "Auxiliar de Apoio ao Cliente"
+    },
+    "empresa": "MHP Servicios de Control S.L.",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada intensiva de mañana, presencial. Contrato indefinido",
+      "en": "Continuous morning shift, on-site. Permanent contract",
+      "fr": "Horaire continu le matin, en présentiel. Contrat à durée indéterminée",
+      "ar": "دوام صباحي متواصل، حضوري. عقد غير محدد المدة",
+      "pt": "Horário contínuo de manhã, presencial. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Atención y soporte a clientes. Salario: 15.000–18.000 € al año.",
+      "en": "Customer service and support. Salary: 15.000–18.000 € per year.",
+      "fr": "Accueil et assistance aux clients. Salaire : 15.000–18.000 € par an.",
+      "ar": "خدمة العملاء ودعمهم. الراتب: 15.000–18.000 € سنويًا.",
+      "pt": "Atendimento e apoio a clientes. Salário: 15.000–18.000 € por ano."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/auxiliar-soporte-cliente/of-i94796ae8b1468c8c30226c88cbba29"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Técnico/a de Sistemas Informáticos",
+      "en": "IT Systems Technician",
+      "fr": "Technicien/ne en systèmes informatiques",
+      "ar": "فني/ة أنظمة معلوماتية",
+      "pt": "Técnico/a de Sistemas Informáticos"
+    },
+    "empresa": "MHP Servicios de Control S.L.",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Perfil de informática y sistemas. Más detalles en la oferta.",
+      "en": "IT and systems profile. More details in the job offer.",
+      "fr": "Profil informatique et systèmes. Plus de détails dans l'offre.",
+      "ar": "ملف في المعلوماتية والأنظمة. مزيد من التفاصيل في عرض العمل.",
+      "pt": "Perfil de informática e sistemas. Mais detalhes na oferta."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/tecnico-sistemas-informaticos/of-ib5417d81ee4cbc907c8aa3ab82f880"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Recursos Humanos y Prevención",
+      "en": "HR & Occupational Safety",
+      "fr": "RH et prévention",
+      "ar": "الموارد البشرية والوقاية",
+      "pt": "Recursos Humanos e Prevenção"
+    },
+    "puesto": {
+      "es": "Técnico/a Legal y de Recursos Humanos",
+      "en": "Legal and Human Resources Specialist",
+      "fr": "Technicien/ne juridique et ressources humaines",
+      "ar": "فني/ة في الشؤون القانونية والموارد البشرية",
+      "pt": "Técnico/a Jurídico/a e de Recursos Humanos"
+    },
+    "empresa": "No especificada",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, presencial",
+      "en": "Full-time, on-site",
+      "fr": "Temps plein, en présentiel",
+      "ar": "دوام كامل، حضوري",
+      "pt": "Tempo inteiro, presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Área jurídica y de recursos humanos. Salario: 22.000–27.000 € al año.",
+      "en": "Legal and human resources area. Salary: 22.000–27.000 € per year.",
+      "fr": "Domaine juridique et ressources humaines. Salaire : 22.000–27.000 € par an.",
+      "ar": "المجال القانوني والموارد البشرية. الراتب: 22.000–27.000 € سنويًا.",
+      "pt": "Área jurídica e de recursos humanos. Salário: 22.000–27.000 € por ano."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/tecnico-legal-de-recursos-humanos/of-ie69cc2b3594a8ea075f0c95c7befc6"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Comunicación y Medios",
+      "en": "Media & Communication",
+      "fr": "Communication et médias",
+      "ar": "الإعلام والاتصال",
+      "pt": "Comunicação e Media"
+    },
+    "puesto": {
+      "es": "Redactor/a (Ref. SAO_026/26)",
+      "en": "Copywriter / Writer (Ref. SAO_026/26)",
+      "fr": "Rédacteur/trice (Réf. SAO_026/26)",
+      "ar": "محرر/ة (المرجع SAO_026/26)",
+      "pt": "Redator/a (Ref. SAO_026/26)"
+    },
+    "empresa": "Adecco",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa",
+      "en": "Full-time",
+      "fr": "Temps plein",
+      "ar": "دوام كامل",
+      "pt": "Tempo inteiro"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Perfil de redacción. Más detalles en la oferta.",
+      "en": "Writing profile. More details in the job offer.",
+      "fr": "Profil rédaction. Plus de détails dans l'offre.",
+      "ar": "ملف في مجال التحرير والكتابة. مزيد من التفاصيل في عرض العمل.",
+      "pt": "Perfil de redação. Mais detalhes na oferta."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/sao_026-26-redactor/of-i49e8371ebf4d23b83688c3a8b11ac7"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Asistente de Dirección",
+      "en": "Executive Assistant",
+      "fr": "Assistant/e de direction",
+      "ar": "مساعد/ة إدارة",
+      "pt": "Assistente de Direção"
+    },
+    "empresa": "Link Soluciones Informáticas",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, modalidad híbrida",
+      "en": "Full-time, hybrid",
+      "fr": "Temps plein, en mode hybride",
+      "ar": "دوام كامل، نظام هجين",
+      "pt": "Tempo inteiro, regime híbrido"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Apoyo a la dirección y gestión administrativa.",
+      "en": "Support to management and administrative tasks.",
+      "fr": "Soutien à la direction et gestion administrative.",
+      "ar": "دعم الإدارة والقيام بالمهام الإدارية.",
+      "pt": "Apoio à direção e gestão administrativa."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/asistente-direccion/of-i97b072417b4ec09dc6b17b2f30d065"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Administrativo/a Contable",
+      "en": "Accounting Administrative Assistant",
+      "fr": "Employé/e administratif/ve et comptable",
+      "ar": "موظف/ة إداري/ة ومحاسبة",
+      "pt": "Administrativo/a de Contabilidade"
+    },
+    "empresa": "No especificada",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, presencial",
+      "en": "Full-time, on-site",
+      "fr": "Temps plein, en présentiel",
+      "ar": "دوام كامل، حضوري",
+      "pt": "Tempo inteiro, presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Tareas de administración y contabilidad. Más detalles en la oferta.",
+      "en": "Administration and accounting tasks. More details in the job offer.",
+      "fr": "Tâches administratives et comptables. Plus de détails dans l'offre.",
+      "ar": "مهام إدارية ومحاسبية. مزيد من التفاصيل في عرض العمل.",
+      "pt": "Tarefas de administração e contabilidade. Mais detalhes na oferta."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/administrativo-contable/of-i6fab1806e647e583f86b821f753881"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración y Comercio",
+      "en": "Administration & Retail",
+      "fr": "Administration et commerce",
+      "ar": "الإدارة والتجارة",
+      "pt": "Administração e Comércio"
+    },
+    "puesto": {
+      "es": "Gestor/a Administrativo/a Comercial",
+      "en": "Commercial Administrative Officer",
+      "fr": "Gestionnaire administratif/ve et commercial/e",
+      "ar": "مسؤول/ة إداري/ة تجاري/ة",
+      "pt": "Gestor/a Administrativo/a Comercial"
+    },
+    "empresa": "GES Seguros y Reaseguros",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Modalidad híbrida",
+      "en": "Hybrid",
+      "fr": "En mode hybride",
+      "ar": "نظام هجين",
+      "pt": "Regime híbrido"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Tareas de administración y actividad comercial en una aseguradora.",
+      "en": "Administrative tasks and sales activity at an insurance company.",
+      "fr": "Tâches administratives et activité commerciale dans une compagnie d'assurance.",
+      "ar": "مهام إدارية ونشاط تجاري في شركة تأمين.",
+      "pt": "Tarefas administrativas e atividade comercial numa seguradora."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/gestor-administrativo-comercial-las-palmas/of-i8bd07f6beb44ecbf9a88bd3b0dfb34"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Agente de Atención al Cliente",
+      "en": "Customer Service Agent",
+      "fr": "Agent/e du service client",
+      "ar": "وكيل/ة خدمة العملاء",
+      "pt": "Agente de Apoio ao Cliente"
+    },
+    "empresa": "Sendago",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, presencial. Contrato indefinido",
+      "en": "Full-time, on-site. Permanent contract",
+      "fr": "Temps plein, en présentiel. Contrat à durée indéterminée",
+      "ar": "دوام كامل، حضوري. عقد غير محدد المدة",
+      "pt": "Tempo inteiro, presencial. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Atención a clientes de una plataforma logística.",
+      "en": "Customer service for a logistics platform.",
+      "fr": "Service client pour une plateforme logistique.",
+      "ar": "خدمة عملاء منصة لوجستية.",
+      "pt": "Atendimento a clientes de uma plataforma logística."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/agente-atencion-al-cliente/of-i2b67a3f7804ad3a8fc40b721e9a6b0"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración y Comercio",
+      "en": "Administration & Retail",
+      "fr": "Administration et commerce",
+      "ar": "الإدارة والتجارة",
+      "pt": "Administração e Comércio"
+    },
+    "puesto": {
+      "es": "Atención al Cliente — Inmobiliaria",
+      "en": "Customer Service — Real Estate Agency",
+      "fr": "Service client — Agence immobilière",
+      "ar": "خدمة العملاء — وكالة عقارية",
+      "pt": "Atendimento ao Cliente — Imobiliária"
+    },
+    "empresa": "Tecnocasa Gran Canaria Capital",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, presencial. Contrato indefinido",
+      "en": "Full-time, on-site. Permanent contract",
+      "fr": "Temps plein, en présentiel. Contrat à durée indéterminée",
+      "ar": "دوام كامل، حضوري. عقد غير محدد المدة",
+      "pt": "Tempo inteiro, presencial. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Atención al cliente. Sueldo fijo más comisiones.",
+      "en": "Customer service. Fixed salary plus commissions.",
+      "fr": "Service client. Salaire fixe plus commissions.",
+      "ar": "خدمة العملاء. راتب ثابت بالإضافة إلى عمولات.",
+      "pt": "Atendimento ao cliente. Salário fixo mais comissões."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/atencion-al-cliente-sueldo-fijo-contrato-indefinido-comisiones/of-i459b6648744f13b868e578e5569e47"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "ServiceDesk con Alemán",
+      "en": "ServiceDesk with German",
+      "fr": "ServiceDesk (support technique) avec allemand",
+      "ar": "ServiceDesk (الدعم الفني) مع اللغة الألمانية",
+      "pt": "ServiceDesk (apoio técnico) com Alemão"
+    },
+    "empresa": "SEREM",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Modalidad híbrida",
+      "en": "Hybrid",
+      "fr": "En mode hybride",
+      "ar": "نظام هجين",
+      "pt": "Regime híbrido"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Soporte técnico y atención a usuarios en alemán.",
+      "en": "Technical support and user assistance in German.",
+      "fr": "Support technique et assistance aux utilisateurs en allemand.",
+      "ar": "دعم فني ومساعدة المستخدمين باللغة الألمانية.",
+      "pt": "Apoio técnico e atendimento a utilizadores em alemão."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/servicedesk-con-aleman/of-if6d09fad6648b39ade558f037ac259"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Logística y Almacén",
+      "en": "Logistics & Warehouse",
+      "fr": "Logistique et entrepôt",
+      "ar": "اللوجستيات والمستودعات",
+      "pt": "Logística e Armazém"
+    },
+    "puesto": {
+      "es": "Coordinador/a de Tráfico",
+      "en": "Traffic Coordinator",
+      "fr": "Coordinateur/trice du transport",
+      "ar": "منسق/ة حركة النقل",
+      "pt": "Coordenador/a de Tráfego"
+    },
+    "empresa": "DACHSER",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Coordinación y gestión del tráfico de mercancías (logística).",
+      "en": "Coordination and management of goods traffic (logistics).",
+      "fr": "Coordination et gestion du transport de marchandises (logistique).",
+      "ar": "تنسيق وإدارة حركة نقل البضائع (لوجستيات).",
+      "pt": "Coordenação e gestão do tráfego de mercadorias (logística)."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/coordinador-trafico-las-palmas/of-ida07f6914a4bdc9ee9a28df61bb475"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Asesor/a Inmobiliario/a",
+      "en": "Real Estate Advisor",
+      "fr": "Conseiller/ère immobilier/ère",
+      "ar": "مستشار/ة عقاري/ة",
+      "pt": "Consultor/a Imobiliário/a"
+    },
+    "empresa": "Remax Cony",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Modalidad híbrida. Como autónomo/a",
+      "en": "Hybrid. As self-employed",
+      "fr": "En mode hybride. En tant qu'indépendant/e",
+      "ar": "نظام هجين. كعامل/ة مستقل/ة",
+      "pt": "Regime híbrido. Como trabalhador/a independente"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "No se exige experiencia; formación desde cero. Trabajo como autónomo/a, no contrato laboral.",
+      "en": "No experience required; training from scratch. Self-employed work, not an employment contract.",
+      "fr": "Aucune expérience exigée ; formation depuis le début. Travail en tant qu'indépendant/e, pas de contrat de travail.",
+      "ar": "لا تُشترط الخبرة؛ تدريب من الصفر. العمل كعامل/ة مستقل/ة، وليس بعقد عمل.",
+      "pt": "Não é exigida experiência; formação desde o início. Trabalho como independente, não é contrato de trabalho."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/asesor-inmobiliario/of-i5e24f9642d4ebeb1eb70c93ab97728"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Asesor/a Inmobiliario/a Independiente",
+      "en": "Independent Real Estate Advisor",
+      "fr": "Conseiller/ère immobilier/ère indépendant/e",
+      "ar": "مستشار/ة عقاري/ة مستقل/ة",
+      "pt": "Consultor/a Imobiliário/a Independente"
+    },
+    "empresa": "SAFTI",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Horario a elegir. Como autónomo/a",
+      "en": "Schedule of your choice. As self-employed",
+      "fr": "Horaires au choix. En tant qu'indépendant/e",
+      "ar": "ساعات عمل حسب اختيارك. كعامل/ة مستقل/ة",
+      "pt": "Horário à escolha. Como trabalhador/a independente"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Trabajo como autónomo/a, no contrato laboral.",
+      "en": "Self-employed work, not an employment contract.",
+      "fr": "Travail en tant qu'indépendant/e, pas de contrat de travail.",
+      "ar": "العمل كعامل/ة مستقل/ة، وليس بعقد عمل.",
+      "pt": "Trabalho como independente, não é contrato de trabalho."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas/asesor-inmobiliario-independiente/of-iaa1365125a4d69a87006a2e97a62e9"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Comercial Agente Exclusivo/a — Las Palmas Centro",
+      "en": "Exclusive Sales Agent — Las Palmas Centro",
+      "fr": "Agent/e commercial/e exclusif/ve — Las Palmas Centro",
+      "ar": "وكيل/ة مبيعات حصري/ة — Las Palmas Centro",
+      "pt": "Agente Comercial Exclusivo/a — Las Palmas Centro"
+    },
+    "empresa": "Ocaso",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "No especificada",
+      "en": "Not specified",
+      "fr": "Non précisé",
+      "ar": "غير محدد",
+      "pt": "Não especificado"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Venta de seguros. Más detalles en la oferta.",
+      "en": "Insurance sales. More details in the job offer.",
+      "fr": "Vente d'assurances. Plus de détails dans l'offre.",
+      "ar": "بيع التأمينات. مزيد من التفاصيل في عرض العمل.",
+      "pt": "Venda de seguros. Mais detalhes na oferta."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/comercial-agente-exclusivo.-las-palmas-centro./of-i4095a1f71e4d4d92cf82e4f424b7fc"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Jefe/a de Equipo Comercial",
+      "en": "Sales Team Leader",
+      "fr": "Chef/fe d'équipe commerciale",
+      "ar": "رئيس/ة فريق المبيعات",
+      "pt": "Chefe de Equipa Comercial"
+    },
+    "empresa": "Nationale-Nederlanden",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Modalidad híbrida",
+      "en": "Hybrid",
+      "fr": "En mode hybride",
+      "ar": "نظام هجين",
+      "pt": "Regime híbrido"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Dirección y coordinación de un equipo comercial.",
+      "en": "Leading and coordinating a sales team.",
+      "fr": "Direction et coordination d'une équipe commerciale.",
+      "ar": "قيادة وتنسيق فريق مبيعات.",
+      "pt": "Direção e coordenação de uma equipa comercial."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/jefe-equipo-para-las-palmas/of-icb61281a7f435aaeb9f9fda920bc48"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Jefe/a de Ventas — Automoción",
+      "en": "Sales Manager — Automotive",
+      "fr": "Chef/fe des ventes — Automobile",
+      "ar": "رئيس/ة المبيعات — قطاع السيارات",
+      "pt": "Chefe de Vendas — Setor Automóvel"
+    },
+    "empresa": "No especificada",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Dirección comercial en una empresa de automoción.",
+      "en": "Sales management at an automotive company.",
+      "fr": "Direction commerciale dans une entreprise automobile.",
+      "ar": "إدارة المبيعات في شركة سيارات.",
+      "pt": "Direção comercial numa empresa do setor automóvel."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/jefe-ventas/of-ibd8b70c1d0463cadae9ddc503dd104"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Gerente Comercial de Automoción",
+      "en": "Automotive Commercial Manager",
+      "fr": "Directeur/trice commercial/e automobile",
+      "ar": "مدير/ة تجاري/ة في قطاع السيارات",
+      "pt": "Gerente Comercial do Setor Automóvel"
+    },
+    "empresa": "Domingo Alonso Group",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Gestión comercial en el sector del automóvil.",
+      "en": "Commercial management in the automotive sector.",
+      "fr": "Gestion commerciale dans le secteur automobile.",
+      "ar": "إدارة تجارية في قطاع السيارات.",
+      "pt": "Gestão comercial no setor automóvel."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/gerente-comercial-automocion/of-ic5c214a9f14b4bb30ed93ca9902a23"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Product Manager Hyundai",
+      "en": "Product Manager Hyundai",
+      "fr": "Product Manager Hyundai (chef/fe de produit)",
+      "ar": "Product Manager Hyundai (مدير/ة منتج)",
+      "pt": "Product Manager Hyundai (gestor/a de produto)"
+    },
+    "empresa": "Domingo Alonso Group",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Gestión de producto en el sector del automóvil.",
+      "en": "Product management in the automotive sector.",
+      "fr": "Gestion de produit dans le secteur automobile.",
+      "ar": "إدارة المنتجات في قطاع السيارات.",
+      "pt": "Gestão de produto no setor automóvel."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/product-manager-hyundai/of-ifeb7b6e7384be1899883ecef535f42"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Asesor/a Comercial de Vehículos de Ocasión",
+      "en": "Used Vehicle Sales Advisor",
+      "fr": "Conseiller/ère commercial/e en véhicules d'occasion",
+      "ar": "مستشار/ة مبيعات السيارات المستعملة",
+      "pt": "Consultor/a Comercial de Veículos Usados"
+    },
+    "empresa": "Grupo ARI",
+    "ubicacion": "Telde",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Venta de vehículos de ocasión.",
+      "en": "Sale of used vehicles.",
+      "fr": "Vente de véhicules d'occasion.",
+      "ar": "بيع السيارات المستعملة.",
+      "pt": "Venda de veículos usados."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/asesor-comercial-automocion-ocasion-telde/of-id1908239fe4b088141fdce83f0cfe8"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Asesor/a Comercial de Salud",
+      "en": "Health Sales Advisor",
+      "fr": "Conseiller/ère commercial/e santé",
+      "ar": "مستشار/ة مبيعات في مجال الصحة",
+      "pt": "Consultor/a Comercial de Saúde"
+    },
+    "empresa": "No especificada",
+    "ubicacion": "Santa Lucía de Tirajana",
+    "jornada": {
+      "es": "Modalidad híbrida",
+      "en": "Hybrid",
+      "fr": "En mode hybride",
+      "ar": "نظام هجين",
+      "pt": "Regime híbrido"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Venta de seguros y servicios de salud. Salario: 2.700–3.200 € al mes.",
+      "en": "Sale of health insurance and services. Salary: 2.700–3.200 € per month.",
+      "fr": "Vente d'assurances et de services de santé. Salaire : 2.700–3.200 € par mois.",
+      "ar": "بيع التأمينات والخدمات الصحية. الراتب: 2.700–3.200 € شهريًا.",
+      "pt": "Venda de seguros e serviços de saúde. Salário: 2.700–3.200 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/santa-lucia-de-tirajana/asesor-comercial-salud-santa-lucia-tirajana-gran-canaria/of-ib1421313094f928f2e88310fb2bd42"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Visual Merchandiser — Tienda",
+      "en": "Visual Merchandiser — Store",
+      "fr": "Visual Merchandiser — Magasin",
+      "ar": "Visual Merchandiser — متجر",
+      "pt": "Visual Merchandiser — Loja"
+    },
+    "empresa": "Inditex",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Visual merchandising (presentación y montaje del producto en tienda).",
+      "en": "Visual merchandising (presenting and setting up products in store).",
+      "fr": "Visual merchandising (présentation et mise en place des produits en magasin).",
+      "ar": "Visual merchandising (عرض المنتجات وترتيبها داخل المتجر).",
+      "pt": "Visual merchandising (apresentação e montagem do produto em loja)."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/visual-merchandiser-tienda-inditex-las-palmas/of-iac9e59cbc845a1b06d8638888225c9"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Dependiente/a de Supermercado",
+      "en": "Supermarket Shop Assistant",
+      "fr": "Vendeur/euse en supermarché",
+      "ar": "بائع/ة في سوبرماركت",
+      "pt": "Empregado/a de Supermercado"
+    },
+    "empresa": "Supermercados Mogán",
+    "ubicacion": "Mogán",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Atención al cliente y reposición en supermercado.",
+      "en": "Customer service and shelf restocking in a supermarket.",
+      "fr": "Service client et réassort des rayons en supermarché.",
+      "ar": "خدمة العملاء وتعبئة الرفوف في سوبرماركت.",
+      "pt": "Atendimento ao cliente e reposição em supermercado."
+    },
+    "enlace": "https://www.infojobs.net/mogan/dependiente-supermercado-las-palmas/of-i0ada18a7094ba18ef9e62bc820649e"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Dependiente/a — Burger King (Apertura Los Alisios)",
+      "en": "Crew Member — Burger King (Los Alisios Opening)",
+      "fr": "Employé/e — Burger King (Ouverture Los Alisios)",
+      "ar": "موظف/ة — Burger King (افتتاح Los Alisios)",
+      "pt": "Empregado/a de Balcão — Burger King (Abertura Los Alisios)"
+    },
+    "empresa": "Burger King",
+    "ubicacion": "CC Los Alisios (Las Palmas de Gran Canaria)",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Atención al cliente y trabajo en restaurante de comida rápida por nueva apertura.",
+      "en": "Customer service and work in a fast food restaurant due to a new opening.",
+      "fr": "Service client et travail dans un restaurant de restauration rapide pour une nouvelle ouverture.",
+      "ar": "خدمة العملاء والعمل في مطعم للوجبات السريعة بمناسبة افتتاح جديد.",
+      "pt": "Atendimento ao cliente e trabalho em restaurante de comida rápida por nova abertura."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/dependiente-burger-king-apertura-los-alisios-rdpnd/of-i21cafb379a41f39dfb098e2d978e7d"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Carrista para Supermercado (Personas con Discapacidad)",
+      "en": "Forklift Operator for Supermarket (People with Disabilities)",
+      "fr": "Cariste pour supermarché (Personnes en situation de handicap)",
+      "ar": "سائق/ة رافعة شوكية لسوبرماركت (للأشخاص ذوي الإعاقة)",
+      "pt": "Operador/a de Empilhador para Supermercado (Pessoas com Deficiência)"
+    },
+    "empresa": "ILUNION",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Oferta dirigida a personas con certificado de discapacidad.",
+      "en": "Offer for people with a disability certificate.",
+      "fr": "Offre destinée aux personnes ayant un certificat de handicap.",
+      "ar": "عرض موجه للأشخاص الحاصلين على شهادة إعاقة.",
+      "pt": "Oferta dirigida a pessoas com certificado de deficiência."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/personal-carrista-para-supermercado-con-discapacidad-h-m-d-las-palmas/of-i5ede72538d4becaeb5556fa8330b87"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Vendedor/a — Almacén Jinámar (Personas con Discapacidad)",
+      "en": "Salesperson — Jinámar Warehouse (People with Disabilities)",
+      "fr": "Vendeur/euse — Entrepôt Jinámar (Personnes en situation de handicap)",
+      "ar": "بائع/ة — مستودع Jinámar (للأشخاص ذوي الإعاقة)",
+      "pt": "Vendedor/a — Armazém Jinámar (Pessoas com Deficiência)"
+    },
+    "empresa": "OBRAMAT",
+    "ubicacion": "Jinámar (Telde / Las Palmas de Gran Canaria)",
+    "jornada": {
+      "es": "Presencial",
+      "en": "On-site",
+      "fr": "En présentiel",
+      "ar": "حضوري",
+      "pt": "Presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Venta y atención al cliente. Oferta dirigida a personas con certificado de discapacidad.",
+      "en": "Sales and customer service. Offer for people with a disability certificate.",
+      "fr": "Vente et service client. Offre destinée aux personnes ayant un certificat de handicap.",
+      "ar": "البيع وخدمة العملاء. عرض موجه للأشخاص الحاصلين على شهادة إعاقة.",
+      "pt": "Venda e atendimento ao cliente. Oferta dirigida a pessoas com certificado de deficiência."
+    },
+    "enlace": "https://www.infojobs.net/jinamar/almacen-jinamar_vendedor-perfil-con-discapacidad/of-i91ce5ca2174a44bc687a19762a5477"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Recepcionista (Personas con Discapacidad) — Media Jornada",
+      "en": "Receptionist (People with Disabilities) — Part-time",
+      "fr": "Réceptionniste (Personnes en situation de handicap) — Mi-temps",
+      "ar": "موظف/ة استقبال (للأشخاص ذوي الإعاقة) — دوام جزئي",
+      "pt": "Rececionista (Pessoas com Deficiência) — Meio Período"
+    },
+    "empresa": "Princess Hotels",
+    "ubicacion": "Maspalomas (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Media jornada. Contrato temporal",
+      "en": "Part-time. Temporary contract",
+      "fr": "Mi-temps. Contrat temporaire",
+      "ar": "دوام جزئي. عقد مؤقت",
+      "pt": "Meio período. Contrato a termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Recepción de hotel. Oferta dirigida a personas con certificado de discapacidad.",
+      "en": "Hotel reception. Offer for people with a disability certificate.",
+      "fr": "Réception d'hôtel. Offre destinée aux personnes ayant un certificat de handicap.",
+      "ar": "استقبال في فندق. عرض موجه للأشخاص الحاصلين على شهادة إعاقة.",
+      "pt": "Receção de hotel. Oferta dirigida a pessoas com certificado de deficiência."
+    },
+    "enlace": "https://www.infojobs.net/san-bartolome-de-tirajana/recepcionista-h-m-discapacidad-media-jornada/of-i089fc9f3d3408b8893f8b487dba61b"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Camarero/a",
+      "en": "Waiter/Waitress",
+      "fr": "Serveur/euse",
+      "ar": "نادل/ة",
+      "pt": "Empregado/a de Mesa"
+    },
+    "empresa": "Projects Roso",
+    "ubicacion": "Playa del Inglés (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. Contrat à durée indéterminée",
+      "ar": "دوام كامل. عقد غير محدد المدة",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Atención a clientes nacionales e internacionales. Salario según la oferta: 1.100 € al mes.",
+      "en": "Serving local and international customers. Salary according to the offer: 1.100 € per month.",
+      "fr": "Service aux clients nationaux et internationaux. Salaire selon l'offre : 1.100 € par mois.",
+      "ar": "خدمة الزبائن المحليين والدوليين. الراتب حسب العرض: 1.100 € شهريًا.",
+      "pt": "Atendimento a clientes nacionais e internacionais. Salário segundo a oferta: 1.100 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/san-bartolome-de-tirajana/camarero/of-i5eaad99422444d8db90d92e8a5db81"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Hostess — Restauración de Hotel",
+      "en": "Hostess — Hotel Restaurants",
+      "fr": "Hostess (hôte/sse d'accueil) — Restauration d'hôtel",
+      "ar": "Hostess (موظف/ة استقبال) — مطاعم الفندق",
+      "pt": "Hostess (rececionista de sala) — Restauração de Hotel"
+    },
+    "empresa": "Princess Hotels & Resorts",
+    "ubicacion": "Mogán",
+    "jornada": {
+      "es": "Horario a convenir. Según la oferta, como autónomo/a",
+      "en": "Schedule to be agreed. According to the offer, as self-employed",
+      "fr": "Horaires à convenir. Selon l'offre, en tant qu'indépendant/e",
+      "ar": "ساعات عمل يُتفق عليها. حسب العرض، كعامل/ة مستقل/ة",
+      "pt": "Horário a combinar. Segundo a oferta, como trabalhador/a independente"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Recibir y atender a los clientes en los restaurantes del hotel. Conviene confirmar el tipo de contrato.",
+      "en": "Welcoming and serving guests in the hotel restaurants. It is advisable to confirm the type of contract.",
+      "fr": "Accueillir et servir les clients dans les restaurants de l'hôtel. Il est conseillé de confirmer le type de contrat.",
+      "ar": "استقبال الزبائن وخدمتهم في مطاعم الفندق. يُستحسن التأكد من نوع العقد.",
+      "pt": "Receber e atender os clientes nos restaurantes do hotel. Convém confirmar o tipo de contrato."
+    },
+    "enlace": "https://www.infojobs.net/mogan/hostess/of-i94c0b62c504f7ca9e4846e1fb1569e"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Dependiente/a de Mostrador — Bocadillos Gourmet",
+      "en": "Counter Assistant — Gourmet Sandwiches",
+      "fr": "Vendeur/euse au comptoir — Sandwichs gourmets",
+      "ar": "بائع/ة على الكاونتر — سندويشات فاخرة",
+      "pt": "Empregado/a de Balcão — Sandes Gourmet"
+    },
+    "empresa": "No especificada",
+    "ubicacion": "Teror",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. Contrat à durée indéterminée",
+      "ar": "دوام كامل. عقد غير محدد المدة",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Atención al cliente, venta y manipulación de alimentos. Conviene confirmar el salario con la empresa.",
+      "en": "Customer service, sales and food handling. It is advisable to confirm the salary with the company.",
+      "fr": "Service client, vente et manipulation des aliments. Il est conseillé de confirmer le salaire avec l'entreprise.",
+      "ar": "خدمة العملاء والبيع والتعامل مع المواد الغذائية. يُستحسن التأكد من الراتب مع الشركة.",
+      "pt": "Atendimento ao cliente, venda e manipulação de alimentos. Convém confirmar o salário com a empresa."
+    },
+    "enlace": "https://www.infojobs.net/teror/dependiente-mostrador-bocadillos-gourmet-atencion-al-cliente-teror-gran-canaria/of-i0b2515eab442f6b301e30dcf3fc03e"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Vendedor/a",
+      "en": "Salesperson",
+      "fr": "Vendeur/euse",
+      "ar": "بائع/ة",
+      "pt": "Vendedor/a"
+    },
+    "empresa": "Casa del Perfume Canario",
+    "ubicacion": "Teror, Triana (Las Palmas de Gran Canaria) y Agaete",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. Contrat à durée indéterminée",
+      "ar": "دوام كامل. عقد غير محدد المدة",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Atención, asesoramiento y venta. Inglés intermedio imprescindible. Salario: 20.000–22.000 € al año.",
+      "en": "Customer service, advice and sales. Intermediate English essential. Salary: 20.000–22.000 € per year.",
+      "fr": "Accueil, conseil et vente. Anglais intermédiaire indispensable. Salaire : 20.000–22.000 € par an.",
+      "ar": "خدمة العملاء وتقديم المشورة والبيع. اللغة الإنجليزية بمستوى متوسط شرط أساسي. الراتب: 20.000–22.000 € سنويًا.",
+      "pt": "Atendimento, aconselhamento e venda. Inglês intermédio imprescindível. Salário: 20.000–22.000 € por ano."
+    },
+    "enlace": "https://www.infojobs.net/teror/vendedor/of-i58e8d18a5e40edae200c9d81f734d3"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Reponedor/a Nocturno/a",
+      "en": "Night Shelf Stacker",
+      "fr": "Employé/e de mise en rayon de nuit",
+      "ar": "عامل/ة تعبئة رفوف ليلي/ة",
+      "pt": "Repositor/a Noturno/a"
+    },
+    "empresa": "Grupo Constant",
+    "ubicacion": "El Tablero (Gran Canaria)",
+    "jornada": {
+      "es": "Jornada completa, turno de noche",
+      "en": "Full-time, night shift",
+      "fr": "Temps plein, équipe de nuit",
+      "ar": "دوام كامل، مناوبة ليلية",
+      "pt": "Tempo inteiro, turno da noite"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 30/09/2026)",
+      "en": "Shared this week (checked 09/30/2026)",
+      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
+      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+    },
+    "requisitos": {
+      "es": "Reposición de producto por la noche.",
+      "en": "Restocking products at night.",
+      "fr": "Réassort des produits la nuit.",
+      "ar": "تعبئة المنتجات على الرفوف ليلًا.",
+      "pt": "Reposição de produtos durante a noite."
+    },
+    "enlace": "https://www.infojobs.net/santa-lucia-de-tirajana/reponedor-nocturno-centro-fijo-tablero-gran-canaria/of-ieb5ec77c5749d89fe15d376b0ae4cb"
+  },
+  {
     "area": "sociosanitario",
     "categoria": {
       "es": "Sociosanitario",
