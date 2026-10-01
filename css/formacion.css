@@ -108,3 +108,11 @@ html[dir=rtl] .banner-formacion__foto{transform:rotate(2deg)}
 .fg-copiar{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;border:1.5px solid var(--borde);background:#fff;color:var(--azul);font-weight:700;font-size:13px;cursor:pointer}
 .fg-copiar:hover{border-color:var(--turquesa)}
 .fg-compartir .compartir-mini__nota{position:static;white-space:normal;flex-basis:100%}
+/* Recursos de otras entidades: autoría bien visible */
+.fuente-autoria{margin:18px 0 22px;font-size:15px;border-left:4px solid var(--amarillo)}
+html[dir=rtl] .fuente-autoria{border-left:1px solid var(--amarillo);border-right:4px solid var(--amarillo)}
+.articulo__cta--doble{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.articulo__cta--doble .boton svg{width:18px;height:18px}
+.fuente-nota{font-size:13.5px;color:var(--texto-suave);margin-top:10px}
+.articulo__imagen-destacada img[src*="recurso-guia-autorizacion"]{max-width:480px;width:100%;height:auto!important;max-height:none!important;object-fit:contain!important;margin:0 auto;border-radius:16px}
+.articulo__imagen-destacada:has(img[src*="recurso-guia-autorizacion"]){box-shadow:none;background:transparent}
