@@ -97,3 +97,5 @@ html[dir=rtl] .banner-formacion__foto{transform:rotate(2deg)}
 .fg-mod-hora{display:inline-block;margin:4px 0 6px;font-size:13px;font-weight:700;color:#0f6f6f;background:var(--turquesa-suave);padding:3px 10px;border-radius:999px}
 .fg-mod-obj{display:block;color:var(--texto)}
 .fg-mod-obj b{color:var(--azul)}
+/* Varias fichas en la página de formación */
+.fg-curso+.fg-curso{margin-top:28px}
