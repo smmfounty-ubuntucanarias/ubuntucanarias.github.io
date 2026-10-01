@@ -69,3 +69,9 @@ html[dir=rtl] .tarjeta-servicio__esquina{right:auto;left:-10px}
 .nav-principal__cta:after{display:none!important}
 @media(max-width:1024px){.nav-principal__cta{width:auto!important;display:inline-flex!important;margin-top:8px}}
 html[dir=rtl] .nav-principal__cta{margin-left:0}
+
+/* Banner de empleo de la portada en móvil: que el texto y el botón no se salgan de la caja */
+@media(max-width:760px){.mini-empleo{align-items:stretch;gap:20px}.mini-empleo__imagen{align-self:center}.mini-empleo__texto{flex:none;min-width:0;width:100%}.mini-empleo .boton{white-space:normal;justify-content:center;text-align:center;width:100%;max-width:100%;line-height:1.35}}
+
+/* Menú en pantallas medianas (1025–1220 px): evita que se salga (01/10/2026) */
+@media(min-width:1025px) and (max-width:1220px){.cabecera__interior{gap:16px;padding:14px 22px}.logo img{height:54px}.nav-principal{gap:10px}.nav-principal a{font-size:13.5px}.nav-principal__cta{padding:10px 16px!important}}

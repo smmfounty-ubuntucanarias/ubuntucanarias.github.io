@@ -1438,4 +1438,64 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-guia-linkedin.html"/>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://ubuntucanarias.org/recurso-empleo-municipal.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/en/recurso-empleo-municipal.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/fr/recurso-empleo-municipal.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/ar/recurso-empleo-municipal.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/pt/recurso-empleo-municipal.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/recurso-empleo-municipal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/recurso-empleo-municipal.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/formacion-gratuita.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/formacion-gratuita.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/formacion-gratuita.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/formacion-gratuita.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/formacion-gratuita.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/formacion-gratuita.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/formacion-gratuita.html"/>
+    <priority>0.7</priority>
+  </url>
 </urlset>

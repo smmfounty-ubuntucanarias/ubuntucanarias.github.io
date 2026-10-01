@@ -1,0 +1,92 @@
+/* Formación gratuita — ficha de curso (Recursos) y aviso (portada / empleo semanal) */
+.fg-seccion{padding-top:8px;padding-bottom:40px;scroll-margin-top:110px}
+.fg-cabecera{margin-bottom:22px}
+.fg-cabecera .eyebrow{color:var(--turquesa);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;display:block;margin-bottom:10px}
+.fg-cabecera h2{font-size:clamp(1.6rem,2.8vw,2.2rem);color:var(--azul);font-weight:800;margin-bottom:8px}
+.fg-cabecera p{color:var(--texto-suave);font-size:16px;max-width:70ch}
+.fg-curso{background:#fff;border-radius:24px;box-shadow:0 10px 30px rgba(18,59,105,.08);overflow:hidden;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr)}
+.fg-curso__img{background:#2b1f17;display:flex;flex-direction:column;justify-content:center}
+.fg-curso__img img{width:100%;height:auto;display:block}
+.fg-curso__cartel{display:block;text-align:center;color:#fff;font-size:14px;font-weight:600;padding:12px;text-decoration:underline;text-underline-offset:3px}
+.fg-curso__cuerpo{padding:30px 34px}
+.fg-estado{display:inline-flex;align-items:center;gap:8px;background:#e6f8ed;color:#167a43;font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px}
+.fg-estado::before{content:"";width:8px;height:8px;border-radius:50%;background:#25D366;flex-shrink:0}
+.fg-curso h2,.fg-curso h3{color:var(--azul);font-size:24px;line-height:1.25;margin:12px 0 6px}
+.fg-org{color:var(--texto-suave);font-size:14.5px;margin-bottom:16px}
+.fg-org a{color:var(--turquesa);font-weight:600}
+.fg-datos{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin:0 0 18px;padding:0;list-style:none}
+.fg-datos li{background:#f5f8fb;border-radius:12px;padding:10px 12px;font-size:14px;color:var(--texto)}
+.fg-datos b{display:block;color:var(--azul);font-size:12px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px}
+.fg-curso p{font-size:15px}
+.fg-modulos{border-top:1px solid var(--borde);margin-top:14px;padding-top:12px}
+.fg-modulos summary{font-weight:700;color:var(--azul);cursor:pointer}
+.fg-modulos ol{margin:10px 0 0 18px;font-size:14.5px;list-style:decimal}
+html[dir=rtl] .fg-modulos ol{margin:10px 18px 0 0}
+.fg-acciones{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.fg-aviso{background:var(--amarillo-suave);border:1px solid var(--amarillo);border-radius:14px;padding:12px 14px;font-size:14px;margin-top:16px;color:var(--texto)}
+.fg-aviso a{color:var(--azul);font-weight:700;text-decoration:underline}
+.fg-vacio{border:2px dashed #cfd8e3;border-radius:24px;padding:20px;text-align:center;color:var(--texto-suave);margin-top:24px;font-size:15px}
+.fg-ltr{direction:ltr;unicode-bidi:isolate}
+@media(max-width:860px){.fg-curso{grid-template-columns:1fr}.fg-curso__cuerpo{padding:22px 20px}.fg-datos{grid-template-columns:1fr}.fg-acciones .boton{width:100%;justify-content:center;white-space:normal;text-align:center}}
+
+.aviso-formacion{display:flex;align-items:center;gap:24px;background:#fff;border:2px solid var(--turquesa);border-radius:22px;padding:22px 28px;box-shadow:var(--sombra-m)}
+.aviso-formacion--home{margin:0 40px}
+.aviso-formacion__img{width:120px;height:120px;border-radius:14px;overflow:hidden;flex-shrink:0;background:#2b1f17}
+.aviso-formacion__img img{width:100%;height:100%;object-fit:cover;object-position:center 40%}
+.aviso-formacion__texto{flex:1}
+.aviso-formacion__etiqueta{display:inline-flex;align-items:center;gap:7px;background:var(--turquesa-suave);color:#0f6f6f;font-size:12.5px;font-weight:700;padding:5px 12px;border-radius:999px;margin-bottom:8px;letter-spacing:.02em}
+.aviso-formacion__etiqueta::before{content:"";width:8px;height:8px;border-radius:50%;background:#22c55e;flex-shrink:0}
+.aviso-formacion h2{font-size:21px;color:var(--azul);line-height:1.3;margin-bottom:4px}
+.aviso-formacion p{color:var(--texto-suave);font-size:15px}
+.aviso-formacion .boton{flex-shrink:0}
+html[dir=rtl] .aviso-formacion .boton svg{transform:rotate(180deg)}
+@media(max-width:760px){.aviso-formacion--home{margin:0 20px}}
+@media(max-width:640px){.aviso-formacion{flex-direction:column;align-items:flex-start;padding:20px}.aviso-formacion__img{width:100%;height:auto}.aviso-formacion__img img{height:auto;object-fit:contain}.aviso-formacion .boton{width:100%;justify-content:center}}
+
+/* Banner de formación gratuita (portada, empleo semanal y otras páginas) */
+.banner-formacion-seccion{padding:0 0 48px}
+.banner-formacion{position:relative;overflow:hidden;display:flex;align-items:center;gap:32px;margin:0 40px;padding:30px 36px;border-radius:var(--radio-l);background:linear-gradient(120deg,#0D2C4F 0%,#123B69 55%,#138C8C 130%);color:#fff;box-shadow:var(--sombra-l)}
+.banner-formacion::before{content:"";position:absolute;right:-70px;top:-90px;width:280px;height:280px;border-radius:50%;background:rgba(229,178,65,.16)}
+.banner-formacion::after{content:"";position:absolute;right:140px;bottom:-110px;width:200px;height:200px;border-radius:50%;background:rgba(255,255,255,.06)}
+.banner-formacion>*{position:relative;z-index:1}
+.banner-formacion__img{flex-shrink:0;width:150px;border-radius:14px;overflow:hidden;background:#fff;padding:6px;transform:rotate(-3deg);box-shadow:0 12px 28px rgba(0,0,0,.3);transition:transform .25s ease}
+.banner-formacion__img:hover{transform:rotate(0) scale(1.03)}
+.banner-formacion__img img{width:100%;height:auto;border-radius:9px}
+.banner-formacion__texto{flex:1;min-width:0}
+.banner-formacion__etiqueta{display:inline-flex;align-items:center;gap:8px;background:var(--amarillo);color:var(--azul-oscuro);font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-bottom:12px}
+.banner-formacion h2{font-size:clamp(1.25rem,2.2vw,1.6rem);line-height:1.25;font-weight:800;margin-bottom:6px;color:#fff}
+.banner-formacion__org{color:rgba(255,255,255,.75);font-size:14.5px;margin-bottom:14px}
+.banner-formacion__datos{display:flex;flex-wrap:wrap;gap:8px}
+.banner-formacion__datos li{font-size:13.5px;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22)}
+.banner-formacion__boton{flex-shrink:0;justify-content:center}
+html[dir=rtl] .banner-formacion__img{transform:rotate(3deg)}
+html[dir=rtl] .banner-formacion::before{right:auto;left:-70px}
+@media(max-width:760px){.banner-formacion{margin:0 20px}}
+@media(max-width:860px){.banner-formacion{flex-direction:column;align-items:flex-start;gap:20px;padding:26px 22px}.banner-formacion__img{width:150px}.banner-formacion__boton{width:100%;white-space:normal;text-align:center}}
+
+/* Botón «Ver cursos gratuitos» en Qué hacemos > Formación */
+.servicio-detalle__boton-cursos{display:inline-flex;align-items:center;gap:7px;margin-top:12px;padding:8px 18px;border-radius:999px;font-weight:700;font-size:13px;color:var(--azul);background:var(--blanco);border:2px solid var(--turquesa);box-shadow:var(--sombra-s);transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
+.servicio-detalle__boton-cursos svg{width:13px;height:13px;transition:transform .2s ease}
+.servicio-detalle__boton-cursos:hover{transform:translateY(-2px);box-shadow:var(--sombra-m);background:var(--turquesa-suave)}
+.servicio-detalle__boton-cursos:hover svg{transform:translateX(4px)}
+html[dir=rtl] .servicio-detalle__boton-cursos svg{transform:rotate(180deg)}
+
+/* Página Formación gratuita y botón en Recursos */
+.fg-pagina{padding-top:0}
+.blog-filtros__boton--formacion{display:inline-flex;align-items:center;background:var(--amarillo);border-color:var(--amarillo)!important;color:var(--azul-oscuro)!important}
+.blog-filtros__boton--formacion:hover{background:#d6a437}
+.banner-formacion__icono{flex-shrink:0;width:96px;height:96px;border-radius:50%;background:#fff;color:var(--turquesa);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.banner-formacion__icono svg{width:48px;height:48px}
+.banner-formacion__org{max-width:62ch}
+@media(max-width:860px){.banner-formacion__icono{width:72px;height:72px}.banner-formacion__icono svg{width:36px;height:36px}}
+/* Ficha: sin franjas oscuras alrededor del cartel */
+.fg-curso__img{background:#fff;justify-content:flex-start;padding:24px 0 16px 24px}
+html[dir=rtl] .fg-curso__img{padding:24px 24px 16px 0}
+.fg-curso__img img{border-radius:14px;box-shadow:0 6px 18px rgba(18,59,105,.12)}
+.fg-curso__cartel{color:var(--azul);padding:14px 0 0}
+@media(max-width:860px){.fg-curso__img,html[dir=rtl] .fg-curso__img{padding:16px 16px 0}}
+.banner-formacion__foto{flex-shrink:0;width:210px;aspect-ratio:3/2;border-radius:18px;overflow:hidden;border:4px solid rgba(255,255,255,.9);box-shadow:0 12px 28px rgba(0,0,0,.3);transform:rotate(-2deg);transition:transform .25s ease}
+.banner-formacion__foto:hover{transform:rotate(0) scale(1.03)}
+.banner-formacion__foto img{width:100%;height:100%;object-fit:cover}
+html[dir=rtl] .banner-formacion__foto{transform:rotate(2deg)}
+@media(max-width:860px){.banner-formacion__foto{width:100%;max-width:none;transform:none}}
