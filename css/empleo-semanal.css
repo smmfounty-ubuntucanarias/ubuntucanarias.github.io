@@ -196,3 +196,17 @@ html[dir=rtl] .semanal-hero__eyebrow:before{margin-left:8px;margin-right:0}
   .semanal-buscador{flex-direction:column;align-items:stretch}
   .semanal-buscador__descargar{justify-content:center}
 }
+
+/* Bloque de WhatsApp en móvil: todo centrado y el QR a un tamaño que se pueda escanear */
+@media(max-width:640px){
+  .semanal-whatsapp{flex-direction:column;align-items:center;text-align:center;gap:18px}
+  .semanal-whatsapp__icono{margin:0 auto}
+  .semanal-whatsapp__texto{flex:none;min-width:0;width:100%}
+  .semanal-whatsapp__boton{white-space:normal;text-align:center;line-height:1.35;padding:14px 20px}
+  .semanal-whatsapp__qr{width:100%;padding-top:6px;gap:10px}
+  .semanal-whatsapp__qr img{width:168px;height:168px;padding:10px;border-radius:16px;box-shadow:0 6px 18px rgba(37,211,102,.18)}
+  .semanal-whatsapp__qr span{max-width:none;font-size:13px}
+  .semanal-empresas{flex-direction:column;align-items:center;text-align:center}
+  .semanal-empresas__texto{min-width:0;width:100%}
+  .semanal-empresas__boton{white-space:normal;text-align:center;justify-content:center;width:100%}
+}
