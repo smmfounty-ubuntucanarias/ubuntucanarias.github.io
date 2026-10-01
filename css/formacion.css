@@ -99,3 +99,12 @@ html[dir=rtl] .banner-formacion__foto{transform:rotate(2deg)}
 .fg-mod-obj b{color:var(--azul)}
 /* Varias fichas en la página de formación */
 .fg-curso+.fg-curso{margin-top:28px}
+/* Compartir cada actividad */
+.fg-curso{scroll-margin-top:110px}
+.fg-compartir{flex-wrap:wrap;margin-top:18px;padding-top:14px;border-top:1px dashed var(--borde)}
+.fg-compartir .compartir-mini__etiqueta{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--texto-suave);margin-inline-end:4px}
+.fg-compartir .compartir-mini__boton{width:34px;height:34px}
+.fg-compartir .compartir-mini__boton svg{width:16px;height:16px}
+.fg-copiar{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;border:1.5px solid var(--borde);background:#fff;color:var(--azul);font-weight:700;font-size:13px;cursor:pointer}
+.fg-copiar:hover{border-color:var(--turquesa)}
+.fg-compartir .compartir-mini__nota{position:static;white-space:normal;flex-basis:100%}
