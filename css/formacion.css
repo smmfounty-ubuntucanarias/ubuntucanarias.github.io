@@ -90,3 +90,10 @@ html[dir=rtl] .fg-curso__img{padding:24px 24px 16px 0}
 .banner-formacion__foto img{width:100%;height:100%;object-fit:cover}
 html[dir=rtl] .banner-formacion__foto{transform:rotate(2deg)}
 @media(max-width:860px){.banner-formacion__foto{width:100%;max-width:none;transform:none}}
+/* Programa por módulos */
+.fg-modulos__lista{list-style:none!important;margin:12px 0 0!important;padding:0;display:grid;gap:10px}
+.fg-modulos__lista li{background:#f5f8fb;border-radius:12px;padding:12px 14px;font-size:14.5px;line-height:1.5}
+.fg-modulos__lista strong{display:block;color:var(--azul);font-size:15px}
+.fg-mod-hora{display:inline-block;margin:4px 0 6px;font-size:13px;font-weight:700;color:#0f6f6f;background:var(--turquesa-suave);padding:3px 10px;border-radius:999px}
+.fg-mod-obj{display:block;color:var(--texto)}
+.fg-mod-obj b{color:var(--azul)}
