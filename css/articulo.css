@@ -96,3 +96,13 @@
 .contenedor-legal .carrusel__texto p.carrusel__texto-sub,.contenedor-legal .carrusel__texto p.carrusel__texto-nota{font-size:13px;line-height:1.4}
 .contenedor-legal .carrusel__texto .carrusel__num{font-size:12px}
 .contenedor-legal p.carrusel__ayuda{font-size:13.5px;line-height:1.45}
+/* Flechas a los lados de la imagen */
+.carrusel__escenario{position:relative}
+.carrusel__escenario .carrusel__flecha{position:absolute;top:var(--mitad,40%);transform:translateY(-50%);z-index:3;background:rgba(18,59,105,.92)}
+.carrusel__escenario .carrusel__flecha--prev{left:0}.carrusel__escenario .carrusel__flecha--next{right:0}
+[dir="rtl"] .carrusel__escenario .carrusel__flecha--prev{left:auto;right:0}[dir="rtl"] .carrusel__escenario .carrusel__flecha--next{right:auto;left:0}
+[dir="rtl"] .carrusel__escenario .carrusel__flecha{transform:translateY(-50%) scaleX(-1)}
+.carrusel__diapo a{display:flex;justify-content:center;max-width:none}
+.carrusel__diapo img{max-height:75vh;width:auto;max-width:min(100%,440px)}
+.carrusel__puntos{margin:12px 0 4px}
+@media(min-width:700px){.carrusel__escenario{padding:0 8px}}
