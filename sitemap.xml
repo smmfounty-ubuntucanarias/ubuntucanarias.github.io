@@ -1508,4 +1508,104 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/recurso-guia-autorizacion-regularizacion.html"/>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://ubuntucanarias.org/blog-nacionalidad-espanola.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/en/blog-nacionalidad-espanola.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/fr/blog-nacionalidad-espanola.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/ar/blog-nacionalidad-espanola.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/pt/blog-nacionalidad-espanola.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-nacionalidad-espanola.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-nacionalidad-espanola.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/blog-certificado-digital.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/en/blog-certificado-digital.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/fr/blog-certificado-digital.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/ar/blog-certificado-digital.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/pt/blog-certificado-digital.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/blog-certificado-digital.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/blog-certificado-digital.html"/>
+    <priority>0.7</priority>
+  </url>
 </urlset>

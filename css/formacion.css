@@ -121,3 +121,37 @@ html[dir=rtl] .fuente-autoria{border-left:1px solid var(--amarillo);border-right
 .fg-sesiones{margin:10px 0 0 18px;font-size:14.5px;line-height:1.6}
 html[dir=rtl] .fg-sesiones{margin:10px 18px 0 0}
 .fg-curso p a{color:var(--turquesa);font-weight:600}
+
+/* ===== Formación: vista en tarjetas (js/formacion-tarjetas.js) ===== */
+.fct-activo .fg-vacio{display:none}
+.fct-filtros{background:var(--blanco);border-radius:18px;box-shadow:var(--sombra-m);padding:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 26px}
+.fct-filtros__buscar{flex:1 1 220px;border:1.5px solid var(--borde);border-radius:999px;padding:11px 16px;font:inherit;font-size:15px;min-width:0}
+.fct-filtros__btn{border:1.5px solid var(--borde);background:var(--blanco);border-radius:999px;padding:8px 14px;font-weight:600;font-size:14px;color:var(--azul);cursor:pointer}
+.fct-filtros__btn[aria-pressed=true]{background:var(--turquesa);border-color:var(--turquesa);color:var(--blanco)}
+.fct-rejilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:24px;margin-bottom:30px}
+.fct{background:var(--blanco);border-radius:18px;box-shadow:var(--sombra-s);overflow:hidden;display:flex;flex-direction:column;text-align:center;transition:transform .2s ease,box-shadow .2s ease}
+.fct:hover{transform:translateY(-3px);box-shadow:var(--sombra-m)}
+.fct[hidden]{display:none}
+.fct__img{border:0;padding:12px;cursor:pointer;height:280px;overflow:hidden;background:#eef2f6;position:relative;display:flex;align-items:center;justify-content:center;width:100%}
+.fct__fondo{position:absolute;inset:-20px;width:calc(100% + 40px);height:calc(100% + 40px);object-fit:cover;filter:blur(18px) brightness(.95);opacity:.55}
+.fct__foto{position:relative;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,.18);background:#fff}
+.fct__cat{align-self:center;margin:-13px 0 0;position:relative;z-index:1;font-weight:700;font-size:12.5px;padding:5px 14px;border-radius:999px;box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.fct__cat--salud{background:#FBF3E3;color:#5C3D10}.fct__cat--idiomas{background:#E7EDF6;color:#123B69}.fct__cat--empleo{background:#E5F3F2;color:#0E6E6E}.fct__cat--profesional{background:#FDEBDD;color:#7A3B0C}.fct__cat--convivencia{background:#EEE8F6;color:#4B2E7A}
+.fct__titulo{color:var(--azul);font-size:17.5px;line-height:1.3;font-weight:800;padding:12px 18px 0;margin:0}
+.fct__chips{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;padding:12px 16px 0}
+.fct__chip{background:var(--fondo);border:1px solid var(--borde);border-radius:8px;padding:4px 10px;font-size:13px;font-weight:600;color:var(--texto)}
+.fct__meta{list-style:none;padding:10px 18px 0;margin:0;font-size:13.5px;color:var(--texto-suave)}
+.fct__meta li{margin:2px 0}
+.fct__pie{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:auto;padding:14px 18px 0;border-top:1px dashed var(--borde)}
+.fct__meta+.fct__pie{margin-top:14px}
+.fct__org{font-size:13px;font-weight:600;color:var(--texto-suave);text-align:start}
+.fct__precio{font-weight:800;color:var(--turquesa);font-size:16px;white-space:nowrap}
+.fct__boton{margin:14px auto 18px;background:var(--turquesa);color:var(--blanco);border:0;border-radius:999px;padding:11px 26px;font-weight:700;font-size:15px;cursor:pointer;box-shadow:0 3px 10px rgba(19,140,140,.3)}
+.fct__boton:hover{background:#0f7676}
+.fct-vacio{text-align:center;color:var(--texto-suave);padding:20px 0}
+.fct-dialogo{border:0;border-radius:20px;max-width:760px;width:calc(100% - 24px);max-height:calc(100vh - 32px);padding:0;margin:auto;box-shadow:var(--sombra-l)}
+.fct-dialogo::backdrop{background:rgba(13,44,79,.55)}
+.fct-dialogo .fg-curso{margin:0;box-shadow:none;border-radius:0}
+.fct-dialogo__cerrar{position:sticky;top:10px;float:right;margin:10px 10px -48px 0;z-index:3;width:38px;height:38px;border-radius:50%;border:0;background:var(--blanco);font-size:24px;line-height:1;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+[dir=rtl] .fct-dialogo__cerrar{float:left;margin:10px 0 -48px 10px}
+@media(max-width:560px){.fct-rejilla{grid-template-columns:1fr}.fct__img{height:250px}}

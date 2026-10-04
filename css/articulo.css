@@ -28,3 +28,71 @@
 .articulo__lista--fuentes li{padding:10px 14px;background:var(--fondo);border-radius:var(--radio-s);margin-bottom:10px}
 .articulo__lista--fuentes a{color:var(--turquesa);font-weight:600;text-decoration:none}
 .articulo__lista--fuentes a:hover{text-decoration:underline}
+
+/* ===== Índice de pasos en guías ===== */
+.guia-pasos{margin:24px 0 32px;padding:22px 26px;background:var(--turquesa-suave);border-radius:var(--radio-m);border-left:4px solid var(--turquesa)}
+[dir="rtl"] .guia-pasos{border-left:none;border-right:4px solid var(--turquesa)}
+.guia-pasos__titulo{margin:0 0 10px!important;font-weight:800;color:var(--azul);font-size:17px}
+.guia-pasos ol{margin:0;padding-left:24px;counter-reset:none}
+[dir="rtl"] .guia-pasos ol{padding-left:0;padding-right:24px}
+.guia-pasos li{margin:6px 0;font-weight:600}
+.guia-pasos a{color:var(--azul);text-decoration:none}
+.guia-pasos a:hover{color:var(--turquesa);text-decoration:underline}
+.guia-pasos__extra{margin:12px 0 0!important;font-weight:700}
+.guia-pasos__extra a{color:var(--turquesa)}
+.contenedor-legal h2[id]{scroll-margin-top:90px}
+.articulo__tabla--compacta{min-width:0}
+@media(max-width:560px){.articulo__tabla--compacta{font-size:13.5px}.articulo__tabla--compacta thead th,.articulo__tabla--compacta tbody td{padding:10px 10px}}
+.articulo__tabla--compacta td:not(:first-child),.articulo__tabla--compacta th:not(:first-child){white-space:nowrap;text-align:center}
+
+/* ===== Carrusel de imágenes en guías ===== */
+.carrusel{margin:22px 0 30px;position:relative}
+.carrusel__cabecera{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.carrusel__titulo{margin:0!important;font-weight:800;color:var(--azul);font-size:17px}
+.carrusel__contador{font-weight:700;color:var(--turquesa);font-size:14px;background:var(--turquesa-suave);padding:4px 12px;border-radius:999px}
+.carrusel__pista{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;gap:14px;border-radius:var(--radio-m);-webkit-overflow-scrolling:touch;scrollbar-width:none;outline:none}
+.carrusel__pista::-webkit-scrollbar{display:none}
+.carrusel__diapo{flex:0 0 100%;scroll-snap-align:center;margin:0;display:flex;justify-content:center}
+.carrusel__diapo a{display:block;max-width:440px;width:100%}
+.carrusel__diapo img{width:100%;height:auto;display:block;border-radius:var(--radio-m);box-shadow:var(--sombra-s);background:#f7f3ea}
+.carrusel__flecha{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:none;background:var(--azul);color:#fff;font-size:26px;line-height:1;cursor:pointer;box-shadow:var(--sombra-s);display:flex;align-items:center;justify-content:center;z-index:2}
+.carrusel__flecha:disabled{opacity:.3;cursor:default}
+.carrusel__flecha--prev{left:4px}.carrusel__flecha--next{right:4px}
+[dir="rtl"] .carrusel__flecha--prev{left:auto;right:4px}[dir="rtl"] .carrusel__flecha--next{right:auto;left:4px}
+[dir="rtl"] .carrusel__flecha{transform:translateY(-50%) scaleX(-1)}
+.carrusel__puntos{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+.carrusel__punto{width:11px;height:11px;border-radius:50%;border:none;padding:0;background:#cfd8e3;cursor:pointer}
+.carrusel__punto[aria-current="true"]{background:var(--turquesa);transform:scale(1.25)}
+.carrusel__ayuda{text-align:center;font-size:14px;color:var(--texto-suave);margin:6px 0 14px!important}
+.carrusel__descarga{display:flex;justify-content:center}
+.carrusel__ver{margin:6px 0 14px!important}
+.carrusel__ver a{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--turquesa);text-decoration:none;background:var(--turquesa-suave);padding:8px 14px;border-radius:999px;font-size:14px}
+@media(max-width:560px){.carrusel__flecha{width:38px;height:38px;font-size:22px}}
+.carrusel__diapo{flex-direction:column;align-items:center}
+.carrusel__texto{max-width:440px;width:100%;margin-top:12px;background:var(--fondo,#f6f8fb);border-radius:var(--radio-m);padding:16px 18px;box-sizing:border-box}
+.carrusel__texto-titulo{margin:0 0 4px!important;font-weight:800;color:var(--azul);font-size:16px}
+.carrusel__texto-sub{margin:0 0 8px!important;font-size:14px;color:var(--texto-suave)}
+.carrusel__texto ol,.carrusel__texto ul{margin:0;padding-left:0;list-style:none}
+.carrusel__texto li{display:flex;gap:10px;align-items:flex-start;margin:7px 0;font-size:15px;line-height:1.45;color:var(--texto)}
+.carrusel__num{flex:0 0 26px;height:26px;border-radius:50%;background:var(--turquesa);color:#fff;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center}
+.carrusel__texto li:nth-child(even) .carrusel__num{background:var(--amarillo,#E0B33B)}
+.carrusel__texto ul .carrusel__num{flex-basis:10px;height:10px;margin-top:7px}
+.carrusel__texto-nota{margin:10px 0 0!important;font-size:14px;font-weight:700;color:var(--azul);background:#fff6dc;border-radius:10px;padding:8px 12px}
+.carrusel__control{display:flex;align-items:center;justify-content:center;gap:12px;margin:0 0 12px}
+.carrusel__control .carrusel__flecha{position:static;transform:none;flex:0 0 auto}
+[dir="rtl"] .carrusel__control .carrusel__flecha{transform:scaleX(-1)}
+.carrusel__control .carrusel__puntos{margin:0}
+.contenedor-legal .carrusel__texto-titulo{color:var(--azul)!important}.contenedor-legal .carrusel__texto-nota{color:var(--azul)!important}
+/* Texto traducido bajo cada imagen: más compacto */
+.carrusel__texto{padding:12px 14px;margin-top:10px}
+.carrusel__texto-titulo{font-size:14.5px!important;margin-bottom:2px!important}
+.carrusel__texto-sub{font-size:13px!important;margin-bottom:4px!important}
+.carrusel__texto li{font-size:13.5px;line-height:1.4;margin:5px 0;gap:8px}
+.carrusel__num{flex-basis:21px;height:21px;font-size:12px}
+.carrusel__texto ul .carrusel__num{flex-basis:8px;height:8px;margin-top:6px}
+.carrusel__texto-nota{font-size:13px!important;padding:6px 10px!important;margin-top:8px!important}
+.contenedor-legal .carrusel__texto li,.contenedor-legal .carrusel__texto li span{font-size:13.5px;line-height:1.4}
+.contenedor-legal .carrusel__texto p.carrusel__texto-titulo{font-size:14.5px;color:var(--azul)}
+.contenedor-legal .carrusel__texto p.carrusel__texto-sub,.contenedor-legal .carrusel__texto p.carrusel__texto-nota{font-size:13px;line-height:1.4}
+.contenedor-legal .carrusel__texto .carrusel__num{font-size:12px}
+.contenedor-legal p.carrusel__ayuda{font-size:13.5px;line-height:1.45}
