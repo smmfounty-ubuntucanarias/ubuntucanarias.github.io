@@ -232,5 +232,6 @@ Saber mais sobre o COMPASS
 document.querySelectorAll("[data-copiar-enlace]").forEach(function(b){b.addEventListener("click",function(){var u=new URL(b.getAttribute("data-copiar-enlace"),location.href).href;var t=b.querySelector("span"),o=t.textContent;var ok=function(){t.textContent=b.getAttribute("data-copiado");setTimeout(function(){t.textContent=o},2500)};if(navigator.clipboard){navigator.clipboard.writeText(u).then(ok,function(){prompt("",u)})}else{prompt("",u)}})});
 </script>
 <script defer src="../js/formacion-tarjetas.js?v=20261004a"></script>
+<script data-goatcounter="https://ubuntucanarias.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
