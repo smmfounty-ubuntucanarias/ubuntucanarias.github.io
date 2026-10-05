@@ -10218,6 +10218,47 @@ const OFERTAS_SEMANA = [
       "pt": "Terceiro Setor"
     },
     "puesto": {
+      "es": "Educador/a Social — Hogar de Protección de Menores",
+      "en": "Social Educator — Child Protection Home",
+      "fr": "Éducateur/trice social/e — Foyer de protection de l'enfance",
+      "ar": "مربٍّ/مربية اجتماعي/ة — دار حماية القاصرين",
+      "pt": "Educador/a Social — Lar de Proteção de Menores"
+    },
+    "empresa": "FEPAS",
+    "ubicacion": "Hogar de Protección (Siempreviva)",
+    "jornada": {
+      "es": "Incorporación inmediata",
+      "en": "Immediate start",
+      "fr": "Prise de poste immédiate",
+      "ar": "التحاق فوري",
+      "pt": "Início imediato"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "Titulación de Educación Social. Enviar el currículum por correo electrónico.",
+      "en": "Degree in Social Education. Send your CV by email.",
+      "fr": "Diplôme d'éducation sociale. Envoyer le CV par e-mail.",
+      "ar": "شهادة في التربية الاجتماعية. أرسل السيرة الذاتية بالبريد الإلكتروني.",
+      "pt": "Formação em Educação Social. Enviar o currículo por e-mail."
+    },
+    "enlace": "mailto:direccion.mnr.siempreviva@fepas.org"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
       "es": "Auxiliar Técnico/a Educativo/a",
       "en": "Educational Technical Assistant",
       "fr": "Assistant/e technique éducatif/ve",
