@@ -2,6 +2,384 @@ const OFERTAS_SEMANA = [
   {
     "area": "almacen",
     "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Delegado/a de Visita a Farmacias",
+      "en": "Pharmacy Sales Representative",
+      "fr": "Délégué/e commercial/e en pharmacies",
+      "ar": "مندوب/ة زيارة الصيدليات",
+      "pt": "Delegado/a de Visita a Farmácias"
+    },
+    "empresa": "Inizio Engage",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. Contrat à durée indéterminée (CDI)",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "Salario aproximado: 3.958 € al mes.",
+      "en": "Approximate salary: 3.958 € per month.",
+      "fr": "Salaire approximatif : 3.958 € par mois.",
+      "ar": "الراتب التقريبي: 3.958 € شهرياً.",
+      "pt": "Salário aproximado: 3.958 € por mês."
+    },
+    "enlace": "https://engagecareers.inizioengage.com/es_ES/careers/JobDetail/Delegado-a-Visita-Farmacias-Las-Palmas-de-Gran-Canaria/23693",
+    "origen": "daura"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Vendedor/a ONCE (personas con discapacidad)",
+      "en": "ONCE Lottery Seller (people with disabilities)",
+      "fr": "Vendeur/se ONCE (personnes en situation de handicap)",
+      "ar": "بائع/ة يانصيب ONCE (للأشخاص ذوي الإعاقة)",
+      "pt": "Vendedor/a ONCE (pessoas com deficiência)"
+    },
+    "empresa": "ONCE",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa",
+      "en": "Full-time",
+      "fr": "Temps plein",
+      "ar": "دوام كامل",
+      "pt": "Tempo inteiro"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "20 vacantes. Salario aproximado: 2.417 € al mes. Oferta dirigida a personas con discapacidad.",
+      "en": "20 vacancies. Approximate salary: 2.417 € per month. Offer for people with disabilities.",
+      "fr": "20 postes. Salaire approximatif : 2.417 € par mois. Offre destinée aux personnes en situation de handicap.",
+      "ar": "20 شواغر. الراتب التقريبي: 2.417 € شهرياً. عرض موجّه للأشخاص ذوي الإعاقة.",
+      "pt": "20 vagas. Salário aproximado: 2.417 € por mês. Oferta dirigida a pessoas com deficiência."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/vendedor-once-comercial-discapacidad/of-i4f83797f9b4f79a4e6b9cd72fb64f4",
+    "origen": "daura"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Encargado/a de Tienda (SCE 006887)",
+      "en": "Shop Manager (SCE 006887)",
+      "fr": "Responsable de magasin (SCE 006887)",
+      "ar": "مسؤول/ة متجر (SCE 006887)",
+      "pt": "Encarregado/a de Loja (SCE 006887)"
+    },
+    "empresa": "Servicio Canario de Empleo",
+    "ubicacion": "Santa Brígida",
+    "jornada": {
+      "es": "Jornada completa (40 h), turno rotativo. Contrato indefinido",
+      "en": "Full-time (40 h), rotating shift. Permanent contract",
+      "fr": "Temps plein (40 h), horaires tournants. CDI",
+      "ar": "دوام كامل (40 ساعة)، نوبات متناوبة. عقد دائم",
+      "pt": "Tempo inteiro (40 h), turno rotativo. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "3 vacantes. Salario aproximado: 1.424 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "3 vacancies. Approximate salary: 1.424 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "3 postes. Salaire approximatif : 1.424 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "3 شواغر. الراتب التقريبي: 1.424 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "3 vagas. Salário aproximado: 1.424 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006887&is_open=true",
+    "origen": "daura"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Carnicero/a — Venta en Comercio (SCE 006885)",
+      "en": "Butcher — Shop Sales (SCE 006885)",
+      "fr": "Boucher/ère — Vente en magasin (SCE 006885)",
+      "ar": "جزّار/ة — البيع في المتجر (SCE 006885)",
+      "pt": "Talhante — Venda em loja (SCE 006885)"
+    },
+    "empresa": "Servicio Canario de Empleo",
+    "ubicacion": "Santa Brígida",
+    "jornada": {
+      "es": "Jornada completa (40 h), turno rotativo. Contrato indefinido",
+      "en": "Full-time (40 h), rotating shift. Permanent contract",
+      "fr": "Temps plein (40 h), horaires tournants. CDI",
+      "ar": "دوام كامل (40 ساعة)، نوبات متناوبة. عقد دائم",
+      "pt": "Tempo inteiro (40 h), turno rotativo. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "3 vacantes. Salario aproximado: 1.424 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "3 vacancies. Approximate salary: 1.424 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "3 postes. Salaire approximatif : 1.424 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "3 شواغر. الراتب التقريبي: 1.424 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "3 vagas. Salário aproximado: 1.424 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006885&is_open=true",
+    "origen": "daura"
+  },
+  {
+    "area": "limpieza",
+    "categoria": {
+      "es": "Limpieza y Mantenimiento",
+      "en": "Cleaning & Maintenance",
+      "fr": "Nettoyage et entretien",
+      "ar": "التنظيف والصيانة",
+      "pt": "Limpeza e Manutenção"
+    },
+    "puesto": {
+      "es": "Personal de Limpieza (SCE 006907)",
+      "en": "Cleaning Staff (SCE 006907)",
+      "fr": "Agent/e d'entretien (SCE 006907)",
+      "ar": "عامل/ة نظافة (SCE 006907)",
+      "pt": "Pessoal de Limpeza (SCE 006907)"
+    },
+    "empresa": "Servicio Canario de Empleo",
+    "ubicacion": "San Bartolomé de Tirajana",
+    "jornada": {
+      "es": "Jornada parcial (25 h), turno de mañana. Contrato temporal",
+      "en": "Part-time (25 h), morning shift. Temporary contract",
+      "fr": "Temps partiel (25 h), le matin. Contrat temporaire",
+      "ar": "دوام جزئي (25 ساعة)، نوبة صباحية. عقد مؤقت",
+      "pt": "Tempo parcial (25 h), turno da manhã. Contrato temporário"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "3 vacantes. Salario aproximado: 700 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "3 vacancies. Approximate salary: 700 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "3 postes. Salaire approximatif : 700 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "3 شواغر. الراتب التقريبي: 700 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "3 vagas. Salário aproximado: 700 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006907&is_open=true",
+    "origen": "daura"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Recursos Humanos y Prevención",
+      "en": "HR & Occupational Safety",
+      "fr": "RH et prévention",
+      "ar": "الموارد البشرية والوقاية",
+      "pt": "Recursos Humanos e Prevenção"
+    },
+    "puesto": {
+      "es": "Técnico/a de Prevención de Riesgos Laborales (PRL)",
+      "en": "Occupational Health and Safety Technician",
+      "fr": "Technicien/ne en prévention des risques professionnels",
+      "ar": "فني/ة الوقاية من المخاطر المهنية",
+      "pt": "Técnico/a de Prevenção de Riscos Laborais"
+    },
+    "empresa": "Grupo Cobra",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. Contrat à durée indéterminée (CDI)",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 2.625 € al mes.",
+      "en": "1 vacancy. Approximate salary: 2.625 € per month.",
+      "fr": "1 poste. Salaire approximatif : 2.625 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 2.625 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 2.625 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/tecnico-prevencion-prl-las-palmas/of-i063490f5c34387916364f5187d5ddc",
+    "origen": "daura"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Socorrista — Hotel Cristina",
+      "en": "Lifeguard — Hotel Cristina",
+      "fr": "Maître-nageur sauveteur — Hôtel Cristina",
+      "ar": "منقذ/ة سباحة — فندق كريستينا",
+      "pt": "Nadador/a-salvador/a — Hotel Cristina"
+    },
+    "empresa": "Dreamplace Hotels & Resorts",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. Contrat à durée indéterminée (CDI)",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 2.042 € al mes. Se pide experiencia; el puesto incluye tareas de mantenimiento.",
+      "en": "1 vacancy. Approximate salary: 2.042 € per month. Experience required; the job includes maintenance tasks.",
+      "fr": "1 poste. Salaire approximatif : 2.042 € par mois. Expérience demandée ; le poste comprend des tâches d'entretien.",
+      "ar": "شاغر واحد. الراتب التقريبي: 2.042 € شهرياً. تُطلب خبرة؛ يشمل العمل مهام صيانة.",
+      "pt": "1 vaga. Salário aproximado: 2.042 € por mês. Pede-se experiência; o posto inclui tarefas de manutenção."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/socorrista-hotel-cristina-con-experiencia-mantenimiento/of-id941af52cd4286a74ee1c4862edf60",
+    "origen": "daura"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Logística y Almacén",
+      "en": "Logistics & Warehouse",
+      "fr": "Logistique et entrepôt",
+      "ar": "اللوجستيات والمستودعات",
+      "pt": "Logística e Armazém"
+    },
+    "puesto": {
+      "es": "Repartidor/a en Furgoneta",
+      "en": "Van Delivery Driver",
+      "fr": "Livreur/se en camionnette",
+      "ar": "موزّع/ة بشاحنة صغيرة",
+      "pt": "Distribuidor/a de Carrinha"
+    },
+    "empresa": "Manuel Hernández Bolaños (Quesos MHB)",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato de duración determinada",
+      "en": "Full-time. Fixed-term contract",
+      "fr": "Temps plein. Contrat à durée déterminée (CDD)",
+      "ar": "دوام كامل. عقد محدد المدة",
+      "pt": "Tempo inteiro. Contrato a termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.500 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.500 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.500 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.500 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.500 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/repartidor-furgoneta/of-if9ebbfd4e24daf954f4828851c4e01",
+    "origen": "daura"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Logística y Almacén",
+      "en": "Logistics & Warehouse",
+      "fr": "Logistique et entrepôt",
+      "ar": "اللوجستيات والمستودعات",
+      "pt": "Logística e Armazém"
+    },
+    "puesto": {
+      "es": "Conductor/a Operador/a de Grúa en Camión (SCE 006893)",
+      "en": "Truck Crane Driver-Operator (SCE 006893)",
+      "fr": "Conducteur/trice opérateur/trice de camion-grue (SCE 006893)",
+      "ar": "سائق/ة ومشغّل/ة رافعة على شاحنة (SCE 006893)",
+      "pt": "Condutor/a Operador/a de Grua em Camião (SCE 006893)"
+    },
+    "empresa": "Servicio Canario de Empleo",
+    "ubicacion": "Santa Lucía de Tirajana",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. Contrat à durée indéterminée (CDI)",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 05/10/2026)",
+      "en": "Shared this week (checked 10/05/2026)",
+      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: 1.700 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "2 vacancies. Approximate salary: 1.700 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "2 postes. Salaire approximatif : 1.700 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "2 شواغر. الراتب التقريبي: 1.700 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "2 vagas. Salário aproximado: 1.700 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006893&is_open=true",
+    "origen": "daura"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
       "es": "Logística y Almacén",
       "en": "Logistics & Warehouse",
       "fr": "Logistique et entrepôt",
