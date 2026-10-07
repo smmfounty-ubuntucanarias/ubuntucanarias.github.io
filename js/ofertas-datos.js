@@ -1,5 +1,635 @@
 const OFERTAS_SEMANA = [
   {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Administrativo/a",
+      "en": "Administrative Assistant",
+      "fr": "Employé/e administratif/ve",
+      "ar": "موظف/ة إداري/ة",
+      "pt": "Administrativo/a"
+    },
+    "empresa": "Orvecame Gran Canaria",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.667 € al mes. Se piden 3 años de experiencia.",
+      "en": "1 vacancy. Approximate salary: 1.667 € per month. 3 years of experience required.",
+      "fr": "1 poste. Salaire approximatif : 1.667 € par mois. 3 ans d'expérience demandés.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.667 € شهرياً. مطلوب 3 سنوات من الخبرة.",
+      "pt": "1 vaga. Salário aproximado: 1.667 € por mês. Pedem 3 anos de experiência."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/administrativo/of-i13c8c004be4efd99c79be081cf925e",
+    "origen": "daura"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Eventos y Decoración",
+      "en": "Events & Decoration",
+      "fr": "Événementiel et décoration",
+      "ar": "الفعاليات والديكور",
+      "pt": "Eventos e Decoração"
+    },
+    "puesto": {
+      "es": "Decorador/a Escénico/a",
+      "en": "Stage Decorator",
+      "fr": "Décorateur/trice scénique",
+      "ar": "مصمم/ة ديكور مسرحي",
+      "pt": "Decorador/a Cenográfico/a"
+    },
+    "empresa": "Petits Events LR",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato fijo discontinuo",
+      "en": "Full-time. Seasonal permanent contract (fijo discontinuo)",
+      "fr": "Temps plein. Contrat fixe discontinu",
+      "ar": "دوام كامل. عقد دائم متقطع (fijo discontinuo)",
+      "pt": "Tempo inteiro. Contrato fixo descontínuo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "3 vacantes. Salario aproximado: 1.600 € al mes.",
+      "en": "3 vacancies. Approximate salary: 1.600 € per month.",
+      "fr": "3 postes. Salaire approximatif : 1.600 € par mois.",
+      "ar": "3 شواغر. الراتب التقريبي: 1.600 € شهرياً.",
+      "pt": "3 vagas. Salário aproximado: 1.600 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/decorador-escenico/of-idccf469bbc4a10a99b5074ceb1d5dd",
+    "origen": "daura"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Asesoría y Finanzas",
+      "en": "Consulting & Finance",
+      "fr": "Conseil et finances",
+      "ar": "الاستشارات والمالية",
+      "pt": "Consultoria e Finanças"
+    },
+    "puesto": {
+      "es": "Asesor/a Laboral (híbrido)",
+      "en": "Employment Law Advisor (hybrid)",
+      "fr": "Conseiller/ère en droit du travail (hybride)",
+      "ar": "مستشار/ة في شؤون الشغل (عمل هجين)",
+      "pt": "Consultor/a Laboral (híbrido)"
+    },
+    "empresa": "Kolibri Consulting",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "Salario aproximado: 2.083 € al mes. Trabajo híbrido: parte presencial y parte a distancia.",
+      "en": "Approximate salary: 2.083 € per month. Hybrid work: partly on-site, partly remote.",
+      "fr": "Salaire approximatif : 2.083 € par mois. Travail hybride : en partie sur place, en partie à distance.",
+      "ar": "الراتب التقريبي: 2.083 € شهرياً. عمل هجين: جزء حضوري وجزء عن بُعد.",
+      "pt": "Salário aproximado: 2.083 € por mês. Trabalho híbrido: parte presencial e parte à distância."
+    },
+    "enlace": "https://es.indeed.com/viewjob?jk=cd373d4ae548e059",
+    "origen": "daura"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Asesoría y Finanzas",
+      "en": "Consulting & Finance",
+      "fr": "Conseil et finances",
+      "ar": "الاستشارات والمالية",
+      "pt": "Consultoria e Finanças"
+    },
+    "puesto": {
+      "es": "Asesor/a Fiscal",
+      "en": "Tax Advisor",
+      "fr": "Conseiller/ère fiscal/e",
+      "ar": "مستشار/ة ضريبي/ة",
+      "pt": "Consultor/a Fiscal"
+    },
+    "empresa": "LAO Abogados",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 2.292 € al mes. Se piden 2 años de experiencia e inglés avanzado.",
+      "en": "1 vacancy. Approximate salary: 2.292 € per month. 2 years of experience and advanced English required.",
+      "fr": "1 poste. Salaire approximatif : 2.292 € par mois. 2 ans d'expérience et un anglais avancé sont demandés.",
+      "ar": "شاغر واحد. الراتب التقريبي: 2.292 € شهرياً. مطلوب سنتان من الخبرة ومستوى متقدم في الإنجليزية.",
+      "pt": "1 vaga. Salário aproximado: 2.292 € por mês. Pedem 2 anos de experiência e inglês avançado."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/asesor-fiscal/of-i90fb77e9124e029248ec938092770d",
+    "origen": "daura"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Cocinero/a — Restaurante Fahana (Triana)",
+      "en": "Cook — Fahana Restaurant (Triana)",
+      "fr": "Cuisinier/ère — Restaurant Fahana (Triana)",
+      "ar": "طباخ/ة — مطعم Fahana (تريانا)",
+      "pt": "Cozinheiro/a — Restaurante Fahana (Triana)"
+    },
+    "empresa": "Tajinaste",
+    "ubicacion": "Las Palmas de Gran Canaria (Triana)",
+    "jornada": {
+      "es": "Jornada completa. Contrato temporal",
+      "en": "Full-time. Temporary contract",
+      "fr": "Temps plein. Contrat temporaire",
+      "ar": "دوام كامل. عقد مؤقت",
+      "pt": "Tempo inteiro. Contrato temporário"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.875 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.875 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.875 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.875 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.875 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/cocinero-para-restaurante-fahana-triana-54/of-i7888f86c404b98b91e4029b0552902",
+    "origen": "daura"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Camarero/a",
+      "en": "Waiter/Waitress",
+      "fr": "Serveur/euse",
+      "ar": "نادل/ة",
+      "pt": "Empregado/a de Mesa"
+    },
+    "empresa": "Radisson Hotel Group",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa",
+      "en": "Full-time",
+      "fr": "Temps plein",
+      "ar": "دوام كامل",
+      "pt": "Tempo inteiro"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 2.094 € al mes.",
+      "en": "1 vacancy. Approximate salary: 2.094 € per month.",
+      "fr": "1 poste. Salaire approximatif : 2.094 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 2.094 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 2.094 € por mês."
+    },
+    "enlace": "https://radissoncareers.com/es/job/camarero-a-in-las-palmas-spain-jid-34995",
+    "origen": "daura"
+  },
+  {
+    "area": "limpieza",
+    "categoria": {
+      "es": "Limpieza y Mantenimiento",
+      "en": "Cleaning & Maintenance",
+      "fr": "Nettoyage et entretien",
+      "ar": "التنظيف والصيانة",
+      "pt": "Limpeza e Manutenção"
+    },
+    "puesto": {
+      "es": "Responsable de Limpieza de Aviones — Aeropuerto de Gran Canaria",
+      "en": "Aircraft Cleaning Supervisor — Gran Canaria Airport",
+      "fr": "Responsable du nettoyage des avions — Aéroport de Gran Canaria",
+      "ar": "مسؤول/ة تنظيف الطائرات — مطار غران كناريا",
+      "pt": "Responsável de Limpeza de Aviões — Aeroporto de Gran Canaria"
+    },
+    "empresa": "Mitie",
+    "ubicacion": "Telde",
+    "jornada": {
+      "es": "Jornada parcial (30 o 35 h), turno rotativo. Contrato temporal",
+      "en": "Part-time (30 or 35 h), rotating shift. Temporary contract",
+      "fr": "Temps partiel (30 ou 35 h), horaires tournants. Contrat temporaire",
+      "ar": "دوام جزئي (30 أو 35 ساعة)، نوبات متناوبة. عقد مؤقت",
+      "pt": "Tempo parcial (30 ou 35 h), turno rotativo. Contrato temporário"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: entre 1.284 € (30 h) y 1.465 € (35 h) al mes.",
+      "en": "2 vacancies. Approximate salary: between 1.284 € (30 h) and 1.465 € (35 h) per month.",
+      "fr": "2 postes. Salaire approximatif : entre 1.284 € (30 h) et 1.465 € (35 h) par mois.",
+      "ar": "2 شواغر. الراتب التقريبي: بين 1.284 € (30 ساعة) و1.465 € (35 ساعة) شهرياً.",
+      "pt": "2 vagas. Salário aproximado: entre 1.284 € (30 h) e 1.465 € (35 h) por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/responsable-limpieza-aviones-aeropuerto-gran-canaria/of-ifd2bc9044a424db360d68c54ea5f29",
+    "origen": "daura"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Oficios",
+      "en": "Construction & Trades",
+      "fr": "Construction et métiers",
+      "ar": "البناء والحرف",
+      "pt": "Construção e Ofícios"
+    },
+    "puesto": {
+      "es": "Ayudante de Obra — Astillero",
+      "en": "Construction Helper — Shipyard",
+      "fr": "Aide de chantier — Chantier naval",
+      "ar": "مساعد/ة أشغال — حوض بناء السفن",
+      "pt": "Ajudante de Obra — Estaleiro"
+    },
+    "empresa": "Hidramar",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Contrato fijo discontinuo",
+      "en": "Seasonal permanent contract (fijo discontinuo)",
+      "fr": "Contrat fixe discontinu",
+      "ar": "عقد دائم متقطع (fijo discontinuo)",
+      "pt": "Contrato fixo descontínuo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "Salario aproximado: 2.125 € al mes.",
+      "en": "Approximate salary: 2.125 € per month.",
+      "fr": "Salaire approximatif : 2.125 € par mois.",
+      "ar": "الراتب التقريبي: 2.125 € شهرياً.",
+      "pt": "Salário aproximado: 2.125 € por mês."
+    },
+    "enlace": "https://es.indeed.com/viewjob?jk=337123e6f00155e5",
+    "origen": "daura"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Comunicación y Medios",
+      "en": "Media & Communication",
+      "fr": "Communication et médias",
+      "ar": "الإعلام والاتصال",
+      "pt": "Comunicação e Media"
+    },
+    "puesto": {
+      "es": "Consultor/a de Marketing Digital (híbrido)",
+      "en": "Digital Marketing Consultant (hybrid)",
+      "fr": "Consultant/e en marketing digital (hybride)",
+      "ar": "مستشار/ة في التسويق الرقمي (عمل هجين)",
+      "pt": "Consultor/a de Marketing Digital (híbrido)"
+    },
+    "empresa": "Empresa no indicada (oferta publicada en la FULP)",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 2.288 € al mes. Trabajo híbrido. La oferta incluye diseño gráfico, community manager y gestión de cuentas.",
+      "en": "1 vacancy. Approximate salary: 2.288 € per month. Hybrid work. The role includes graphic design, community management and account management.",
+      "fr": "1 poste. Salaire approximatif : 2.288 € par mois. Travail hybride. Le poste inclut design graphique, community management et gestion de comptes.",
+      "ar": "شاغر واحد. الراتب التقريبي: 2.288 € شهرياً. عمل هجين. يشمل المنصب التصميم الغرافيكي وإدارة مواقع التواصل وإدارة الحسابات.",
+      "pt": "1 vaga. Salário aproximado: 2.288 € por mês. Trabalho híbrido. A oferta inclui design gráfico, community manager e gestão de contas."
+    },
+    "enlace": "https://www.fulp.es/empleos/consultora-marketing-digital--disenadora-grafica--community-manager--account-manager--115250",
+    "origen": "daura"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Diseño y Artes Gráficas",
+      "en": "Design & Graphic Arts",
+      "fr": "Design et arts graphiques",
+      "ar": "التصميم والفنون الطباعية",
+      "pt": "Design e Artes Gráficas"
+    },
+    "puesto": {
+      "es": "Diseñador/a Gráfico/a — Gráfica Impresa",
+      "en": "Graphic Designer — Print",
+      "fr": "Graphiste — Impression",
+      "ar": "مصمم/ة غرافيكي/ة — المطبوعات",
+      "pt": "Designer Gráfico/a — Gráfica Impressa"
+    },
+    "empresa": "100% Print",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato temporal",
+      "en": "Full-time. Temporary contract",
+      "fr": "Temps plein. Contrat temporaire",
+      "ar": "دوام كامل. عقد مؤقت",
+      "pt": "Tempo inteiro. Contrato temporário"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "4 vacantes. Salario aproximado: 1.450 € al mes.",
+      "en": "4 vacancies. Approximate salary: 1.450 € per month.",
+      "fr": "4 postes. Salaire approximatif : 1.450 € par mois.",
+      "ar": "4 شواغر. الراتب التقريبي: 1.450 € شهرياً.",
+      "pt": "4 vagas. Salário aproximado: 1.450 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/disenador-grafico-gestion-grafica-impresa/of-i0689f585ad46a28a6c1c085c0e1a6b",
+    "origen": "daura"
+  },
+  {
+    "area": "sociosanitario",
+    "categoria": {
+      "es": "Sociosanitario",
+      "en": "Health & Social Care",
+      "fr": "Socio-sanitaire",
+      "ar": "الرعاية الصحية والاجتماعية",
+      "pt": "Sociossanitário"
+    },
+    "puesto": {
+      "es": "Enfermero/a en Centros de Educación Especial (SCE 005967)",
+      "en": "Nurse in Special Education Schools (SCE 005967)",
+      "fr": "Infirmier/ère dans des centres d'éducation spécialisée (SCE 005967)",
+      "ar": "ممرض/ة في مراكز التربية الخاصة (SCE 005967)",
+      "pt": "Enfermeiro/a em Centros de Educação Especial (SCE 005967)"
+    },
+    "empresa": "CEE Román Pérez Deníz y CEE Petra Lorenzo",
+    "ubicacion": "Las Palmas de Gran Canaria y Telde",
+    "jornada": {
+      "es": "Jornada parcial (25 h), de 8:00 a 13:30. Contrato fijo discontinuo",
+      "en": "Part-time (25 h), 8:00 to 13:30. Seasonal permanent contract (fijo discontinuo)",
+      "fr": "Temps partiel (25 h), de 8 h à 13 h 30. Contrat fixe discontinu",
+      "ar": "دوام جزئي (25 ساعة)، من 8:00 إلى 13:30. عقد دائم متقطع",
+      "pt": "Tempo parcial (25 h), das 8:00 às 13:30. Contrato fixo descontínuo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "Una vacante en cada centro. Salario aproximado: 1.104 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "One vacancy at each school. Approximate salary: 1.104 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "Un poste dans chaque centre. Salaire approximatif : 1.104 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "شاغر واحد في كل مركز. الراتب التقريبي: 1.104 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "Uma vaga em cada centro. Salário aproximado: 1.104 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=005967&is_open=true",
+    "origen": "daura"
+  },
+  {
+    "area": "sociosanitario",
+    "categoria": {
+      "es": "Sociosanitario",
+      "en": "Health & Social Care",
+      "fr": "Socio-sanitaire",
+      "ar": "الرعاية الصحية والاجتماعية",
+      "pt": "Sociossanitário"
+    },
+    "puesto": {
+      "es": "Fisioterapeuta en Centros de Educación Especial (SCE 005997)",
+      "en": "Physiotherapist in Special Education Schools (SCE 005997)",
+      "fr": "Kinésithérapeute dans des centres d'éducation spécialisée (SCE 005997)",
+      "ar": "أخصائي/ة علاج طبيعي في مراكز التربية الخاصة (SCE 005997)",
+      "pt": "Fisioterapeuta em Centros de Educação Especial (SCE 005997)"
+    },
+    "empresa": "CEE Marente y otro centro de Santa Lucía de Tirajana",
+    "ubicacion": "Santa Lucía de Tirajana y Santa María de Guía",
+    "jornada": {
+      "es": "Jornada parcial (25 h), de 8:00 a 13:30. Contrato fijo discontinuo",
+      "en": "Part-time (25 h), 8:00 to 13:30. Seasonal permanent contract (fijo discontinuo)",
+      "fr": "Temps partiel (25 h), de 8 h à 13 h 30. Contrat fixe discontinu",
+      "ar": "دوام جزئي (25 ساعة)، من 8:00 إلى 13:30. عقد دائم متقطع",
+      "pt": "Tempo parcial (25 h), das 8:00 às 13:30. Contrato fixo descontínuo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "Salario aproximado: 1.104 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "Approximate salary: 1.104 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "Salaire approximatif : 1.104 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "الراتب التقريبي: 1.104 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "Salário aproximado: 1.104 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=005997&is_open=true",
+    "origen": "daura"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Seguridad",
+      "en": "Security",
+      "fr": "Sécurité",
+      "ar": "الأمن",
+      "pt": "Segurança"
+    },
+    "puesto": {
+      "es": "Contador/a Pagador/a",
+      "en": "Cash Counter (Cash-in-Transit)",
+      "fr": "Compteur/euse de fonds",
+      "ar": "عدّاد/ة أموال (نقل الأموال)",
+      "pt": "Contador/a Pagador/a"
+    },
+    "empresa": "Prosegur",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, turno de tarde/noche. Contrato de 6 meses prorrogable",
+      "en": "Full-time, afternoon/night shift. 6-month contract, renewable",
+      "fr": "Temps plein, horaires après-midi/nuit. Contrat de 6 mois renouvelable",
+      "ar": "دوام كامل، نوبة مسائية/ليلية. عقد لمدة 6 أشهر قابل للتجديد",
+      "pt": "Tempo inteiro, turno da tarde/noite. Contrato de 6 meses prorrogável"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.792 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.792 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.792 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.792 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.792 € por mês."
+    },
+    "enlace": "https://careers-es.prosegur.com/contador-pagador-las-palmas-XJzo2NEBKjjT/",
+    "origen": "daura"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Tecnología e Informática",
+      "en": "Technology & IT",
+      "fr": "Technologie et informatique",
+      "ar": "التكنولوجيا والمعلوميات",
+      "pt": "Tecnologia e Informática"
+    },
+    "puesto": {
+      "es": "Especialista en Inteligencia Artificial y Automatización",
+      "en": "AI and Automation Specialist",
+      "fr": "Spécialiste en intelligence artificielle et automatisation",
+      "ar": "أخصائي/ة في الذكاء الاصطناعي والأتمتة",
+      "pt": "Especialista em Inteligência Artificial e Automação"
+    },
+    "empresa": "Cognitia Tech Nova",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 2.250 € al mes.",
+      "en": "1 vacancy. Approximate salary: 2.250 € per month.",
+      "fr": "1 poste. Salaire approximatif : 2.250 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 2.250 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 2.250 € por mês."
+    },
+    "enlace": "https://www.fulp.es/empleos/especialista-en-inteligencia-artificial-y-automatizacion-115450",
+    "origen": "daura"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Transporte y Conducción",
+      "en": "Transport & Driving",
+      "fr": "Transport et conduite",
+      "ar": "النقل والسياقة",
+      "pt": "Transporte e Condução"
+    },
+    "puesto": {
+      "es": "Conductor/a de Camión (SCE 006958)",
+      "en": "Truck Driver (SCE 006958)",
+      "fr": "Chauffeur/euse poids lourd (SCE 006958)",
+      "ar": "سائق/ة شاحنة (SCE 006958)",
+      "pt": "Motorista de Camião (SCE 006958)"
+    },
+    "empresa": "Empresa no indicada (oferta del SCE)",
+    "ubicacion": "Telde (Salinetas)",
+    "jornada": {
+      "es": "Jornada completa (40 h), de 7:00 a 15:00",
+      "en": "Full-time (40 h), 7:00 to 15:00",
+      "fr": "Temps plein (40 h), de 7 h à 15 h",
+      "ar": "دوام كامل (40 ساعة)، من 7:00 إلى 15:00",
+      "pt": "Tempo inteiro (40 h), das 7:00 às 15:00"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 06/10/2026)",
+      "en": "Shared this week (checked 10/06/2026)",
+      "fr": "Partagée cette semaine (vérifié le 06/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 06/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 06/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: 2.000 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "2 vacancies. Approximate salary: 2.000 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "2 postes. Salaire approximatif : 2.000 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "2 شواغر. الراتب التقريبي: 2.000 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "2 vagas. Salário aproximado: 2.000 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006958&is_open=true",
+    "origen": "daura"
+  },
+  {
     "area": "almacen",
     "categoria": {
       "es": "Comercial y Ventas",
