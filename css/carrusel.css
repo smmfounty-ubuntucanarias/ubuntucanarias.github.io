@@ -1,9 +1,9 @@
 /* Carrusel de diapositivas (guías deslizables) — Ubuntu Canarias */
-.uc-carrusel{--uc-azul:#123B69;--uc-turq:#138C8C;--uc-amar:#E5B241;--uc-crema:#FBF7EF;--uc-texto:#1D2733;margin:28px auto 8px;max-width:460px;position:relative}
+.uc-carrusel{--uc-azul:#123B69;--uc-turq:#138C8C;--uc-amar:#E5B241;--uc-crema:#F7F7F5;--uc-texto:#1D2733;margin:28px auto 8px;max-width:460px;position:relative}
 .uc-carrusel__pista{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 2px 10px;outline:none}
 .uc-carrusel__pista::-webkit-scrollbar{display:none}
 .uc-carrusel__pista:focus-visible{box-shadow:0 0 0 3px rgba(19,140,140,.35);border-radius:22px}
-.uc-slide{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:4/5;background:var(--uc-crema);border-radius:20px;position:relative;overflow:hidden;container-type:inline-size;box-shadow:0 6px 24px rgba(18,59,105,.12);border:1px solid #EFE6D3;color:var(--uc-texto);display:flex;flex-direction:column;padding:8% 7.5% 7%}
+.uc-slide{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:4/5;background:var(--uc-crema);border-radius:20px;position:relative;overflow:hidden;container-type:inline-size;box-shadow:0 6px 24px rgba(18,59,105,.12);border:1px solid #E6E8EC;color:var(--uc-texto);display:flex;flex-direction:column;padding:8% 7.5% 7%}
 .uc-slide::before{content:"";position:absolute;width:62cqw;height:62cqw;border-radius:50%;border:1.5px solid var(--uc-amar);left:-38cqw;top:-34cqw;opacity:.9}
 .uc-slide::after{content:"";position:absolute;width:56cqw;height:56cqw;border-radius:50%;border:1.5px solid var(--uc-turq);right:-36cqw;bottom:-36cqw;opacity:.55}
 .uc-slide__kicker{display:flex;justify-content:space-between;align-items:center;font-size:2.9cqw;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--uc-turq);margin-bottom:5cqw;position:relative;z-index:1}
@@ -84,7 +84,7 @@
 .uc-slide--foto .uc-cierre-acciones strong{font-size:4.2cqw}
 .uc-slide--foto .uc-desliza{margin-top:2cqw;font-size:3.8cqw}
 /* ---- portada y cierre en blanco roto (sin fondos oscuros) ---- */
-.uc-slide--foto.uc-slide--portada,.uc-slide--foto.uc-slide--cierre{background:var(--uc-crema);color:var(--uc-texto);border-color:#EFE6D3}
+.uc-slide--foto.uc-slide--portada,.uc-slide--foto.uc-slide--cierre{background:var(--uc-crema);color:var(--uc-texto);border-color:#E6E8EC}
 .uc-slide--portada .uc-foto::after,.uc-slide--cierre .uc-foto::after{background:var(--uc-crema)}
 .uc-slide--foto.uc-slide--portada::after,.uc-slide--foto.uc-slide--cierre::after{border-color:var(--uc-turq);opacity:.55}
 .uc-slide--foto.uc-slide--portada h3,.uc-slide--foto.uc-slide--cierre h3{color:var(--uc-azul)}
