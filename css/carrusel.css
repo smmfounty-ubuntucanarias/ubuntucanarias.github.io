@@ -94,3 +94,10 @@
 .uc-slide--foto .uc-cierre-acciones .uc-ico{border-color:var(--uc-turq);color:var(--uc-azul);background:#fff}
 .uc-slide--foto .uc-cierre-acciones strong{color:var(--uc-turq)}
 .uc-slide--foto .uc-cierre-acciones div{color:var(--uc-texto)}
+/* descarga de la guía */
+.uc-descarga{max-width:460px;margin:18px auto 6px;text-align:center}
+.uc-descarga .boton{display:inline-flex;align-items:center;gap:8px}
+.uc-descarga .boton svg{width:18px;height:18px}
+.uc-descarga__idiomas{margin:12px 0 0;font-size:14px;color:#4A5563;line-height:1.8}
+.uc-descarga__idiomas a{color:#123B69;font-weight:600;white-space:nowrap}
+.uc-descarga .boton svg{transform:none!important}
