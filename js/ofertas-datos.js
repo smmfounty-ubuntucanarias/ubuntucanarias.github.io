@@ -1,5 +1,2875 @@
 const OFERTAS_SEMANA = [
   {
+    "area": "almacen",
+    "categoria": {
+      "es": "Logística y Almacén",
+      "en": "Logistics & Warehouse",
+      "fr": "Logistique et entrepôt",
+      "ar": "اللوجستيات والمستودعات",
+      "pt": "Logística e Armazém"
+    },
+    "puesto": {
+      "es": "Mozo/a de almacén — Voldis",
+      "en": "Warehouse operative — Voldis",
+      "fr": "Magasinier/ère — Voldis",
+      "ar": "عامل/ة مستودع — Voldis",
+      "pt": "Operador/a de armazém — Voldis"
+    },
+    "empresa": "Mahou San Miguel (Voldis)",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato temporal",
+      "en": "Full-time. Temporary contract",
+      "fr": "Temps plein. Contrat temporaire",
+      "ar": "دوام كامل. عقد مؤقت",
+      "pt": "Tempo inteiro. Contrato a termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "ESO, un año de experiencia, carné de carretillero y conocimientos básicos de ordenador o PDA. Carga y descarga, preparación de pedidos y apoyo al reparto.",
+      "en": "Compulsory secondary education (ESO), one year of experience, forklift licence and basic computer or PDA skills. Loading and unloading, order picking and delivery support.",
+      "fr": "ESO (enseignement secondaire), un an d'expérience, permis cariste et notions d'informatique ou de PDA. Chargement et déchargement, préparation de commandes et appui à la livraison.",
+      "ar": "شهادة التعليم الثانوي الإلزامي (ESO)، خبرة سنة، رخصة قيادة رافعة شوكية ومعرفة أساسية بالحاسوب أو جهاز PDA. التحميل والتفريغ وتجهيز الطلبات ودعم التوزيع.",
+      "pt": "ESO (ensino secundário obrigatório), um ano de experiência, carta de empilhador e conhecimentos básicos de computador ou PDA. Carga e descarga, preparação de encomendas e apoio à distribuição."
+    },
+    "enlace": "https://es.indeed.com/viewjob?jk=d606c43ccc30cb76"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Calidad y Medio Ambiente",
+      "en": "Quality & Environment",
+      "fr": "Qualité et environnement",
+      "ar": "الجودة والبيئة",
+      "pt": "Qualidade e Ambiente"
+    },
+    "puesto": {
+      "es": "Técnico/a de calidad — rama veterinaria",
+      "en": "Quality technician — veterinary field",
+      "fr": "Technicien/ne qualité — filière vétérinaire",
+      "ar": "فني/ة جودة — المجال البيطري",
+      "pt": "Técnico/a de qualidade — área veterinária"
+    },
+    "empresa": "Alcruz Canarias S.L.",
+    "ubicacion": "Arinaga (Agüimes)",
+    "jornada": {
+      "es": "Jornada completa. Salario de 1.500 a 1.600 € al mes",
+      "en": "Full-time. Salary €1,500–1,600 per month",
+      "fr": "Temps plein. Salaire de 1 500 à 1 600 € par mois",
+      "ar": "دوام كامل. الراتب من 1.500 إلى 1.600 € شهرياً",
+      "pt": "Tempo inteiro. Salário de 1.500 a 1.600 € por mês"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Control del sistema de calidad (APPCC e ISO 9001), supervisión de procesos sanitarios y toma de muestras. Formación relacionada con calidad, industria alimentaria o veterinaria.",
+      "en": "Quality system control (HACCP and ISO 9001), supervision of sanitary processes and sampling. Training in quality, food industry or veterinary science.",
+      "fr": "Contrôle du système qualité (HACCP et ISO 9001), supervision des processus sanitaires et prélèvements. Formation en qualité, industrie agroalimentaire ou vétérinaire.",
+      "ar": "مراقبة نظام الجودة (HACCP وISO 9001)، والإشراف على العمليات الصحية وأخذ العينات. تكوين في الجودة أو الصناعة الغذائية أو الطب البيطري.",
+      "pt": "Controlo do sistema de qualidade (HACCP e ISO 9001), supervisão de processos sanitários e recolha de amostras. Formação em qualidade, indústria alimentar ou veterinária."
+    },
+    "enlace": "https://es.linkedin.com/jobs/view/t%C3%A9cnic%40-calidad-rama-veterinaria-at-alcruz-canarias-s-l-4475792654"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Recursos Humanos y Prevención",
+      "en": "HR & Occupational Safety",
+      "fr": "RH et prévention",
+      "ar": "الموارد البشرية والوقاية",
+      "pt": "Recursos Humanos e Prevenção"
+    },
+    "puesto": {
+      "es": "Técnico/a de prevención intermedio — recurso preventivo (1 mes)",
+      "en": "Intermediate health and safety technician — on-site prevention (1 month)",
+      "fr": "Technicien/ne intermédiaire en prévention — ressource préventive (1 mois)",
+      "ar": "فني/ة وقاية متوسط — مسؤول/ة الوقاية في الموقع (شهر واحد)",
+      "pt": "Técnico/a de prevenção intermédio — recurso preventivo (1 mês)"
+    },
+    "empresa": "Quirónprevención",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, de lunes a sábado. Contrato temporal de 1 mes",
+      "en": "Full-time, Monday to Saturday. 1-month temporary contract",
+      "fr": "Temps plein, du lundi au samedi. Contrat temporaire d'1 mois",
+      "ar": "دوام كامل، من الاثنين إلى السبت. عقد مؤقت لمدة شهر",
+      "pt": "Tempo inteiro, de segunda a sábado. Contrato a termo de 1 mês"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Formación de Técnico Intermedio en PRL y experiencia en funciones similares. Supervisión de la seguridad en obra, control de EPIs e informes.",
+      "en": "Intermediate Technician training in occupational risk prevention and experience in similar roles. Site safety supervision, PPE control and reports.",
+      "fr": "Formation de technicien intermédiaire en prévention des risques professionnels et expérience similaire. Supervision de la sécurité sur chantier, contrôle des EPI et rapports.",
+      "ar": "تكوين فني متوسط في الوقاية من المخاطر المهنية وخبرة في مهام مماثلة. الإشراف على السلامة في الورش ومراقبة معدات الحماية وإعداد التقارير.",
+      "pt": "Formação de Técnico Intermédio em PRL e experiência em funções semelhantes. Supervisão da segurança em obra, controlo de EPI e relatórios."
+    },
+    "enlace": "https://es.linkedin.com/jobs/view/40099-tecnico-a-prevenci%C3%B3n-intermedio-recurso-preventivo-las-palmas-1-mes-at-quir%C3%B3nprevenci%C3%B3n-4476288037"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Auxiliar administrativo/a (2 vacantes)",
+      "en": "Administrative assistant (2 vacancies)",
+      "fr": "Assistant/e administratif/ve (2 postes)",
+      "ar": "مساعد/ة إداري/ة (شاغران)",
+      "pt": "Auxiliar administrativo/a (2 vagas)"
+    },
+    "empresa": "Adecco",
+    "ubicacion": "Telde",
+    "jornada": {
+      "es": "Jornada parcial, presencial",
+      "en": "Part-time, on site",
+      "fr": "Temps partiel, en présentiel",
+      "ar": "دوام جزئي، حضوري",
+      "pt": "Tempo parcial, presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Documentación de reparto, pedidos, facturación, archivo y atención telefónica. Experiencia similar y manejo de Microsoft Office.",
+      "en": "Delivery paperwork, orders, invoicing, filing and phone support. Similar experience and Microsoft Office skills.",
+      "fr": "Documents de livraison, commandes, facturation, classement et accueil téléphonique. Expérience similaire et maîtrise de Microsoft Office.",
+      "ar": "وثائق التوزيع والطلبيات والفوترة والأرشفة والرد على الهاتف. خبرة مماثلة وإتقان Microsoft Office.",
+      "pt": "Documentação de distribuição, encomendas, faturação, arquivo e atendimento telefónico. Experiência semelhante e domínio do Microsoft Office."
+    },
+    "enlace": "https://www.domestiko.com/empleo/oferta/telde-aux-administrativo-a-989p/"
+  },
+  {
+    "area": "sociosanitario",
+    "categoria": {
+      "es": "Sociosanitario",
+      "en": "Health & Social Care",
+      "fr": "Socio-sanitaire",
+      "ar": "الرعاية الصحية والاجتماعية",
+      "pt": "Sociossanitário"
+    },
+    "puesto": {
+      "es": "Gerocultor/a — centro sociosanitario",
+      "en": "Care assistant — care home",
+      "fr": "Aide-soignant/e en gérontologie — centre socio-sanitaire",
+      "ar": "مساعد/ة رعاية المسنين — مركز اجتماعي صحي",
+      "pt": "Gerocultor/a — centro sociossanitário"
+    },
+    "empresa": "Clece",
+    "ubicacion": "Telde",
+    "jornada": {
+      "es": "Jornada completa, turnos rotativos de mañana, tarde y noche. Contrato temporal (unos 12 meses)",
+      "en": "Full-time, rotating morning, afternoon and night shifts. Temporary contract (about 12 months)",
+      "fr": "Temps plein, roulement matin, après-midi et nuit. Contrat temporaire (environ 12 mois)",
+      "ar": "دوام كامل، نوبات متناوبة صباحية ومسائية وليلية. عقد مؤقت (حوالي 12 شهراً)",
+      "pt": "Tempo inteiro, turnos rotativos de manhã, tarde e noite. Contrato a termo (cerca de 12 meses)"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "FP de Cuidados Auxiliares de Enfermería, Atención a Personas en Situación de Dependencia o certificado de profesionalidad de atención sociosanitaria en instituciones.",
+      "en": "FP (Spanish vocational training) in Nursing Auxiliary Care or Care for Dependent People, or professional certificate in social and health care in institutions.",
+      "fr": "FP (formation professionnelle espagnole) en soins infirmiers auxiliaires ou en accompagnement des personnes dépendantes, ou certificat professionnel en soins socio-sanitaires en institution.",
+      "ar": "FP (تكوين مهني إسباني) في المساعدة التمريضية أو رعاية الأشخاص المعالين، أو شهادة مهنية في الرعاية الاجتماعية الصحية في المؤسسات.",
+      "pt": "FP (formação profissional espanhola) em Cuidados Auxiliares de Enfermagem ou Atenção a Pessoas em Situação de Dependência, ou certificado de profissionalidade em atenção sociossanitária em instituições."
+    },
+    "enlace": "https://www.domestiko.com/empleo/oferta/telde-gerocultor-a-para-centro-sociosanitario-p7wz/"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Recursos Humanos y Prevención",
+      "en": "HR & Occupational Safety",
+      "fr": "RH et prévention",
+      "ar": "الموارد البشرية والوقاية",
+      "pt": "Recursos Humanos e Prevenção"
+    },
+    "puesto": {
+      "es": "Técnico/a de prevención intermedio — recurso preventivo",
+      "en": "Intermediate health and safety technician — on-site prevention",
+      "fr": "Technicien/ne intermédiaire en prévention — ressource préventive",
+      "ar": "فني/ة وقاية متوسط — مسؤول/ة الوقاية في الموقع",
+      "pt": "Técnico/a de prevenção intermédio — recurso preventivo"
+    },
+    "empresa": "Quirónprevención",
+    "ubicacion": "Santa Lucía de Tirajana",
+    "jornada": {
+      "es": "20 horas semanales, presencial. Duración de 4 meses",
+      "en": "20 hours a week, on site. 4-month duration",
+      "fr": "20 heures par semaine, en présentiel. Durée de 4 mois",
+      "ar": "20 ساعة أسبوعياً، حضوري. المدة 4 أشهر",
+      "pt": "20 horas semanais, presencial. Duração de 4 meses"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Formación de Técnico Intermedio en PRL. Supervisión de la prevención en obra. Buscar la oferta en el portal de empleo de Quirónprevención (Santa Lucía de Tirajana).",
+      "en": "Intermediate Technician training in occupational risk prevention. Supervising safety on construction sites. Search for the offer on the Quirónprevención job portal (Santa Lucía de Tirajana).",
+      "fr": "Formation de technicien intermédiaire en prévention des risques professionnels. Supervision de la prévention sur chantier. Chercher l'offre sur le portail emploi de Quirónprevención (Santa Lucía de Tirajana).",
+      "ar": "تكوين فني متوسط في الوقاية من المخاطر المهنية. الإشراف على الوقاية في ورش البناء. ابحث عن العرض في بوابة توظيف Quirónprevención (Santa Lucía de Tirajana).",
+      "pt": "Formação de Técnico Intermédio em PRL. Supervisão da prevenção em obra. Procurar a oferta no portal de emprego da Quirónprevención (Santa Lucía de Tirajana)."
+    },
+    "enlace": "https://empleo.quironprevencion.com/"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Coctelero/a — bartender",
+      "en": "Bartender",
+      "fr": "Barman/barmaid — cocktails",
+      "ar": "مُعدّ/ة كوكتيلات — نادل/ة بار",
+      "pt": "Bartender — cocktails"
+    },
+    "empresa": "Hard Rock Cafe Gran Canaria",
+    "ubicacion": "Maspalomas / Playa del Inglés (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Jornada completa, presencial",
+      "en": "Full-time, on site",
+      "fr": "Temps plein, en présentiel",
+      "ar": "دوام كامل، حضوري",
+      "pt": "Tempo inteiro, presencial"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Experiencia demostrable en coctelería y servicio de barra. Se valora inglés y otros idiomas. Asunto del correo: BARTENDER – HARD ROCK CAFE GRAN CANARIA.",
+      "en": "Proven experience in cocktails and bar service. English and other languages are a plus. Email subject: BARTENDER – HARD ROCK CAFE GRAN CANARIA.",
+      "fr": "Expérience avérée en cocktails et service au bar. Anglais et autres langues appréciés. Objet du mail : BARTENDER – HARD ROCK CAFE GRAN CANARIA.",
+      "ar": "خبرة مثبتة في إعداد الكوكتيلات وخدمة البار. تُعدّ الإنجليزية ولغات أخرى ميزة. موضوع البريد: BARTENDER – HARD ROCK CAFE GRAN CANARIA.",
+      "pt": "Experiência comprovada em cocktails e serviço de bar. Valoriza-se inglês e outras línguas. Assunto do e-mail: BARTENDER – HARD ROCK CAFE GRAN CANARIA."
+    },
+    "enlace": "mailto:hrc.bartenders.gc@gmail.com?subject=BARTENDER%20%E2%80%93%20HARD%20ROCK%20CAFE%20GRAN%20CANARIA"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Oficios",
+      "en": "Construction & Trades",
+      "fr": "Construction et métiers",
+      "ar": "البناء والحرف",
+      "pt": "Construção e Ofícios"
+    },
+    "puesto": {
+      "es": "Electricista de automoción",
+      "en": "Automotive electrician",
+      "fr": "Électricien/ne automobile",
+      "ar": "كهربائي/ة سيارات",
+      "pt": "Eletricista auto"
+    },
+    "empresa": "Taller Casa del Gallo",
+    "ubicacion": "Gran Canaria",
+    "jornada": {
+      "es": "Jornada no especificada en la oferta",
+      "en": "Working hours not specified in the offer",
+      "fr": "Horaires non précisés dans l'offre",
+      "ar": "ساعات العمل غير محددة في العرض",
+      "pt": "Horário não especificado na oferta"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Experiencia en diagnosis, sistemas eléctricos y electrónicos del vehículo y manejo de equipos de diagnóstico.",
+      "en": "Experience in diagnostics, vehicle electrical and electronic systems and diagnostic equipment.",
+      "fr": "Expérience en diagnostic, systèmes électriques et électroniques du véhicule et utilisation d'équipements de diagnostic.",
+      "ar": "خبرة في التشخيص والأنظمة الكهربائية والإلكترونية للمركبات واستخدام أجهزة التشخيص.",
+      "pt": "Experiência em diagnóstico, sistemas elétricos e eletrónicos do veículo e uso de equipamentos de diagnóstico."
+    },
+    "enlace": "https://tallercasadelgallo.es/empleo"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Oficios",
+      "en": "Construction & Trades",
+      "fr": "Construction et métiers",
+      "ar": "البناء والحرف",
+      "pt": "Construção e Ofícios"
+    },
+    "puesto": {
+      "es": "Pintor/a de automoción",
+      "en": "Automotive painter",
+      "fr": "Peintre automobile",
+      "ar": "دهّان/ة سيارات",
+      "pt": "Pintor/a auto"
+    },
+    "empresa": "Taller Casa del Gallo",
+    "ubicacion": "Gran Canaria",
+    "jornada": {
+      "es": "Jornada no especificada en la oferta",
+      "en": "Working hours not specified in the offer",
+      "fr": "Horaires non précisés dans l'offre",
+      "ar": "ساعات العمل غير محددة في العرض",
+      "pt": "Horário não especificado na oferta"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Experiencia en pintura de vehículos: preparación de superficies, igualado de color y acabado en cabina.",
+      "en": "Experience in vehicle painting: surface preparation, colour matching and booth finishing.",
+      "fr": "Expérience en peinture de véhicules : préparation des surfaces, ajustement des teintes et finition en cabine.",
+      "ar": "خبرة في طلاء المركبات: تحضير الأسطح ومطابقة الألوان والتشطيب في الكابينة.",
+      "pt": "Experiência em pintura de veículos: preparação de superfícies, afinação de cor e acabamento em cabine."
+    },
+    "enlace": "https://tallercasadelgallo.es/empleo"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Comunicación y Medios",
+      "en": "Media & Communication",
+      "fr": "Communication et médias",
+      "ar": "الإعلام والاتصال",
+      "pt": "Comunicação e Media"
+    },
+    "puesto": {
+      "es": "Comunicador/a — proyecto LIFE Reptiles",
+      "en": "Communications officer — LIFE Reptiles project",
+      "fr": "Chargé/e de communication — projet LIFE Reptiles",
+      "ar": "مسؤول/ة تواصل — مشروع LIFE Reptiles",
+      "pt": "Comunicador/a — projeto LIFE Reptiles"
+    },
+    "empresa": "Asociación Herpetológica Española (AHE)",
+    "ubicacion": "Gran Canaria",
+    "jornada": {
+      "es": "Contrato de 5 años al 30 % de la jornada, como asalariado/a o autónomo/a. Candidaturas hasta el 30/10/2026",
+      "en": "5-year contract at 30% of full time, as employee or self-employed. Applications until 30/10/2026",
+      "fr": "Contrat de 5 ans à 30 % du temps plein, salarié/e ou indépendant/e. Candidatures jusqu'au 30/10/2026",
+      "ar": "عقد لمدة 5 سنوات بنسبة 30 % من الدوام، كموظف/ة أو عامل/ة مستقل/ة. التقديم حتى 30/10/2026",
+      "pt": "Contrato de 5 anos a 30 % do horário, como trabalhador/a por conta de outrem ou independente. Candidaturas até 30/10/2026"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Difusión del proyecto en redes sociales y prensa. Dominio de redes sociales y Canva (o similar) y experiencia previa. Vehículo, equipo de trabajo propio y oficina en Gran Canaria.",
+      "en": "Promoting the project on social media and in the press. Strong social media and Canva (or similar) skills and previous experience. Own vehicle, work equipment and office in Gran Canaria.",
+      "fr": "Diffusion du projet sur les réseaux sociaux et dans la presse. Maîtrise des réseaux sociaux et de Canva (ou similaire) et expérience préalable. Véhicule, matériel de travail et bureau propres à Gran Canaria.",
+      "ar": "نشر أنشطة المشروع على وسائل التواصل والصحافة. إتقان وسائل التواصل وCanva (أو ما يشابهه) وخبرة سابقة. سيارة ومعدات عمل ومكتب خاص في غران كناريا.",
+      "pt": "Divulgação do projeto nas redes sociais e na imprensa. Domínio de redes sociais e Canva (ou semelhante) e experiência prévia. Veículo, equipamento de trabalho próprio e escritório em Gran Canaria."
+    },
+    "enlace": "https://www.herpetologica.es"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Transporte y Conducción",
+      "en": "Transport & Driving",
+      "fr": "Transport et conduite",
+      "ar": "النقل والسياقة",
+      "pt": "Transporte e Condução"
+    },
+    "puesto": {
+      "es": "Conductor/a de camión",
+      "en": "Truck driver",
+      "fr": "Chauffeur/euse poids lourd",
+      "ar": "سائق/ة شاحنة",
+      "pt": "Motorista de camião"
+    },
+    "empresa": "Shuttletruck Logística",
+    "ubicacion": "Gran Canaria",
+    "jornada": {
+      "es": "3 días de libranza (fin de semana + 1 día entre semana). 2.100 € brutos",
+      "en": "3 days off (weekend + 1 weekday). €2,100 gross",
+      "fr": "3 jours de repos (week-end + 1 jour en semaine). 2 100 € bruts",
+      "ar": "3 أيام راحة (عطلة نهاية الأسبوع + يوم خلال الأسبوع). 2.100 € إجمالي",
+      "pt": "3 dias de folga (fim de semana + 1 dia durante a semana). 2.100 € brutos"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Se valorará experiencia.",
+      "en": "Experience is a plus.",
+      "fr": "L'expérience est un plus.",
+      "ar": "تُعدّ الخبرة ميزة إضافية.",
+      "pt": "Valoriza-se experiência."
+    },
+    "enlace": "mailto:seleccionrrhh@shuttletruck.es"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Ayudante de camarero/a — extra por horas",
+      "en": "Assistant waiter — extra staff, paid by the hour",
+      "fr": "Aide-serveur/euse — extra à l'heure",
+      "ar": "مساعد/ة نادل — عمل إضافي بالساعة",
+      "pt": "Ajudante de empregado/a de mesa — extra à hora"
+    },
+    "empresa": "Restaurante en C.C. Alisios",
+    "ubicacion": "Las Palmas de Gran Canaria (C.C. Alisios)",
+    "jornada": {
+      "es": "Por horas, como extra",
+      "en": "Hourly, as extra staff",
+      "fr": "À l'heure, en extra",
+      "ar": "بالساعة، كعامل/ة إضافي/ة",
+      "pt": "À hora, como extra"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Solo personas con experiencia previa en el sector. Enviar CV por WhatsApp al 604 254 290.",
+      "en": "Only people with previous experience in the sector. Send CV by WhatsApp to 604 254 290.",
+      "fr": "Uniquement des personnes ayant de l'expérience dans le secteur. Envoyer le CV par WhatsApp au 604 254 290.",
+      "ar": "فقط لمن لديهم خبرة سابقة في القطاع. إرسال السيرة الذاتية عبر واتساب إلى 604 254 290.",
+      "pt": "Apenas pessoas com experiência no setor. Enviar CV por WhatsApp para 604 254 290."
+    },
+    "enlace": "https://wa.me/34604254290"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Comercial y Ventas",
+      "en": "Sales",
+      "fr": "Commercial et ventes",
+      "ar": "المبيعات",
+      "pt": "Vendas"
+    },
+    "puesto": {
+      "es": "Repartidor/a comercial",
+      "en": "Sales delivery driver",
+      "fr": "Livreur/euse commercial/e",
+      "ar": "مندوب/ة توزيع ومبيعات",
+      "pt": "Distribuidor/a comercial"
+    },
+    "empresa": "La Croquetería de Moya",
+    "ubicacion": "Moya",
+    "jornada": {
+      "es": "Jornada completa, de lunes a viernes",
+      "en": "Full-time, Monday to Friday",
+      "fr": "Temps plein, du lundi au vendredi",
+      "ar": "دوام كامل، من الاثنين إلى الجمعة",
+      "pt": "Tempo inteiro, de segunda a sexta"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Enviar currículum por correo electrónico.",
+      "en": "Send CV by email.",
+      "fr": "Envoyer le CV par e-mail.",
+      "ar": "إرسال السيرة الذاتية عبر البريد الإلكتروني.",
+      "pt": "Enviar currículo por e-mail."
+    },
+    "enlace": "mailto:lacroqueteriademoyagc@gmail.com"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Personal de cafetería",
+      "en": "Café staff",
+      "fr": "Personnel de cafétéria",
+      "ar": "عامل/ة مقهى",
+      "pt": "Pessoal de cafetaria"
+    },
+    "empresa": "Dulceamor Pasteleros",
+    "ubicacion": "Vecindario (Santa Lucía de Tirajana)",
+    "jornada": {
+      "es": "Incorporación inmediata",
+      "en": "Immediate start",
+      "fr": "Prise de poste immédiate",
+      "ar": "التحاق فوري",
+      "pt": "Início imediato"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Servicio de cafetería. Enviar currículum por WhatsApp al 699 235 755.",
+      "en": "Café service. Send CV by WhatsApp to 699 235 755.",
+      "fr": "Service en cafétéria. Envoyer le CV par WhatsApp au 699 235 755.",
+      "ar": "خدمة في المقهى. إرسال السيرة الذاتية عبر واتساب إلى 699 235 755.",
+      "pt": "Serviço de cafetaria. Enviar currículo por WhatsApp para 699 235 755."
+    },
+    "enlace": "https://wa.me/34699235755"
+  },
+  {
+    "area": "comercio",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Ayudante de dependiente/a",
+      "en": "Shop assistant helper",
+      "fr": "Aide-vendeur/euse",
+      "ar": "مساعد/ة بائع",
+      "pt": "Ajudante de empregado/a de loja"
+    },
+    "empresa": "HiperDino",
+    "ubicacion": "Santa Brígida y Sur de Gran Canaria",
+    "jornada": {
+      "es": "Jornada no especificada en la oferta",
+      "en": "Working hours not specified in the offer",
+      "fr": "Horaires non précisés dans l'offre",
+      "ar": "ساعات العمل غير محددة في العرض",
+      "pt": "Horário não especificado na oferta"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Enviar CV indicando en el asunto el puesto que interesa.",
+      "en": "Send CV stating the position in the email subject.",
+      "fr": "Envoyer le CV en indiquant le poste dans l'objet du mail.",
+      "ar": "إرسال السيرة الذاتية مع ذكر الوظيفة في موضوع البريد.",
+      "pt": "Enviar CV indicando no assunto a vaga pretendida."
+    },
+    "enlace": "mailto:seleccion.hiperdino@grupodinosol.es"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Logística y Almacén",
+      "en": "Logistics & Warehouse",
+      "fr": "Logistique et entrepôt",
+      "ar": "اللوجستيات والمستودعات",
+      "pt": "Logística e Armazém"
+    },
+    "puesto": {
+      "es": "Preparador/a de pedidos (turno de tarde)",
+      "en": "Order picker (afternoon shift)",
+      "fr": "Préparateur/trice de commandes (équipe d'après-midi)",
+      "ar": "مُجهّز/ة طلبات (نوبة مسائية)",
+      "pt": "Preparador/a de encomendas (turno da tarde)"
+    },
+    "empresa": "HiperDino",
+    "ubicacion": "Plataforma logística de Gran Canaria",
+    "jornada": {
+      "es": "Turno de tarde",
+      "en": "Afternoon shift",
+      "fr": "Équipe d'après-midi",
+      "ar": "نوبة مسائية",
+      "pt": "Turno da tarde"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Enviar CV indicando en el asunto el puesto que interesa.",
+      "en": "Send CV stating the position in the email subject.",
+      "fr": "Envoyer le CV en indiquant le poste dans l'objet du mail.",
+      "ar": "إرسال السيرة الذاتية مع ذكر الوظيفة في موضوع البريد.",
+      "pt": "Enviar CV indicando no assunto a vaga pretendida."
+    },
+    "enlace": "mailto:seleccion.hiperdino@grupodinosol.es"
+  },
+  {
+    "area": "sociosanitario",
+    "categoria": {
+      "es": "Sociosanitario",
+      "en": "Health & Social Care",
+      "fr": "Socio-sanitaire",
+      "ar": "الرعاية الصحية والاجتماعية",
+      "pt": "Sociossanitário"
+    },
+    "puesto": {
+      "es": "Cuidador/a — fines de semana y festivos",
+      "en": "Carer — weekends and public holidays",
+      "fr": "Aide-soignant/e — week-ends et jours fériés",
+      "ar": "مقدّم/ة رعاية — عطل نهاية الأسبوع والأعياد",
+      "pt": "Cuidador/a — fins de semana e feriados"
+    },
+    "empresa": "Grupo 5 — CADI Obispo Padre Cueto",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Fines de semana y festivos",
+      "en": "Weekends and public holidays",
+      "fr": "Week-ends et jours fériés",
+      "ar": "عطل نهاية الأسبوع والأعياد",
+      "pt": "Fins de semana e feriados"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Apoyo y acompañamiento a personas con discapacidad intelectual. Se valora experiencia en discapacidad y formación relacionada. Información: 928 897 065.",
+      "en": "Support and accompaniment for people with intellectual disabilities. Experience in disability and related training are a plus. Information: 928 897 065.",
+      "fr": "Soutien et accompagnement de personnes avec un handicap intellectuel. Expérience dans le handicap et formation liée appréciées. Informations : 928 897 065.",
+      "ar": "دعم ومرافقة الأشخاص ذوي الإعاقة الذهنية. تُعدّ الخبرة في مجال الإعاقة والتكوين ذو الصلة ميزة. للمعلومات: 928 897 065.",
+      "pt": "Apoio e acompanhamento a pessoas com deficiência intelectual. Valoriza-se experiência na área e formação relacionada. Informações: 928 897 065."
+    },
+    "enlace": "mailto:administracion.obispo@grupo5.net"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Cocinero/a",
+      "en": "Cook",
+      "fr": "Cuisinier/ère",
+      "ar": "طبّاخ/ة",
+      "pt": "Cozinheiro/a"
+    },
+    "empresa": "Restaurante en Playa del Inglés",
+    "ubicacion": "Playa del Inglés (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Contrato de 40 horas, de 19:00 a 03:00. Incorporación a partir del 20 de octubre",
+      "en": "40-hour contract, 19:00 to 03:00. Start from 20 October",
+      "fr": "Contrat de 40 heures, de 19h00 à 03h00. Prise de poste à partir du 20 octobre",
+      "ar": "عقد 40 ساعة، من 19:00 إلى 03:00. الالتحاق ابتداءً من 20 أكتوبر",
+      "pt": "Contrato de 40 horas, das 19:00 às 03:00. Início a partir de 20 de outubro"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Inglés para mantener una conversación (habrá preguntas en inglés). Documentación en regla para contrato. Se valora experiencia en cocina. Enviar CV por WhatsApp al +34 664 52 15 67.",
+      "en": "Conversational English (there will be questions in English). Valid documents for a contract. Kitchen experience is a plus. Send CV by WhatsApp to +34 664 52 15 67.",
+      "fr": "Anglais conversationnel (questions en anglais lors de l'entretien). Documents en règle pour un contrat. Expérience en cuisine appréciée. Envoyer le CV par WhatsApp au +34 664 52 15 67.",
+      "ar": "إنجليزية للمحادثة (ستُطرح أسئلة بالإنجليزية). وثائق قانونية للتعاقد. تُعدّ الخبرة في المطبخ ميزة. إرسال السيرة عبر واتساب إلى ‎+34 664 52 15 67.",
+      "pt": "Inglês de conversação (haverá perguntas em inglês). Documentação em ordem para contrato. Valoriza-se experiência em cozinha. Enviar CV por WhatsApp para +34 664 52 15 67."
+    },
+    "enlace": "https://wa.me/34664521567"
+  },
+  {
+    "area": "sociosanitario",
+    "categoria": {
+      "es": "Sociosanitario",
+      "en": "Health & Social Care",
+      "fr": "Socio-sanitaire",
+      "ar": "الرعاية الصحية والاجتماعية",
+      "pt": "Sociossanitário"
+    },
+    "puesto": {
+      "es": "Auxiliar de ayuda a domicilio",
+      "en": "Home care assistant",
+      "fr": "Auxiliaire d'aide à domicile",
+      "ar": "مساعد/ة رعاية منزلية",
+      "pt": "Auxiliar de apoio domiciliário"
+    },
+    "empresa": "Cataleya Servicios Sociosanitarios",
+    "ubicacion": "Maspalomas (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Contrato indefinido. Horario de mañana",
+      "en": "Permanent contract. Morning shift",
+      "fr": "CDI. Horaires du matin",
+      "ar": "عقد دائم. دوام صباحي",
+      "pt": "Contrato sem termo. Horário da manhã"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "Imprescindible una de estas titulaciones: certificado de profesionalidad SSCS0108 o SSCS0208, TCAE o Técnico/a en Atención a Personas en Situación de Dependencia. Se valoran carné, vehículo propio y experiencia.",
+      "en": "One of these qualifications is required: professional certificate SSCS0108 or SSCS0208, TCAE (nursing auxiliary) or Technician in Care for Dependent People. Driving licence, own vehicle and experience are a plus.",
+      "fr": "Un de ces diplômes est indispensable : certificat professionnel SSCS0108 ou SSCS0208, TCAE (aide-soignant/e) ou Technicien/ne en accompagnement des personnes dépendantes. Permis, véhicule et expérience appréciés.",
+      "ar": "يُشترط أحد هذه المؤهلات: شهادة مهنية SSCS0108 أو SSCS0208، أو TCAE (مساعد/ة تمريض)، أو فني/ة رعاية الأشخاص في حالة تبعية. تُعدّ الرخصة والسيارة والخبرة ميزة.",
+      "pt": "É imprescindível uma destas formações: certificado de profissionalidade SSCS0108 ou SSCS0208, TCAE (auxiliar de enfermagem) ou Técnico/a de Atenção a Pessoas em Situação de Dependência. Valoriza-se carta, veículo próprio e experiência."
+    },
+    "enlace": "mailto:empleo@cataleyaelderycare.es"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Administrativo/a",
+      "en": "Administrative Assistant",
+      "fr": "Employé/e administratif/ve",
+      "ar": "موظف/ة إداري/ة",
+      "pt": "Administrativo/a"
+    },
+    "empresa": "ecca.edu",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa",
+      "en": "Full-time",
+      "fr": "Temps plein",
+      "ar": "دوام كامل",
+      "pt": "Tempo inteiro"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.450 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.450 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.450 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.450 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.450 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/administrativo/of-i658a91f4dc4c149e7efbb329262ea3"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Administrativo/a de PRL",
+      "en": "Occupational Safety (PRL) Administrative Assistant",
+      "fr": "Employé/e administratif/ve en prévention des risques",
+      "ar": "موظف/ة إداري/ة في الوقاية من المخاطر المهنية",
+      "pt": "Administrativo/a de Prevenção de Riscos"
+    },
+    "empresa": "Transportes y Grúas Carballo",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.583 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.583 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.583 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.583 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.583 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/administrativo-prl/of-icf8c981fe544459251227dbe34a875"
+  },
+  {
+    "area": "comercio",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Gestor/a de Punto de Venta (GPV) en ruta por Canarias",
+      "en": "Point-of-Sale Merchandiser (on the road, Canary Islands)",
+      "fr": "Gestionnaire point de vente (GPV) itinérant/e aux Canaries",
+      "ar": "مسير/ة نقاط البيع (GPV) متنقل/ة في جزر الكناري",
+      "pt": "Gestor/a de Ponto de Venda (GPV) em rota pelas Canárias"
+    },
+    "empresa": "Service Innovation Group",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada parcial. Contrato indefinido",
+      "en": "Part-time. Permanent contract",
+      "fr": "Temps partiel. CDI",
+      "ar": "دوام جزئي. عقد دائم",
+      "pt": "Tempo parcial. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.500 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.500 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.500 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.500 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.500 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/gpv-ruta-canarias/of-i578007c4cc46fe9e4cf5f9f9b435ad"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Cocinero/a — Ayudante de Cocina",
+      "en": "Cook — Kitchen Assistant",
+      "fr": "Cuisinier/ère — Commis de cuisine",
+      "ar": "طباخ/ة — مساعد/ة مطبخ",
+      "pt": "Cozinheiro/a — Ajudante de Cozinha"
+    },
+    "empresa": "Calle Larga Restaurante",
+    "ubicacion": "Agaete",
+    "jornada": {
+      "es": "Jornada parcial (20 h)",
+      "en": "Part-time (20 h)",
+      "fr": "Temps partiel (20 h)",
+      "ar": "دوام جزئي (20 ساعة)",
+      "pt": "Tempo parcial (20 h)"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 975 € al mes.",
+      "en": "1 vacancy. Approximate salary: 975 € per month.",
+      "fr": "1 poste. Salaire approximatif : 975 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 975 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 975 € por mês."
+    },
+    "enlace": "https://es.indeed.com/viewjob?jk=3d9f1bfe5dfbdc9d"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Jefe/a de Comedor o Maestre de Sala (SCE 007026)",
+      "en": "Restaurant Manager / Head Waiter (SCE 007026)",
+      "fr": "Maître d’hôtel (SCE 007026)",
+      "ar": "رئيس/ة قاعة الطعام (SCE 007026)",
+      "pt": "Chefe de Sala (SCE 007026)"
+    },
+    "empresa": "Empresa no indicada (oferta del SCE)",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, turno rotativo. Contrato indefinido",
+      "en": "Full-time, rotating shifts. Permanent contract",
+      "fr": "Temps plein, horaires tournants. CDI",
+      "ar": "دوام كامل, نوبات متناوبة. عقد دائم",
+      "pt": "Tempo inteiro, turno rotativo. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 2.200 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "1 vacancy. Approximate salary: 2.200 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "1 poste. Salaire approximatif : 2.200 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "شاغر واحد. الراتب التقريبي: 2.200 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "1 vaga. Salário aproximado: 2.200 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=007026&is_open=true"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Camarero/a de Sala o Jefe/a de Rango (SCE 006991)",
+      "en": "Waiter/Waitress or Station Head (SCE 006991)",
+      "fr": "Serveur/euse ou chef de rang (SCE 006991)",
+      "ar": "نادل/ة أو رئيس/ة صف (SCE 006991)",
+      "pt": "Empregado/a de Mesa ou Chefe de Fila (SCE 006991)"
+    },
+    "empresa": "Empresa no indicada (oferta del SCE)",
+    "ubicacion": "Telde",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.587 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "1 vacancy. Approximate salary: 1.587 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "1 poste. Salaire approximatif : 1.587 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.587 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "1 vaga. Salário aproximado: 1.587 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006991&is_open=true"
+  },
+  {
+    "area": "sociosanitario",
+    "categoria": {
+      "es": "Sociosanitario",
+      "en": "Health & Social Care",
+      "fr": "Socio-sanitaire",
+      "ar": "الرعاية الصحية والاجتماعية",
+      "pt": "Sociossanitário"
+    },
+    "puesto": {
+      "es": "Terapeuta Ocupacional (SCE 006970)",
+      "en": "Occupational Therapist (SCE 006970)",
+      "fr": "Ergothérapeute (SCE 006970)",
+      "ar": "أخصائي/ة علاج وظيفي (SCE 006970)",
+      "pt": "Terapeuta Ocupacional (SCE 006970)"
+    },
+    "empresa": "Empresa no indicada (oferta del SCE)",
+    "ubicacion": "Las Palmas de Gran Canaria (Tafira Alta)",
+    "jornada": {
+      "es": "Jornada parcial (35 h), de 8:00 a 15:00. Contrato de sustitución",
+      "en": "Part-time (35 h), 8:00 to 15:00. Replacement contract",
+      "fr": "Temps partiel (35 h), de 8:00 à 15:00. Contrat de remplacement",
+      "ar": "دوام جزئي (35 ساعة), من 8:00 إلى 15:00. عقد استخلاف",
+      "pt": "Tempo parcial (35 h), das 8:00 às 15:00. Contrato de substituição"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.928 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "1 vacancy. Approximate salary: 1.928 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "1 poste. Salaire approximatif : 1.928 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.928 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "1 vaga. Salário aproximado: 1.928 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006970&is_open=true"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Auxiliar Administrativo/a — Frioluz",
+      "en": "Administrative Assistant — Frioluz",
+      "fr": "Assistant/e administratif/ve — Frioluz",
+      "ar": "مساعد/ة إداري/ة — Frioluz",
+      "pt": "Auxiliar Administrativo/a — Frioluz"
+    },
+    "empresa": "Grupo Satocan",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada parcial (35 h), de 8:00 a 15:00. Contrato temporal",
+      "en": "Part-time (35 h), 8:00 to 15:00. Temporary contract",
+      "fr": "Temps partiel (35 h), de 8:00 à 15:00. Contrat temporaire",
+      "ar": "دوام جزئي (35 ساعة), من 8:00 إلى 15:00. عقد مؤقت",
+      "pt": "Tempo parcial (35 h), das 8:00 às 15:00. Contrato temporário"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.425 € al mes. Se solicita en el portal de empleo del Grupo Satocan.",
+      "en": "1 vacancy. Approximate salary: 1.425 € per month. Apply on the Grupo Satocan job portal.",
+      "fr": "1 poste. Salaire approximatif : 1.425 € par mois. Candidature sur le portail emploi du Grupo Satocan.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.425 € شهرياً. يُقدَّم الطلب في بوابة التوظيف الخاصة بمجموعة Satocan.",
+      "pt": "1 vaga. Salário aproximado: 1.425 € por mês. A candidatura faz-se no portal de emprego do Grupo Satocan."
+    },
+    "enlace": "https://empleo.gruposatocan.es/job/Auxiliar-Administrativo-Frioluz/606-es_ES/"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Empleado/a Administrativo/a Contable (SCE 007032)",
+      "en": "Accounting Clerk (SCE 007032)",
+      "fr": "Employé/e administratif/ve comptable (SCE 007032)",
+      "ar": "موظف/ة إداري/ة في المحاسبة (SCE 007032)",
+      "pt": "Empregado/a Administrativo/a Contabilista (SCE 007032)"
+    },
+    "empresa": "Empresa no indicada (oferta del SCE)",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Contrato de sustitución o indefinido",
+      "en": "Replacement or permanent contract",
+      "fr": "Contrat de remplacement ou CDI",
+      "ar": "عقد استخلاف أو عقد دائم",
+      "pt": "Contrato de substituição ou sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.958 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "1 vacancy. Approximate salary: 1.958 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "1 poste. Salaire approximatif : 1.958 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.958 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "1 vaga. Salário aproximado: 1.958 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=007032&is_open=true"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Administrativo/a",
+      "en": "Administrative Assistant",
+      "fr": "Employé/e administratif/ve",
+      "ar": "موظف/ة إداري/ة",
+      "pt": "Administrativo/a"
+    },
+    "empresa": "Viajes López",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.667 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.667 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.667 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.667 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.667 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/administrativo/of-i232114e3b8400287b2e8e352d08b53"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Atención al Cliente",
+      "en": "Customer Service",
+      "fr": "Service client",
+      "ar": "خدمة الزبائن",
+      "pt": "Atendimento ao Cliente"
+    },
+    "puesto": {
+      "es": "Recepcionista — Hotel Marina Suites",
+      "en": "Receptionist — Hotel Marina Suites",
+      "fr": "Réceptionniste — Hôtel Marina Suites",
+      "ar": "موظف/ة استقبال — فندق Marina Suites",
+      "pt": "Rececionista — Hotel Marina Suites"
+    },
+    "empresa": "Grupo Satocan",
+    "ubicacion": "Mogán",
+    "jornada": {
+      "es": "Jornada completa (40 h), turno rotativo. Contrato temporal ampliable",
+      "en": "Full-time (40 h), rotating shifts. Temporary contract, may be extended",
+      "fr": "Temps plein (40 h), horaires tournants. Contrat temporaire prolongeable",
+      "ar": "دوام كامل (40 ساعة), نوبات متناوبة. عقد مؤقت قابل للتمديد",
+      "pt": "Tempo inteiro (40 h), turno rotativo. Contrato temporário prorrogável"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: 2.017 € al mes. Se solicita en el portal de empleo del Grupo Satocan.",
+      "en": "2 vacancies. Approximate salary: 2.017 € per month. Apply on the Grupo Satocan job portal.",
+      "fr": "2 postes. Salaire approximatif : 2.017 € par mois. Candidature sur le portail emploi du Grupo Satocan.",
+      "ar": "2 شواغر. الراتب التقريبي: 2.017 € شهرياً. يُقدَّم الطلب في بوابة التوظيف الخاصة بمجموعة Satocan.",
+      "pt": "2 vagas. Salário aproximado: 2.017 € por mês. A candidatura faz-se no portal de emprego do Grupo Satocan."
+    },
+    "enlace": "https://empleo.gruposatocan.es/job/Recepcionista-Hotel-Marina-Suites/591-es_ES/"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Oficios",
+      "en": "Construction & Trades",
+      "fr": "Construction et métiers",
+      "ar": "البناء والحرف",
+      "pt": "Construção e Ofícios"
+    },
+    "puesto": {
+      "es": "Albañil (SCE 006435)",
+      "en": "Bricklayer (SCE 006435)",
+      "fr": "Maçon/ne (SCE 006435)",
+      "ar": "بنّاء (SCE 006435)",
+      "pt": "Pedreiro/a (SCE 006435)"
+    },
+    "empresa": "Empresa no indicada (oferta del SCE)",
+    "ubicacion": "La Aldea de San Nicolás",
+    "jornada": {
+      "es": "Jornada completa (40 h), de 8:00 a 16:00. Contrato de 3 meses",
+      "en": "Full-time (40 h), 8:00 to 16:00. 3-month contract",
+      "fr": "Temps plein (40 h), de 8:00 à 16:00. Contrat de 3 mois",
+      "ar": "دوام كامل (40 ساعة), من 8:00 إلى 16:00. عقد لمدة 3 أشهر",
+      "pt": "Tempo inteiro (40 h), das 8:00 às 16:00. Contrato de 3 meses"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: 1.750 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "2 vacancies. Approximate salary: 1.750 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "2 postes. Salaire approximatif : 1.750 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "2 شواغر. الراتب التقريبي: 1.750 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "2 vagas. Salário aproximado: 1.750 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006435&is_open=true"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Deporte y Ocio",
+      "en": "Sport & Leisure",
+      "fr": "Sport et loisirs",
+      "ar": "الرياضة والترفيه",
+      "pt": "Desporto e Lazer"
+    },
+    "puesto": {
+      "es": "Caddie Master — Campo de Golf Salobre",
+      "en": "Caddie Master — Salobre Golf Course",
+      "fr": "Caddie master — Golf de Salobre",
+      "ar": "مسؤول/ة الكادي — ملعب غولف Salobre",
+      "pt": "Caddie Master — Campo de Golfe Salobre"
+    },
+    "empresa": "Grupo Satocan",
+    "ubicacion": "San Bartolomé de Tirajana",
+    "jornada": {
+      "es": "Jornada completa (40 h), turno rotativo. Contrato fijo discontinuo",
+      "en": "Full-time (40 h), rotating shifts. Seasonal permanent contract (fijo discontinuo)",
+      "fr": "Temps plein (40 h), horaires tournants. Contrat fixe discontinu",
+      "ar": "دوام كامل (40 ساعة), نوبات متناوبة. عقد دائم متقطع (fijo discontinuo)",
+      "pt": "Tempo inteiro (40 h), turno rotativo. Contrato fixo descontínuo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: 1.472 € al mes. Se solicita en el portal de empleo del Grupo Satocan.",
+      "en": "2 vacancies. Approximate salary: 1.472 € per month. Apply on the Grupo Satocan job portal.",
+      "fr": "2 postes. Salaire approximatif : 1.472 € par mois. Candidature sur le portail emploi du Grupo Satocan.",
+      "ar": "2 شواغر. الراتب التقريبي: 1.472 € شهرياً. يُقدَّم الطلب في بوابة التوظيف الخاصة بمجموعة Satocan.",
+      "pt": "2 vagas. Salário aproximado: 1.472 € por mês. A candidatura faz-se no portal de emprego do Grupo Satocan."
+    },
+    "enlace": "https://empleo.gruposatocan.es/job/Caddie-Master-Campo-de-Golf-Salobre/608-es_ES/"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Camarero/a (SCE 007031)",
+      "en": "Waiter/Waitress (SCE 007031)",
+      "fr": "Serveur/euse (SCE 007031)",
+      "ar": "نادل/ة (SCE 007031)",
+      "pt": "Empregado/a de Mesa (SCE 007031)"
+    },
+    "empresa": "Empresa no indicada (oferta del SCE)",
+    "ubicacion": "Mogán",
+    "jornada": {
+      "es": "Jornada parcial (20 h), de 18:30 a 22:30. Contrato hasta el 31/03/2027",
+      "en": "Part-time (20 h), 18:30 to 22:30. Contract until 31/03/2027",
+      "fr": "Temps partiel (20 h), de 18:30 à 22:30. Contrat jusqu’au 31/03/2027",
+      "ar": "دوام جزئي (20 ساعة), من 18:30 إلى 22:30. عقد إلى غاية 31/03/2027",
+      "pt": "Tempo parcial (20 h), das 18:30 às 22:30. Contrato até 31/03/2027"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: 1.200 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "2 vacancies. Approximate salary: 1.200 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "2 postes. Salaire approximatif : 1.200 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "2 شواغر. الراتب التقريبي: 1.200 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "2 vagas. Salário aproximado: 1.200 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=007031&is_open=true"
+  },
+  {
+    "area": "limpieza",
+    "categoria": {
+      "es": "Limpieza y Mantenimiento",
+      "en": "Cleaning & Maintenance",
+      "fr": "Nettoyage et entretien",
+      "ar": "التنظيف والصيانة",
+      "pt": "Limpeza e Manutenção"
+    },
+    "puesto": {
+      "es": "Peón/a de Jardinería — Campo de Golf Salobre",
+      "en": "Gardening Labourer — Salobre Golf Course",
+      "fr": "Ouvrier/ère jardinier/ère — Golf de Salobre",
+      "ar": "عامل/ة بستنة — ملعب غولف Salobre",
+      "pt": "Trabalhador/a de Jardinagem — Campo de Golfe Salobre"
+    },
+    "empresa": "Grupo Satocan",
+    "ubicacion": "San Bartolomé de Tirajana",
+    "jornada": {
+      "es": "Jornada completa (40 h), de 6:30 a 14:30. Contrato indefinido",
+      "en": "Full-time (40 h), 6:30 to 14:30. Permanent contract",
+      "fr": "Temps plein (40 h), de 6:30 à 14:30. CDI",
+      "ar": "دوام كامل (40 ساعة), من 6:30 إلى 14:30. عقد دائم",
+      "pt": "Tempo inteiro (40 h), das 6:30 às 14:30. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "3 vacantes. Salario aproximado: 1.472 € al mes. Se solicita en el portal de empleo del Grupo Satocan.",
+      "en": "3 vacancies. Approximate salary: 1.472 € per month. Apply on the Grupo Satocan job portal.",
+      "fr": "3 postes. Salaire approximatif : 1.472 € par mois. Candidature sur le portail emploi du Grupo Satocan.",
+      "ar": "3 شواغر. الراتب التقريبي: 1.472 € شهرياً. يُقدَّم الطلب في بوابة التوظيف الخاصة بمجموعة Satocan.",
+      "pt": "3 vagas. Salário aproximado: 1.472 € por mês. A candidatura faz-se no portal de emprego do Grupo Satocan."
+    },
+    "enlace": "https://empleo.gruposatocan.es/job/Pe%C3%B3na-de-Jardiner%C3%ADa-Campo-de-Golf-Salobre/597-es_ES/"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Mantenimiento",
+      "en": "Construction & Maintenance",
+      "fr": "Construction et maintenance",
+      "ar": "البناء والصيانة",
+      "pt": "Construção e Manutenção"
+    },
+    "puesto": {
+      "es": "Electricista",
+      "en": "Electrician",
+      "fr": "Électricien/ne",
+      "ar": "كهربائي/ة",
+      "pt": "Eletricista"
+    },
+    "empresa": "Electro Labat",
+    "ubicacion": "Las Palmas de Gran Canaria (Tamaraceite)",
+    "jornada": {
+      "es": "Contrato indefinido",
+      "en": "Permanent contract",
+      "fr": "CDI",
+      "ar": "عقد دائم",
+      "pt": "Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "Consulta el salario en la oferta.",
+      "en": "Check the salary in the offer.",
+      "fr": "Consultez le salaire dans l’offre.",
+      "ar": "اطّلع على الراتب في العرض.",
+      "pt": "Consulte o salário na oferta."
+    },
+    "enlace": "https://es.indeed.com/viewjob?jk=987f60ee89d1fb32"
+  },
+  {
+    "area": "limpieza",
+    "categoria": {
+      "es": "Limpieza y Mantenimiento",
+      "en": "Cleaning & Maintenance",
+      "fr": "Nettoyage et entretien",
+      "ar": "التنظيف والصيانة",
+      "pt": "Limpeza e Manutenção"
+    },
+    "puesto": {
+      "es": "Operario/a de Limpieza (plaza con certificado de discapacidad)",
+      "en": "Cleaning Operative (disability-certificate position)",
+      "fr": "Agent/e d’entretien (poste réservé, certificat de handicap)",
+      "ar": "عامل/ة تنظيف (وظيفة مخصصة لذوي شهادة إعاقة)",
+      "pt": "Operário/a de Limpeza (vaga para pessoas com certificado de incapacidade)"
+    },
+    "empresa": "Grupo Servidis",
+    "ubicacion": "Arucas / Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada parcial, de mañana. Contrato de sustitución",
+      "en": "Part-time, mornings. Replacement contract",
+      "fr": "Temps partiel, le matin. Contrat de remplacement",
+      "ar": "دوام جزئي, صباحاً. عقد استخلاف",
+      "pt": "Tempo parcial, de manhã. Contrato de substituição"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 740 € al mes.",
+      "en": "1 vacancy. Approximate salary: 740 € per month.",
+      "fr": "1 poste. Salaire approximatif : 740 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 740 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 740 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/operario-limpieza-con-discapacidad-las-palmas-g.c./of-i8a724795884d6eb86497fcabc44310"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Oficios",
+      "en": "Construction & Trades",
+      "fr": "Construction et métiers",
+      "ar": "البناء والحرف",
+      "pt": "Construção e Ofícios"
+    },
+    "puesto": {
+      "es": "Montador/a de Carpintería Metálica",
+      "en": "Metal Joinery Fitter",
+      "fr": "Monteur/euse en menuiserie métallique",
+      "ar": "مركّب/ة نجارة معدنية",
+      "pt": "Montador/a de Caixilharia Metálica"
+    },
+    "empresa": "Aluminio Marín Gómez",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: 1.450 € al mes.",
+      "en": "2 vacancies. Approximate salary: 1.450 € per month.",
+      "fr": "2 postes. Salaire approximatif : 1.450 € par mois.",
+      "ar": "2 شواغر. الراتب التقريبي: 1.450 € شهرياً.",
+      "pt": "2 vagas. Salário aproximado: 1.450 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/montador-carpinteria-metalica/of-i1f2c07a1f94853b69c2264eba82922"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Transporte y Conducción",
+      "en": "Transport & Driving",
+      "fr": "Transport et conduite",
+      "ar": "النقل والسياقة",
+      "pt": "Transporte e Condução"
+    },
+    "puesto": {
+      "es": "Conductor/a de Camión Bomba de Hormigón — Canary Concrete",
+      "en": "Concrete Pump Truck Driver — Canary Concrete",
+      "fr": "Chauffeur/euse de camion pompe à béton — Canary Concrete",
+      "ar": "سائق/ة شاحنة مضخة الخرسانة — Canary Concrete",
+      "pt": "Motorista de Camião Bomba de Betão — Canary Concrete"
+    },
+    "empresa": "Grupo Satocan",
+    "ubicacion": "Agüimes (Arinaga)",
+    "jornada": {
+      "es": "Jornada completa (40 h). Contrato indefinido",
+      "en": "Full-time (40 h). Permanent contract",
+      "fr": "Temps plein (40 h). CDI",
+      "ar": "دوام كامل (40 ساعة). عقد دائم",
+      "pt": "Tempo inteiro (40 h). Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 2.208 € al mes. Se solicita en el portal de empleo del Grupo Satocan.",
+      "en": "1 vacancy. Approximate salary: 2.208 € per month. Apply on the Grupo Satocan job portal.",
+      "fr": "1 poste. Salaire approximatif : 2.208 € par mois. Candidature sur le portail emploi du Grupo Satocan.",
+      "ar": "شاغر واحد. الراتب التقريبي: 2.208 € شهرياً. يُقدَّم الطلب في بوابة التوظيف الخاصة بمجموعة Satocan.",
+      "pt": "1 vaga. Salário aproximado: 2.208 € por mês. A candidatura faz-se no portal de emprego do Grupo Satocan."
+    },
+    "enlace": "https://empleo.gruposatocan.es/job/Conductor-de-Cami%C3%B3n-Bomba-de-Hormig%C3%B3n-Canary-Concrete-(Gran-Canaria)/588-es_ES/"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Administrativo/a Contable",
+      "en": "Accounting Administrative Assistant",
+      "fr": "Employé/e administratif/ve comptable",
+      "ar": "موظف/ة إداري/ة في المحاسبة",
+      "pt": "Administrativo/a Contabilista"
+    },
+    "empresa": "Empresa no indicada (oferta publicada en la FULP)",
+    "ubicacion": "Telde",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.750 € al mes. Oferta publicada en el portal de empleo de la FULP: hay que registrarse en el portal para inscribirse.",
+      "en": "1 vacancy. Approximate salary: 1.750 € per month. Posted on the FULP job portal: you need to register on the portal to apply.",
+      "fr": "1 poste. Salaire approximatif : 1.750 € par mois. Offre publiée sur le portail emploi de la FULP : il faut s'inscrire sur le portail pour postuler.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.750 € شهرياً. عرض منشور في بوابة التشغيل الخاصة بـ FULP: يجب التسجيل في البوابة للتقديم.",
+      "pt": "1 vaga. Salário aproximado: 1.750 € por mês. Oferta publicada no portal de emprego da FULP: é preciso registar-se no portal para se candidatar."
+    },
+    "enlace": "https://www.fulp.es/empleos/administrativoa-contable-115710"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Administración/Oficinas",
+      "en": "Administration/Office",
+      "fr": "Administration/Bureau",
+      "ar": "الإدارة/المكاتب",
+      "pt": "Administração/Escritórios"
+    },
+    "puesto": {
+      "es": "Auxiliar Administrativo/a",
+      "en": "Administrative Assistant",
+      "fr": "Assistant/e administratif/ve",
+      "ar": "مساعد/ة إداري/ة",
+      "pt": "Auxiliar Administrativo/a"
+    },
+    "empresa": "Santiago Navarro Cabrera",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada parcial. Contrato indefinido",
+      "en": "Part-time. Permanent contract",
+      "fr": "Temps partiel. CDI",
+      "ar": "دوام جزئي. عقد دائم",
+      "pt": "Tempo parcial. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.750 € al mes. Oferta publicada en el portal de empleo de la FULP: hay que registrarse en el portal para inscribirse.",
+      "en": "1 vacancy. Approximate salary: 1.750 € per month. Posted on the FULP job portal: you need to register on the portal to apply.",
+      "fr": "1 poste. Salaire approximatif : 1.750 € par mois. Offre publiée sur le portail emploi de la FULP : il faut s'inscrire sur le portail pour postuler.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.750 € شهرياً. عرض منشور في بوابة التشغيل الخاصة بـ FULP: يجب التسجيل في البوابة للتقديم.",
+      "pt": "1 vaga. Salário aproximado: 1.750 € por mês. Oferta publicada no portal de emprego da FULP: é preciso registar-se no portal para se candidatar."
+    },
+    "enlace": "https://www.fulp.es/empleos/-auxiliar-administrativoa--115550"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Atención al Cliente",
+      "en": "Customer Service",
+      "fr": "Service client",
+      "ar": "خدمة الزبائن",
+      "pt": "Atendimento ao Cliente"
+    },
+    "puesto": {
+      "es": "Teleoperador/a (Call Center)",
+      "en": "Call Centre Agent",
+      "fr": "Téléconseiller/ère (centre d’appels)",
+      "ar": "موظف/ة مركز اتصال",
+      "pt": "Operador/a de Call Center"
+    },
+    "empresa": "Canarias Derma",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, turno rotativo. Contrato indefinido",
+      "en": "Full-time, rotating shifts. Permanent contract",
+      "fr": "Temps plein, horaires tournants. CDI",
+      "ar": "دوام كامل, نوبات متناوبة. عقد دائم",
+      "pt": "Tempo inteiro, turno rotativo. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.625 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.625 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.625 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.625 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.625 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/call-center/of-i036691575047cbb46812e1c468cc06"
+  },
+  {
+    "area": "comercio",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Brand Ambassador (36 h)",
+      "en": "Brand Ambassador (36 h)",
+      "fr": "Ambassadeur/rice de marque (36 h)",
+      "ar": "سفير/ة علامة تجارية (36 ساعة)",
+      "pt": "Embaixador/a de Marca (36 h)"
+    },
+    "empresa": "Primer Impacto",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada parcial (36 h). Contrato indefinido",
+      "en": "Part-time (36 h). Permanent contract",
+      "fr": "Temps partiel (36 h). CDI",
+      "ar": "دوام جزئي (36 ساعة). عقد دائم",
+      "pt": "Tempo parcial (36 h). Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.463 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.463 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.463 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.463 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.463 € por mês."
+    },
+    "enlace": "https://vacantes.primer-impacto.com/jobs/8516994-brand-ambassador-36h"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Camarero/a — Vecindario (SCE 007089)",
+      "en": "Waiter/Waitress — Vecindario (SCE 007089)",
+      "fr": "Serveur/euse — Vecindario (SCE 007089)",
+      "ar": "نادل/ة — Vecindario (SCE 007089)",
+      "pt": "Empregado/a de Mesa — Vecindario (SCE 007089)"
+    },
+    "empresa": "Empresa no indicada (oferta del SCE)",
+    "ubicacion": "Santa Lucía de Tirajana (Vecindario)",
+    "jornada": {
+      "es": "Jornada parcial (20 h), de tarde",
+      "en": "Part-time (20 h), afternoons",
+      "fr": "Temps partiel (20 h), l’après-midi",
+      "ar": "دوام جزئي (20 ساعة), مساءً",
+      "pt": "Tempo parcial (20 h), à tarde"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 804 € al mes. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE.",
+      "en": "1 vacancy. Approximate salary: 804 € per month. To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service).",
+      "fr": "1 poste. Salaire approximatif : 804 € par mois. Pour postuler, tu dois être inscrit·e comme demandeur·se d'emploi au SCE (Service canarien de l'emploi).",
+      "ar": "شاغر واحد. الراتب التقريبي: 804 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
+      "pt": "1 vaga. Salário aproximado: 804 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=007089&is_open=true"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Logística y Almacén",
+      "en": "Logistics & Warehouse",
+      "fr": "Logistique et entrepôt",
+      "ar": "اللوجستيات والمستودعات",
+      "pt": "Logística e Armazém"
+    },
+    "puesto": {
+      "es": "Personal de Tráfico",
+      "en": "Traffic / Dispatch Staff",
+      "fr": "Agent/e de trafic (logistique)",
+      "ar": "موظف/ة تنظيم حركة الشحن",
+      "pt": "Pessoal de Tráfego"
+    },
+    "empresa": "TIPSA",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: 1.250 € al mes. Oferta publicada en el portal de empleo de la FULP: hay que registrarse en el portal para inscribirse.",
+      "en": "2 vacancies. Approximate salary: 1.250 € per month. Posted on the FULP job portal: you need to register on the portal to apply.",
+      "fr": "2 postes. Salaire approximatif : 1.250 € par mois. Offre publiée sur le portail emploi de la FULP : il faut s'inscrire sur le portail pour postuler.",
+      "ar": "2 شواغر. الراتب التقريبي: 1.250 € شهرياً. عرض منشور في بوابة التشغيل الخاصة بـ FULP: يجب التسجيل في البوابة للتقديم.",
+      "pt": "2 vagas. Salário aproximado: 1.250 € por mês. Oferta publicada no portal de emprego da FULP: é preciso registar-se no portal para se candidatar."
+    },
+    "enlace": "https://www.fulp.es/empleos/personal-de-trafico-115631"
+  },
+  {
+    "area": "limpieza",
+    "categoria": {
+      "es": "Limpieza y Mantenimiento",
+      "en": "Cleaning & Maintenance",
+      "fr": "Nettoyage et entretien",
+      "ar": "التنظيف والصيانة",
+      "pt": "Limpeza e Manutenção"
+    },
+    "puesto": {
+      "es": "Operario/a de Limpieza",
+      "en": "Cleaning Operative",
+      "fr": "Agent/e d’entretien",
+      "ar": "عامل/ة تنظيف",
+      "pt": "Operário/a de Limpeza"
+    },
+    "empresa": "Grupo OSGA",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada parcial (30 h)",
+      "en": "Part-time (30 h)",
+      "fr": "Temps partiel (30 h)",
+      "ar": "دوام جزئي (30 ساعة)",
+      "pt": "Tempo parcial (30 h)"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.167 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.167 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.167 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.167 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.167 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/operario-limpieza/of-i1cc4ae5b25448f9cc616901f675c99"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Mantenimiento",
+      "en": "Construction & Maintenance",
+      "fr": "Construction et maintenance",
+      "ar": "البناء والصيانة",
+      "pt": "Construção e Manutenção"
+    },
+    "puesto": {
+      "es": "Técnico/a de Mantenimiento Industrial",
+      "en": "Industrial Maintenance Technician",
+      "fr": "Technicien/ne de maintenance industrielle",
+      "ar": "تقني/ة صيانة صناعية",
+      "pt": "Técnico/a de Manutenção Industrial"
+    },
+    "empresa": "Empresa no indicada (oferta publicada en la FULP)",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido",
+      "en": "Full-time. Permanent contract",
+      "fr": "Temps plein. CDI",
+      "ar": "دوام كامل. عقد دائم",
+      "pt": "Tempo inteiro. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.750 € al mes. Oferta publicada en el portal de empleo de la FULP: hay que registrarse en el portal para inscribirse.",
+      "en": "1 vacancy. Approximate salary: 1.750 € per month. Posted on the FULP job portal: you need to register on the portal to apply.",
+      "fr": "1 poste. Salaire approximatif : 1.750 € par mois. Offre publiée sur le portail emploi de la FULP : il faut s'inscrire sur le portail pour postuler.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.750 € شهرياً. عرض منشور في بوابة التشغيل الخاصة بـ FULP: يجب التسجيل في البوابة للتقديم.",
+      "pt": "1 vaga. Salário aproximado: 1.750 € por mês. Oferta publicada no portal de emprego da FULP: é preciso registar-se no portal para se candidatar."
+    },
+    "enlace": "https://www.fulp.es/empleos/tecnicoa-de-mantenimiento-industrial-115490"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Seguridad",
+      "en": "Security",
+      "fr": "Sécurité",
+      "ar": "الأمن",
+      "pt": "Segurança"
+    },
+    "puesto": {
+      "es": "Inspector/a OCA",
+      "en": "OCA Inspector (regulatory inspections)",
+      "fr": "Inspecteur/rice OCA (organisme de contrôle)",
+      "ar": "مفتش/ة OCA (هيئة مراقبة)",
+      "pt": "Inspetor/a OCA"
+    },
+    "empresa": "Ingein",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, de 8:30 a 18:00. Contrato indefinido",
+      "en": "Full-time, 8:30 to 18:00. Permanent contract",
+      "fr": "Temps plein, de 8:30 à 18:00. CDI",
+      "ar": "دوام كامل, من 8:30 إلى 18:00. عقد دائم",
+      "pt": "Tempo inteiro, das 8:30 às 18:00. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 1.852 € al mes.",
+      "en": "1 vacancy. Approximate salary: 1.852 € per month.",
+      "fr": "1 poste. Salaire approximatif : 1.852 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 1.852 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 1.852 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/inspector-oca/of-i348bb01c1240eaaa905fbc68ac6ef5"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
+      "es": "Trabajador/a Social",
+      "en": "Social Worker",
+      "fr": "Travailleur/euse social/e",
+      "ar": "مساعد/ة اجتماعي/ة",
+      "pt": "Assistente Social"
+    },
+    "empresa": "Asociación Española Contra el Cáncer",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa, de 8:00 a 15:30. Contrato indefinido",
+      "en": "Full-time, 8:00 to 15:30. Permanent contract",
+      "fr": "Temps plein, de 8:00 à 15:30. CDI",
+      "ar": "دوام كامل, من 8:00 إلى 15:30. عقد دائم",
+      "pt": "Tempo inteiro, das 8:00 às 15:30. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Salario aproximado: 2.292 € al mes.",
+      "en": "1 vacancy. Approximate salary: 2.292 € per month.",
+      "fr": "1 poste. Salaire approximatif : 2.292 € par mois.",
+      "ar": "شاغر واحد. الراتب التقريبي: 2.292 € شهرياً.",
+      "pt": "1 vaga. Salário aproximado: 2.292 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/trabajador-social-las-palmas-indefinido/of-i9759d0091d4b0bb7fbdf87be91f3f3"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Tecnología e Informática",
+      "en": "Technology & IT",
+      "fr": "Technologie et informatique",
+      "ar": "التكنولوجيا والمعلوميات",
+      "pt": "Tecnologia e Informática"
+    },
+    "puesto": {
+      "es": "Consultor/a Funcional ERP / Odoo",
+      "en": "ERP / Odoo Functional Consultant",
+      "fr": "Consultant/e fonctionnel/le ERP / Odoo",
+      "ar": "مستشار/ة وظيفي/ة ERP / Odoo",
+      "pt": "Consultor/a Funcional ERP / Odoo"
+    },
+    "empresa": "InfinityLoop Sistemas",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa",
+      "en": "Full-time",
+      "fr": "Temps plein",
+      "ar": "دوام كامل",
+      "pt": "Tempo inteiro"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "Salario aproximado: 1.667 € al mes.",
+      "en": "Approximate salary: 1.667 € per month.",
+      "fr": "Salaire approximatif : 1.667 € par mois.",
+      "ar": "الراتب التقريبي: 1.667 € شهرياً.",
+      "pt": "Salário aproximado: 1.667 € por mês."
+    },
+    "enlace": "https://es.linkedin.com/jobs/view/consultor-funcional-erp-odoo-at-infinityloop-sistemas-4477468698"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Transporte y Conducción",
+      "en": "Transport & Driving",
+      "fr": "Transport et conduite",
+      "ar": "النقل والسياقة",
+      "pt": "Transporte e Condução"
+    },
+    "puesto": {
+      "es": "Conductor/a Repartidor/a — Muelle de la Luz",
+      "en": "Delivery Driver — Muelle de la Luz",
+      "fr": "Chauffeur/euse livreur/euse — Muelle de la Luz",
+      "ar": "سائق/ة توصيل — Muelle de la Luz",
+      "pt": "Motorista Distribuidor/a — Muelle de la Luz"
+    },
+    "empresa": "PIOPIO",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Turno de mañana. Contrato indefinido",
+      "en": "Morning shift. Permanent contract",
+      "fr": "Horaires du matin. CDI",
+      "ar": "نوبة صباحية. عقد دائم",
+      "pt": "Turno da manhã. Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 09/10/2026)",
+      "en": "Shared this week (checked 10/09/2026)",
+      "fr": "Partagée cette semaine (vérifié le 09/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 09/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 09/10/2026)"
+    },
+    "requisitos": {
+      "es": "2 vacantes. Salario aproximado: 1.950 € al mes.",
+      "en": "2 vacancies. Approximate salary: 1.950 € per month.",
+      "fr": "2 postes. Salaire approximatif : 1.950 € par mois.",
+      "ar": "2 شواغر. الراتب التقريبي: 1.950 € شهرياً.",
+      "pt": "2 vagas. Salário aproximado: 1.950 € por mês."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/conductor-repartidor/of-i1d7ecb98794471a42968d0d2c5dae9"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Calidad y Medio Ambiente",
+      "en": "Quality & Environment",
+      "fr": "Qualité et environnement",
+      "ar": "الجودة والبيئة",
+      "pt": "Qualidade e Ambiente"
+    },
+    "puesto": {
+      "es": "Técnico/a de Calidad y Medio Ambiente",
+      "en": "Quality and Environment Technician",
+      "fr": "Technicien/ne qualité et environnement",
+      "ar": "تقني/ة الجودة والبيئة",
+      "pt": "Técnico/a de Qualidade e Ambiente"
+    },
+    "empresa": "Ayagaures Medioambiente (Grupo Pérez Moreno)",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido. Incorporación inmediata",
+      "en": "Full-time. Permanent contract. Immediate start",
+      "fr": "Temps plein. CDI. Prise de poste immédiate",
+      "ar": "دوام كامل. عقد دائم. التحاق فوري",
+      "pt": "Tempo inteiro. Contrato sem termo. Início imediato"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Titulación universitaria (preferiblemente técnica) y formación en calidad y medio ambiente. Mínimo 2 años de experiencia con sistemas ISO 9001, 14001 y 45001 y auditorías. Salario según experiencia. Busca la oferta en el portal de empleo del grupo.",
+      "en": "University degree (preferably technical) and training in quality and environment. At least 2 years of experience with ISO 9001, 14001 and 45001 systems and audits. Salary depending on experience. Look for the offer on the group’s job portal.",
+      "fr": "Diplôme universitaire (de préférence technique) et formation en qualité et environnement. Au moins 2 ans d’expérience avec les systèmes ISO 9001, 14001 et 45001 et les audits. Salaire selon expérience. Cherchez l’offre sur le portail emploi du groupe.",
+      "ar": "شهادة جامعية (يفضل تقنية) وتكوين في الجودة والبيئة. سنتان على الأقل من الخبرة في أنظمة ISO 9001 و14001 و45001 وعمليات التدقيق. الراتب حسب الخبرة. ابحث عن العرض في بوابة التوظيف الخاصة بالمجموعة.",
+      "pt": "Licenciatura (de preferência técnica) e formação em qualidade e ambiente. Mínimo 2 anos de experiência com sistemas ISO 9001, 14001 e 45001 e auditorias. Salário conforme experiência. Procure a oferta no portal de emprego do grupo."
+    },
+    "enlace": "https://portalempleo.grupoperezmoreno.com"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
+      "es": "Profesionales de Intervención Social y Educativa (educador/a social, ATE, mediador/a intercultural)",
+      "en": "Social and Educational Intervention Staff (social educator, educational assistant, intercultural mediator)",
+      "fr": "Professionnels de l’intervention sociale et éducative (éducateur/trice, auxiliaire éducatif/ve, médiateur/trice interculturel/le)",
+      "ar": "مهنيون في التدخل الاجتماعي والتربوي (مربٍّ/ة اجتماعي/ة، مساعد/ة تربوي/ة، وسيط/ة بين الثقافات)",
+      "pt": "Profissionais de Intervenção Social e Educativa (educador/a social, auxiliar técnico educativo, mediador/a intercultural)"
+    },
+    "empresa": "Corporación SAMU",
+    "ubicacion": "Gran Canaria, Lanzarote y Tenerife",
+    "jornada": {
+      "es": "Jornada completa, turnos rotativos. Contrato indefinido. Incorporación inmediata",
+      "en": "Full-time, rotating shifts. Permanent contract. Immediate start",
+      "fr": "Temps plein, horaires tournants. CDI. Prise de poste immédiate",
+      "ar": "دوام كامل، نوبات متناوبة. عقد دائم. التحاق فوري",
+      "pt": "Tempo inteiro, turnos rotativos. Contrato sem termo. Início imediato"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "En centros de protección de menores extranjeros no acompañados. Estudios mínimos: ESO. Experiencia mínima: 1 año.",
+      "en": "In protection centres for unaccompanied foreign minors. Minimum education: ESO (secondary). Minimum experience: 1 year.",
+      "fr": "Dans des centres de protection pour mineurs étrangers non accompagnés. Niveau minimum : ESO (secondaire). Expérience minimum : 1 an.",
+      "ar": "في مراكز حماية القاصرين الأجانب غير المصحوبين. المستوى الأدنى: ESO (الثانوي). الخبرة الدنيا: سنة واحدة.",
+      "pt": "Em centros de proteção de menores estrangeiros não acompanhados. Estudos mínimos: ESO (secundário). Experiência mínima: 1 ano."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/profesionales-intervencion-social-educativa.-gran-canaria-lanzarote-tenerife/of-i42566e33ee4f5fba8a146bd2837806"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Mantenimiento",
+      "en": "Construction & Maintenance",
+      "fr": "Construction et maintenance",
+      "ar": "البناء والصيانة",
+      "pt": "Construção e Manutenção"
+    },
+    "puesto": {
+      "es": "Ayudante de Mantenimiento — Zona Sur",
+      "en": "Maintenance Assistant — South",
+      "fr": "Aide d’entretien — Zone sud",
+      "ar": "مساعد/ة صيانة — المنطقة الجنوبية",
+      "pt": "Ajudante de Manutenção — Zona Sul"
+    },
+    "empresa": "Temporing",
+    "ubicacion": "Playa del Cura (Mogán)",
+    "jornada": {
+      "es": "Turnos rotativos, incluidos fines de semana. Contrato temporal, con posibilidad de incorporación a la empresa",
+      "en": "Rotating shifts, including weekends. Temporary contract, with possibility of joining the company",
+      "fr": "Horaires tournants, week-ends compris. Contrat temporaire, avec possibilité d’intégrer l’entreprise",
+      "ar": "نوبات متناوبة، بما فيها عطل نهاية الأسبوع. عقد مؤقت مع إمكانية الإدماج في الشركة",
+      "pt": "Turnos rotativos, incluindo fins de semana. Contrato temporário, com possibilidade de integração na empresa"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "12–14 € brutos/hora. Experiencia mínima de 1 año y conocimientos básicos de electricidad, fontanería y climatización. Transporte propio.",
+      "en": "12–14 € gross/hour. At least 1 year of experience and basic knowledge of electricity, plumbing and air conditioning. Own transport.",
+      "fr": "12–14 € bruts/heure. Au moins 1 an d’expérience et des bases en électricité, plomberie et climatisation. Moyen de transport personnel.",
+      "ar": "12–14 € إجمالي في الساعة. سنة خبرة على الأقل ومعارف أساسية في الكهرباء والسباكة والتكييف. وسيلة نقل خاصة.",
+      "pt": "12–14 € brutos/hora. Experiência mínima de 1 ano e conhecimentos básicos de eletricidade, canalização e climatização. Transporte próprio."
+    },
+    "enlace": "https://www.infojobs.net/playa-del-cura/ayudante-mantenimiento-zona-sur-gran-canaria/of-ie2b5e181984c05aa76d7dffddda6a7"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Freganchín/a — Zona Sur",
+      "en": "Dishwasher — South",
+      "fr": "Plongeur/euse — Zone sud",
+      "ar": "غسّال/ة أواني — المنطقة الجنوبية",
+      "pt": "Copeiro/a — Zona Sul"
+    },
+    "empresa": "Temporing",
+    "ubicacion": "Maspalomas (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Jornada completa, turnos flexibles y fines de semana. Contrato por ETT, con posibilidad de pasar a plantilla",
+      "en": "Full-time, flexible shifts and weekends. Temp agency contract, with possibility of joining the staff",
+      "fr": "Temps plein, horaires flexibles et week-ends. Contrat d’intérim, avec possibilité d’embauche",
+      "ar": "دوام كامل، نوبات مرنة وعطل نهاية الأسبوع. عقد عبر وكالة تشغيل مؤقت مع إمكانية الترسيم",
+      "pt": "Tempo inteiro, turnos flexíveis e fins de semana. Contrato por agência de trabalho temporário, com possibilidade de integrar o quadro"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "12–14 € brutos/hora. Experiencia mínima de 1 año, con tren de lavado. Vehículo propio deseable. Busca la oferta en el portal de Temporing.",
+      "en": "12–14 € gross/hour. At least 1 year of experience, with a conveyor dishwasher. Own vehicle desirable. Look for the offer on Temporing’s portal.",
+      "fr": "12–14 € bruts/heure. Au moins 1 an d’expérience, avec un lave-vaisselle à convoyeur. Véhicule personnel souhaitable. Cherchez l’offre sur le portail de Temporing.",
+      "ar": "12–14 € إجمالي في الساعة. سنة خبرة على الأقل في آلة غسل الأواني (tren de lavado). يُفضل امتلاك سيارة. ابحث عن العرض في بوابة Temporing.",
+      "pt": "12–14 € brutos/hora. Experiência mínima de 1 ano, com máquina de lavar de túnel. Veículo próprio desejável. Procure a oferta no portal da Temporing."
+    },
+    "enlace": "https://temporing.ofertas-trabajo.infojobs.net/"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Ayudante de Recepción — Zona Sur",
+      "en": "Reception Assistant — South",
+      "fr": "Aide-réceptionniste — Zone sud",
+      "ar": "مساعد/ة استقبال — المنطقة الجنوبية",
+      "pt": "Ajudante de Receção — Zona Sul"
+    },
+    "empresa": "Temporing",
+    "ubicacion": "Arguineguín (Mogán)",
+    "jornada": {
+      "es": "Turnos rotativos, incluidos fines de semana y noches. Contrato temporal, con posibilidad de incorporación a la empresa",
+      "en": "Rotating shifts, including weekends and nights. Temporary contract, with possibility of joining the company",
+      "fr": "Horaires tournants, week-ends et nuits compris. Contrat temporaire, avec possibilité d’intégrer l’entreprise",
+      "ar": "نوبات متناوبة، بما فيها عطل نهاية الأسبوع والليالي. عقد مؤقت مع إمكانية الإدماج في الشركة",
+      "pt": "Turnos rotativos, incluindo fins de semana e noites. Contrato temporário, com possibilidade de integração na empresa"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "12–14 € brutos/hora. Experiencia mínima de 1 año en atención al cliente o recepción. Inglés conversacional. Transporte propio e incorporación inmediata.",
+      "en": "12–14 € gross/hour. At least 1 year of experience in customer service or reception. Conversational English. Own transport and immediate start.",
+      "fr": "12–14 € bruts/heure. Au moins 1 an d’expérience en accueil ou réception. Anglais conversationnel. Moyen de transport personnel et disponibilité immédiate.",
+      "ar": "12–14 € إجمالي في الساعة. سنة خبرة على الأقل في خدمة الزبائن أو الاستقبال. إنجليزية للمحادثة. وسيلة نقل خاصة والتحاق فوري.",
+      "pt": "12–14 € brutos/hora. Experiência mínima de 1 ano em atendimento ao cliente ou receção. Inglês de conversação. Transporte próprio e início imediato."
+    },
+    "enlace": "https://www.infojobs.net/arguineguin/ayudante-recepcion-zona-sur-gran-canaria/of-i69e5d316f64245a76602ee23e2c332"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Camarero/a — Sur de Gran Canaria",
+      "en": "Waiter/Waitress — South of Gran Canaria",
+      "fr": "Serveur/euse — Sud de Gran Canaria",
+      "ar": "نادل/ة — جنوب غران كناريا",
+      "pt": "Empregado/a de Mesa — Sul de Gran Canaria"
+    },
+    "empresa": "Cordial Canarias Hotels & Resorts",
+    "ubicacion": "San Bartolomé de Tirajana",
+    "jornada": {
+      "es": "Jornada completa. Contrato temporal",
+      "en": "Full-time. Temporary contract",
+      "fr": "Temps plein. Contrat temporaire",
+      "ar": "دوام كامل. عقد مؤقت",
+      "pt": "Tempo inteiro. Contrato temporário"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Estudios mínimos: ESO. Experiencia mínima de 2 años en hostelería.",
+      "en": "Minimum education: ESO (secondary). At least 2 years of hospitality experience.",
+      "fr": "Niveau minimum : ESO (secondaire). Au moins 2 ans d’expérience en hôtellerie-restauration.",
+      "ar": "المستوى الأدنى: ESO (الثانوي). سنتان على الأقل من الخبرة في الضيافة.",
+      "pt": "Estudos mínimos: ESO (secundário). Experiência mínima de 2 anos em hotelaria."
+    },
+    "enlace": "https://www.infojobs.net/san-bartolome-de-tirajana/camarero-para-sur-gran-canaria/of-ifa4e99a5224a07b3ed17cbb5439880"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Logística y Almacén",
+      "en": "Logistics & Warehouse",
+      "fr": "Logistique et entrepôt",
+      "ar": "اللوجستيات والمستودعات",
+      "pt": "Logística e Armazém"
+    },
+    "puesto": {
+      "es": "Agente de Rampa — Aeropuerto de Gran Canaria",
+      "en": "Ramp Agent — Gran Canaria Airport",
+      "fr": "Agent/e de piste — Aéroport de Gran Canaria",
+      "ar": "عون/ة مدرج — مطار غران كناريا",
+      "pt": "Agente de Placa — Aeroporto de Gran Canaria"
+    },
+    "empresa": "Adecco",
+    "ubicacion": "Telde (Aeropuerto de Gran Canaria)",
+    "jornada": {
+      "es": "Jornada parcial, turnos rotativos de mañana, tarde y noche, de lunes a domingo. Contrato temporal",
+      "en": "Part-time, rotating morning, afternoon and night shifts, Monday to Sunday. Temporary contract",
+      "fr": "Temps partiel, horaires tournants matin, après-midi et nuit, du lundi au dimanche. Contrat temporaire",
+      "ar": "دوام جزئي، نوبات متناوبة صباحية ومسائية وليلية، من الاثنين إلى الأحد. عقد مؤقت",
+      "pt": "Tempo parcial, turnos rotativos de manhã, tarde e noite, de segunda a domingo. Contrato temporário"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "5 vacantes. No se pide experiencia. Estudios mínimos: ESO y carnet de conducir B. Hay que superar una formación de dos semanas (una online y otra presencial) a cargo de la empresa.",
+      "en": "5 vacancies. No experience needed. Minimum education: ESO (secondary) and a B driving licence. You must pass two weeks of training (one online, one in person) paid by the company.",
+      "fr": "5 postes. Pas d’expérience demandée. Niveau minimum : ESO (secondaire) et permis B. Il faut réussir une formation de deux semaines (une en ligne et une en présentiel) prise en charge par l’entreprise.",
+      "ar": "5 شواغر. لا تُشترط الخبرة. المستوى الأدنى: ESO (الثانوي) ورخصة السياقة B. يجب اجتياز تكوين لمدة أسبوعين (أسبوع عبر الإنترنت وأسبوع حضوري) على حساب الشركة.",
+      "pt": "5 vagas. Não é pedida experiência. Estudos mínimos: ESO (secundário) e carta de condução B. É preciso passar uma formação de duas semanas (uma online e outra presencial) paga pela empresa."
+    },
+    "enlace": "https://www.infojobs.net/telde/agente-rampa-aeropuerto-gran-canaria/of-id3242d2042494b9bd34866f3132ec1"
+  },
+  {
+    "area": "formacion",
+    "categoria": {
+      "es": "Educación/Formación",
+      "en": "Education/Training",
+      "fr": "Éducation/Formation",
+      "ar": "التعليم/التدريب",
+      "pt": "Educação/Formação"
+    },
+    "puesto": {
+      "es": "Docente Microsoft 365 (IFCT67)",
+      "en": "Microsoft 365 Trainer (IFCT67)",
+      "fr": "Formateur/trice Microsoft 365 (IFCT67)",
+      "ar": "مدرّس/ة Microsoft 365 (IFCT67)",
+      "pt": "Formador/a Microsoft 365 (IFCT67)"
+    },
+    "empresa": "Grupo AFS",
+    "ubicacion": "Carrizal (Ingenio)",
+    "jornada": {
+      "es": "Jornada completa. Del 13 de octubre al 24 de noviembre de 2026, de lunes a viernes de 15:30 a 20:30 (150 horas)",
+      "en": "Full-time. From 13 October to 24 November 2026, Monday to Friday, 15:30 to 20:30 (150 hours)",
+      "fr": "Temps plein. Du 13 octobre au 24 novembre 2026, du lundi au vendredi de 15 h 30 à 20 h 30 (150 heures)",
+      "ar": "دوام كامل. من 13 أكتوبر إلى 24 نوفمبر 2026، من الاثنين إلى الجمعة من 15:30 إلى 20:30 (150 ساعة)",
+      "pt": "Tempo inteiro. De 13 de outubro a 24 de novembro de 2026, de segunda a sexta, das 15:30 às 20:30 (150 horas)"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Titulación universitaria o CFGS de Informática, 12 meses de experiencia con Microsoft 365, instructor/a homologado/a por Microsoft con certificaciones vigentes y 500 horas de experiencia docente. Salario según convenio.",
+      "en": "1 vacancy. University degree or higher vocational qualification in IT, 12 months of experience with Microsoft 365, Microsoft-certified trainer with valid certifications and 500 hours of teaching experience. Salary according to the collective agreement.",
+      "fr": "1 poste. Diplôme universitaire ou BTS en informatique, 12 mois d’expérience avec Microsoft 365, formateur/trice certifié/e Microsoft avec certifications en cours de validité et 500 heures d’expérience d’enseignement. Salaire selon convention.",
+      "ar": "شاغر واحد. شهادة جامعية أو تكوين مهني عالٍ في المعلوميات، 12 شهراً من الخبرة في Microsoft 365، مدرّب/ة معتمد/ة من Microsoft بشهادات سارية و500 ساعة من الخبرة في التدريس. الراتب حسب الاتفاقية.",
+      "pt": "1 vaga. Licenciatura ou CFGS de Informática, 12 meses de experiência com Microsoft 365, formador/a homologado/a pela Microsoft com certificações válidas e 500 horas de experiência docente. Salário segundo convenção."
+    },
+    "enlace": "https://www.infojobs.net/ingenio/docente-microsoft-365-ifct67-gran-canaria/of-i1be2ce01ce4e62a7bd927d9ee8cf63"
+  },
+  {
+    "area": "otros",
+    "categoria": {
+      "es": "Tecnología e Informática",
+      "en": "Technology & IT",
+      "fr": "Technologie et informatique",
+      "ar": "التكنولوجيا والمعلوميات",
+      "pt": "Tecnologia e Informática"
+    },
+    "puesto": {
+      "es": "Consultor/a de Proyectos de Transformación Digital (híbrido)",
+      "en": "Digital Transformation Project Consultant (hybrid)",
+      "fr": "Consultant/e en projets de transformation numérique (hybride)",
+      "ar": "مستشار/ة في مشاريع التحول الرقمي (عمل هجين)",
+      "pt": "Consultor/a de Projetos de Transformação Digital (híbrido)"
+    },
+    "empresa": "Dream Team Executive Search",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa. Contrato indefinido. Trabajo híbrido",
+      "en": "Full-time. Permanent contract. Hybrid work",
+      "fr": "Temps plein. CDI. Travail hybride",
+      "ar": "دوام كامل. عقد دائم. عمل هجين",
+      "pt": "Tempo inteiro. Contrato sem termo. Trabalho híbrido"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Titulación universitaria (preferiblemente Ingeniería) y 2 a 4 años de experiencia en consultoría TIC. Salario no indicado.",
+      "en": "University degree (preferably Engineering) and 2 to 4 years of experience in IT consulting. Salary not stated.",
+      "fr": "Diplôme universitaire (de préférence ingénieur) et 2 à 4 ans d’expérience en conseil informatique. Salaire non indiqué.",
+      "ar": "شهادة جامعية (يفضل الهندسة) ومن سنتين إلى 4 سنوات من الخبرة في استشارات تكنولوجيا المعلومات. الراتب غير مذكور.",
+      "pt": "Licenciatura (de preferência Engenharia) e 2 a 4 anos de experiência em consultoria TIC. Salário não indicado."
+    },
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/consultor-proyectos-transformacion-digital-para-firma-internacional-canarias/of-i19e747461f4fc0a6e9557cb876b739"
+  },
+  {
+    "area": "administracion",
+    "categoria": {
+      "es": "Recursos Humanos y Prevención",
+      "en": "HR & Occupational Safety",
+      "fr": "RH et prévention",
+      "ar": "الموارد البشرية والوقاية",
+      "pt": "Recursos Humanos e Prevenção"
+    },
+    "puesto": {
+      "es": "Técnico/a de Selección y PRL — Oficinas centrales",
+      "en": "Recruitment and Occupational Safety Technician — Head office",
+      "fr": "Chargé/e de recrutement et de prévention des risques — Siège",
+      "ar": "تقني/ة التوظيف والوقاية من المخاطر المهنية — المكاتب المركزية",
+      "pt": "Técnico/a de Recrutamento e Prevenção de Riscos — Sede"
+    },
+    "empresa": "Cordial Canarias Hotels & Resorts",
+    "ubicacion": "El Tablero (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Tipo de contrato y jornada no indicados",
+      "en": "Contract type and hours not stated",
+      "fr": "Type de contrat et horaires non indiqués",
+      "ar": "نوع العقد وساعات العمل غير مذكورة",
+      "pt": "Tipo de contrato e horário não indicados"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Formación universitaria en Relaciones Laborales y RR. HH., Psicología, Derecho o similar. Experiencia en selección de personal y/o prevención de riesgos laborales, y conocimientos de legislación laboral. Se deja la candidatura en la web de selección de Cordial.",
+      "en": "University degree in Labour Relations and HR, Psychology, Law or similar. Experience in recruitment and/or occupational risk prevention, and knowledge of labour law. You apply on Cordial’s recruitment website.",
+      "fr": "Formation universitaire en relations du travail et RH, psychologie, droit ou similaire. Expérience en recrutement et/ou prévention des risques professionnels, et connaissance du droit du travail. La candidature se dépose sur le site de recrutement de Cordial.",
+      "ar": "تكوين جامعي في علاقات الشغل والموارد البشرية أو علم النفس أو القانون أو ما يماثلها. خبرة في انتقاء الموظفين و/أو الوقاية من المخاطر المهنية، ومعرفة بتشريعات الشغل. يُقدَّم الطلب في موقع التوظيف الخاص بـ Cordial.",
+      "pt": "Formação universitária em Relações Laborais e RH, Psicologia, Direito ou semelhante. Experiência em recrutamento e/ou prevenção de riscos laborais, e conhecimentos de legislação laboral. A candidatura faz-se no site de recrutamento da Cordial."
+    },
+    "enlace": "https://seleccion.becordial.com/"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Jefe/a de Sector — Hotel Cordial Mogán Playa",
+      "en": "Section Head (Restaurant) — Hotel Cordial Mogán Playa",
+      "fr": "Chef de rang / responsable de secteur — Hôtel Cordial Mogán Playa",
+      "ar": "رئيس/ة قسم (المطعم) — فندق Cordial Mogán Playa",
+      "pt": "Chefe de Setor — Hotel Cordial Mogán Playa"
+    },
+    "empresa": "Cordial Canarias Hotels & Resorts",
+    "ubicacion": "Puerto de Mogán (Mogán)",
+    "jornada": {
+      "es": "Tipo de contrato y jornada no indicados",
+      "en": "Contract type and hours not stated",
+      "fr": "Type de contrat et horaires non indiqués",
+      "ar": "نوع العقد وساعات العمل غير مذكورة",
+      "pt": "Tipo de contrato e horário não indicados"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Experiencia en hostelería, capacidad de liderazgo y buen nivel de español e inglés. Se deja la candidatura en la web de selección de Cordial.",
+      "en": "Hospitality experience, leadership skills and good Spanish and English. You apply on Cordial’s recruitment website.",
+      "fr": "Expérience en hôtellerie, sens du leadership et bon niveau d’espagnol et d’anglais. La candidature se dépose sur le site de recrutement de Cordial.",
+      "ar": "خبرة في الضيافة وقدرة على القيادة ومستوى جيد في الإسبانية والإنجليزية. يُقدَّم الطلب في موقع التوظيف الخاص بـ Cordial.",
+      "pt": "Experiência em hotelaria, capacidade de liderança e bom nível de espanhol e inglês. A candidatura faz-se no site de recrutamento da Cordial."
+    },
+    "enlace": "https://seleccion.becordial.com/"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Jefe/a de Partida — Hotel Cordial Mogán Playa",
+      "en": "Chef de Partie — Hotel Cordial Mogán Playa",
+      "fr": "Chef de partie — Hôtel Cordial Mogán Playa",
+      "ar": "رئيس/ة قسم في المطبخ (Chef de partie) — فندق Cordial Mogán Playa",
+      "pt": "Chefe de Partida — Hotel Cordial Mogán Playa"
+    },
+    "empresa": "Cordial Canarias Hotels & Resorts",
+    "ubicacion": "Puerto de Mogán (Mogán)",
+    "jornada": {
+      "es": "Tipo de contrato y jornada no indicados",
+      "en": "Contract type and hours not stated",
+      "fr": "Type de contrat et horaires non indiqués",
+      "ar": "نوع العقد وساعات العمل غير مذكورة",
+      "pt": "Tipo de contrato e horário não indicados"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Al menos 1 año de experiencia en un puesto similar, técnicas culinarias avanzadas y certificado de higiene y seguridad alimentaria. Se deja la candidatura en la web de selección de Cordial.",
+      "en": "At least 1 year of experience in a similar role, advanced cooking techniques and a food hygiene and safety certificate. You apply on Cordial’s recruitment website.",
+      "fr": "Au moins 1 an d’expérience à un poste similaire, techniques culinaires avancées et certificat d’hygiène et sécurité alimentaire. La candidature se dépose sur le site de recrutement de Cordial.",
+      "ar": "سنة على الأقل من الخبرة في منصب مماثل، وتقنيات طبخ متقدمة، وشهادة في النظافة والسلامة الغذائية. يُقدَّم الطلب في موقع التوظيف الخاص بـ Cordial.",
+      "pt": "Pelo menos 1 ano de experiência em posto semelhante, técnicas culinárias avançadas e certificado de higiene e segurança alimentar. A candidatura faz-se no site de recrutamento da Cordial."
+    },
+    "enlace": "https://seleccion.becordial.com/"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Camarero/a de Pisos, Ayudante de Camarero/a y Quiromasajista — Hotel Cordial Mogán Playa",
+      "en": "Room Attendant, Assistant Waiter/Waitress and Massage Therapist — Hotel Cordial Mogán Playa",
+      "fr": "Femme/valet de chambre, commis de salle et masseur/euse — Hôtel Cordial Mogán Playa",
+      "ar": "عامل/ة غرف، مساعد/ة نادل ومدلّك/ة — فندق Cordial Mogán Playa",
+      "pt": "Empregado/a de Andares, Ajudante de Empregado/a de Mesa e Massagista — Hotel Cordial Mogán Playa"
+    },
+    "empresa": "Cordial Canarias Hotels & Resorts",
+    "ubicacion": "Puerto de Mogán (Mogán)",
+    "jornada": {
+      "es": "Tipo de contrato y jornada no indicados",
+      "en": "Contract type and hours not stated",
+      "fr": "Type de contrat et horaires non indiqués",
+      "ar": "نوع العقد وساعات العمل غير مذكورة",
+      "pt": "Tipo de contrato e horário não indicados"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Varios puestos: camarero/a de pisos (también de guardia), ayudante de camarero/a y quiromasajista. Se deja la candidatura en la web de selección de Cordial.",
+      "en": "Several jobs: room attendant (also on-call), assistant waiter/waitress and massage therapist. You apply on Cordial’s recruitment website.",
+      "fr": "Plusieurs postes : femme/valet de chambre (aussi d’astreinte), commis de salle et masseur/euse. La candidature se dépose sur le site de recrutement de Cordial.",
+      "ar": "عدة مناصب: عامل/ة غرف (بما في ذلك المناوبة)، مساعد/ة نادل، ومدلّك/ة. يُقدَّم الطلب في موقع التوظيف الخاص بـ Cordial.",
+      "pt": "Vários postos: empregado/a de andares (também de prevenção), ajudante de empregado/a de mesa e massagista. A candidatura faz-se no site de recrutamento da Cordial."
+    },
+    "enlace": "https://seleccion.becordial.com/"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Mantenimiento",
+      "en": "Construction & Maintenance",
+      "fr": "Construction et maintenance",
+      "ar": "البناء والصيانة",
+      "pt": "Construção e Manutenção"
+    },
+    "puesto": {
+      "es": "Oficial de Servicios Técnicos (también albañilería) y Quiromasajista — Resort Cordial Santa Águeda",
+      "en": "Maintenance Technician (also bricklaying) and Massage Therapist — Resort Cordial Santa Águeda",
+      "fr": "Agent/e de maintenance (aussi maçonnerie) et masseur/euse — Resort Cordial Santa Águeda",
+      "ar": "عامل/ة صيانة (بما في ذلك البناء) ومدلّك/ة — منتجع Cordial Santa Águeda",
+      "pt": "Oficial de Serviços Técnicos (também alvenaria) e Massagista — Resort Cordial Santa Águeda"
+    },
+    "empresa": "Cordial Canarias Hotels & Resorts",
+    "ubicacion": "El Pajar (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Tipo de contrato y jornada no indicados",
+      "en": "Contract type and hours not stated",
+      "fr": "Type de contrat et horaires non indiqués",
+      "ar": "نوع العقد وساعات العمل غير مذكورة",
+      "pt": "Tipo de contrato e horário não indicados"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Varios puestos: oficial de servicios técnicos (mantenimiento), oficial de servicios técnicos de albañilería y quiromasajista. Se deja la candidatura en la web de selección de Cordial.",
+      "en": "Several jobs: maintenance technician, bricklaying maintenance technician and massage therapist. You apply on Cordial’s recruitment website.",
+      "fr": "Plusieurs postes : agent/e de maintenance, agent/e de maintenance en maçonnerie et masseur/euse. La candidature se dépose sur le site de recrutement de Cordial.",
+      "ar": "عدة مناصب: عامل/ة صيانة، عامل/ة صيانة في البناء، ومدلّك/ة. يُقدَّم الطلب في موقع التوظيف الخاص بـ Cordial.",
+      "pt": "Vários postos: oficial de manutenção, oficial de manutenção de alvenaria e massagista. A candidatura faz-se no site de recrutamento da Cordial."
+    },
+    "enlace": "https://seleccion.becordial.com/"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Mantenimiento",
+      "en": "Construction & Maintenance",
+      "fr": "Construction et maintenance",
+      "ar": "البناء والصيانة",
+      "pt": "Construção e Manutenção"
+    },
+    "puesto": {
+      "es": "Oficial de Servicios Técnicos y Piscinero/a — Bungalow Cordial Green Golf",
+      "en": "Maintenance Technician and Pool Attendant — Bungalow Cordial Green Golf",
+      "fr": "Agent/e de maintenance et pisciniste — Bungalow Cordial Green Golf",
+      "ar": "عامل/ة صيانة وعامل/ة مسابح — Bungalow Cordial Green Golf",
+      "pt": "Oficial de Serviços Técnicos e Técnico/a de Piscinas — Bungalow Cordial Green Golf"
+    },
+    "empresa": "Cordial Canarias Hotels & Resorts",
+    "ubicacion": "Maspalomas (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Tipo de contrato y jornada no indicados",
+      "en": "Contract type and hours not stated",
+      "fr": "Type de contrat et horaires non indiqués",
+      "ar": "نوع العقد وساعات العمل غير مذكورة",
+      "pt": "Tipo de contrato e horário não indicados"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Varios puestos: oficial de servicios técnicos (mantenimiento) y piscinero/a. Se deja la candidatura en la web de selección de Cordial.",
+      "en": "Several jobs: maintenance technician and pool attendant. You apply on Cordial’s recruitment website.",
+      "fr": "Plusieurs postes : agent/e de maintenance et pisciniste. La candidature se dépose sur le site de recrutement de Cordial.",
+      "ar": "عدة مناصب: عامل/ة صيانة وعامل/ة مسابح. يُقدَّم الطلب في موقع التوظيف الخاص بـ Cordial.",
+      "pt": "Vários postos: oficial de manutenção e técnico/a de piscinas. A candidatura faz-se no site de recrutamento da Cordial."
+    },
+    "enlace": "https://seleccion.becordial.com/"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Turismo y Hostelería",
+      "en": "Tourism & Hospitality",
+      "fr": "Tourisme et hôtellerie",
+      "ar": "السياحة والضيافة",
+      "pt": "Turismo e Hotelaria"
+    },
+    "puesto": {
+      "es": "Camarero/a de Pisos — Cordial La Peregrina y Cordial La Niña de Vegueta",
+      "en": "Room Attendant — Cordial La Peregrina and Cordial La Niña de Vegueta",
+      "fr": "Femme/valet de chambre — Cordial La Peregrina et Cordial La Niña de Vegueta",
+      "ar": "عامل/ة غرف — Cordial La Peregrina وCordial La Niña de Vegueta",
+      "pt": "Empregado/a de Andares — Cordial La Peregrina e Cordial La Niña de Vegueta"
+    },
+    "empresa": "Cordial Canarias Hotels & Resorts",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Tipo de contrato y jornada no indicados",
+      "en": "Contract type and hours not stated",
+      "fr": "Type de contrat et horaires non indiqués",
+      "ar": "نوع العقد وساعات العمل غير مذكورة",
+      "pt": "Tipo de contrato e horário não indicados"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Puestos de camarero/a de pisos en estos dos hoteles de Las Palmas de Gran Canaria. Se deja la candidatura en la web de selección de Cordial.",
+      "en": "Room attendant jobs in these two hotels in Las Palmas de Gran Canaria. You apply on Cordial’s recruitment website.",
+      "fr": "Postes de femme/valet de chambre dans ces deux hôtels de Las Palmas de Gran Canaria. La candidature se dépose sur le site de recrutement de Cordial.",
+      "ar": "مناصب عامل/ة غرف في هذين الفندقين في لاس بالماس دي غران كناريا. يُقدَّم الطلب في موقع التوظيف الخاص بـ Cordial.",
+      "pt": "Postos de empregado/a de andares nestes dois hotéis de Las Palmas de Gran Canaria. A candidatura faz-se no site de recrutamento da Cordial."
+    },
+    "enlace": "https://seleccion.becordial.com/"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Mantenimiento",
+      "en": "Construction & Maintenance",
+      "fr": "Construction et maintenance",
+      "ar": "البناء والصيانة",
+      "pt": "Construção e Manutenção"
+    },
+    "puesto": {
+      "es": "Técnico/a de Mantenimiento Instrumentista",
+      "en": "Instrumentation Maintenance Technician",
+      "fr": "Technicien/ne de maintenance instrumentiste",
+      "ar": "تقني/ة صيانة الأجهزة والقياس",
+      "pt": "Técnico/a de Manutenção Instrumentista"
+    },
+    "empresa": "Veolia",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Contrato indefinido",
+      "en": "Permanent contract",
+      "fr": "CDI",
+      "ar": "عقد دائم",
+      "pt": "Contrato sem termo"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "FP de Grado Medio en Electricidad/Electrónica o Instrumentación (preferible), 2 o 3 años de experiencia en mantenimiento de equipos eléctricos de alta tensión e instrumentación, y disponibilidad para moverse entre cuatro centros de trabajo. Salario según experiencia.",
+      "en": "Intermediate vocational qualification in Electrical/Electronics or Instrumentation (preferred), 2 to 3 years of experience maintaining high-voltage electrical equipment and instrumentation, and availability to travel between four work sites. Salary depending on experience.",
+      "fr": "Formation professionnelle en électricité/électronique ou instrumentation (souhaitée), 2 à 3 ans d’expérience en maintenance d’équipements électriques haute tension et d’instrumentation, et disponibilité pour se déplacer entre quatre sites. Salaire selon expérience.",
+      "ar": "تكوين مهني متوسط في الكهرباء/الإلكترونيات أو الأجهزة (يُفضَّل)، ومن سنتين إلى 3 سنوات خبرة في صيانة المعدات الكهربائية ذات الجهد العالي والأجهزة، والاستعداد للتنقل بين أربعة مراكز عمل. الراتب حسب الخبرة.",
+      "pt": "Curso profissional de nível intermédio em Eletricidade/Eletrónica ou Instrumentação (preferível), 2 a 3 anos de experiência em manutenção de equipamentos elétricos de alta tensão e instrumentação, e disponibilidade para se deslocar entre quatro centros de trabalho. Salário conforme experiência."
+    },
+    "enlace": "https://jobs.veolia.com/en/job/las-palmas-de-gran-canaria/tecnico-a-de-mantenimiento-instrumentista/3091/42496156736"
+  },
+  {
+    "area": "construccion",
+    "categoria": {
+      "es": "Construcción y Mantenimiento",
+      "en": "Construction & Maintenance",
+      "fr": "Construction et maintenance",
+      "ar": "البناء والصيانة",
+      "pt": "Construção e Manutenção"
+    },
+    "puesto": {
+      "es": "Técnico/a de Reparación LG",
+      "en": "LG Repair Technician",
+      "fr": "Technicien/ne de réparation LG",
+      "ar": "تقني/ة إصلاح أجهزة LG",
+      "pt": "Técnico/a de Reparação LG"
+    },
+    "empresa": "Merkiber",
+    "ubicacion": "Agüimes",
+    "jornada": {
+      "es": "Tipo de contrato y jornada: ver la oferta",
+      "en": "Contract and hours: see the offer",
+      "fr": "Contrat et horaires : voir l’offre",
+      "ar": "نوع العقد وساعات العمل: انظر العرض",
+      "pt": "Contrato e horário: ver a oferta"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Reparación de aparatos de la marca LG. Consulta los requisitos completos en la oferta (LinkedIn).",
+      "en": "Repair of LG appliances. Check the full requirements in the offer (LinkedIn).",
+      "fr": "Réparation d’appareils de la marque LG. Consultez les conditions complètes dans l’offre (LinkedIn).",
+      "ar": "إصلاح أجهزة علامة LG. اطّلع على الشروط الكاملة في العرض (LinkedIn).",
+      "pt": "Reparação de aparelhos da marca LG. Consulte os requisitos completos na oferta (LinkedIn)."
+    },
+    "enlace": "https://es.linkedin.com/jobs/view/tecnico-reparaci%C3%B3n-lg-aguimes-gran-canaria-at-merkiber-s-a-4469904832"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
+      "es": "Técnico/a de Intervención: Salud, Migraciones y Equidad",
+      "en": "Intervention Officer: Health, Migration and Equity",
+      "fr": "Chargé/e d’intervention : santé, migrations et équité",
+      "ar": "تقني/ة تدخل: الصحة والهجرة والإنصاف",
+      "pt": "Técnico/a de Intervenção: Saúde, Migrações e Equidade"
+    },
+    "empresa": "Médicos del Mundo",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa (40 h). Contrato de sustitución",
+      "en": "Full-time (40 h). Replacement contract",
+      "fr": "Temps plein (40 h). Contrat de remplacement",
+      "ar": "دوام كامل (40 ساعة). عقد استخلاف",
+      "pt": "Tempo inteiro (40 h). Contrato de substituição"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Salario aproximado: 2.907 € al mes (34.881 € brutos al año). Grado o diplomatura en Trabajo Social o similar, formación en mediación intercultural, migraciones y derecho a la salud, y mínimo 2 años de experiencia. Francés obligatorio; se valora árabe o wolof. Funciones: formación y sensibilización, atención y orientación a personas migrantes, voluntariado, trabajo en red e intervención en centros de acogida.",
+      "en": "Approximate salary: 2.907 € per month (34.881 € gross per year). Degree in Social Work or similar, training in intercultural mediation, migration and the right to health, and at least 2 years of experience. French required; Arabic or Wolof valued. Tasks: training and awareness-raising, support and guidance for migrants, volunteers, networking and work in reception centres.",
+      "fr": "Salaire approximatif : 2.907 € par mois (34.881 € bruts par an). Diplôme en travail social ou similaire, formation en médiation interculturelle, migrations et droit à la santé, et au moins 2 ans d’expérience. Français obligatoire ; arabe ou wolof apprécié. Missions : formation et sensibilisation, accueil et orientation des personnes migrantes, bénévolat, travail en réseau et intervention dans des centres d’accueil.",
+      "ar": "الراتب التقريبي: 2.907 € شهرياً (34.881 € إجمالي في السنة). شهادة في العمل الاجتماعي أو ما يماثلها، وتكوين في الوساطة بين الثقافات والهجرة والحق في الصحة، وسنتان من الخبرة على الأقل. الفرنسية إلزامية، وتُقدَّر العربية أو الولوفية. المهام: التكوين والتوعية، واستقبال المهاجرين وتوجيههم، والتطوع، والعمل الشبكي، والتدخل في مراكز الإيواء.",
+      "pt": "Salário aproximado: 2.907 € por mês (34.881 € brutos por ano). Licenciatura em Serviço Social ou semelhante, formação em mediação intercultural, migrações e direito à saúde, e mínimo de 2 anos de experiência. Francês obrigatório; valoriza-se árabe ou wolof. Funções: formação e sensibilização, atendimento e orientação a pessoas migrantes, voluntariado, trabalho em rede e intervenção em centros de acolhimento."
+    },
+    "enlace": "https://www.jobijoba.es/oferta-empleo/69/91e9bfdc56191a42e1355dbfd17063c1"
+  },
+  {
+    "area": "sociosanitario",
+    "categoria": {
+      "es": "Cuidado de Personas",
+      "en": "Personal Care",
+      "fr": "Aide à la personne",
+      "ar": "رعاية الأشخاص",
+      "pt": "Cuidado de Pessoas"
+    },
+    "puesto": {
+      "es": "Cuidador/a de Persona Mayor (unas 2 semanas)",
+      "en": "Carer for an Elderly Person (about 2 weeks)",
+      "fr": "Aide à domicile pour une personne âgée (environ 2 semaines)",
+      "ar": "مرافق/ة لرعاية شخص مسنّ (حوالي أسبوعين)",
+      "pt": "Cuidador/a de Pessoa Idosa (cerca de 2 semanas)"
+    },
+    "empresa": "Particular (vía Domestiko)",
+    "ubicacion": "San Bartolomé de Tirajana",
+    "jornada": {
+      "es": "De 7:00 a 15:00, 3 o 4 días por semana (días no fijos). Desde el 15 de noviembre, unas 2 semanas",
+      "en": "7:00 to 15:00, 3 or 4 days a week (days vary). From 15 November, for about 2 weeks",
+      "fr": "De 7 h à 15 h, 3 ou 4 jours par semaine (jours variables). À partir du 15 novembre, environ 2 semaines",
+      "ar": "من 7:00 إلى 15:00، 3 أو 4 أيام في الأسبوع (أيام غير ثابتة). ابتداءً من 15 نوفمبر، لمدة أسبوعين تقريباً",
+      "pt": "Das 7:00 às 15:00, 3 ou 4 dias por semana (dias não fixos). A partir de 15 de novembro, cerca de 2 semanas"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
+    },
+    "requisitos": {
+      "es": "Acompañamiento de una señora de 100 años: supervisión de comidas, orden de la habitación y ayuda puntual con el aseo. Coche propio imprescindible. Salario a convenir. Pregunta antes por el contrato y el alta en la Seguridad Social.",
+      "en": "Companionship for a 100-year-old woman: supervising meals, keeping her room tidy and occasional help with personal hygiene. Own car essential. Salary to be agreed. Ask about the contract and Social Security registration first.",
+      "fr": "Accompagnement d’une dame de 100 ans : surveillance des repas, rangement de la chambre et aide ponctuelle à la toilette. Voiture personnelle indispensable. Salaire à convenir. Demandez d’abord le contrat et la déclaration à la Sécurité sociale.",
+      "ar": "مرافقة سيدة عمرها 100 سنة: الإشراف على الوجبات، وترتيب الغرفة، والمساعدة أحياناً في النظافة الشخصية. السيارة الخاصة ضرورية. الراتب يُتفق عليه. اسأل أولاً عن العقد والتسجيل في الضمان الاجتماعي.",
+      "pt": "Acompanhamento de uma senhora de 100 anos: supervisão das refeições, arrumação do quarto e ajuda pontual com a higiene. Carro próprio imprescindível. Salário a combinar. Pergunte antes pelo contrato e pela inscrição na Segurança Social."
+    },
+    "enlace": "https://www.domestiko.com/empleo/oferta/san-bartolome-de-tirajana-cuidadora-persona-mayor-xazu/"
+  },
+  {
     "area": "administracion",
     "categoria": {
       "es": "Administración/Oficinas",
@@ -38,8 +2908,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 1.667 € شهرياً. مطلوب 3 سنوات من الخبرة.",
       "pt": "1 vaga. Salário aproximado: 1.667 € por mês. Pedem 3 anos de experiência."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/administrativo/of-i13c8c004be4efd99c79be081cf925e",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/administrativo/of-i13c8c004be4efd99c79be081cf925e"
   },
   {
     "area": "otros",
@@ -80,8 +2949,7 @@ const OFERTAS_SEMANA = [
       "ar": "3 شواغر. الراتب التقريبي: 1.600 € شهرياً.",
       "pt": "3 vagas. Salário aproximado: 1.600 € por mês."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/decorador-escenico/of-idccf469bbc4a10a99b5074ceb1d5dd",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/decorador-escenico/of-idccf469bbc4a10a99b5074ceb1d5dd"
   },
   {
     "area": "administracion",
@@ -122,8 +2990,7 @@ const OFERTAS_SEMANA = [
       "ar": "الراتب التقريبي: 2.083 € شهرياً. عمل هجين: جزء حضوري وجزء عن بُعد.",
       "pt": "Salário aproximado: 2.083 € por mês. Trabalho híbrido: parte presencial e parte à distância."
     },
-    "enlace": "https://es.indeed.com/viewjob?jk=cd373d4ae548e059",
-    "origen": "daura"
+    "enlace": "https://es.indeed.com/viewjob?jk=cd373d4ae548e059"
   },
   {
     "area": "administracion",
@@ -164,8 +3031,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 2.292 € شهرياً. مطلوب سنتان من الخبرة ومستوى متقدم في الإنجليزية.",
       "pt": "1 vaga. Salário aproximado: 2.292 € por mês. Pedem 2 anos de experiência e inglês avançado."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/asesor-fiscal/of-i90fb77e9124e029248ec938092770d",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/asesor-fiscal/of-i90fb77e9124e029248ec938092770d"
   },
   {
     "area": "hosteleria",
@@ -206,8 +3072,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 1.875 € شهرياً.",
       "pt": "1 vaga. Salário aproximado: 1.875 € por mês."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/cocinero-para-restaurante-fahana-triana-54/of-i7888f86c404b98b91e4029b0552902",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/cocinero-para-restaurante-fahana-triana-54/of-i7888f86c404b98b91e4029b0552902"
   },
   {
     "area": "hosteleria",
@@ -248,8 +3113,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 2.094 € شهرياً.",
       "pt": "1 vaga. Salário aproximado: 2.094 € por mês."
     },
-    "enlace": "https://radissoncareers.com/es/job/camarero-a-in-las-palmas-spain-jid-34995",
-    "origen": "daura"
+    "enlace": "https://radissoncareers.com/es/job/camarero-a-in-las-palmas-spain-jid-34995"
   },
   {
     "area": "limpieza",
@@ -290,8 +3154,7 @@ const OFERTAS_SEMANA = [
       "ar": "2 شواغر. الراتب التقريبي: بين 1.284 € (30 ساعة) و1.465 € (35 ساعة) شهرياً.",
       "pt": "2 vagas. Salário aproximado: entre 1.284 € (30 h) e 1.465 € (35 h) por mês."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/responsable-limpieza-aviones-aeropuerto-gran-canaria/of-ifd2bc9044a424db360d68c54ea5f29",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/responsable-limpieza-aviones-aeropuerto-gran-canaria/of-ifd2bc9044a424db360d68c54ea5f29"
   },
   {
     "area": "construccion",
@@ -332,8 +3195,7 @@ const OFERTAS_SEMANA = [
       "ar": "الراتب التقريبي: 2.125 € شهرياً.",
       "pt": "Salário aproximado: 2.125 € por mês."
     },
-    "enlace": "https://es.indeed.com/viewjob?jk=337123e6f00155e5",
-    "origen": "daura"
+    "enlace": "https://es.indeed.com/viewjob?jk=337123e6f00155e5"
   },
   {
     "area": "otros",
@@ -374,8 +3236,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 2.288 € شهرياً. عمل هجين. يشمل المنصب التصميم الغرافيكي وإدارة مواقع التواصل وإدارة الحسابات.",
       "pt": "1 vaga. Salário aproximado: 2.288 € por mês. Trabalho híbrido. A oferta inclui design gráfico, community manager e gestão de contas."
     },
-    "enlace": "https://www.fulp.es/empleos/consultora-marketing-digital--disenadora-grafica--community-manager--account-manager--115250",
-    "origen": "daura"
+    "enlace": "https://www.fulp.es/empleos/consultora-marketing-digital--disenadora-grafica--community-manager--account-manager--115250"
   },
   {
     "area": "otros",
@@ -416,8 +3277,7 @@ const OFERTAS_SEMANA = [
       "ar": "4 شواغر. الراتب التقريبي: 1.450 € شهرياً.",
       "pt": "4 vagas. Salário aproximado: 1.450 € por mês."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/disenador-grafico-gestion-grafica-impresa/of-i0689f585ad46a28a6c1c085c0e1a6b",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/disenador-grafico-gestion-grafica-impresa/of-i0689f585ad46a28a6c1c085c0e1a6b"
   },
   {
     "area": "sociosanitario",
@@ -458,8 +3318,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد في كل مركز. الراتب التقريبي: 1.104 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
       "pt": "Uma vaga em cada centro. Salário aproximado: 1.104 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
     },
-    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=005967&is_open=true",
-    "origen": "daura"
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=005967&is_open=true"
   },
   {
     "area": "sociosanitario",
@@ -500,8 +3359,7 @@ const OFERTAS_SEMANA = [
       "ar": "الراتب التقريبي: 1.104 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
       "pt": "Salário aproximado: 1.104 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
     },
-    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=005997&is_open=true",
-    "origen": "daura"
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=005997&is_open=true"
   },
   {
     "area": "otros",
@@ -542,8 +3400,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 1.792 € شهرياً.",
       "pt": "1 vaga. Salário aproximado: 1.792 € por mês."
     },
-    "enlace": "https://careers-es.prosegur.com/contador-pagador-las-palmas-XJzo2NEBKjjT/",
-    "origen": "daura"
+    "enlace": "https://careers-es.prosegur.com/contador-pagador-las-palmas-XJzo2NEBKjjT/"
   },
   {
     "area": "otros",
@@ -584,8 +3441,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 2.250 € شهرياً.",
       "pt": "1 vaga. Salário aproximado: 2.250 € por mês."
     },
-    "enlace": "https://www.fulp.es/empleos/especialista-en-inteligencia-artificial-y-automatizacion-115450",
-    "origen": "daura"
+    "enlace": "https://www.fulp.es/empleos/especialista-en-inteligencia-artificial-y-automatizacion-115450"
   },
   {
     "area": "almacen",
@@ -626,8 +3482,7 @@ const OFERTAS_SEMANA = [
       "ar": "2 شواغر. الراتب التقريبي: 2.000 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
       "pt": "2 vagas. Salário aproximado: 2.000 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
     },
-    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006958&is_open=true",
-    "origen": "daura"
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006958&is_open=true"
   },
   {
     "area": "almacen",
@@ -668,8 +3523,7 @@ const OFERTAS_SEMANA = [
       "ar": "الراتب التقريبي: 3.958 € شهرياً.",
       "pt": "Salário aproximado: 3.958 € por mês."
     },
-    "enlace": "https://engagecareers.inizioengage.com/es_ES/careers/JobDetail/Delegado-a-Visita-Farmacias-Las-Palmas-de-Gran-Canaria/23693",
-    "origen": "daura"
+    "enlace": "https://engagecareers.inizioengage.com/es_ES/careers/JobDetail/Delegado-a-Visita-Farmacias-Las-Palmas-de-Gran-Canaria/23693"
   },
   {
     "area": "almacen",
@@ -710,8 +3564,7 @@ const OFERTAS_SEMANA = [
       "ar": "20 شواغر. الراتب التقريبي: 2.417 € شهرياً. عرض موجّه للأشخاص ذوي الإعاقة.",
       "pt": "20 vagas. Salário aproximado: 2.417 € por mês. Oferta dirigida a pessoas com deficiência."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/vendedor-once-comercial-discapacidad/of-i4f83797f9b4f79a4e6b9cd72fb64f4",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/vendedor-once-comercial-discapacidad/of-i4f83797f9b4f79a4e6b9cd72fb64f4"
   },
   {
     "area": "almacen",
@@ -752,8 +3605,7 @@ const OFERTAS_SEMANA = [
       "ar": "3 شواغر. الراتب التقريبي: 1.424 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
       "pt": "3 vagas. Salário aproximado: 1.424 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
     },
-    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006887&is_open=true",
-    "origen": "daura"
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006887&is_open=true"
   },
   {
     "area": "almacen",
@@ -794,8 +3646,7 @@ const OFERTAS_SEMANA = [
       "ar": "3 شواغر. الراتب التقريبي: 1.424 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
       "pt": "3 vagas. Salário aproximado: 1.424 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
     },
-    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006885&is_open=true",
-    "origen": "daura"
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006885&is_open=true"
   },
   {
     "area": "limpieza",
@@ -836,8 +3687,7 @@ const OFERTAS_SEMANA = [
       "ar": "3 شواغر. الراتب التقريبي: 700 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
       "pt": "3 vagas. Salário aproximado: 700 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
     },
-    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006907&is_open=true",
-    "origen": "daura"
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006907&is_open=true"
   },
   {
     "area": "administracion",
@@ -878,8 +3728,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 2.625 € شهرياً.",
       "pt": "1 vaga. Salário aproximado: 2.625 € por mês."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/tecnico-prevencion-prl-las-palmas/of-i063490f5c34387916364f5187d5ddc",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/tecnico-prevencion-prl-las-palmas/of-i063490f5c34387916364f5187d5ddc"
   },
   {
     "area": "hosteleria",
@@ -907,11 +3756,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro. Contrato sem termo"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 05/10/2026)",
-      "en": "Shared this week (checked 10/05/2026)",
-      "fr": "Partagée cette semaine (vérifié le 05/10/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 05/10/2026)",
-      "pt": "Partilhada esta semana (verificado em 05/10/2026)"
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
     },
     "requisitos": {
       "es": "1 vacante. Salario aproximado: 2.042 € al mes. Se pide experiencia; el puesto incluye tareas de mantenimiento.",
@@ -920,8 +3769,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 2.042 € شهرياً. تُطلب خبرة؛ يشمل العمل مهام صيانة.",
       "pt": "1 vaga. Salário aproximado: 2.042 € por mês. Pede-se experiência; o posto inclui tarefas de manutenção."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/socorrista-hotel-cristina-con-experiencia-mantenimiento/of-id941af52cd4286a74ee1c4862edf60",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/socorrista-hotel-cristina-con-experiencia-mantenimiento/of-id941af52cd4286a74ee1c4862edf60"
   },
   {
     "area": "almacen",
@@ -962,8 +3810,7 @@ const OFERTAS_SEMANA = [
       "ar": "شاغر واحد. الراتب التقريبي: 1.500 € شهرياً.",
       "pt": "1 vaga. Salário aproximado: 1.500 € por mês."
     },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/repartidor-furgoneta/of-if9ebbfd4e24daf954f4828851c4e01",
-    "origen": "daura"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/repartidor-furgoneta/of-if9ebbfd4e24daf954f4828851c4e01"
   },
   {
     "area": "almacen",
@@ -1004,8 +3851,7 @@ const OFERTAS_SEMANA = [
       "ar": "2 شواغر. الراتب التقريبي: 1.700 € شهرياً. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية).",
       "pt": "2 vagas. Salário aproximado: 1.700 € por mês. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego)."
     },
-    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006893&is_open=true",
-    "origen": "daura"
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=006893&is_open=true"
   },
   {
     "area": "almacen",
@@ -3001,11 +5847,11 @@ const OFERTAS_SEMANA = [
       "pt": "24 h semanais (contrato a termo) ou 30 h (contrato sem termo)"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 01/10/2026)",
-      "en": "Shared this week (checked 10/01/2026)",
-      "fr": "Partagée cette semaine (vérifié le 01/10/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 01/10/2026)",
-      "pt": "Partilhada esta semana (verificado em 01/10/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "Salario: 1.000–1.500 € brutos al mes según la jornada, más complementos.",
@@ -3279,29 +6125,70 @@ const OFERTAS_SEMANA = [
       "pt": "Técnico/a de integração social — intervenção (substituição)"
     },
     "empresa": "CEAR",
-    "ubicacion": "Las Palmas de Gran Canaria / Vecindario",
+    "ubicacion": "Vecindario (Santa Lucía de Tirajana)",
     "jornada": {
-      "es": "Jornada completa, de lunes a viernes de 08:00 a 15:00. Contrato temporal de sustitución",
-      "en": "Full-time, Monday to Friday from 08:00 to 15:00. Temporary cover contract",
-      "fr": "Temps plein, du lundi au vendredi de 08h00 à 15h00. Contrat temporaire de remplacement",
-      "ar": "دوام كامل، من الاثنين إلى الجمعة من 08:00 إلى 15:00. عقد مؤقت للاستبدال",
-      "pt": "Tempo inteiro, de segunda a sexta das 08:00 às 15:00. Contrato a termo de substituição"
+      "es": "Jornada completa en turnos rotativos: una semana de lunes a viernes de 08:00 a 15:00; otra, fines de semana y festivos de 09:00 a 21:00 y viernes de 14:00 a 20:00; otra, de lunes a viernes de 15:00 a 22:00. Contrato temporal de sustitución. Incorporación inmediata",
+      "en": "Full-time on rotating shifts: one week Monday to Friday 08:00–15:00; another, weekends and public holidays 09:00–21:00 and Friday 14:00–20:00; another, Monday to Friday 15:00–22:00. Temporary cover contract. Immediate start",
+      "fr": "Temps plein en roulement : une semaine du lundi au vendredi de 08h00 à 15h00 ; une autre, week-ends et jours fériés de 09h00 à 21h00 et vendredi de 14h00 à 20h00 ; une autre, du lundi au vendredi de 15h00 à 22h00. Contrat temporaire de remplacement. Prise de poste immédiate",
+      "ar": "دوام كامل بنوبات متناوبة: أسبوع من الاثنين إلى الجمعة من 08:00 إلى 15:00؛ وأسبوع في عطل نهاية الأسبوع والأعياد من 09:00 إلى 21:00 والجمعة من 14:00 إلى 20:00؛ وأسبوع من الاثنين إلى الجمعة من 15:00 إلى 22:00. عقد مؤقت للاستبدال. التحاق فوري",
+      "pt": "Tempo inteiro em turnos rotativos: uma semana de segunda a sexta das 08:00 às 15:00; outra, fins de semana e feriados das 09:00 às 21:00 e sexta das 14:00 às 20:00; outra, de segunda a sexta das 15:00 às 22:00. Contrato a termo de substituição. Início imediato"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 01/10/2026)",
-      "en": "Shared this week (checked 10/01/2026)",
-      "fr": "Partagée cette semaine (vérifié le 01/10/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 01/10/2026)",
-      "pt": "Partilhada esta semana (verificado em 01/10/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
-      "es": "FP Superior en Integración Social, Animación Sociocultural o equivalente. Carné de conducir. Inglés y/o francés.",
-      "en": "Higher-level FP (Spanish vocational training) in Social Integration, Sociocultural Animation or equivalent. Driving licence. English and/or French.",
-      "fr": "FP Supérieure (formation professionnelle espagnole) en Intégration sociale, Animation socioculturelle ou équivalent. Permis de conduire. Anglais et/ou français.",
-      "ar": "FP عالٍ (التكوين المهني الإسباني) في الإدماج الاجتماعي أو التنشيط الاجتماعي الثقافي أو ما يعادله. رخصة قيادة. الإنجليزية و/أو الفرنسية.",
-      "pt": "FP Superior (formação profissional espanhola) em Integração Social, Animação Sociocultural ou equivalente. Carta de condução. Inglês e/ou francês."
+      "es": "FP Superior en Integración Social, Animación Sociocultural o equivalente. 2 años de experiencia en puestos similares. Carné de conducir B con al menos 2 años de antigüedad. Inglés y/o francés. Se valoran árabe, wolof, bambara u otros idiomas.",
+      "en": "Higher-level FP (Spanish vocational training) in Social Integration, Sociocultural Animation or equivalent. 2 years' experience in similar roles. Category B driving licence held for at least 2 years. English and/or French. Arabic, Wolof, Bambara or other languages are a plus.",
+      "fr": "FP Supérieure (formation professionnelle espagnole) en Intégration sociale, Animation socioculturelle ou équivalent. 2 ans d'expérience dans des postes similaires. Permis B depuis au moins 2 ans. Anglais et/ou français. L'arabe, le wolof, le bambara ou d'autres langues sont un plus.",
+      "ar": "FP عالٍ (التكوين المهني الإسباني) في الإدماج الاجتماعي أو التنشيط الاجتماعي الثقافي أو ما يعادله. خبرة سنتين في وظائف مماثلة. رخصة قيادة من الفئة B منذ سنتين على الأقل. الإنجليزية و/أو الفرنسية. يُعدّ إتقان العربية أو الولوف أو البامبارا أو لغات أخرى ميزة إضافية.",
+      "pt": "FP Superior (formação profissional espanhola) em Integração Social, Animação Sociocultural ou equivalente. 2 anos de experiência em funções semelhantes. Carta de condução B com pelo menos 2 anos. Inglês e/ou francês. Valoriza-se árabe, wolof, bambara ou outras línguas."
     },
-    "enlace": "https://es.indeed.com/viewjob?jk=c60a73dc8271b5f2"
+    "enlace": "https://cear.viterbit.site/integrador-a-social-de-intervencion-sustitucion-vecindario-delegacion-canarias-VQlwYvPQU7Hw/"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
+      "es": "Integrador/a Social de Intervención (Sustitución)",
+      "en": "Social Integration Worker — Intervention (Cover Position)",
+      "fr": "Intégrateur/trice social(e) d'intervention (remplacement)",
+      "ar": "أخصائي/ة إدماج اجتماعي للتدخل (وظيفة استبدال)",
+      "pt": "Técnico/a de integração social — intervenção (substituição)"
+    },
+    "empresa": "CEAR",
+    "ubicacion": "Telde",
+    "jornada": {
+      "es": "Jornada completa, de lunes a viernes de 15:00 a 22:00. Contrato temporal de sustitución. Incorporación inmediata",
+      "en": "Full-time, Monday to Friday from 15:00 to 22:00. Temporary cover contract. Immediate start",
+      "fr": "Temps plein, du lundi au vendredi de 15h00 à 22h00. Contrat temporaire de remplacement. Prise de poste immédiate",
+      "ar": "دوام كامل، من الاثنين إلى الجمعة من 15:00 إلى 22:00. عقد مؤقت للاستبدال. التحاق فوري",
+      "pt": "Tempo inteiro, de segunda a sexta das 15:00 às 22:00. Contrato a termo de substituição. Início imediato"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
+    },
+    "requisitos": {
+      "es": "FP Superior en Integración Social, Animación Sociocultural o equivalente. 2 años de experiencia en puestos similares. Carné de conducir. Inglés y/o francés. Se valoran árabe, wolof, bambara u otros idiomas.",
+      "en": "Higher-level FP (Spanish vocational training) in Social Integration, Sociocultural Animation or equivalent. 2 years' experience in similar roles. Driving licence. English and/or French. Arabic, Wolof, Bambara or other languages are a plus.",
+      "fr": "FP Supérieure (formation professionnelle espagnole) en Intégration sociale, Animation socioculturelle ou équivalent. 2 ans d'expérience dans des postes similaires. Permis de conduire. Anglais et/ou français. L'arabe, le wolof, le bambara ou d'autres langues sont un plus.",
+      "ar": "FP عالٍ (التكوين المهني الإسباني) في الإدماج الاجتماعي أو التنشيط الاجتماعي الثقافي أو ما يعادله. خبرة سنتين في وظائف مماثلة. رخصة قيادة. الإنجليزية و/أو الفرنسية. يُعدّ إتقان العربية أو الولوف أو البامبارا أو لغات أخرى ميزة إضافية.",
+      "pt": "FP Superior (formação profissional espanhola) em Integração Social, Animação Sociocultural ou equivalente. 2 anos de experiência em funções semelhantes. Carta de condução. Inglês e/ou francês. Valoriza-se árabe, wolof, bambara ou outras línguas."
+    },
+    "enlace": "https://cear.viterbit.site/integrador-a-social-de-intervencion-sustitucion-telde-gran-canaria-delegacion-canarias-fjiowVfAWxY8/"
   },
   {
     "area": "tercer-sector",
@@ -5297,11 +8184,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro, presencial. Contrato sem termo"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 30/09/2026)",
-      "en": "Shared this week (checked 09/30/2026)",
-      "fr": "Partagée cette semaine (vérifié le 30/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 30/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 30/09/2026)"
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
     },
     "requisitos": {
       "es": "Atención al cliente. Sueldo fijo más comisiones.",
@@ -6732,11 +9619,11 @@ const OFERTAS_SEMANA = [
       "pt": "Das 08:30 às 16:30. Contrato sem termo"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 29/09/2026)",
-      "en": "Shared this week (checked 09/29/2026)",
-      "fr": "Partagée cette semaine (vérifié le 29/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 29/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 29/09/2026)"
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
     },
     "requisitos": {
       "es": "Instalador/a eléctrico/a autorizado/a. 2 años de experiencia y formación en prevención de riesgos laborales (PRL). Salario: 1.700–2.000 € brutos al mes.",
@@ -6978,11 +9865,11 @@ const OFERTAS_SEMANA = [
       "pt": "Não especificado"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 29/09/2026)",
-      "en": "Shared this week (checked 09/29/2026)",
-      "fr": "Partagée cette semaine (vérifié le 29/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 29/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 29/09/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "Carné de conducir, disponibilidad y compromiso. Se valora coche propio y experiencia en ayuda a domicilio o con personas mayores o dependientes. Condiciones según convenio, promoción interna y formación. En el asunto del correo, indicar el municipio donde vives.",
@@ -8700,11 +11587,11 @@ const OFERTAS_SEMANA = [
       "pt": "Meio período, 4 h de segunda a sexta-feira. Contrato sem termo"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 29/09/2026)",
-      "en": "Shared this week (checked 09/29/2026)",
-      "fr": "Partagée cette semaine (vérifié le 29/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 29/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 29/09/2026)"
+      "es": "Compartida esta semana (consultado 07/10/2026)",
+      "en": "Shared this week (checked 10/07/2026)",
+      "fr": "Partagée cette semaine (vérifié le 07/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 07/10/2026)"
     },
     "requisitos": {
       "es": "No se requiere experiencia. DNI/NIE y castellano fluido. Salario: 750–1.500 € al mes.",
@@ -9151,11 +12038,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro (40 h). Contrato sem termo"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 29/09/2026)",
-      "en": "Shared this week (checked 09/29/2026)",
-      "fr": "Partagée cette semaine (vérifié le 29/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 29/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 29/09/2026)"
+      "es": "Compartida esta semana (consultado 08/10/2026)",
+      "en": "Shared this week (checked 10/08/2026)",
+      "fr": "Partagée cette semaine (vérifié le 08/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 08/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 08/10/2026)"
     },
     "requisitos": {
       "es": "Venta asistida en El Corte Inglés. Salario: 17.000–18.000 € al año.",
@@ -9164,7 +12051,7 @@ const OFERTAS_SEMANA = [
       "ar": "البيع بمساعدة العملاء في El Corte Inglés. الراتب: 17.000–18.000 € سنوياً.",
       "pt": "Venda assistida no El Corte Inglés. Salário: 17.000–18.000 € por ano."
     },
-    "enlace": "https://www.voxjobs.es/ofertas/promotor-a-venta-asistida-40h-semanales-las-palmas-de-e09107f7"
+    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/promotor-venta-asistida-40h-semanales/of-id798998fda4eafb9b9d3e1d3ca4b53"
   },
   {
     "area": "almacen",
@@ -9700,744 +12587,6 @@ const OFERTAS_SEMANA = [
     "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/tecnico-fiscalidad-contabilidad-software-gestion-fiscal-contable/of-ie0d26c04224db08c640eb4df1d6e6b"
   },
   {
-    "area": "sociosanitario",
-    "categoria": {
-      "es": "Sociosanitario",
-      "en": "Health & Social Care",
-      "fr": "Socio-sanitaire",
-      "ar": "الرعاية الصحية والاجتماعية",
-      "pt": "Sociossanitário"
-    },
-    "puesto": {
-      "es": "Gerocultor/a — Centro Taliarte",
-      "en": "Care Worker — Taliarte Centre",
-      "fr": "Aide-soignant/e — Centre Taliarte",
-      "ar": "مقدم/ة رعاية — مركز تاليارتي",
-      "pt": "Auxiliar de Geriatria — Centro Taliarte"
-    },
-    "empresa": "Fundación SAMU",
-    "ubicacion": "Telde",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Turnos rotativos mañana/tarde/noche. Contrato temporal de larga duración. Titulación sociosanitaria habilitante imprescindible.",
-      "en": "Rotating shifts. Long-term temporary contract. Health & social care qualification required.",
-      "fr": "Équipes tournantes. Contrat temporaire longue durée. Diplôme socio-sanitaire requis.",
-      "ar": "ورديات دوارة. عقد مؤقت طويل الأمد. شهادة رعاية صحية واجتماعية إلزامية.",
-      "pt": "Turnos rotativos manhã/tarde/noite. Contrato temporário de longa duração. Formação sociossanitária habilitante obrigatória."
-    },
-    "enlace": "https://bit.ly/4r4HBn1"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Administración/Oficinas",
-      "en": "Administration/Office",
-      "fr": "Administration/Bureau",
-      "ar": "الإدارة/المكاتب",
-      "pt": "Administração/Escritórios"
-    },
-    "puesto": {
-      "es": "Auxiliar Administrativo/a",
-      "en": "Administrative Assistant",
-      "fr": "Assistant/e administratif/ve",
-      "ar": "مساعد/ة إداري/ة",
-      "pt": "Auxiliar Administrativo/a"
-    },
-    "empresa": "Colegio Oficial de Economistas de Las Palmas",
-    "ubicacion": "Las Palmas de Gran Canaria (C/ Pedro Díaz, 13)",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "40h/semana. FP2/CFGS en Administración. Mín. 1 año de experiencia administrativa. Retribución según convenio de Oficinas y Despachos.",
-      "en": "40h/week. Higher VET in Administration. Min. 1 year's admin experience. Pay per Offices & Agencies collective agreement.",
-      "fr": "40h/semaine. BTS administration. Min. 1 an d'expérience admin. Rémunération selon convention Bureaux.",
-      "ar": "40 ساعة/أسبوعيًا. مؤهل إداري. خبرة سنة على الأقل. راتب حسب اتفاقية المكاتب.",
-      "pt": "40h/semana. FP2/CFGS em Administração (formação profissional de grau superior). Mín. 1 ano de experiência administrativa. Remuneração de acordo com a convenção coletiva de Escritórios e Gabinetes (Oficinas y Despachos)."
-    },
-    "enlace": "mailto:colegiolaspalmas@economistas.org"
-  },
-  {
-    "area": "hosteleria",
-    "categoria": {
-      "es": "Turismo y Hostelería",
-      "en": "Tourism & Hospitality",
-      "fr": "Tourisme et hôtellerie",
-      "ar": "السياحة والضيافة",
-      "pt": "Turismo e Hotelaria"
-    },
-    "puesto": {
-      "es": "Cocinero/a",
-      "en": "Cook",
-      "fr": "Cuisinier/ère",
-      "ar": "طاه/ية",
-      "pt": "Cozinheiro/a"
-    },
-    "empresa": "Wapa Tapa",
-    "ubicacion": "Playa del Inglés (San Bartolomé de Tirajana)",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Cocina mediterránea/española. Restaurante muy consolidado (4.7★, +4.000 reseñas).",
-      "en": "Mediterranean/Spanish cuisine. Well-established restaurant (4.7★, 4,000+ reviews).",
-      "fr": "Cuisine méditerranéenne/espagnole. Restaurant très établi.",
-      "ar": "مطبخ متوسطي/إسباني. مطعم راسخ.",
-      "pt": "Cozinha mediterrânica/espanhola. Restaurante muito consolidado (4.7★, +4.000 avaliações)."
-    },
-    "enlace": "mailto:infowapatapa@gmail.com"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Oficial/a de Mantenimiento Polivalente — Centro Hospitalario",
-      "en": "Multi-skilled Maintenance Officer — Hospital",
-      "fr": "Agent de maintenance polyvalent — Hôpital",
-      "ar": "فني/ة صيانة متعدد المهارات — مستشفى",
-      "pt": "Oficial/a de Manutenção Polivalente — Centro Hospitalar"
-    },
-    "empresa": "Clece, SA",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Temporal. Formación/experiencia en albañilería o fontanería. Se valora TPM, TPC, PRL.",
-      "en": "Temporary. Bricklaying/plumbing training or experience. TPM/TPC/H&S valued.",
-      "fr": "Temporaire. Formation/expérience maçonnerie ou plomberie. TPM/TPC/sécurité appréciés.",
-      "ar": "مؤقت. تدريب/خبرة في البناء أو السباكة. يُفضّل TPM/TPC/السلامة.",
-      "pt": "Temporário. Formação/experiência em alvenaria ou canalização. Valoriza-se TPM, TPC (cartões profissionais do metal e da construção) e PRL (prevenção de riscos laborais)."
-    },
-    "enlace": "https://bit.ly/4p2sd9D"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Coordinador/a Centros de Menores",
-      "en": "Minors' Centres Coordinator",
-      "fr": "Coordinateur/trice centres mineurs",
-      "ar": "منسق/ة مراكز القاصرين",
-      "pt": "Coordenador/a de Centros de Menores"
-    },
-    "empresa": "Fundación SAMU",
-    "ubicacion": "Gran Canaria (ámbito multi-isla)",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Indefinido, 35.000€/año. Titulación universitaria social, mín. 2 años coordinando equipos, carné B.",
-      "en": "Permanent, €35,000/year. Social sciences degree, min. 2 years' team coordination, licence B.",
-      "fr": "CDI, 35000€/an. Diplôme social, min. 2 ans de coordination d'équipes, permis B.",
-      "ar": "عقد دائم، 35000€/سنة. شهادة اجتماعية، خبرة سنتين في تنسيق الفرق، رخصة B.",
-      "pt": "Contrato sem termo, 35.000€/ano. Formação universitária na área social, mín. 2 anos a coordenar equipas, carta de condução B."
-    },
-    "enlace": "https://empleo.samu.es/empleos/coordinador-a-centros-de-menores-islas-canarias/"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a de Descarga y Clasificado Textil — LEFTIES Mogán",
-      "en": "Textile Unloading & Sorting — LEFTIES Mogán",
-      "fr": "Manutentionnaire textile — LEFTIES Mogán",
-      "ar": "عامل/ة تفريغ وفرز نسيج — LEFTIES موغان",
-      "pt": "Operador/a de Descarga e Classificação Têxtil — LEFTIES Mogán"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "Mogán",
-    "jornada": {
-      "es": "Temporal",
-      "en": "Temporary",
-      "fr": "Temporaire",
-      "ar": "مؤقت",
-      "pt": "Temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Sin experiencia requerida.",
-      "en": "No experience required.",
-      "fr": "Aucune expérience requise.",
-      "ar": "لا خبرة مطلوبة.",
-      "pt": "Não é necessária experiência."
-    },
-    "enlace": "https://es.linkedin.com/jobs"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a de Descarga y Clasificado Textil — LEFTIES C/Triana",
-      "en": "Textile Unloading & Sorting — LEFTIES C/Triana",
-      "fr": "Manutentionnaire textile — LEFTIES C/Triana",
-      "ar": "عامل/ة تفريغ وفرز نسيج — LEFTIES تريانا",
-      "pt": "Operador/a de Descarga e Classificação Têxtil — LEFTIES C/Triana"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Temporal",
-      "en": "Temporary",
-      "fr": "Temporaire",
-      "ar": "مؤقت",
-      "pt": "Temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Sin experiencia requerida.",
-      "en": "No experience required.",
-      "fr": "Aucune expérience requise.",
-      "ar": "لا خبرة مطلوبة.",
-      "pt": "Não é necessária experiência."
-    },
-    "enlace": "https://es.trabajo.org/oferta-2988-407a7e1ff389c914151f773772bf407d"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a de Descarga y Clasificado Textil — ZARA CC Los Alisios",
-      "en": "Textile Unloading & Sorting — ZARA CC Los Alisios",
-      "fr": "Manutentionnaire textile — ZARA Los Alisios",
-      "ar": "عامل/ة تفريغ وفرز نسيج — ZARA لوس أليسيوس",
-      "pt": "Operador/a de Descarga e Classificação Têxtil — ZARA CC Los Alisios"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "Tamaraceite",
-    "jornada": {
-      "es": "Temporal",
-      "en": "Temporary",
-      "fr": "Temporaire",
-      "ar": "مؤقت",
-      "pt": "Temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Mín. 1 año de experiencia.",
-      "en": "Min. 1 year's experience.",
-      "fr": "Min. 1 an d'expérience.",
-      "ar": "خبرة سنة على الأقل.",
-      "pt": "Mín. 1 ano de experiência."
-    },
-    "enlace": "https://es.trabajo.org/oferta-2258-239a697cb128f97a5c4222bed68c00dc"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a de Descarga y Clasificado Textil — ZARA CC El Tablero",
-      "en": "Textile Unloading & Sorting — ZARA CC El Tablero",
-      "fr": "Manutentionnaire textile — ZARA El Tablero",
-      "ar": "عامل/ة تفريغ وفرز نسيج — ZARA الطابليرو",
-      "pt": "Operador/a de Descarga e Classificação Têxtil — ZARA CC El Tablero"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "El Tablero (San Bartolomé de Tirajana)",
-    "jornada": {
-      "es": "Temporal",
-      "en": "Temporary",
-      "fr": "Temporaire",
-      "ar": "مؤقت",
-      "pt": "Temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Mín. 1 año de experiencia.",
-      "en": "Min. 1 year's experience.",
-      "fr": "Min. 1 an d'expérience.",
-      "ar": "خبرة سنة على الأقل.",
-      "pt": "Mín. 1 ano de experiência."
-    },
-    "enlace": "https://es.linkedin.com/jobs"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a de Descarga y Clasificado Textil — LEFTIES La Ballena",
-      "en": "Textile Unloading & Sorting — LEFTIES La Ballena",
-      "fr": "Manutentionnaire textile — LEFTIES La Ballena",
-      "ar": "عامل/ة تفريغ وفرز نسيج — LEFTIES لا بايينا",
-      "pt": "Operador/a de Descarga e Classificação Têxtil — LEFTIES La Ballena"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Contrato de 9-15h semanales, disponibilidad nocturna 23:00-07:00",
-      "en": "9-15h/week contract, night availability 11pm-7am",
-      "fr": "Contrat 9-15h/semaine, disponibilité nocturne 23h-7h",
-      "ar": "عقد 9-15 ساعة/أسبوعيًا، توفر ليلي 23:00-07:00",
-      "pt": "Contrato de 9-15h semanais, disponibilidade noturna 23:00-07:00"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Confirmada con ficha exacta en LinkedIn.",
-      "en": "Confirmed with exact LinkedIn listing.",
-      "fr": "Confirmée avec fiche exacte sur LinkedIn.",
-      "ar": "تم التأكيد بإعلان دقيق على LinkedIn.",
-      "pt": "Confirmada com a ficha exata no LinkedIn."
-    },
-    "enlace": "https://es.linkedin.com/jobs/view/mozo-a-descarga-y-clasificado-textil-lefties-la-ballena-at-adecco-3494046093"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a de Descarga y Clasificado Textil — LEFTIES Las Terrazas",
-      "en": "Textile Unloading & Sorting — LEFTIES Las Terrazas",
-      "fr": "Manutentionnaire textile — LEFTIES Las Terrazas",
-      "ar": "عامل/ة تفريغ وفرز نسيج — LEFTIES لاس تيراثاس",
-      "pt": "Operador/a de Descarga e Classificação Têxtil — LEFTIES Las Terrazas"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "Valle de Jinámar",
-    "jornada": {
-      "es": "Temporal",
-      "en": "Temporary",
-      "fr": "Temporaire",
-      "ar": "مؤقت",
-      "pt": "Temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Mín. 1 año de experiencia.",
-      "en": "Min. 1 year's experience.",
-      "fr": "Min. 1 an d'expérience.",
-      "ar": "خبرة سنة على الأقل.",
-      "pt": "Mín. 1 ano de experiência."
-    },
-    "enlace": "https://es.trabajo.org/oferta-3065-fb12bb042a8ad91fa7e93a9c9594125e"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a Clasificado Textil — ZARA Las Torres",
-      "en": "Textile Sorting — ZARA Las Torres",
-      "fr": "Manutentionnaire textile — ZARA Las Torres",
-      "ar": "عامل/ة فرز نسيج — ZARA لاس توريس",
-      "pt": "Operador/a de Classificação Têxtil — ZARA Las Torres"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Temporal",
-      "en": "Temporary",
-      "fr": "Temporaire",
-      "ar": "مؤقت",
-      "pt": "Temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Mín. 1 año de experiencia.",
-      "en": "Min. 1 year's experience.",
-      "fr": "Min. 1 an d'expérience.",
-      "ar": "خبرة سنة على الأقل.",
-      "pt": "Mín. 1 ano de experiência."
-    },
-    "enlace": "https://es.trabajo.org/oferta-2988-407a7e1ff389c914151f773772bf407d"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a de Descarga y Clasificado Textil — ZARA Mesa y López y Torres",
-      "en": "Textile Unloading & Sorting — ZARA Mesa y López & Torres",
-      "fr": "Manutentionnaire textile — ZARA Mesa y López et Torres",
-      "ar": "عامل/ة تفريغ وفرز نسيج — ZARA ميسا إي لوبيث وتوريس",
-      "pt": "Operador/a de Descarga e Classificação Têxtil — ZARA Mesa y López y Torres"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Temporal",
-      "en": "Temporary",
-      "fr": "Temporaire",
-      "ar": "مؤقت",
-      "pt": "Temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Mín. 1 año de experiencia.",
-      "en": "Min. 1 year's experience.",
-      "fr": "Min. 1 an d'expérience.",
-      "ar": "خبرة سنة على الأقل.",
-      "pt": "Mín. 1 ano de experiência."
-    },
-    "enlace": "https://es.linkedin.com/jobs"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a de Descarga y Clasificado Textil — ZARA CC Atlántico",
-      "en": "Textile Unloading & Sorting — ZARA CC Atlántico",
-      "fr": "Manutentionnaire textile — ZARA CC Atlántico",
-      "ar": "عامل/ة تفريغ وفرز نسيج — ZARA أتلانتيكو",
-      "pt": "Operador/a de Descarga e Classificação Têxtil — ZARA CC Atlántico"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "Vecindario",
-    "jornada": {
-      "es": "Temporal",
-      "en": "Temporary",
-      "fr": "Temporaire",
-      "ar": "مؤقت",
-      "pt": "Temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Mín. 1 año de experiencia.",
-      "en": "Min. 1 year's experience.",
-      "fr": "Min. 1 an d'expérience.",
-      "ar": "خبرة سنة على الأقل.",
-      "pt": "Mín. 1 ano de experiência."
-    },
-    "enlace": "https://es.linkedin.com/jobs"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a de Descarga y Clasificado Textil — ZARA CC Las Arenas",
-      "en": "Textile Unloading & Sorting — ZARA CC Las Arenas",
-      "fr": "Manutentionnaire textile — ZARA Las Arenas",
-      "ar": "عامل/ة تفريغ وفرز نسيج — ZARA لاس أريناس",
-      "pt": "Operador/a de Descarga e Classificação Têxtil — ZARA CC Las Arenas"
-    },
-    "empresa": "Adecco Outsourcing",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Temporal",
-      "en": "Temporary",
-      "fr": "Temporaire",
-      "ar": "مؤقت",
-      "pt": "Temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Mín. 1 año de experiencia.",
-      "en": "Min. 1 year's experience.",
-      "fr": "Min. 1 an d'expérience.",
-      "ar": "خبرة سنة على الأقل.",
-      "pt": "Mín. 1 ano de experiência."
-    },
-    "enlace": "https://es.linkedin.com/jobs"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Electromecánico/a de Maquinaria de Obra",
-      "en": "Construction Machinery Electromechanic",
-      "fr": "Électromécanicien/ne engins de chantier",
-      "ar": "فني/ة كهروميكانيك معدات بناء",
-      "pt": "Eletromecânico/a de Maquinaria de Obra"
-    },
-    "empresa": "Adecco",
-    "ubicacion": "Agüimes",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 13/09/2026)",
-      "en": "Shared this week (checked 09/13/2026)",
-      "fr": "Partagée cette semaine (vérifié le 13/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 13/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 13/09/2026)"
-    },
-    "requisitos": {
-      "es": "Indefinido. Mín. 2 años de experiencia.",
-      "en": "Permanent. Min. 2 years' experience.",
-      "fr": "CDI. Min. 2 ans d'expérience.",
-      "ar": "عقد دائم. خبرة سنتين على الأقل.",
-      "pt": "Contrato sem termo. Mín. 2 anos de experiência."
-    },
-    "enlace": "https://es.linkedin.com/jobs"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Dependiente/a de Supermercado",
-      "en": "Supermarket Assistant",
-      "fr": "Vendeur/se en supermarché",
-      "ar": "بائع/ة سوبر ماركت",
-      "pt": "Empregado/a de Supermercado"
-    },
-    "empresa": "Tribanto S.L.U.",
-    "ubicacion": "Sur de Gran Canaria (Maspalomas)",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "1.200-1.300€/mes. Mín. 1 año de experiencia deseable.",
-      "en": "€1,200-1,300/month. Min. 1 year's experience desirable.",
-      "fr": "1200-1300€/mois. Min. 1 an d'expérience souhaité.",
-      "ar": "1200-1300€/شهر. يُفضّل خبرة سنة.",
-      "pt": "1.200-1.300€/mês. Mín. 1 ano de experiência desejável."
-    },
-    "enlace": "mailto:info@tribanto.com"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Dependientes/as Koala Balos 30h — Sustitución",
-      "en": "Sales Assistants Koala Balos 30h — Cover",
-      "fr": "Vendeurs/euses Koala Balos 30h — Remplacement",
-      "ar": "بائعون Koala Balos 30 ساعة — تغطية",
-      "pt": "Empregados/as de loja Koala Balos 30h — Substituição"
-    },
-    "empresa": "Koala Mascotas",
-    "ubicacion": "Santa Lucía de Tirajana",
-    "jornada": {
-      "es": "30h/semana, sustitución, horario continuado",
-      "en": "30h/week, cover, continuous shift",
-      "fr": "30h/semaine, remplacement",
-      "ar": "30 ساعة/أسبوعيًا، تغطية",
-      "pt": "30h/semana, substituição, horário contínuo"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "1.068-1.293€/mes con incentivos. ESO. Pasión por los animales.",
-      "en": "€1,068-1,293/month with incentives. ESO. Passion for animals.",
-      "fr": "1068-1293€/mois avec primes. Passion pour les animaux.",
-      "ar": "1068-1293€/شهر مع حوافز. شغف بالحيوانات.",
-      "pt": "1.068-1.293€/mês com incentivos. ESO (ensino secundário obrigatório). Paixão pelos animais."
-    },
-    "enlace": "https://empleo.koalamascotas.com"
-  },
-  {
     "area": "almacen",
     "categoria": {
       "es": "Comercio y Ventas",
@@ -10477,744 +12626,6 @@ const OFERTAS_SEMANA = [
       "pt": "Experiência em retalho; valoriza-se joalharia."
     },
     "enlace": "https://singularu.factorial.es/job_posting/dependienta-e-en-cc-las-arenas-las-palmas-de-gran-canaria-295105"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Mozo/a Descarga y Clasificado Textil",
-      "en": "Textile Unloading & Sorting",
-      "fr": "Manutentionnaire textile",
-      "ar": "عامل/ة تفريغ وفرز نسيج",
-      "pt": "Auxiliar de descarga e triagem têxtil"
-    },
-    "empresa": "Domestiko",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "9h/semana, 3 días, madrugada L-V",
-      "en": "9h/week, 3 days, early morning",
-      "fr": "9h/semaine, 3 jours, tôt le matin",
-      "ar": "9 ساعات/أسبوعيًا، 3 أيام، فجرًا",
-      "pt": "9h/semana, 3 dias, madrugada, seg.-sex."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Sin experiencia requerida. Compatible con estudios.",
-      "en": "No experience required. Student-friendly.",
-      "fr": "Aucune expérience requise. Compatible études.",
-      "ar": "لا خبرة مطلوبة. متوافق مع الدراسة.",
-      "pt": "Não é necessária experiência. Compatível com estudos."
-    },
-    "enlace": "https://www.glassdoor.es/job-listing/mozo-a-descarga-y-clasificado-textil-domestiko-com-JV_KO0,36_KE37,50.htm?jl=1010260215412"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Sales Assistant",
-      "en": "Sales Assistant",
-      "fr": "Sales Assistant",
-      "ar": "مساعد/ة مبيعات",
-      "pt": "Sales Assistant"
-    },
-    "empresa": "MANGO",
-    "ubicacion": "Las Palmas de GC (CC Las Arenas)",
-    "jornada": {
-      "es": "Ver detalles en la oferta",
-      "en": "See listing for details",
-      "fr": "Voir l'annonce",
-      "ar": "راجع الإعلان",
-      "pt": "Ver detalhes na oferta"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Descuento en productos, seguro médico, formación, retribución flexible.",
-      "en": "Product discount, medical insurance, training, flexible pay.",
-      "fr": "Réduction produits, assurance santé, formation.",
-      "ar": "خصم على المنتجات، تأمين صحي، تدريب.",
-      "pt": "Desconto em produtos, seguro de saúde, formação, remuneração flexível."
-    },
-    "enlace": "https://mango.wd3.myworkdayjobs.com"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Sales Assistant",
-      "en": "Sales Assistant",
-      "fr": "Sales Assistant",
-      "ar": "مساعد/ة مبيعات",
-      "pt": "Sales Assistant"
-    },
-    "empresa": "La Casa de las Carcasas",
-    "ubicacion": "Las Palmas de GC (CC Las Arenas)",
-    "jornada": {
-      "es": "Indefinido, 36h/semana",
-      "en": "Permanent, 36h/week",
-      "fr": "CDI, 36h/semaine",
-      "ar": "دائم، 36 ساعة/أسبوعيًا",
-      "pt": "Contrato sem termo, 36h/semana"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Sin experiencia previa requerida.",
-      "en": "No prior experience required.",
-      "fr": "Aucune expérience requise.",
-      "ar": "لا خبرة سابقة مطلوبة.",
-      "pt": "Não é necessária experiência prévia."
-    },
-    "enlace": "https://careers.lacasadelascarcasas.com"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Educador/a Social — Prevención Acoso Escolar",
-      "en": "Social Educator — Bullying Prevention",
-      "fr": "Éducateur/trice social/e — Prévention harcèlement",
-      "ar": "مربٍّ/ة اجتماعي/ة — منع التنمر",
-      "pt": "Educador/a social — Prevenção do assédio escolar (bullying)"
-    },
-    "empresa": "Nascor Formación SLU",
-    "ubicacion": "Mogán (CEIPs del municipio)",
-    "jornada": {
-      "es": "Curso 2026-2027 y 2027-2028 (octubre-mayo), 08:30-13:30h",
-      "en": "School years 2026-27 & 27-28 (Oct-May), 8:30am-1:30pm",
-      "fr": "Années scolaires 2026-27 et 27-28, 8h30-13h30",
-      "ar": "العام الدراسي 2026-2027 و2027-2028، 8:30-13:30",
-      "pt": "Anos letivos 2026-2027 e 2027-2028 (outubro-maio), 08:30-13:30h"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Diplomatura/Grado en Educación Social. Experiencia en prevención de acoso y convivencia.",
-      "en": "Social Education degree. Bullying prevention experience.",
-      "fr": "Diplôme éducation sociale. Expérience prévention harcèlement.",
-      "ar": "شهادة تربية اجتماعية. خبرة في منع التنمر.",
-      "pt": "Curso superior (Diplomatura/Grado) em Educação Social. Experiência em prevenção do assédio e convivência escolar."
-    },
-    "enlace": "https://www.infojobs.net"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Educador/a Social — Punto de Encuentro Familiar",
-      "en": "Social Educator — Family Meeting Point",
-      "fr": "Éducateur/trice social/e — Point rencontre familiale",
-      "ar": "مربٍّ/ة اجتماعي/ة — نقطة لقاء عائلي",
-      "pt": "Educador/a social — Ponto de Encontro Familiar"
-    },
-    "empresa": "Cruz Roja Española",
-    "ubicacion": "Vecindario",
-    "jornada": {
-      "es": "Indefinido, jornada completa",
-      "en": "Permanent, full-time",
-      "fr": "CDI, temps plein",
-      "ar": "دائم، دوام كامل",
-      "pt": "Contrato sem termo, tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Titulación universitaria en Educación Social. Mín. 1 año de experiencia con colectivos vulnerables.",
-      "en": "Social Education degree. Min. 1 year's experience with vulnerable groups.",
-      "fr": "Diplôme éducation sociale. Min. 1 an d'expérience.",
-      "ar": "شهادة جامعية. خبرة سنة مع الفئات الضعيفة.",
-      "pt": "Formação universitária em Educação Social. Mín. 1 ano de experiência com grupos vulneráveis."
-    },
-    "enlace": "https://www.infojobs.net"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Ampliación de Equipo — Campaña Black Friday y Navidad",
-      "en": "Team Expansion — Black Friday & Christmas Campaign",
-      "fr": "Renfort équipe — Black Friday et Noël",
-      "ar": "تعزيز الفريق — حملة الجمعة السوداء والكريسماس",
-      "pt": "Reforço de equipa — Campanha Black Friday e Natal"
-    },
-    "empresa": "MediaMarkt Las Arenas",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Tiempo parcial, 20h/semana",
-      "en": "Part-time, 20h/week",
-      "fr": "Temps partiel, 20h/semaine",
-      "ar": "دوام جزئي، 20 ساعة/أسبوعيًا",
-      "pt": "Tempo parcial, 20h/semana"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Perfiles de ventas, atención al cliente, cajas y fulfillment. Recién graduados bienvenidos.",
-      "en": "Sales, customer service, tills and fulfillment profiles. Recent graduates welcome.",
-      "fr": "Profils vente, service client, caisses. Jeunes diplômés bienvenus.",
-      "ar": "ملفات مبيعات وخدمة عملاء. الخريجون الجدد مرحب بهم.",
-      "pt": "Perfis de vendas, atendimento ao cliente, caixas e fulfillment (preparação de encomendas). Recém-licenciados/as bem-vindos/as."
-    },
-    "enlace": "https://mediamarkt.wd3.myworkdayjobs.com"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Administración/Oficinas",
-      "en": "Administration/Office",
-      "fr": "Administration/Bureau",
-      "ar": "الإدارة/المكاتب",
-      "pt": "Administração/Escritórios"
-    },
-    "puesto": {
-      "es": "Responsable de Proyectos en Canarias",
-      "en": "Project Manager in the Canary Islands",
-      "fr": "Chef/fe de projet aux Canaries",
-      "ar": "مدير/ة مشاريع في جزر الكناري",
-      "pt": "Responsável de projetos nas Canárias"
-    },
-    "empresa": "Grupo Tier1 Technology",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Mín. 5 años de experiencia en gestión de proyectos tecnológicos. Titulación superior (ADE/Ing. Informática/Telecomunicaciones). Inglés intermedio-alto.",
-      "en": "Min. 5 years' tech project management. Higher degree. Intermediate-advanced English.",
-      "fr": "Min. 5 ans de gestion de projets tech. Diplôme supérieur. Anglais intermédiaire-avancé.",
-      "ar": "خبرة 5 سنوات في إدارة المشاريع التقنية. مؤهل عالٍ. إنجليزية متوسطة-متقدمة.",
-      "pt": "Mín. 5 anos de experiência em gestão de projetos tecnológicos. Formação superior (ADE – Gestão de Empresas/Eng. Informática/Telecomunicações). Inglês intermédio-avançado."
-    },
-    "enlace": "https://vacantes.tier1.es"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Técnico/a Social",
-      "en": "Social Technician",
-      "fr": "Technicien/ne social/e",
-      "ar": "فني/ة اجتماعي/ة",
-      "pt": "Técnico/a social"
-    },
-    "empresa": "Asociación Creativa",
-    "ubicacion": "Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Ver requisitos al contactar.",
-      "en": "See requirements on contact.",
-      "fr": "Voir les exigences sur demande.",
-      "ar": "راجع المتطلبات عند التواصل.",
-      "pt": "Ver requisitos ao contactar."
-    },
-    "enlace": "mailto:curriculum.creativa@gmail.com"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Administración/Oficinas",
-      "en": "Administration/Office",
-      "fr": "Administration/Bureau",
-      "ar": "الإدارة/المكاتب",
-      "pt": "Administração/Escritórios"
-    },
-    "puesto": {
-      "es": "Auxiliar SAC (Servicio de Atención al Cliente)",
-      "en": "Customer Service Assistant",
-      "fr": "Assistant/e service client",
-      "ar": "مساعد/ة خدمة عملاء",
-      "pt": "Auxiliar SAC (Serviço de Apoio ao Cliente)"
-    },
-    "empresa": "Grupo Dinosol",
-    "ubicacion": "Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Ver detalles al contactar.",
-      "en": "Details on contact.",
-      "fr": "Détails sur demande.",
-      "ar": "التفاصيل عند التواصل.",
-      "pt": "Ver detalhes ao contactar."
-    },
-    "enlace": "mailto:monica.pineda@grupodinosol.es"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Administración/Oficinas",
-      "en": "Administration/Office",
-      "fr": "Administration/Bureau",
-      "ar": "الإدارة/المكاتب",
-      "pt": "Administração/Escritórios"
-    },
-    "puesto": {
-      "es": "Jefe/a de Ventas",
-      "en": "Sales Manager",
-      "fr": "Responsable des ventes",
-      "ar": "مدير/ة مبيعات",
-      "pt": "Chefe de vendas"
-    },
-    "empresa": "Grupo Dinosol",
-    "ubicacion": "Gran Canaria y Tenerife",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Ver detalles al contactar.",
-      "en": "Details on contact.",
-      "fr": "Détails sur demande.",
-      "ar": "التفاصيل عند التواصل.",
-      "pt": "Ver detalhes ao contactar."
-    },
-    "enlace": "mailto:monica.pineda@grupodinosol.es"
-  },
-  {
-    "area": "hosteleria",
-    "categoria": {
-      "es": "Turismo y Hostelería",
-      "en": "Tourism & Hospitality",
-      "fr": "Tourisme et hôtellerie",
-      "ar": "السياحة والضيافة",
-      "pt": "Turismo e Hotelaria"
-    },
-    "puesto": {
-      "es": "Camarero/a",
-      "en": "Waiter/Waitress",
-      "fr": "Serveur/se",
-      "ar": "نادل/ة",
-      "pt": "Empregado/a de mesa"
-    },
-    "empresa": "Valle Marina",
-    "ubicacion": "Arguineguín (Mogán)",
-    "jornada": {
-      "es": "Ver detalles al contactar",
-      "en": "Details on contact",
-      "fr": "Détails sur demande",
-      "ar": "التفاصيل عند التواصل",
-      "pt": "Ver detalhes ao contactar"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Carné manipulador de alimentos. Inglés y/o noruego. Mín. 2 años de experiencia.",
-      "en": "Food handling certificate. English and/or Norwegian. Min. 2 years' experience.",
-      "fr": "Carte manipulateur aliments. Anglais et/ou norvégien.",
-      "ar": "شهادة التعامل مع الأغذية. إنجليزية و/أو نرويجية.",
-      "pt": "Cartão de manipulador de alimentos. Inglês e/ou norueguês. Mín. 2 anos de experiência."
-    },
-    "enlace": "mailto:restaurante@vallemarina.es"
-  },
-  {
-    "area": "hosteleria",
-    "categoria": {
-      "es": "Turismo y Hostelería",
-      "en": "Tourism & Hospitality",
-      "fr": "Tourisme et hôtellerie",
-      "ar": "السياحة والضيافة",
-      "pt": "Turismo e Hotelaria"
-    },
-    "puesto": {
-      "es": "Camarero/a o Planchista",
-      "en": "Waiter/Grill Cook",
-      "fr": "Serveur/se ou grillardin/e",
-      "ar": "نادل/ة أو شواء",
-      "pt": "Empregado/a de mesa ou cozinheiro/a de chapa"
-    },
-    "empresa": "Cafetería Facultad de Veterinaria (ULPGC)",
-    "ubicacion": "Arucas",
-    "jornada": {
-      "es": "Buen horario, urgente",
-      "en": "Good hours, urgent",
-      "fr": "Bon horaire, urgent",
-      "ar": "دوام جيد، عاجل",
-      "pt": "Bom horário, urgente"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 15/09/2026)",
-      "en": "Shared this week (checked 09/15/2026)",
-      "fr": "Partagée cette semaine (vérifié le 15/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 15/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 15/09/2026)"
-    },
-    "requisitos": {
-      "es": "Buen sueldo.",
-      "en": "Good salary.",
-      "fr": "Bon salaire.",
-      "ar": "راتب جيد.",
-      "pt": "Bom salário."
-    },
-    "enlace": "https://wa.me/34608856751"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Técnico/a de Operaciones — Tratamiento de Residuos",
-      "en": "Operations Technician — Waste Treatment",
-      "fr": "Technicien/ne opérations — traitement des déchets",
-      "ar": "فني/ة عمليات — معالجة النفايات",
-      "pt": "Técnico/a de operações — Tratamento de resíduos"
-    },
-    "empresa": "Ayagaures Medioambiente (Grupo Pérez Moreno)",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Presencial, empleado/a",
-      "en": "On-site, staff level",
-      "fr": "Présentiel, niveau employé",
-      "ar": "حضوري، مستوى موظف",
-      "pt": "Presencial, trabalhador/a por conta de outrem"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 31/08/2026)",
-      "en": "Shared this week (checked 08/31/2026)",
-      "fr": "Partagée cette semaine (vérifié le 31/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 31/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 31/08/2026)"
-    },
-    "requisitos": {
-      "es": "Ver requisitos en el portal de empleo del grupo.",
-      "en": "See requirements on the group's job portal.",
-      "fr": "Voir les exigences sur le portail emploi du groupe.",
-      "ar": "راجع المتطلبات في بوابة توظيف المجموعة.",
-      "pt": "Ver requisitos no portal de emprego do grupo."
-    },
-    "enlace": "https://portalempleo.grupoperezmoreno.com"
-  },
-  {
-    "area": "hosteleria",
-    "categoria": {
-      "es": "Turismo y Hostelería",
-      "en": "Tourism & Hospitality",
-      "fr": "Tourisme et hôtellerie",
-      "ar": "السياحة والضيافة",
-      "pt": "Turismo e Hotelaria"
-    },
-    "puesto": {
-      "es": "Jefe/a de Partida",
-      "en": "Station Chef",
-      "fr": "Chef de partie",
-      "ar": "رئيس/ة قسم مطبخ",
-      "pt": "Chefe de partida"
-    },
-    "empresa": "Relaxia (Grupo Pérez Moreno)",
-    "ubicacion": "San Bartolomé de Tirajana",
-    "jornada": {
-      "es": "Presencial, mando intermedio",
-      "en": "On-site, mid-level management",
-      "fr": "Présentiel, niveau intermédiaire",
-      "ar": "حضوري، مستوى إداري متوسط",
-      "pt": "Presencial, chefia intermédia"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 31/08/2026)",
-      "en": "Shared this week (checked 08/31/2026)",
-      "fr": "Partagée cette semaine (vérifié le 31/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 31/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 31/08/2026)"
-    },
-    "requisitos": {
-      "es": "Ver requisitos en el portal de empleo del grupo.",
-      "en": "See requirements on the group's job portal.",
-      "fr": "Voir les exigences sur le portail emploi du groupe.",
-      "ar": "راجع المتطلبات في بوابة توظيف المجموعة.",
-      "pt": "Ver requisitos no portal de emprego do grupo."
-    },
-    "enlace": "https://portalempleo.grupoperezmoreno.com"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Técnico/a de Tratamiento de Aguas y Legionella",
-      "en": "Water Treatment & Legionella Technician",
-      "fr": "Technicien/ne traitement eau et légionellose",
-      "ar": "فني/ة معالجة المياه والفيلقية",
-      "pt": "Técnico/a de tratamento de águas e legionela"
-    },
-    "empresa": "Empresa privada",
-    "ubicacion": "Agüimes",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 31/08/2026)",
-      "en": "Shared this week (checked 08/31/2026)",
-      "fr": "Partagée cette semaine (vérifié le 31/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 31/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 31/08/2026)"
-    },
-    "requisitos": {
-      "es": "Indefinido, L-V mañanas. Formación específica y acreditación en vigor para tratamiento y control de legionella. Carné de conducir.",
-      "en": "Permanent, Mon-Fri mornings. Specific training and valid legionella treatment/control accreditation. Driving licence.",
-      "fr": "CDI, lun-ven matins. Formation spécifique et accréditation légionellose valide. Permis de conduire.",
-      "ar": "عقد دائم، صباحًا من الإثنين للجمعة. تدريب خاص واعتماد ساري لمعالجة الفيلقية. رخصة قيادة.",
-      "pt": "Contrato sem termo, seg.-sex. de manhã. Formação específica e acreditação válida para tratamento e controlo de legionela. Carta de condução."
-    },
-    "enlace": "https://bit.ly/4eM4vLD"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Limpiador/a Especialista Mecanizado/a",
-      "en": "Specialist Mechanised Cleaner",
-      "fr": "Agent/e de nettoyage mécanisé spécialisé/e",
-      "ar": "عامل/ة نظافة متخصص/ة بالآلات",
-      "pt": "Empregado/a de limpeza especializado/a — Limpeza mecanizada"
-    },
-    "empresa": "Empresa de limpieza",
-    "ubicacion": "Centro logístico, El Goro (Telde)",
-    "jornada": {
-      "es": "Temporal, L-V 14:00-17:00h",
-      "en": "Temporary, Mon-Fri 2pm-5pm",
-      "fr": "Temporaire, lun-ven 14h-17h",
-      "ar": "مؤقت، من الإثنين للجمعة 14-17",
-      "pt": "Temporário, seg.-sex. 14:00-17:00h"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Experiencia en limpieza profesional y manejo de maquinaria fregadora. Incorporación inmediata.",
-      "en": "Professional cleaning experience and scrubber machine handling. Immediate start.",
-      "fr": "Expérience en nettoyage professionnel et manipulation d'autolaveuse. Prise de poste immédiate.",
-      "ar": "خبرة في التنظيف المهني وتشغيل آلة الفرك. بدء فوري.",
-      "pt": "Experiência em limpeza profissional e utilização de máquinas de lavar pavimentos. Entrada imediata."
-    },
-    "enlace": "https://bit.ly/4ze4TKC"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Limpiador/a Especialista Cristalero/a en Ruta",
-      "en": "Specialist Window Cleaner (Route)",
-      "fr": "Laveur/euse de vitres spécialisé/e (tournée)",
-      "ar": "منظف/ة زجاج متخصص/ة (خط سير)",
-      "pt": "Empregado/a de limpeza especializado/a — Limpa-vidros em rota"
-    },
-    "empresa": "Empresa de limpieza",
-    "ubicacion": "Gran Canaria (en ruta)",
-    "jornada": {
-      "es": "Temporal, jornada parcial, L-V",
-      "en": "Temporary, part-time, Mon-Fri",
-      "fr": "Temporaire, temps partiel, lun-ven",
-      "ar": "مؤقت، دوام جزئي، من الإثنين للجمعة",
-      "pt": "Temporário, tempo parcial, seg.-sex."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Experiencia demostrable como cristalero/a, carné B. Vehículo de empresa incluido.",
-      "en": "Proven experience as window cleaner, licence B. Company vehicle included.",
-      "fr": "Expérience avérée en tant que laveur de vitres, permis B. Véhicule de fonction inclus.",
-      "ar": "خبرة مثبتة كمنظف زجاج، رخصة B. سيارة الشركة متضمنة.",
-      "pt": "Experiência comprovada como limpa-vidros, carta de condução B. Viatura da empresa incluída."
-    },
-    "enlace": "https://bit.ly/45vRvE8"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Educador/a Social — Intervención Educativa para Reclusos",
-      "en": "Social Educator — Educational Intervention for Inmates",
-      "fr": "Éducateur/trice social/e — Intervention éducative en prison",
-      "ar": "مربٍّ/ة اجتماعي/ة — تدخل تربوي للسجناء",
-      "pt": "Educador/a social — Intervenção educativa com reclusos"
-    },
-    "empresa": "El Patio de las Culturas",
-    "ubicacion": "Centro Penitenciario Juan Grande (Las Palmas II), San Bartolomé de Tirajana",
-    "jornada": {
-      "es": "Media jornada, mañanas, L-V",
-      "en": "Part-time, mornings, Mon-Fri",
-      "fr": "Temps partiel, matins, lun-ven",
-      "ar": "دوام جزئي، صباحًا، من الإثنين للجمعة",
-      "pt": "Meio tempo, manhãs, seg.-sex."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Educador/a Social o formación similar con perfil pedagógico. Clases de español y alfabetización para adultos migrantes. Se valora francés y otros idiomas; transporte propio.",
-      "en": "Social Educator or similar with pedagogical profile. Spanish and literacy classes for migrant adults. French and other languages valued; own transport.",
-      "fr": "Éducateur social ou formation similaire à profil pédagogique. Cours d'espagnol et alphabétisation pour adultes migrants. Français et autres langues appréciés; véhicule personnel.",
-      "ar": "مربٍّ اجتماعي أو تكوين مماثل بملف تربوي. دروس إسبانية ومحو أمية للبالغين المهاجرين. يُفضّل الفرنسية ولغات أخرى؛ وسيلة نقل شخصية.",
-      "pt": "Educador/a social ou formação semelhante com perfil pedagógico. Aulas de espanhol e alfabetização para adultos migrantes. Valoriza-se francês e outras línguas; transporte próprio."
-    },
-    "enlace": "mailto:patiodelasculturas@gmail.com"
   },
   {
     "area": "tercer-sector",
@@ -11258,211 +12669,6 @@ const OFERTAS_SEMANA = [
     "enlace": "mailto:direccion.mnr.siempreviva@fepas.org"
   },
   {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Auxiliar Técnico/a Educativo/a",
-      "en": "Educational Technical Assistant",
-      "fr": "Assistant/e technique éducatif/ve",
-      "ar": "مساعد/ة تقني/ة تربوي/ة",
-      "pt": "Auxiliar técnico/a educativo/a"
-    },
-    "empresa": "FEPAS",
-    "ubicacion": "Hogar de Protección (Tamaragua)",
-    "jornada": {
-      "es": "Jornada rotativa (incluye noches)",
-      "en": "Rotating shift (includes nights)",
-      "fr": "Horaire tournant (nuits incluses)",
-      "ar": "دوام دوار (يشمل الليل)",
-      "pt": "Horário rotativo (inclui noites)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Cobertura de periodo vacacional. Carné de conducir. Título CFGS Integración Social.",
-      "en": "Holiday cover. Driving licence. Higher Vocational Diploma in Social Integration.",
-      "fr": "Remplacement congés. Permis de conduire. BTS en intégration sociale.",
-      "ar": "تغطية فترة إجازة. رخصة قيادة. شهادة عليا في الإدماج الاجتماعي.",
-      "pt": "Substituição no período de férias. Carta de condução. Curso CFGS Integração Social (formação profissional de grau superior)."
-    },
-    "enlace": "mailto:direcciontamaragua@fepas.org"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Oficial/a de Mantenimiento Fontanero/a",
-      "en": "Maintenance Plumber",
-      "fr": "Plombier/ère de maintenance qualifié/e",
-      "ar": "سبّاك/ة صيانة أول",
-      "pt": "Oficial de manutenção — Canalizador/a"
-    },
-    "empresa": "Empresa privada",
-    "ubicacion": "Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Formación reglada en Fontanería/Instalaciones. Mín. 3 años de experiencia. Carné B. Indefinido, L-V 07:00-15:00h.",
-      "en": "Vocational training in plumbing/installations. Min. 3 years' experience. Licence B. Permanent, Mon-Fri 7am-3pm.",
-      "fr": "Formation en plomberie/installations. Min. 3 ans d'expérience. Permis B. CDI, lun-ven 7h-15h.",
-      "ar": "تكوين مهني في السباكة/التمديدات. خبرة 3 سنوات على الأقل. رخصة B. عقد دائم، من الإثنين للجمعة 7-15.",
-      "pt": "Formação oficial em canalização/instalações. Mín. 3 anos de experiência. Carta de condução B. Contrato sem termo, seg.-sex. 07:00-15:00h."
-    },
-    "enlace": "https://bit.ly/4bZ3Ggq"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Auxiliar Agente de Rampa",
-      "en": "Ramp Agent Assistant",
-      "fr": "Assistant/e agent de piste",
-      "ar": "مساعد/ة عامل مدرج",
-      "pt": "Auxiliar agente de rampa (placa)"
-    },
-    "empresa": "O.S.C. Servicios Aeroportuarios (Menzies Aviation)",
-    "ubicacion": "Aeropuerto de Gran Canaria",
-    "jornada": {
-      "es": "Turnos rotativos (mañana/tarde/noche/fin de semana)",
-      "en": "Rotating shifts (morning/afternoon/night/weekend)",
-      "fr": "Équipes tournantes (matin/après-midi/nuit/week-end)",
-      "ar": "ورديات دوارة (صباح/مساء/ليل/عطلة أسبوعية)",
-      "pt": "Turnos rotativos (manhã/tarde/noite/fim de semana)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Carné B. Residir en Gran Canaria. Capacidad física para exteriores. 50 vacantes, salario base 1.400€/mes, formación gratuita.",
-      "en": "Licence B. Live in Gran Canaria. Physical capacity for outdoor work. 50 openings, base salary €1,400/month, free training.",
-      "fr": "Permis B. Résider à Gran Canaria. Capacité physique extérieure. 50 postes, salaire de base 1400€/mois, formation gratuite.",
-      "ar": "رخصة B. الإقامة في غران كناريا. القدرة البدنية للعمل الخارجي. 50 وظيفة، راتب أساسي 1400€/شهر، تدريب مجاني.",
-      "pt": "Carta de condução B. Residir em Gran Canaria. Capacidade física para trabalhar no exterior. 50 vagas, salário base 1.400€/mês, formação gratuita."
-    },
-    "enlace": "https://tinyurl.com/ynazz3v6"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Conductor/a de Camión — Mudanzas",
-      "en": "Truck Driver — Removals",
-      "fr": "Chauffeur/se poids lourd — Déménagements",
-      "ar": "سائق/ة شاحنة — نقل أثاث",
-      "pt": "Motorista de camião — Mudanças"
-    },
-    "empresa": "InfoJobs",
-    "ubicacion": "Ingenio / Las Palmas (Las Torres)",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Carnet B. Nociones de furgonetas/camiones hasta 3.500kg. Disponibilidad para viajar y pernoctar entre islas.",
-      "en": "Licence B. Van/truck knowledge up to 3,500kg. Availability to travel and stay overnight between islands.",
-      "fr": "Permis B. Notions de camionnettes jusqu'à 3500kg. Disponibilité pour voyager entre îles.",
-      "ar": "رخصة B. معرفة بالشاحنات حتى 3500 كجم. الاستعداد للسفر بين الجزر.",
-      "pt": "Carta de condução B. Noções de carrinhas/camiões até 3.500kg. Disponibilidade para viajar e pernoitar entre ilhas."
-    },
-    "enlace": "https://tinyurl.com/2kysb3wx"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Operario/a de Sistemas de Protección Contra Incendios",
-      "en": "Fire Protection Systems Operative",
-      "fr": "Opérateur/trice systèmes protection incendie",
-      "ar": "عامل/ة أنظمة الحماية من الحرائق",
-      "pt": "Operário/a de Sistemas de Proteção Contra Incêndios"
-    },
-    "empresa": "FEMEPA (agencia de colocación)",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
-      "en": "Registration via FEMEPA (authorised employment agency No. 0500000123); the listing does not reveal the final hiring company.",
-      "fr": "Inscription via FEMEPA (agence de placement agréée n°0500000123); la fiche ne révèle pas l'entreprise recruteuse finale.",
-      "ar": "التسجيل عبر FEMEPA (وكالة توظيف معتمدة رقم 0500000123)؛ لا تكشف الوثيقة عن الشركة الموظِّفة النهائية.",
-      "pt": "Inscrição através da FEMEPA (agência de colocação autorizada N.º 0500000123); a ficha não revela a empresa contratante final."
-    },
-    "enlace": "https://empleo.femepa.org/ofertas/ver?id=b8a3acdc-cc53-4b1d-99d8-432a40b091b9"
-  },
-  {
     "area": "construccion",
     "categoria": {
       "es": "Construcción y Mantenimiento",
@@ -11488,11 +12694,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11529,11 +12735,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11570,11 +12776,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro, 08:00-16:00"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11611,11 +12817,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11652,11 +12858,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11693,11 +12899,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato de formação para a prática profissional, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11734,11 +12940,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11775,11 +12981,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11816,11 +13022,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11857,11 +13063,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11898,11 +13104,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Inscripción a través de FEMEPA (agencia de colocación autorizada Nº0500000123); la ficha no revela la empresa contratante final.",
@@ -11912,47 +13118,6 @@ const OFERTAS_SEMANA = [
       "pt": "Inscrição através da FEMEPA (agência de colocação autorizada N.º 0500000123); a ficha não revela a empresa contratante final."
     },
     "enlace": "https://empleo.femepa.org/ofertas/ver?id=0e9f2fd2-136c-41e0-bced-b54f3a992003"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Trabajador/a Social — Apoyo a Personas con Discapacidad",
-      "en": "Social Worker — Disability Support",
-      "fr": "Travailleur/euse social/e — Soutien handicap",
-      "ar": "أخصائي/ة اجتماعي/ة — دعم ذوي الإعاقة",
-      "pt": "Assistente Social — Apoio a Pessoas com Deficiência"
-    },
-    "empresa": "Titularisimos",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Temporal, jornada completa (proyecto julio-diciembre)",
-      "en": "Temporary, full-time (July-December project)",
-      "fr": "Temporaire, temps plein (projet juillet-décembre)",
-      "ar": "مؤقت، دوام كامل (مشروع يوليو-ديسمبر)",
-      "pt": "Temporário, tempo inteiro (projeto julho-dezembro)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Grado en Trabajo Social, colegiación, experiencia con discapacidad; se valora daño cerebral y vehículo propio.",
-      "en": "Social Work degree, professional registration, disability experience; brain injury experience and own vehicle valued.",
-      "fr": "Diplôme en travail social, inscription à l'ordre, expérience handicap; lésion cérébrale et véhicule appréciés.",
-      "ar": "شهادة في العمل الاجتماعي، تسجيل نقابي، خبرة في الإعاقة؛ يُفضّل خبرة إصابات دماغية وسيارة خاصة.",
-      "pt": "Licenciatura em Serviço Social, inscrição na ordem profissional (colegiação), experiência na área da deficiência; valoriza-se experiência com lesão cerebral e veículo próprio."
-    },
-    "enlace": "https://es.trabajo.org/oferta-3453-aab070e5284b8554dca6f9f8db58999a"
   },
   {
     "area": "hosteleria",
@@ -11980,11 +13145,11 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo, tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Experiencia; comandas; atención al cliente; valorable vinos, inglés/francés.",
@@ -11994,88 +13159,6 @@ const OFERTAS_SEMANA = [
       "pt": "Experiência; registo de pedidos; atendimento ao cliente; valoriza-se conhecimento de vinhos, inglês/francês."
     },
     "enlace": "https://es.linkedin.com/jobs/view/camarero-de-sala-y-barra-at-traves%C3%ADa-restauraci%C3%B3n-s-l-4453087357"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Logística y Almacén",
-      "en": "Logistics & Warehouse",
-      "fr": "Logistique et entrepôt",
-      "ar": "الخدمات اللوجستية والمستودعات",
-      "pt": "Logística e Armazém"
-    },
-    "puesto": {
-      "es": "Repartidor/a C+CAP",
-      "en": "Delivery Driver (C+CAP licence)",
-      "fr": "Livreur/euse (permis C+CAP)",
-      "ar": "موزّع/ة (رخصة C+CAP)",
-      "pt": "Distribuidor/a C+CAP"
-    },
-    "empresa": "Aquaservice",
-    "ubicacion": "Telde",
-    "jornada": {
-      "es": "Jornada completa, puesto estable, L-V 08:00-17:00",
-      "en": "Full-time, stable role, Mon-Fri 8am-5pm",
-      "fr": "Temps plein, poste stable, lun-ven 8h-17h",
-      "ar": "دوام كامل، وظيفة مستقرة، من الإثنين للجمعة 8-17",
-      "pt": "Tempo inteiro, posto estável, segunda a sexta 08:00-17:00"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "17.000-22.000€/año. Carnet C+CAP imprescindible. No requiere experiencia; formación a cargo de la empresa. Vehículo, PDA y tarjeta Solred.",
-      "en": "€17,000-22,000/year. C+CAP licence required. No experience needed; company-provided training. Vehicle, PDA and fuel card.",
-      "fr": "17000-22000€/an. Permis C+CAP requis. Aucune expérience requise; formation par l'entreprise. Véhicule, PDA et carte carburant.",
-      "ar": "17000-22000€/سنة. رخصة C+CAP إلزامية. لا خبرة مطلوبة؛ تدريب من الشركة. سيارة وجهاز PDA وبطاقة وقود.",
-      "pt": "17.000-22.000€/ano. Carta de condução C + CAP (certificado de aptidão profissional de motorista) imprescindível. Não é necessária experiência; formação a cargo da empresa. Veículo, PDA e cartão Solred."
-    },
-    "enlace": "https://es.linkedin.com/jobs/view/repartidor-a-c-%2B-cap-en-las-palmas-at-aquaservice-viva-aqua-service-spain-s-a-4453436480"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Técnico/a de Intervención — Sustitución, Delegación Canarias",
-      "en": "Intervention Technician — Cover, Canary Islands Delegation",
-      "fr": "Technicien/ne d'intervention — Remplacement, délégation Canaries",
-      "ar": "فني/ة تدخل — تغطية، مندوبية جزر الكناري",
-      "pt": "Técnico/a de Intervenção — Substituição, Delegação Canarias"
-    },
-    "empresa": "CEAR",
-    "ubicacion": "Delegación Canarias",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Sustitución. Encaja con intervención social directa.",
-      "en": "Cover role. Direct social intervention.",
-      "fr": "Remplacement. Intervention sociale directe.",
-      "ar": "تغطية. تدخل اجتماعي مباشر.",
-      "pt": "Substituição. Enquadra-se na intervenção social direta."
-    },
-    "enlace": "https://es.linkedin.com/jobs/view/t%C3%A9cnico-a-de-intervenci%C3%B3n-%C2%B7sustituci%C3%B3n-%C2%B7-delegaci%C3%B3n-canarias-at-spanish-commission-for-refugees-cear-4451158753"
   },
   {
     "area": "tercer-sector",
@@ -12144,11 +13227,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "Indefinido, jornada continua, L-S. Experiencia en retail y gestión de equipos. Se valora FP en Comercio y Marketing.",
@@ -12185,11 +13268,11 @@ const OFERTAS_SEMANA = [
       "pt": "Temporário com possibilidade de prorrogação, turnos rotativos de segunda a domingo com 2 dias de descanso"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
+      "es": "Compartida esta semana (consultado 11/10/2026)",
+      "en": "Shared this week (checked 10/11/2026)",
+      "fr": "Partagée cette semaine (vérifié le 11/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 11/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 11/10/2026)"
     },
     "requisitos": {
       "es": "10-12€/hora bruto. Experiencia previa como freganchín/a. Disponibilidad para desplazarse al sur. Incorporación inmediata.",
@@ -12199,416 +13282,6 @@ const OFERTAS_SEMANA = [
       "pt": "10-12€/hora bruto. Experiência anterior como copeiro/a. Disponibilidade para se deslocar para o sul. Início imediato."
     },
     "enlace": "https://www.adecco.com/es-es/ofertas-trabajo/freganchines-las-palmas-las-palmas-de-gran-canaria-las-palmas/c9bac1328f51231b9101998c02f5c044"
-  },
-  {
-    "area": "formacion",
-    "categoria": {
-      "es": "Educación/Formación",
-      "en": "Education/Training",
-      "fr": "Éducation/Formation",
-      "ar": "التعليم/التدريب",
-      "pt": "Educação/Formação"
-    },
-    "puesto": {
-      "es": "Docente — Postres de Vanguardia (Hostelería y Turismo)",
-      "en": "Instructor — Avant-garde Desserts (Hospitality)",
-      "fr": "Enseignant/e — Desserts d'avant-garde (hôtellerie)",
-      "ar": "مدرّس/ة — حلويات مبتكرة (ضيافة)",
-      "pt": "Docente — Sobremesas de Vanguarda (Hotelaria e Turismo)"
-    },
-    "empresa": "Grupo MVR",
-    "ubicacion": "Telde",
-    "jornada": {
-      "es": "Contrato temporal",
-      "en": "Temporary contract",
-      "fr": "Contrat temporaire",
-      "ar": "عقد مؤقت",
-      "pt": "Contrato temporário"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "14-18€/hora.",
-      "en": "€14-18/hour.",
-      "fr": "14-18€/heure.",
-      "ar": "14-18€/ساعة.",
-      "pt": "14-18€/hora."
-    },
-    "enlace": "mailto:empleo@grupomvr.com"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Store Manager — KIABI Alisios",
-      "en": "Store Manager — KIABI Alisios",
-      "fr": "Directeur/trice de magasin — KIABI Alisios",
-      "ar": "مدير/ة متجر — KIABI أليسيوس",
-      "pt": "Store Manager — KIABI Alisios"
-    },
-    "empresa": "Kiabi España",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Programa de formación, día libre por cumpleaños, retribución flexible.",
-      "en": "Training programme, birthday day off, flexible pay.",
-      "fr": "Programme de formation, jour de congé anniversaire, rémunération flexible.",
-      "ar": "برنامج تدريب، يوم إجازة عيد الميلاد، راتب مرن.",
-      "pt": "Programa de formação, dia de folga no aniversário, remuneração flexível."
-    },
-    "enlace": "https://es.indeed.com"
-  },
-  {
-    "area": "hosteleria",
-    "categoria": {
-      "es": "Turismo y Hostelería",
-      "en": "Tourism & Hospitality",
-      "fr": "Tourisme et hôtellerie",
-      "ar": "السياحة والضيافة",
-      "pt": "Turismo e Hotelaria"
-    },
-    "puesto": {
-      "es": "Ayudante de Producción — Fotografía y Vídeo",
-      "en": "Production Assistant — Photography & Video",
-      "fr": "Assistant/e de production — Photo et vidéo",
-      "ar": "مساعد/ة إنتاج — تصوير وفيديو",
-      "pt": "Assistente de Produção — Fotografia e Vídeo"
-    },
-    "empresa": "Domestiko",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Ver requisitos completos en la oferta.",
-      "en": "See full requirements in listing.",
-      "fr": "Voir les exigences complètes dans l'annonce.",
-      "ar": "راجع المتطلبات الكاملة في الإعلان.",
-      "pt": "Ver os requisitos completos na oferta."
-    },
-    "enlace": "https://www.domestiko.com"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Profesionales de la Integración Social",
-      "en": "Social Integration Professionals",
-      "fr": "Professionnels de l'intégration sociale",
-      "ar": "محترفو الإدماج الاجتماعي",
-      "pt": "Profissionais de Integração Social"
-    },
-    "empresa": "Domestiko",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Tiempo parcial",
-      "en": "Part-time",
-      "fr": "Temps partiel",
-      "ar": "دوام جزئي",
-      "pt": "Tempo parcial"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 24/08/2026)",
-      "en": "Shared this week (checked 08/24/2026)",
-      "fr": "Partagée cette semaine (vérifié le 24/08/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 24/08/2026)",
-      "pt": "Partilhada esta semana (verificado em 24/08/2026)"
-    },
-    "requisitos": {
-      "es": "Ver requisitos completos en la oferta.",
-      "en": "See full requirements in listing.",
-      "fr": "Voir les exigences complètes dans l'annonce.",
-      "ar": "راجع المتطلبات الكاملة في الإعلان.",
-      "pt": "Ver os requisitos completos na oferta."
-    },
-    "enlace": "https://www.domestiko.com"
-  },
-  {
-    "area": "administracion",
-    "categoria": {
-      "es": "Administración y Comercio",
-      "en": "Administration & Retail",
-      "fr": "Administration et commerce",
-      "ar": "الإدارة والتجارة",
-      "pt": "Administração e Comércio"
-    },
-    "puesto": {
-      "es": "Auxiliar Administrativo/a — Departamento de Importaciones",
-      "en": "Administrative Assistant — Imports Department",
-      "fr": "Assistant/e Administratif/ve — Département Importations",
-      "ar": "مساعد/ة إداري/ة — قسم الاستيراد",
-      "pt": "Auxiliar administrativo/a — Departamento de importações"
-    },
-    "empresa": "Hermanos Rodríguez Ponce S.A. – Confecciones El 99",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa (40h/semana), L-V 09:00-17:30",
-      "en": "Full-time (40h/week), Mon-Fri 09:00-17:30",
-      "fr": "Temps plein (40h/semaine), Lun-Ven 09:00-17:30",
-      "ar": "دوام كامل (40 ساعة/أسبوع)، من الإثنين إلى الجمعة 09:00-17:30",
-      "pt": "Tempo inteiro (40h/semana), segunda a sexta 09:00-17:30"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 19/09/2026)",
-      "en": "Shared this week (checked 09/19/2026)",
-      "fr": "Partagée cette semaine (vérifié le 19/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 19/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 19/09/2026)"
-    },
-    "requisitos": {
-      "es": "Contrato indefinido. FP Superior en Transporte y Logística o Comercio Internacional. Inglés B2-C1. Al menos 1 año de experiencia en aduanas/transitarios/importación.",
-      "en": "Permanent contract. Higher-level VET in Transport & Logistics or International Trade. English B2-C1. At least 1 year in customs/freight/import roles.",
-      "fr": "CDI. BTS Transport et Logistique ou Commerce International. Anglais B2-C1. Au moins 1 an d'expérience en douane/transit/import.",
-      "ar": "عقد دائم. دبلوم عالٍ في النقل واللوجستيات أو التجارة الدولية. إنجليزية B2-C1. خبرة سنة على الأقل في الجمارك/الاستيراد.",
-      "pt": "Contrato sem termo. FP Superior em Transporte e Logística ou Comércio Internacional. Inglês B2-C1. Pelo menos 1 ano de experiência em alfândegas/transitários/importação."
-    },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/auxiliar-administrativo-departamento-importaciones-transporte-logistica-comercio-internacional/of-i35b7d96b984f9f8fb42a733dda75a0"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Investigación de Mercados",
-      "en": "Market Research",
-      "fr": "Études de marché",
-      "ar": "أبحاث السوق",
-      "pt": "Estudos de Mercado"
-    },
-    "puesto": {
-      "es": "Cliente Misterioso/a (Mystery Shopper)",
-      "en": "Mystery Shopper",
-      "fr": "Client Mystère",
-      "ar": "عميل/ة سري/ة (Mystery Shopper)",
-      "pt": "Cliente mistério (Mystery Shopper)"
-    },
-    "empresa": "IKERFEL S.A.",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 19/09/2026)",
-      "en": "Shared this week (checked 09/19/2026)",
-      "fr": "Partagée cette semaine (vérifié le 19/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 19/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 19/09/2026)"
-    },
-    "requisitos": {
-      "es": "ESO. Sin experiencia previa requerida. Vehículo propio. Alta en Seguridad Social. Salario 1.300-1.400€ brutos/mes.",
-      "en": "Basic secondary education. No prior experience required. Own vehicle. Social Security registration. Salary €1,300-1,400 gross/month.",
-      "fr": "Diplôme de fin de collège. Aucune expérience requise. Véhicule personnel. Affiliation à la Sécurité sociale. Salaire brut 1300-1400€/mois.",
-      "ar": "تعليم إلزامي. لا حاجة لخبرة سابقة. سيارة خاصة. تسجيل في الضمان الاجتماعي. راتب إجمالي 1300-1400 يورو/شهر.",
-      "pt": "ESO (ensino secundário obrigatório). Não é necessária experiência prévia. Veículo próprio. Inscrição na Segurança Social. Salário 1.300-1.400€ brutos/mês."
-    },
-    "enlace": "https://www.infojobs.net/"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Comercial y Ventas",
-      "en": "Sales",
-      "fr": "Commercial et ventes",
-      "ar": "المبيعات",
-      "pt": "Vendas"
-    },
-    "puesto": {
-      "es": "Comercial — Stand ONG (Captación de Socios)",
-      "en": "Fundraising Sales Rep — NGO Stand",
-      "fr": "Commercial(e) — Stand ONG (collecte de fonds)",
-      "ar": "مندوب/ة مبيعات — جناح منظمة غير حكومية",
-      "pt": "Comercial — Stand de ONG (angariação de sócios)"
-    },
-    "empresa": "The International Fundraising SL",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Parcial, turno mañana o tarde, L-V, fines de semana libres",
-      "en": "Part-time, morning or afternoon shift, Mon-Fri, weekends off",
-      "fr": "Temps partiel, matin ou après-midi, Lun-Ven, week-ends libres",
-      "ar": "دوام جزئي، صباحي أو مسائي، من الإثنين إلى الجمعة، عطلة نهاية الأسبوع",
-      "pt": "Tempo parcial, turno da manhã ou da tarde, segunda a sexta, fins de semana livres"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 19/09/2026)",
-      "en": "Shared this week (checked 09/19/2026)",
-      "fr": "Partagée cette semaine (vérifié le 19/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 19/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 19/09/2026)"
-    },
-    "requisitos": {
-      "es": "Indefinido, alta en Seguridad Social. ESO. Al menos 1 año de experiencia comercial. Salario 1.600-4.000€/mes (fijo + comisiones no garantizadas).",
-      "en": "Permanent contract, Social Security registered. Basic education. At least 1 year of sales experience. Salary €1,600-4,000/month (base + uncapped, non-guaranteed commission).",
-      "fr": "CDI, affilié à la Sécurité sociale. Diplôme de fin de collège. Au moins 1 an d'expérience commerciale. Salaire 1600-4000€/mois (fixe + commissions non garanties).",
-      "ar": "عقد دائم، مسجل في الضمان الاجتماعي. تعليم إلزامي. خبرة سنة على الأقل في المبيعات. راتب 1600-4000 يورو/شهر (أساسي + عمولات غير مضمونة).",
-      "pt": "Contrato sem termo, inscrição na Segurança Social. ESO (ensino secundário obrigatório). Pelo menos 1 ano de experiência comercial. Salário 1.600-4.000€/mês (fixo + comissões não garantidas)."
-    },
-    "enlace": "https://www.infojobs.net/"
-  },
-  {
-    "area": "limpieza",
-    "categoria": {
-      "es": "Limpieza y Mantenimiento",
-      "en": "Cleaning & Maintenance",
-      "fr": "Nettoyage et entretien",
-      "ar": "التنظيف والصيانة",
-      "pt": "Limpeza e Manutenção"
-    },
-    "puesto": {
-      "es": "Limpiador/a — Centro Logístico El Rincón",
-      "en": "Cleaner — El Rincón Logistics Centre",
-      "fr": "Agent/e d'entretien — Centre logistique El Rincón",
-      "ar": "عامل/ة نظافة — مركز لوجستي El Rincón",
-      "pt": "Empregado/a de limpeza — Centro Logístico El Rincón"
-    },
-    "empresa": "Lirecan Servicios Integrados (Clece)",
-    "ubicacion": "Las Palmas de Gran Canaria (El Rincón)",
-    "jornada": {
-      "es": "Jornada completa, L-V 08:00-16:00",
-      "en": "Full-time, Mon-Fri 08:00-16:00",
-      "fr": "Temps plein, Lun-Ven 08:00-16:00",
-      "ar": "دوام كامل، من الإثنين إلى الجمعة 08:00-16:00",
-      "pt": "Tempo inteiro, segunda a sexta 08:00-16:00"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "Contrato temporal de 15 días. Incorporación inmediata.",
-      "en": "Temporary contract, 15 days. Immediate start.",
-      "fr": "Contrat temporaire de 15 jours. Prise de poste immédiate.",
-      "ar": "عقد مؤقت لمدة 15 يومًا. بدء فوري.",
-      "pt": "Contrato temporário de 15 dias. Entrada imediata."
-    },
-    "enlace": "https://canaldeempleo.es/CLECE/job/Palmas-De-Gran-Canaria,-Las-Limpiadora-para-centro-log%C3%ADstico-en-El-Rinc%C3%B3n-(Las-Palmas-de-GC)-Las-35010/1372664357"
-  },
-  {
-    "area": "limpieza",
-    "categoria": {
-      "es": "Limpieza y Mantenimiento",
-      "en": "Cleaning & Maintenance",
-      "fr": "Nettoyage et entretien",
-      "ar": "التنظيف والصيانة",
-      "pt": "Limpeza e Manutenção"
-    },
-    "puesto": {
-      "es": "Limpiadora Especialista Mecanizado/a — Auditorio",
-      "en": "Specialist Mechanized Cleaner — Auditorium",
-      "fr": "Agent/e d'entretien spécialisé/e (mécanisé) — Auditorium",
-      "ar": "عامل/ة نظافة متخصص/ة (آلي) — قاعة المؤتمرات",
-      "pt": "Empregado/a de limpeza especializado/a em limpeza mecanizada — Auditório"
-    },
-    "empresa": "Lirecan Servicios Integrados (Clece)",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Parcial 30h/semana, turnos rotativos L-V",
-      "en": "Part-time 30h/week, rotating shifts Mon-Fri",
-      "fr": "Temps partiel 30h/semaine, roulement Lun-Ven",
-      "ar": "دوام جزئي 30 ساعة/أسبوع، ورديات متناوبة من الإثنين إلى الجمعة",
-      "pt": "Tempo parcial 30h/semana, turnos rotativos de segunda a sexta"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "Contrato temporal (2 meses). Experiencia con maquinaria de limpieza y cristales; valorable trabajo en altura.",
-      "en": "Temporary contract (2 months). Experience with cleaning machinery and windows; work-at-height experience valued.",
-      "fr": "Contrat temporaire (2 mois). Expérience avec matériel de nettoyage et vitres ; travail en hauteur apprécié.",
-      "ar": "عقد مؤقت (شهران). خبرة في آلات التنظيف والزجاج؛ يفضل خبرة العمل على ارتفاع.",
-      "pt": "Contrato temporário (2 meses). Experiência com máquinas de limpeza e limpeza de vidros; valoriza-se trabalho em altura."
-    },
-    "enlace": "https://canaldeempleo.es/CLECE/job/Palmas-De-Gran-Canaria,-Las-Limpiadora-Especialista-Mecanizadoa-para-Auditorio-en-Las-Palmas-de-Gran-Canaria-Las-35010/1372668357"
-  },
-  {
-    "area": "sociosanitario",
-    "categoria": {
-      "es": "Sociosanitario",
-      "en": "Health & Social Care",
-      "fr": "Socio-sanitaire",
-      "ar": "الرعاية الصحية والاجتماعية",
-      "pt": "Sociossanitário"
-    },
-    "puesto": {
-      "es": "Podólogo/a — Centro Sociosanitario",
-      "en": "Podiatrist — Health & Social Care Centre",
-      "fr": "Podologue — Centre socio-sanitaire",
-      "ar": "أخصائي/ة أقدام — مركز رعاية صحية واجتماعية",
-      "pt": "Podólogo/a — Centro sociossanitário"
-    },
-    "empresa": "Clece Mayores",
-    "ubicacion": "Telde",
-    "jornada": {
-      "es": "Parcial, 10:00-13:00",
-      "en": "Part-time, 10:00-13:00",
-      "fr": "Temps partiel, 10:00-13:00",
-      "ar": "دوام جزئي، 10:00-13:00",
-      "pt": "Tempo parcial, 10:00-13:00"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "Contrato temporal (15 días). Titulación universitaria en Podología; se valora 1 año de experiencia.",
-      "en": "Temporary contract (15 days). University degree in Podiatry; 1 year of experience valued.",
-      "fr": "Contrat temporaire (15 jours). Diplôme universitaire en podologie ; 1 an d'expérience apprécié.",
-      "ar": "عقد مؤقت (15 يومًا). شهادة جامعية في علم الأقدام؛ يفضل خبرة سنة واحدة.",
-      "pt": "Contrato temporário (15 dias). Licenciatura em Podologia; valoriza-se 1 ano de experiência."
-    },
-    "enlace": "https://canaldeempleo.es/CLECE/job/Telde-Pod%C3%B3logoa-para-centro-sociosanitario-en-Telde-Las-35210/1372703457"
   },
   {
     "area": "construccion",
@@ -12636,11 +13309,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro, turnos rotativos 7 dias/semana"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "Contrato indefinido. Requiere certificado de discapacidad vigente y carné de conducir B. Formación en jardinería.",
@@ -12650,88 +13323,6 @@ const OFERTAS_SEMANA = [
       "pt": "Contrato sem termo. É necessário certificado de incapacidade válido e carta de condução B. Formação em jardinagem."
     },
     "enlace": "https://canaldeempleo.es/TALHER/job/Ag%C3%BCimes-Auxiliar-de-Jardiner%C3%ADa-con-certificado-de-discapacidad-para-Ag%C3%BCimes-Las/1372713157"
-  },
-  {
-    "area": "hosteleria",
-    "categoria": {
-      "es": "Estética y Peluquería",
-      "en": "Beauty & Hairdressing",
-      "fr": "Esthétique et coiffure",
-      "ar": "التجميل والحلاقة",
-      "pt": "Estética e Cabeleireiro"
-    },
-    "puesto": {
-      "es": "Oficial de Peluquería",
-      "en": "Senior Hairdresser",
-      "fr": "Coiffeur/euse qualifié/e",
-      "ar": "حلاق/ة محترف/ة",
-      "pt": "Cabeleireiro/a oficial"
-    },
-    "empresa": "Empresa no especificada en la oferta",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "A consultar",
-      "en": "To be confirmed",
-      "fr": "À confirmer",
-      "ar": "يُحدد لاحقًا",
-      "pt": "A consultar"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "Ciclo Formativo de Grado Superior en Peluquería/Estética. Mínimo 5 años de experiencia. Castellano.",
-      "en": "Higher-level VET in Hairdressing/Beauty. Minimum 5 years of experience. Spanish.",
-      "fr": "BTS Coiffure/Esthétique. Minimum 5 ans d'expérience. Espagnol.",
-      "ar": "دبلوم عالٍ في الحلاقة/التجميل. خبرة 5 سنوات على الأقل. الإسبانية.",
-      "pt": "Ciclo Formativo de Grau Superior (FP superior) em Cabeleireiro/Estética. Mínimo 5 anos de experiência. Espanhol (castelhano)."
-    },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/oficial-peluqueria/of-ie81183c6c34a3d8023bc381a243f82"
-  },
-  {
-    "area": "sociosanitario",
-    "categoria": {
-      "es": "Administración y Comercio",
-      "en": "Administration & Retail",
-      "fr": "Administration et commerce",
-      "ar": "الإدارة والتجارة",
-      "pt": "Administração e Comércio"
-    },
-    "puesto": {
-      "es": "Recepcionista — Clínica Dental",
-      "en": "Receptionist — Dental Clinic",
-      "fr": "Réceptionniste — Clinique dentaire",
-      "ar": "موظف/ة استقبال — عيادة أسنان",
-      "pt": "Rececionista — Clínica dentária"
-    },
-    "empresa": "Empresa no especificada en la oferta",
-    "ubicacion": "Gáldar",
-    "jornada": {
-      "es": "A consultar",
-      "en": "To be confirmed",
-      "fr": "À confirmer",
-      "ar": "يُحدد لاحقًا",
-      "pt": "A consultar"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "Trato al público, organización, facturación y tareas administrativas. Se valora experiencia en clínicas/sanidad. Preferible residir en el norte de Gran Canaria.",
-      "en": "Customer-facing, organised, invoicing and admin tasks. Clinic/healthcare experience valued. Preferably resident in northern Gran Canaria.",
-      "fr": "Contact clientèle, organisation, facturation et tâches administratives. Expérience en clinique/santé appréciée. Résidence dans le nord de Gran Canaria préférée.",
-      "ar": "التعامل مع الجمهور، التنظيم، الفوترة والمهام الإدارية. يفضل خبرة في العيادات/الصحة. يفضل الإقامة في شمال جران كناريا.",
-      "pt": "Atendimento ao público, organização, faturação e tarefas administrativas. Valoriza-se experiência em clínicas/saúde. Preferível residir no norte de Gran Canaria."
-    },
-    "enlace": "https://www.infojobs.net/galdar/recepcionista/of-ie1f44804944e629dc8a5f41f8cb54b"
   },
   {
     "area": "construccion",
@@ -12759,11 +13350,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro, segunda a sexta 08:00-16:00"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "Incorporación inmediata. Experiencia previa requerida.",
@@ -12773,88 +13364,6 @@ const OFERTAS_SEMANA = [
       "pt": "Entrada imediata. É necessária experiência prévia."
     },
     "enlace": "https://jobtoday.com/es/trabajo/ayudante-a-de-albanileria-k5Mb7G"
-  },
-  {
-    "area": "sociosanitario",
-    "categoria": {
-      "es": "Cuidado de Personas",
-      "en": "Personal Care",
-      "fr": "Aide à la personne",
-      "ar": "رعاية الأشخاص",
-      "pt": "Cuidado de Pessoas"
-    },
-    "puesto": {
-      "es": "Cuidadora Interna",
-      "en": "Live-in Carer",
-      "fr": "Aide à domicile (interne)",
-      "ar": "مربية/مرافقة مقيمة",
-      "pt": "Cuidadora interna"
-    },
-    "empresa": "Particular",
-    "ubicacion": "Telde (La Herradura)",
-    "jornada": {
-      "es": "Interna, 1 día y 1 noche libres a la semana (entre semana)",
-      "en": "Live-in, 1 day and 1 night off per week (weekdays)",
-      "fr": "Résidentiel, 1 jour et 1 nuit de repos par semaine (en semaine)",
-      "ar": "مقيمة، يوم وليلة راحة أسبوعيًا (أيام الأسبوع)",
-      "pt": "Interna, 1 dia e 1 noite livres por semana (durante a semana)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "Acompañamiento y aseo de persona mayor autónoma. Salario 1.000€/mes. Oferta de un particular: recomendable formalizar alta en el Régimen Especial de Empleados de Hogar. Inicio 24/09.",
-      "en": "Companionship and personal care for an independent older adult. Salary €1,000/month. Private household offer: registration under Spain's Household Employees Scheme is advised. Starts Sept 24.",
-      "fr": "Accompagnement et soins d'hygiène pour une personne âgée autonome. Salaire 1000€/mois. Offre d'un particulier : affiliation au régime spécial des employés de maison recommandée. Début le 24/09.",
-      "ar": "مرافقة ورعاية شخص مسن مستقل. راتب 1000 يورو/شهر. عرض من فرد: يُنصح بالتسجيل في نظام عمال المنازل الخاص. البدء في 24/09.",
-      "pt": "Acompanhamento e higiene de pessoa idosa autónoma. Salário 1.000€/mês. Oferta de um particular: recomenda-se formalizar a inscrição no Regime Especial de Empregados Domésticos (Régimen Especial de Empleados de Hogar). Início a 24/09."
-    },
-    "enlace": "mailto:"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Investigación de Mercados",
-      "en": "Market Research",
-      "fr": "Études de marché",
-      "ar": "أبحاث السوق",
-      "pt": "Estudos de Mercado"
-    },
-    "puesto": {
-      "es": "Mystery Shopper",
-      "en": "Mystery Shopper",
-      "fr": "Client Mystère",
-      "ar": "عميل/ة سري/ة (Mystery Shopper)",
-      "pt": "Mystery Shopper (cliente mistério)"
-    },
-    "empresa": "Canalytic Fieldwork",
-    "ubicacion": "Gran Canaria",
-    "jornada": {
-      "es": "Acciones puntuales",
-      "en": "One-off assignments",
-      "fr": "Missions ponctuelles",
-      "ar": "مهام عرضية",
-      "pt": "Ações pontuais"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "Carné de conducir. Nota: la oferta original exige ser mayor de 30 años; Ubuntu Canarias no comparte ese criterio.",
-      "en": "Driving licence. Note: the original ad requires being over 30; Ubuntu Canarias does not endorse that criterion.",
-      "fr": "Permis de conduire. Remarque : l'annonce originale exige d'avoir plus de 30 ans ; Ubuntu Canarias ne partage pas ce critère.",
-      "ar": "رخصة قيادة. ملاحظة: يشترط الإعلان الأصلي أن يكون العمر فوق 30 عامًا؛ أوبونتو كناريا لا تؤيد هذا المعيار.",
-      "pt": "Carta de condução. Nota: a oferta original exige ter mais de 30 anos; a Ubuntu Canarias não partilha esse critério."
-    },
-    "enlace": "mailto:info@canalyticfieldwork.com"
   },
   {
     "area": "almacen",
@@ -12882,11 +13391,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro, fijo-discontinuo (contrato permanente para trabalho sazonal ou intermitente)"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "Contrato de interinidad. Carné de conducir y vehículo propio. Reparto de bebidas en supermercados del norte de Gran Canaria. 17.156,16€/año. Cierre 21/10/2026.",
@@ -12895,48 +13404,7 @@ const OFERTAS_SEMANA = [
       "ar": "عقد بديل. رخصة قيادة وسيارة خاصة. تعبئة المشروبات في سوبرماركت شمال جران كناريا. 17156.16 يورو/سنة. الإغلاق 21/10/2026.",
       "pt": "Contrato de substituição (interinidad). Carta de condução e veículo próprio. Distribuição de bebidas em supermercados do norte de Gran Canaria. 17.156,16€/ano. Prazo até 21/10/2026."
     },
-    "enlace": "https://www.randstad.es/candidatos/ofertas-empleo/oferta/reponedor-a-ruta-telde-o-aldea-3008099/"
-  },
-  {
-    "area": "hosteleria",
-    "categoria": {
-      "es": "Alimentación y Producción",
-      "en": "Food & Production",
-      "fr": "Agroalimentaire et production",
-      "ar": "الأغذية والإنتاج",
-      "pt": "Alimentação e Produção"
-    },
-    "puesto": {
-      "es": "Formador/a de Cajas",
-      "en": "Box-Forming Trainer",
-      "fr": "Formateur/trice conditionnement",
-      "ar": "مدرب/ة تشكيل الصناديق",
-      "pt": "Operador/a de formação de caixas"
-    },
-    "empresa": "Florette Canarias",
-    "ubicacion": "Ingenio",
-    "jornada": {
-      "es": "Jornada completa, fijo discontinuo",
-      "en": "Full-time, fixed-intermittent",
-      "fr": "Temps plein, fixe-discontinu",
-      "ar": "دوام كامل، عقد دائم متقطع",
-      "pt": "Tempo inteiro, fijo discontinuo (contrato permanente para trabalho sazonal ou intermitente)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "1 vacante. Inscripción a través del portal de la empresa.",
-      "en": "1 vacancy. Apply via the company's careers portal.",
-      "fr": "1 poste. Candidature via le portail carrière de l'entreprise.",
-      "ar": "وظيفة واحدة. التقديم عبر بوابة التوظيف الخاصة بالشركة.",
-      "pt": "1 vaga. Candidatura através do portal da empresa."
-    },
-    "enlace": "https://florette.talentclue.com/es/node/127597279/4590/modalbrowser"
+    "enlace": "https://www.randstad.es/candidatos/ofertas-empleo/oferta/reponedor-a-en-ruta-telde-o-la-aldea-3008099/"
   },
   {
     "area": "hosteleria",
@@ -12964,11 +13432,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro, com horas extra"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "Salario desde 25.289€ brutos/año. Departamento de limpieza/housekeeping.",
@@ -12978,47 +13446,6 @@ const OFERTAS_SEMANA = [
       "pt": "Salário a partir de 25.289€ brutos/ano. Departamento de limpeza/housekeeping."
     },
     "enlace": "https://radissoncareers.com/es/job/camarero-a-de-pisos-in-las-palmas-spain-jid-34323"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Vendedor/a Deportista — Training/Fitness (2 vacantes)",
-      "en": "Sports Sales Advisor — Training/Fitness (2 openings)",
-      "fr": "Vendeur/se Sportif/ve — Training/Fitness (2 postes)",
-      "ar": "بائع/ة رياضي/ة — التدريب/اللياقة (وظيفتان)",
-      "pt": "Vendedor/a desportista — Training/Fitness (2 vagas)"
-    },
-    "empresa": "Decathlon",
-    "ubicacion": "Las Palmas de Gran Canaria (Tamaraceite)",
-    "jornada": {
-      "es": "A consultar, disponibilidad fines de semana y turnos rotativos",
-      "en": "To be confirmed, weekend availability and rotating shifts required",
-      "fr": "À confirmer, disponibilité le week-end et roulement requis",
-      "ar": "يُحدد لاحقًا، مطلوب التوفر في عطلة نهاية الأسبوع وورديات متناوبة",
-      "pt": "A consultar, disponibilidade aos fins de semana e turnos rotativos"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "Pasión por el deporte. 2 vacantes disponibles.",
-      "en": "Passion for sport. 2 vacancies available.",
-      "fr": "Passion pour le sport. 2 postes disponibles.",
-      "ar": "شغف بالرياضة. وظيفتان متاحتان.",
-      "pt": "Paixão pelo desporto. 2 vagas disponíveis."
-    },
-    "enlace": "https://decathlon.talentclue.com/es/node/127586939/4590/modalbrowser"
   },
   {
     "area": "comercio",
@@ -13046,11 +13473,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo parcial, presencial"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "1 vacante. Se valoran estudios universitarios o ciclos formativos superiores.",
@@ -13087,11 +13514,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "Para empresa logística en Polígono Industrial de Arinaga.",
@@ -13128,11 +13555,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "Para empresa del sector de parques temáticos.",
@@ -13142,416 +13569,6 @@ const OFERTAS_SEMANA = [
       "pt": "Para empresa do setor dos parques temáticos."
     },
     "enlace": "https://jobs.eurofirms.com/es/es/san-bartolome-de-tirajana/auxiliar-administrativo-a-083-084935"
-  },
-  {
-    "area": "otros",
-    "categoria": {
-      "es": "Comunicación y Medios",
-      "en": "Media & Communication",
-      "fr": "Communication et médias",
-      "ar": "الإعلام والاتصال",
-      "pt": "Comunicação e Media"
-    },
-    "puesto": {
-      "es": "Mezclador/a de Vídeo (programa en directo)",
-      "en": "Video Mixer (live broadcast)",
-      "fr": "Mixeur/euse vidéo (émission en direct)",
-      "ar": "فني/ة مزج فيديو (برنامج مباشر)",
-      "pt": "Misturador/a de vídeo (programa em direto)"
-    },
-    "empresa": "Videré TV",
-    "ubicacion": "Arinaga",
-    "jornada": {
-      "es": "Media jornada",
-      "en": "Part-time",
-      "fr": "Temps partiel",
-      "ar": "دوام جزئي",
-      "pt": "Meio tempo"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/09/2026)",
-      "en": "Shared this week (checked 09/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/09/2026)"
-    },
-    "requisitos": {
-      "es": "Media jornada, presencial, sábados y domingos. Experiencia en mezcla de vídeo en directo (mesa Panasonic). Persona creativa y proactiva. Enviar CV a empleo@videretv.es.",
-      "en": "Part-time, on-site, Saturdays and Sundays. Experience with live video mixing (Panasonic desk). Creative, proactive person. Send CV to empleo@videretv.es.",
-      "fr": "Temps partiel, présentiel, samedis et dimanches. Expérience en mixage vidéo en direct (console Panasonic). Personne créative et proactive. Envoyer CV à empleo@videretv.es.",
-      "ar": "دوام جزئي، حضوري، أيام السبت والأحد. خبرة في مزج الفيديو المباشر (طاولة باناسونيك). شخص مبدع ومبادر. يُرسل السيرة الذاتية إلى empleo@videretv.es.",
-      "pt": "Meio tempo, presencial, sábados e domingos. Experiência em mistura de vídeo em direto (mesa Panasonic). Pessoa criativa e proativa. Enviar CV para empleo@videretv.es."
-    },
-    "enlace": "mailto:empleo@videretv.es"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Personal de Mantenimiento — Comunidad de Propietarios",
-      "en": "Maintenance Staff — Residents' Community",
-      "fr": "Personnel d'entretien — Copropriété",
-      "ar": "عامل/ة صيانة — مجمع سكني",
-      "pt": "Pessoal de manutenção — Condomínio"
-    },
-    "empresa": "FINCA 81",
-    "ubicacion": "San Bartolomé de Tirajana",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "40h/semana, L-V. Funciones: limpieza, jardinería, mantenimiento general y control sanitario de la piscina. Persona responsable, resolutiva y comprometida. Contacto: 654 355 475 o laspalmas@finca81.com.",
-      "en": "40h/week, Mon-Fri. Duties: cleaning, gardening, general maintenance and pool sanitary control. Responsible, resourceful and committed person. Contact: 654 355 475 or laspalmas@finca81.com.",
-      "fr": "40h/semaine, lun-ven. Tâches : nettoyage, jardinage, entretien général et contrôle sanitaire de la piscine. Personne responsable, efficace et engagée. Contact : 654 355 475 ou laspalmas@finca81.com.",
-      "ar": "40 ساعة أسبوعيًا، من الإثنين إلى الجمعة. المهام: التنظيف، البستنة، الصيانة العامة والمراقبة الصحية لحمام السباحة. شخص مسؤول وفعّال وملتزم. للتواصل: 654 355 475 أو laspalmas@finca81.com.",
-      "pt": "40h/semana, segunda a sexta. Funções: limpeza, jardinagem, manutenção geral e controlo sanitário da piscina. Pessoa responsável, resolutiva e empenhada. Contacto: 654 355 475 ou laspalmas@finca81.com."
-    },
-    "enlace": "mailto:laspalmas@finca81.com"
-  },
-  {
-    "area": "administracion",
-    "categoria": {
-      "es": "Administración y Comercio",
-      "en": "Administration & Retail",
-      "fr": "Administration et commerce",
-      "ar": "الإدارة والتجارة",
-      "pt": "Administração e Comércio"
-    },
-    "puesto": {
-      "es": "Comercial Administrativo/a",
-      "en": "Commercial Administrative Assistant",
-      "fr": "Commercial/e Administratif/ve",
-      "ar": "موظف/ة إداري/ة تجاري/ة",
-      "pt": "Comercial administrativo/a"
-    },
-    "empresa": "Activa Canarias Recursos Humanos",
-    "ubicacion": "Arinaga",
-    "jornada": {
-      "es": "Jornada completa",
-      "en": "Full-time",
-      "fr": "Temps plein",
-      "ar": "دوام كامل",
-      "pt": "Tempo inteiro"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "Atención telefónica y gestión de clientes/proveedores, apoyo comercial y administrativo. Se valora experiencia similar y buen manejo de Office. Contrato desde octubre hasta finales de diciembre (campaña de Navidad), incorporación inmediata. Enviar CV a pablomonzon@activacanarias.es.",
-      "en": "Phone-based customer/supplier management, commercial and administrative support. Similar experience and good Office skills valued. Contract from October to end of December (Christmas campaign), immediate start. Send CV to pablomonzon@activacanarias.es.",
-      "fr": "Gestion téléphonique des clients/fournisseurs, appui commercial et administratif. Expérience similaire et bonne maîtrise d'Office appréciées. Contrat d'octobre à fin décembre (campagne de Noël), prise de poste immédiate. Envoyer CV à pablomonzon@activacanarias.es.",
-      "ar": "التواصل الهاتفي مع العملاء والموردين، دعم تجاري وإداري. يُفضّل خبرة مماثلة وإتقان برامج Office. عقد من أكتوبر حتى نهاية ديسمبر (حملة عيد الميلاد)، التحاق فوري. يُرسل السيرة الذاتية إلى pablomonzon@activacanarias.es.",
-      "pt": "Atendimento telefónico e gestão de clientes/fornecedores, apoio comercial e administrativo. Valoriza-se experiência semelhante e bom domínio do Office. Contrato de outubro até ao final de dezembro (campanha de Natal), entrada imediata. Enviar CV para pablomonzon@activacanarias.es."
-    },
-    "enlace": "mailto:pablomonzon@activacanarias.es"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Dependiente/a o Repartidor/a",
-      "en": "Shop Assistant or Delivery Driver",
-      "fr": "Vendeur/se ou Livreur/se",
-      "ar": "بائع/ة أو موزّع/ة",
-      "pt": "Empregado/a de loja ou Estafeta"
-    },
-    "empresa": "D'Piel Calzados Gilfonso",
-    "ubicacion": "Gran Canaria",
-    "jornada": {
-      "es": "No especificada",
-      "en": "Not specified",
-      "fr": "Non précisée",
-      "ar": "غير محددة",
-      "pt": "Não especificado"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "Se buscan perfiles de dependiente/a o repartidor/a para incorporarse al equipo. Enviar currículum a calzadosgilfonso@gilfonso.com.",
-      "en": "Looking for shop assistant or delivery driver profiles to join the team. Send CV to calzadosgilfonso@gilfonso.com.",
-      "fr": "Recherche de profils vendeur/se ou livreur/se pour rejoindre l'équipe. Envoyer CV à calzadosgilfonso@gilfonso.com.",
-      "ar": "مطلوب بائع/ة أو موزّع/ة للانضمام إلى الفريق. يُرسل السيرة الذاتية إلى calzadosgilfonso@gilfonso.com.",
-      "pt": "Procuram-se perfis de empregado/a de loja ou estafeta para integrar a equipa. Enviar currículo para calzadosgilfonso@gilfonso.com."
-    },
-    "enlace": "mailto:calzadosgilfonso@gilfonso.com"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Vendedor/a — Eventual",
-      "en": "Sales Assistant — Temporary",
-      "fr": "Vendeur/se — Temporaire",
-      "ar": "بائع/ة — مؤقت",
-      "pt": "Vendedor/a — Eventual"
-    },
-    "empresa": "Springfield",
-    "ubicacion": "C.C. Alisios, Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Eventual, 40h disponibilidad horaria",
-      "en": "Temporary, 40h availability",
-      "fr": "Temporaire, disponibilité 40h",
-      "ar": "مؤقت، إتاحة 40 ساعة",
-      "pt": "Eventual, disponibilidade horária de 40h"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "No se requiere experiencia previa. Contrato de duración determinada, jornada parcial con disponibilidad de 40h. Inscripción a través de InfoJobs.",
-      "en": "No previous experience required. Fixed-term contract, part-time with 40h availability. Apply via InfoJobs.",
-      "fr": "Aucune expérience préalable requise. Contrat à durée déterminée, temps partiel avec disponibilité de 40h. Candidature via InfoJobs.",
-      "ar": "لا تُشترط خبرة سابقة. عقد محدد المدة، دوام جزئي مع إتاحة 40 ساعة. التقديم عبر InfoJobs.",
-      "pt": "Não é necessária experiência prévia. Contrato a termo, tempo parcial com disponibilidade de 40h. Candidatura através do InfoJobs."
-    },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/vendedor-eventual-40h-disp.-horaria-springfield-c.c.-alisios-las-palmas-gran-canaria-las-palmas/of-ie3c27afb014bf5b2b6e6f3570c8c2e"
-  },
-  {
-    "area": "administracion",
-    "categoria": {
-      "es": "Recursos Humanos y Prevención",
-      "en": "HR & Occupational Safety",
-      "fr": "RH et prévention",
-      "ar": "الموارد البشرية والوقاية",
-      "pt": "Recursos Humanos e Prevenção"
-    },
-    "puesto": {
-      "es": "Técnico/a en Prevención de Riesgos Laborales (PRL)",
-      "en": "Occupational Risk Prevention Technician",
-      "fr": "Technicien/ne en prévention des risques professionnels",
-      "ar": "فني/ة الوقاية من المخاطر المهنية",
-      "pt": "Técnico/a de Prevenção de Riscos Laborais (PRL)"
-    },
-    "empresa": "VÍTALY",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa (contrato indefinido)",
-      "en": "Full-time (permanent contract)",
-      "fr": "Temps plein (CDI)",
-      "ar": "دوام كامل (عقد دائم)",
-      "pt": "Tempo inteiro (contrato sem termo)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "Técnico/a Superior en PRL (Máster con las 3 especialidades) o Ciclo Formativo de Grado Superior en Prevención. Carnet de conducir B y vehículo propio para desplazamientos a clientes. No se requiere experiencia previa. Inscripción a través de InfoJobs.",
-      "en": "Higher-level PRL qualification (Master's with all 3 specialties) or Higher Vocational Training in Prevention. Driving licence B and own vehicle for client visits. No previous experience required. Apply via InfoJobs.",
-      "fr": "Formation supérieure en PRL (Master avec les 3 spécialités) ou BTS en prévention. Permis B et véhicule personnel pour les déplacements chez les clients. Aucune expérience préalable requise. Candidature via InfoJobs.",
-      "ar": "مؤهل عالٍ في الوقاية من المخاطر المهنية (ماجستير بالتخصصات الثلاثة) أو دبلوم عالٍ في الوقاية. رخصة قيادة B وسيارة خاصة للتنقل إلى العملاء. لا تُشترط خبرة سابقة. التقديم عبر InfoJobs.",
-      "pt": "Técnico/a Superior em PRL (Mestrado com as 3 especialidades) ou Ciclo Formativo de Grau Superior em Prevenção. Carta de condução B e veículo próprio para deslocações a clientes. Não é necessária experiência prévia. Candidatura através do InfoJobs."
-    },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/tecnico-prl-las-palmas-gran-canarias/of-i18ab77e9a34a2a82ca4e95886d6fdd"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Transporte y Logística Marítima",
-      "en": "Maritime Transport & Logistics",
-      "fr": "Transport et logistique maritime",
-      "ar": "النقل واللوجستيات البحرية",
-      "pt": "Transporte e Logística Marítima"
-    },
-    "puesto": {
-      "es": "Consignatario/a de Cruceros",
-      "en": "Cruise Ship Agent",
-      "fr": "Agent/e consignataire de croisières",
-      "ar": "وكيل/ة سفن سياحية",
-      "pt": "Agente consignatário/a de cruzeiros"
-    },
-    "empresa": "A. Pérez y Cía., S.L.",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa (contrato indefinido)",
-      "en": "Full-time (permanent contract)",
-      "fr": "Temps plein (CDI)",
-      "ar": "دوام كامل (عقد دائم)",
-      "pt": "Tempo inteiro (contrato sem termo)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "Ciclo Formativo de Grado Superior. Al menos 1 año de experiencia. Inglés nivel intermedio-alto, hablado y escrito. Manejo de Microsoft Office. Incorporación inmediata. Empresa comprometida con la igualdad de oportunidades. Inscripción a través de InfoJobs.",
-      "en": "Higher Vocational Training. At least 1 year's experience. Intermediate-to-high English, spoken and written. MS Office skills. Immediate start. Equal-opportunity employer. Apply via InfoJobs.",
-      "fr": "BTS. Au moins 1 an d'expérience. Anglais intermédiaire à avancé, parlé et écrit. Maîtrise de MS Office. Prise de poste immédiate. Entreprise engagée pour l'égalité des chances. Candidature via InfoJobs.",
-      "ar": "دبلوم عالٍ. خبرة سنة واحدة على الأقل. إنجليزية متوسطة إلى عالية، تحدثًا وكتابة. إتقان برامج Office. التحاق فوري. شركة ملتزمة بتكافؤ الفرص. التقديم عبر InfoJobs.",
-      "pt": "Ciclo Formativo de Grau Superior (FP superior). Pelo menos 1 ano de experiência. Inglês nível intermédio-alto, falado e escrito. Domínio do Microsoft Office. Entrada imediata. Empresa comprometida com a igualdade de oportunidades. Candidatura através do InfoJobs."
-    },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/consignatario-cruceros-las-palmas-gran-canaria/of-i07b831c1f34865aee36ae662fc3a9b"
-  },
-  {
-    "area": "almacen",
-    "categoria": {
-      "es": "Almacén y Logística",
-      "en": "Warehouse & Logistics",
-      "fr": "Entrepôt et logistique",
-      "ar": "المستودعات والخدمات اللوجستية",
-      "pt": "Armazém e Logística"
-    },
-    "puesto": {
-      "es": "Carretillero/a",
-      "en": "Forklift Operator",
-      "fr": "Cariste",
-      "ar": "سائق/ة رافعة شوكية",
-      "pt": "Operador/a de empilhador"
-    },
-    "empresa": "Avanza Outsourcing Solutions",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa (cobertura vacacional)",
-      "en": "Full-time (holiday cover)",
-      "fr": "Temps plein (remplacement congés)",
-      "ar": "دوام كامل (تغطية إجازات)",
-      "pt": "Tempo inteiro (substituição de férias)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "Educación Secundaria Obligatoria. Al menos 1 año de experiencia. Salario 17.000 € brutos/año. Contrato de duración determinada, jornada completa. Inscripción a través de InfoJobs.",
-      "en": "Compulsory Secondary Education. At least 1 year's experience. Salary €17,000 gross/year. Fixed-term contract, full-time. Apply via InfoJobs.",
-      "fr": "Enseignement secondaire obligatoire. Au moins 1 an d'expérience. Salaire 17 000 € brut/an. Contrat à durée déterminée, temps plein. Candidature via InfoJobs.",
-      "ar": "تعليم ثانوي إلزامي. خبرة سنة واحدة على الأقل. الراتب 17000 يورو إجمالي سنويًا. عقد محدد المدة، دوام كامل. التقديم عبر InfoJobs.",
-      "pt": "Ensino Secundário Obrigatório (ESO). Pelo menos 1 ano de experiência. Salário 17.000 € brutos/ano. Contrato a termo, tempo inteiro. Candidatura através do InfoJobs."
-    },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/carretillero-las-palmas.-cobertura-vacacional./of-id01fd4c5674d708bb1dd60216454f4"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Peón/a Especialista",
-      "en": "Specialist Labourer",
-      "fr": "Ouvrier/ère spécialisé/e",
-      "ar": "عامل/ة متخصص/ة",
-      "pt": "Servente especializado/a"
-    },
-    "empresa": "PreZero España",
-    "ubicacion": "San Bartolomé de Tirajana",
-    "jornada": {
-      "es": "Jornada completa (contrato indefinido)",
-      "en": "Full-time (permanent contract)",
-      "fr": "Temps plein (CDI)",
-      "ar": "دوام كامل (عقد دائم)",
-      "pt": "Tempo inteiro (contrato sem termo)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "Al menos 1 año de experiencia. Contrato indefinido, jornada completa. Inscripción a través de InfoJobs.",
-      "en": "At least 1 year's experience. Permanent contract, full-time. Apply via InfoJobs.",
-      "fr": "Au moins 1 an d'expérience. CDI, temps plein. Candidature via InfoJobs.",
-      "ar": "خبرة سنة واحدة على الأقل. عقد دائم، دوام كامل. التقديم عبر InfoJobs.",
-      "pt": "Pelo menos 1 ano de experiência. Contrato sem termo, tempo inteiro. Candidatura através do InfoJobs."
-    },
-    "enlace": "https://www.infojobs.net/san-bartolome-de-tirajana/peona-on-especialista-san-bartolome-tirajana-las-palmas/of-ibd76502c064da09231e4817fc1aab0"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Sales Consultant (20h)",
-      "en": "Sales Consultant (20h)",
-      "fr": "Conseiller/ère de vente (20h)",
-      "ar": "مستشار/ة مبيعات (20 ساعة)",
-      "pt": "Sales Consultant (20h)"
-    },
-    "empresa": "Pepe Jeans",
-    "ubicacion": "Mesa y López, Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "20h (contrato indefinido)",
-      "en": "20h (permanent contract)",
-      "fr": "20h (CDI)",
-      "ar": "20 ساعة (عقد دائم)",
-      "pt": "20h (contrato sem termo)"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "Al menos 2 años de experiencia en moda/retail. Nivel nativo o bilingüe de español; se valora inglés y otros idiomas. Inscripción a través de InfoJobs.",
-      "en": "At least 2 years' experience in fashion/retail. Native or bilingual Spanish; English and other languages valued. Apply via InfoJobs.",
-      "fr": "Au moins 2 ans d'expérience dans la mode/retail. Espagnol natif ou bilingue ; anglais et autres langues appréciés. Candidature via InfoJobs.",
-      "ar": "خبرة سنتين على الأقل في الأزياء/التجزئة. إسبانية بمستوى أم أو ثنائي اللغة؛ يُفضّل الإنجليزية ولغات أخرى. التقديم عبر InfoJobs.",
-      "pt": "Pelo menos 2 anos de experiência em moda/retalho. Nível nativo ou bilingue de espanhol; valoriza-se inglês e outras línguas. Candidatura através do InfoJobs."
-    },
-    "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/sales-consultant-20h-pepe-jeans-mesa-lopez-las-palmas/of-ia3e01cae55402cbe4121bd8436be7c"
   },
   {
     "area": "sociosanitario",
@@ -13593,88 +13610,6 @@ const OFERTAS_SEMANA = [
       "pt": "Licenciatura em Administração de Empresas, RH, Serviço Social ou área relacionada. Pelo menos 3 anos de experiência em prospeção de empresas, vendas ou relações comerciais. Experiência com grupos vulneráveis (especialmente jovens). Nível alto em competências digitais. Salário entre 24.001 € e 30.000 € brutos/ano. Prazo até 15/10/2026. Candidatura através de hacesfalta.org."
     },
     "enlace": "https://www.hacesfalta.org/oportunidades/remuneradas/detalle/tecnicoa-de-prospeccion-laboral-las-palmas-de-gran-canaria/277191"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Vendedor/a — Sustitución (20h)",
-      "en": "Sales Assistant — Cover (20h)",
-      "fr": "Vendeur/se — Remplacement (20h)",
-      "ar": "بائع/ة — تعويض (20 ساعة)",
-      "pt": "Vendedor/a — Substituição (20h)"
-    },
-    "empresa": "Women'secret",
-    "ubicacion": "Santa Lucía de Tirajana (C.C. Atlántico)",
-    "jornada": {
-      "es": "Sustitución, 20h disponibilidad horaria",
-      "en": "Cover, 20h availability",
-      "fr": "Remplacement, disponibilité 20h",
-      "ar": "تعويض، إتاحة 20 ساعة",
-      "pt": "Substituição, disponibilidade horária de 20h"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "No se requiere experiencia previa. Contrato de duración determinada, jornada completa. Inscripción a través de InfoJobs.",
-      "en": "No previous experience required. Fixed-term contract, full-time. Apply via InfoJobs.",
-      "fr": "Aucune expérience préalable requise. Contrat à durée déterminée, temps plein. Candidature via InfoJobs.",
-      "ar": "لا تُشترط خبرة سابقة. عقد محدد المدة، دوام كامل. التقديم عبر InfoJobs.",
-      "pt": "Não é necessária experiência prévia. Contrato a termo, tempo inteiro. Candidatura através do InfoJobs."
-    },
-    "enlace": "https://www.infojobs.net/santa-lucia-de-tirajana/vendedor-sustitucion-20h-disp.-horaria-women-secret-c.c.-atlantico-fuerte-ventura-las-palmas/of-i66d2344e6d400598599877c392212e"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Vendedor/a (jornada parcial)",
-      "en": "Sales Assistant (part-time)",
-      "fr": "Vendeur/se (temps partiel)",
-      "ar": "بائع/ة (دوام جزئي)",
-      "pt": "Vendedor/a (tempo parcial)"
-    },
-    "empresa": "Kiwoko",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Contrato indefinido, jornada parcial",
-      "en": "Permanent contract, part-time",
-      "fr": "CDI, temps partiel",
-      "ar": "عقد دائم، دوام جزئي",
-      "pt": "Contrato sem termo, tempo parcial"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 22/09/2026)",
-      "en": "Shared this week (checked 09/22/2026)",
-      "fr": "Partagée cette semaine (vérifié le 22/09/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 22/09/2026)",
-      "pt": "Partilhada esta semana (verificado em 22/09/2026)"
-    },
-    "requisitos": {
-      "es": "Educación Secundaria Obligatoria. Al menos 1 año de experiencia. Inscripción a través de InfoJobs.",
-      "en": "Compulsory Secondary Education. At least 1 year's experience. Apply via InfoJobs.",
-      "fr": "Enseignement secondaire obligatoire. Au moins 1 an d'expérience. Candidature via InfoJobs.",
-      "ar": "تعليم ثانوي إلزامي. خبرة سنة واحدة على الأقل. التقديم عبر InfoJobs.",
-      "pt": "Ensino Secundário Obrigatório (ESO). Pelo menos 1 ano de experiência. Candidatura através do InfoJobs."
-    },
-    "enlace": "https://www.infojobs.net/palmas-de-gran-canaria/vendedor-las-palmas-republica-dominicana-parcia/of-i70aea2523a424db21602ae560ba97b"
   },
   {
     "area": "limpieza",
@@ -13743,11 +13678,11 @@ const OFERTAS_SEMANA = [
       "pt": "Tempo inteiro, de segunda a sexta de manhã e algumas tardes de forma rotativa conforme o planeamento. Contrato sem termo"
     },
     "fecha": {
-      "es": "Compartida esta semana (consultado 01/10/2026)",
-      "en": "Shared this week (checked 10/01/2026)",
-      "fr": "Partagée cette semaine (vérifié le 01/10/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 01/10/2026)",
-      "pt": "Partilhada esta semana (verificado em 01/10/2026)"
+      "es": "Compartida esta semana (consultado 12/10/2026)",
+      "en": "Shared this week (checked 10/12/2026)",
+      "fr": "Partagée cette semaine (vérifié le 12/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 12/10/2026)"
     },
     "requisitos": {
       "es": "Vehículo propio y titulación relacionada con el puesto. Enviar el CV a coordinacion@cuidarteservicios.com indicando en el asunto el puesto, o inscribirse en la web de la empresa («Únete a nuestro equipo»).",
