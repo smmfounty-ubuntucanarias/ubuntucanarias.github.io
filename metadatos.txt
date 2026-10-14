@@ -1,0 +1,25 @@
+ARTÍCULO: Nadie debería pedir permiso para ser quien es
+Sección: Publicaciones · Autora: Soraya Mohamedi Mohamed
+Imagen (la misma en los 5 idiomas): img/nadie-deberia-pedir-permiso.webp (1400 x 731)
+
+Ruta sugerida: nadie-deberia-pedir-permiso.html (con vuestra estructura de idiomas)
+
+ES
+Título SEO: Nadie debería pedir permiso para ser quien es | Ubuntu Canarias
+Descripción: El racismo que sobrevive a la convivencia y a la amistad: microagresiones, empleo, vivienda y lo que depende de cada persona. Por Soraya Mohamedi.
+
+EN
+Title: No one should have to ask permission to be who they are | Ubuntu Canarias
+Description: The racism that survives coexistence and friendship: microaggressions, work, housing and what depends on each of us. By Soraya Mohamedi.
+
+FR
+Titre : Personne ne devrait demander la permission d'être qui il est | Ubuntu Canarias
+Description : Le racisme qui survit à la cohabitation et à l'amitié : micro-agressions, emploi, logement et ce qui dépend de chacun. Par Soraya Mohamedi.
+
+PT
+Título: Ninguém deveria ter de pedir licença para ser quem é | Ubuntu Canarias
+Descrição: O racismo que sobrevive à convivência e à amizade: microagressões, emprego, habitação e o que depende de cada pessoa. Por Soraya Mohamedi.
+
+AR (dir="rtl")
+العنوان: لا ينبغي لأحد أن يستأذن ليكون كما هو | أوبونتو كناريا
+الوصف: العنصرية التي تصمد أمام التعايش والصداقة: الاعتداءات الدقيقة، العمل، السكن، وما يتوقف على كل واحد منا. بقلم ثريا محمدي.
