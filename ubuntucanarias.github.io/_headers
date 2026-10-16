@@ -1,0 +1,31 @@
+# Cloudflare Workers Static Assets lee este archivo en el despliegue
+# y aplica estas cabeceras a las respuestas. El archivo en sí no se sirve.
+# Docs: https://developers.cloudflare.com/workers/static-assets/headers/
+
+# HTML: que siempre revalide contra el origen para que las actualizaciones
+# se vean al instante (es el comportamiento por defecto de Cloudflare,
+# lo dejamos explícito para que quede documentado).
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# CSS y JS: los nombres de archivo no llevan hash de versión, así que
+# usamos una caché moderada (7 días) en vez de "immutable". Si algún día
+# cambiáis a nombres con hash (style.abc123.css), aquí se podría subir
+# a max-age=31536000, immutable.
+/css/*
+  Cache-Control: public, max-age=604800, must-revalidate
+/js/*
+  Cache-Control: public, max-age=604800, must-revalidate
+
+# Imágenes y PDF: cambian con menos frecuencia, caché de 30 días.
+/img/*
+  Cache-Control: public, max-age=2592000, must-revalidate
+/recursos-descargables/*
+  Cache-Control: public, max-age=2592000, must-revalidate
+
+# Cabeceras de seguridad básicas para todo el sitio
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
