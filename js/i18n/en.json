@@ -879,5 +879,10 @@
     "textoTarjeta": "Homologación, equivalencia, convalidación or reconocimiento: four different procedures often confused as one. What you need for your foreign degree, and what to expect.",
     "formato": "10 min read",
     "boton": "Read article"
+  },
+  "graciasBoletinConfirmacion": {
+    "titulo": "Email confirmed!",
+    "texto1": "You have confirmed your email address. You are now part of the Ubuntu Canarias newsletter and blog.",
+    "texto2": "Thank you for trusting our association. Together we build opportunities, hope and integration."
   }
 }

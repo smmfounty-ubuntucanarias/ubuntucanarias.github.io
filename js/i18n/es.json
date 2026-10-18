@@ -905,5 +905,10 @@
     "textoTarjeta": "Homologación, equivalencia, convalidación o reconocimiento: cuatro trámites que se confunden bajo el mismo nombre. Qué necesitas según tu título extranjero y qué esperar del proceso.",
     "formato": "10 min de lectura",
     "boton": "Leer artículo"
+  },
+  "graciasBoletinConfirmacion": {
+    "titulo": "¡Correo confirmado!",
+    "texto1": "Has confirmado tu dirección de correo. Ya formas parte de nuestro boletín y del blog de Ubuntu Canarias.",
+    "texto2": "Gracias por confiar en nuestra asociación. Juntos construimos oportunidades, esperanza e integración."
   }
 }

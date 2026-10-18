@@ -879,5 +879,10 @@
     "textoTarjeta": "Homologation, équivalence, convalidation ou reconnaissance : quatre démarches souvent confondues. Ce qu'il vous faut selon votre diplôme étranger, et à quoi vous attendre.",
     "formato": "10 min de lecture",
     "boton": "Lire l'article"
+  },
+  "graciasBoletinConfirmacion": {
+    "titulo": "Adresse confirmée !",
+    "texto1": "Vous avez confirmé votre adresse e-mail. Vous faites désormais partie de la lettre d’information et du blog d’Ubuntu Canarias.",
+    "texto2": "Merci de faire confiance à notre association. Ensemble, nous construisons des opportunités, de l'espoir et de l'intégration."
   }
 }

@@ -905,5 +905,10 @@
     "textoTarjeta": "Homologação, equivalência, convalidação ou reconhecimento: quatro trâmites que se confundem sob o mesmo nome. O que precisa consoante o seu diploma estrangeiro e o que esperar do processo.",
     "formato": "10 min de leitura",
     "boton": "Ler artigo"
+  },
+  "graciasBoletinConfirmacion": {
+    "titulo": "E-mail confirmado!",
+    "texto1": "Confirmou o seu endereço de e-mail. Já faz parte da newsletter e do blog da Ubuntu Canarias.",
+    "texto2": "Obrigado por confiar na nossa associação. Juntos construímos oportunidades, esperança e integração."
   }
 }
