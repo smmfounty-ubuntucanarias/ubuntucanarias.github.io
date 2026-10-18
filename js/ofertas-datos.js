@@ -12473,47 +12473,6 @@ const OFERTAS_SEMANA = [
       "pt": "Terceiro Setor"
     },
     "puesto": {
-      "es": "Responsable de Captación de Fondos",
-      "en": "Fundraising Manager",
-      "fr": "Responsable de la collecte de fonds",
-      "ar": "مسؤول/ة جمع التبرعات",
-      "pt": "Responsável de Captação de Fundos"
-    },
-    "empresa": "Fundaciones ECCA",
-    "ubicacion": "Canarias",
-    "jornada": {
-      "es": "No especificada",
-      "en": "Not specified",
-      "fr": "Non précisé",
-      "ar": "غير محدد",
-      "pt": "Não especificado"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 03/10/2026)",
-      "en": "Shared this week (checked 10/03/2026)",
-      "fr": "Partagée cette semaine (vérifié le 03/10/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 03/10/2026)",
-      "pt": "Partilhada esta semana (verificado em 03/10/2026)"
-    },
-    "requisitos": {
-      "es": "Captación de fondos para proyectos sociales. Publicada el 01/10/2026. Candidaturas hasta el 15/10/2026 enviando el CV a empleo@ecca.edu.es.",
-      "en": "Fundraising for social projects. Posted on 01/10/2026. Applications until 15/10/2026 by sending your CV to empleo@ecca.edu.es.",
-      "fr": "Collecte de fonds pour des projets sociaux. Publiée le 01/10/2026. Candidatures jusqu’au 15/10/2026 en envoyant le CV à empleo@ecca.edu.es.",
-      "ar": "جمع التبرعات للمشاريع الاجتماعية. نُشرت في 01/10/2026. التقديم حتى 15/10/2026 بإرسال السيرة الذاتية إلى empleo@ecca.edu.es.",
-      "pt": "Captação de fundos para projetos sociais. Publicada em 01/10/2026. Candidaturas até 15/10/2026 enviando o CV para empleo@ecca.edu.es."
-    },
-    "enlace": "mailto:empleo@ecca.edu.es?subject=Responsable%20de%20Captaci%C3%B3n%20de%20Fondos"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
       "es": "Educador/a Social — Programa de Educación de Calle (6 semanas)",
       "en": "Social Educator — Street Education Programme (6 weeks)",
       "fr": "Éducateur/trice social(e) — Programme d’éducation de rue (6 semaines)",
@@ -13282,5 +13241,169 @@ const OFERTAS_SEMANA = [
       "pt": "Atendimento ao cliente, serviço de gelados, crepes e waffles. Publicada a 08/10. Salário: 19.000–23.000 € brutos por ano."
     },
     "enlace": "https://www.infojobs.net/mogan/dependiente-heladeria/of-icb3dc6283b4136b415b63cdac5ab10"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
+      "es": "Auxiliar Técnico/a Educativo/a — Centros de Menores",
+      "en": "Educational Support Worker — Children's Centres",
+      "fr": "Auxiliaire technique éducatif/ve — Centres pour mineurs",
+      "ar": "مساعد/ة تقني/ة تربوي/ة — مراكز القاصرين",
+      "pt": "Auxiliar Técnico/a Educativo/a — Centros de Menores"
+    },
+    "empresa": "Fundación SAMU",
+    "ubicacion": "Gran Canaria (Artenara, Firgas, Maspalomas, San Bartolomé de Tirajana, Valsequillo)",
+    "jornada": {
+      "es": "Según el puesto",
+      "en": "Depending on the position",
+      "fr": "Selon le poste",
+      "ar": "حسب المنصب",
+      "pt": "Conforme o posto"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 18/10/2026)",
+      "en": "Shared this week (checked 10/18/2026)",
+      "fr": "Partagée cette semaine (vérifié le 18/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 18/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 18/10/2026)"
+    },
+    "requisitos": {
+      "es": "Oferta abierta hasta el 31/12/2026 en el portal de empleo de SAMU.",
+      "en": "Open until 31/12/2026 on SAMU's job portal.",
+      "fr": "Offre ouverte jusqu'au 31/12/2026 sur le portail emploi de SAMU.",
+      "ar": "العرض مفتوح حتى 31/12/2026 في بوابة التوظيف الخاصة بـ SAMU.",
+      "pt": "Oferta aberta até 31/12/2026 no portal de emprego da SAMU."
+    },
+    "enlace": "https://empleo.samu.es/ubicacion-empleo/gran-canaria/"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
+      "es": "Mediador/a Intercultural — Centros de Menores",
+      "en": "Intercultural Mediator — Children's Centres",
+      "fr": "Médiateur/trice interculturel/le — Centres pour mineurs",
+      "ar": "وسيط/ة بين الثقافات — مراكز القاصرين",
+      "pt": "Mediador/a Intercultural — Centros de Menores"
+    },
+    "empresa": "Fundación SAMU",
+    "ubicacion": "Gran Canaria",
+    "jornada": {
+      "es": "Flexibilidad horaria",
+      "en": "Flexible hours",
+      "fr": "Horaires flexibles",
+      "ar": "مرونة في أوقات العمل",
+      "pt": "Flexibilidade de horário"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 18/10/2026)",
+      "en": "Shared this week (checked 10/18/2026)",
+      "fr": "Partagée cette semaine (vérifié le 18/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 18/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 18/10/2026)"
+    },
+    "requisitos": {
+      "es": "Ciclo de grado medio o certificado de profesionalidad en mediación intercultural. Dominio acreditado de árabe, francés, wolof, soninké o bambara. Oferta abierta hasta el 31/12/2026.",
+      "en": "Intermediate vocational qualification or professional certificate in intercultural mediation. Certified command of Arabic, French, Wolof, Soninke or Bambara. Open until 31/12/2026.",
+      "fr": "Diplôme professionnel de niveau moyen ou certificat professionnel en médiation interculturelle. Maîtrise attestée de l'arabe, du français, du wolof, du soninké ou du bambara. Offre ouverte jusqu'au 31/12/2026.",
+      "ar": "شهادة تكوين مهني متوسط أو شهادة مهنية في الوساطة بين الثقافات. إتقان موثّق للعربية أو الفرنسية أو الولوف أو السوننكي أو البمبارا. العرض مفتوح حتى 31/12/2026.",
+      "pt": "Curso profissional de grau médio ou certificado profissional em mediação intercultural. Domínio comprovado de árabe, francês, wolof, soninquê ou bambara. Oferta aberta até 31/12/2026."
+    },
+    "enlace": "https://empleo.samu.es/ubicacion-empleo/gran-canaria/"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
+      "es": "Responsable de Proyecto Local — Atención Psicoeducativa a Menores e Inclusión Social",
+      "en": "Local Project Manager — Psycho-educational Support for Children and Social Inclusion",
+      "fr": "Responsable de projet local — Accompagnement psychoéducatif des mineurs et inclusion sociale",
+      "ar": "مسؤول/ة مشروع محلي — الدعم النفسي التربوي للقاصرين والإدماج الاجتماعي",
+      "pt": "Responsável de Projeto Local — Apoio Psicoeducativo a Menores e Inclusão Social"
+    },
+    "empresa": "Cruz Roja Española",
+    "ubicacion": "Las Palmas de Gran Canaria",
+    "jornada": {
+      "es": "Según el puesto",
+      "en": "Depending on the position",
+      "fr": "Selon le poste",
+      "ar": "حسب المنصب",
+      "pt": "Conforme o posto"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 18/10/2026)",
+      "en": "Shared this week (checked 10/18/2026)",
+      "fr": "Partagée cette semaine (vérifié le 18/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 18/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 18/10/2026)"
+    },
+    "requisitos": {
+      "es": "1 vacante. Publicada el 16/10/2026. Consulta los requisitos en el portal de empleo de Cruz Roja.",
+      "en": "1 vacancy. Posted 16/10/2026. See the requirements on the Red Cross job portal.",
+      "fr": "1 poste. Publiée le 16/10/2026. Consultez les conditions sur le portail emploi de la Croix-Rouge.",
+      "ar": "شاغر واحد. نُشر في 16/10/2026. راجع الشروط في بوابة التوظيف للصليب الأحمر.",
+      "pt": "1 vaga. Publicada a 16/10/2026. Consulte os requisitos no portal de emprego da Cruz Vermelha."
+    },
+    "enlace": "https://cruzroja.epreselec.com/Ofertas/Ofertas.aspx"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
+      "es": "Técnico/a de Orientación Laboral",
+      "en": "Employment Guidance Officer",
+      "fr": "Conseiller/ère en orientation professionnelle",
+      "ar": "تقني/ة توجيه مهني",
+      "pt": "Técnico/a de Orientação Laboral"
+    },
+    "empresa": "Fundación Cepaim",
+    "ubicacion": "Gran Canaria",
+    "jornada": {
+      "es": "Jornada completa (37,5 h), de lunes a domingo con los descansos legales. Contratos según necesidades (sustituciones y refuerzos)",
+      "en": "Full-time (37.5 h), Monday to Sunday with legal rest days. Contracts as needed (cover and reinforcement)",
+      "fr": "Temps plein (37,5 h), du lundi au dimanche avec les repos légaux. Contrats selon les besoins (remplacements et renforts)",
+      "ar": "دوام كامل (37.5 ساعة)، من الاثنين إلى الأحد مع أيام الراحة القانونية. عقود حسب الحاجة (استخلاف وتعزيز)",
+      "pt": "Tempo inteiro (37,5 h), de segunda a domingo com as folgas legais. Contratos conforme as necessidades (substituições e reforços)"
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 18/10/2026)",
+      "en": "Shared this week (checked 10/18/2026)",
+      "fr": "Partagée cette semaine (vérifié le 18/10/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 18/10/2026)",
+      "pt": "Partilhada esta semana (verificado em 18/10/2026)"
+    },
+    "requisitos": {
+      "es": "Publicada el 31/07/2026 para cubrir sustituciones y refuerzos. Consulta los requisitos en la web de Cepaim.",
+      "en": "Posted 31/07/2026 to cover absences and reinforcement. See the requirements on Cepaim's website.",
+      "fr": "Publiée le 31/07/2026 pour des remplacements et renforts. Consultez les conditions sur le site de Cepaim.",
+      "ar": "نُشر في 31/07/2026 لتغطية حالات الاستخلاف والتعزيز. راجع الشروط في موقع Cepaim.",
+      "pt": "Publicada a 31/07/2026 para substituições e reforços. Consulte os requisitos no site da Cepaim."
+    },
+    "enlace": "https://www.cepaim.org/tecnicao-de-orientacion-laboral-en-gran-canaria"
   }
 ];
