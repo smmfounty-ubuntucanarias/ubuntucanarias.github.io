@@ -165,7 +165,8 @@
 .semanal-oferta__enlace{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:700;color:var(--turquesa)}
 .semanal-oferta__enlace svg{width:15px;height:15px;transition:transform .2s ease}
 .semanal-oferta__enlace:hover svg{transform:translateX(3px)}
-@media(max-width:760px){.semanal-rejilla{grid-template-columns:1fr}}
+@media(max-width:760px){.semanal-rejilla{grid-template-columns:minmax(0,1fr)}}
+.semanal-oferta{min-width:0;overflow-wrap:anywhere}
 
 .semanal-aviso{margin-top:40px;background:var(--azul);color:var(--blanco);border-radius:var(--radio-l);padding:36px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
 .semanal-aviso h3{font-size:17px;font-weight:700;margin-bottom:6px}

@@ -75,3 +75,27 @@ html[dir=rtl] .nav-principal__cta{margin-left:0}
 
 /* Menú en pantallas medianas (1025–1220 px): evita que se salga (01/10/2026) */
 @media(min-width:1025px) and (max-width:1220px){.cabecera__interior{gap:16px;padding:14px 22px}.logo img{height:54px}.nav-principal{gap:10px}.nav-principal a{font-size:13.5px}.nav-principal__cta{padding:10px 16px!important}}
+
+/* ===== Tablet (24/10/2026): menú plegable hasta 1220 px y maquetación a dos columnas entre 761 y 1024 px ===== */
+@media(min-width:1025px) and (max-width:1220px){
+html body .boton-menu-movil{display:flex}
+html body .nav-principal{position:fixed;top:83px;left:0;right:0;background:var(--blanco);flex-direction:column;align-items:flex-start;gap:4px;padding:20px 28px;box-shadow:var(--sombra-m);transform:translateY(-12px);opacity:0;visibility:hidden;transition:opacity .2s ease,transform .2s ease,visibility .2s ease;max-height:calc(100vh - 90px);overflow-y:auto}
+html body .nav-principal[data-abierto=true]{transform:translateY(0);opacity:1;visibility:visible}
+html body .nav-principal a{width:100%;padding:12px 4px;border-bottom:1px solid var(--borde);font-size:15px}
+html body .nav-principal__cta{width:auto!important;display:inline-flex!important;margin-top:8px}
+}
+@media(max-width:1024px){html body .nav-principal{max-height:calc(100vh - 90px);overflow-y:auto}}
+@media(min-width:761px) and (max-width:1024px){
+html body .hero__interior{grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+html body .hero__imagen-wrap{order:0}
+html body .pagina-hero__interior,html body .blog-hero__interior,html body .vdm-hero__interior,html body .contacto-hero__interior,html body .semanal-hero__interior{grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+html body .blog-hero__interior>*,html body .vdm-hero__interior>*,html body .contacto-hero__interior>*,html body .semanal-hero__interior>*,html body .pagina-hero__interior>*{order:0}
+html body .servicio-detalle__imagen{max-width:460px;margin-inline:auto;width:100%}
+html body .hero h1,html body .pagina-hero h1{font-size:clamp(28px,4vw,40px)}
+html body .pagina-hero--nueva .pagina-hero__interior{grid-template-columns:1fr}
+}
+
+/* Botón de preferencias de cookies más discreto en móvil y tablet */
+@media(max-width:1220px){html body .boton-preferencias-cookies{transform:scale(.8);opacity:.75;transform-origin:left bottom}}
+/* Evita desplazamiento lateral por adornos que sobresalen */
+@media(max-width:1220px){html,html body{overflow-x:clip}}
