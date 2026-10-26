@@ -117,6 +117,7 @@
 .guia-candado input[type=text],.guia-candado input[type=email]{width:100%;padding:13px 14px;border:1.5px solid #cfd8e3;border-radius:12px;font:inherit;background:#fff}
 .guia-candado button{width:100%;margin-top:16px;background:#E5B241;color:#123B69;font-weight:800;font-size:1.02rem;padding:15px;border:0;border-radius:999px;cursor:pointer}
 .guia-candado button:disabled{opacity:.7;cursor:progress}
+.guia-candado__acepto{display:flex!important;gap:10px;align-items:flex-start;font-weight:500!important;font-size:.88rem!important;color:#374151!important;margin:16px 0 0!important;line-height:1.45;cursor:pointer}.guia-candado__acepto input{flex:none;width:20px;height:20px;margin-top:1px;accent-color:#138C8C}.guia-candado__acepto a{color:#0E6E6E;font-weight:700}
 .guia-candado small{display:block;text-align:center;color:#6B7280;font-size:.78rem;margin-top:12px;line-height:1.5}
 .guia-candado__ventajas{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 20px!important;padding:0!important;list-style:none!important}.guia-candado__ventajas li::before,.guia-candado__ventajas li::marker{content:none!important;display:none!important}
 .guia-candado__ventajas li{margin:0!important;padding-left:14px!important;list-style:none!important;background:#fff;border-radius:999px;padding:6px 14px;font-size:.85rem;font-weight:600;color:#123B69}
@@ -175,8 +176,9 @@
 <div aria-hidden="true" style="position:absolute;left:-9999px"><label for="guia-email-verificacion">Não preencher este campo</label><input autocomplete="off" id="guia-email-verificacion" name="email_address_check" tabindex="-1" type="text"/></div>
 <label for="guia-nombre">Nome</label><input type="text" id="guia-nombre" name="nombre" placeholder="O seu nome" required autocomplete="given-name">
 <label for="guia-email">E-mail</label><input type="email" id="guia-email" name="EMAIL" placeholder="oseuemail@exemplo.com" required autocomplete="email">
+<label class="guia-candado__acepto" for="guia-acepto"><input type="checkbox" id="guia-acepto" name="OPT_IN" value="1" required/><span>Aceito receber o boletim mensal da Ubuntu Canarias e li a <a href="privacidad.html" target="_blank">política de privacidade</a>.</span></label>
 <button type="submit" id="guia-enviar">🔓 Ver o guia completo</button>
-<small>O seu e-mail é adicionado à lista da Ubuntu Canarias (a mesma do boletim e das ofertas de emprego). Pode cancelar a subscrição quando quiser.</small>
+<small>O seu e-mail é adicionado à lista da Ubuntu Canarias, a mesma do boletim mensal e das ofertas de emprego. Pode cancelar a subscrição a qualquer momento a partir de qualquer boletim.</small>
 </form>
 <iframe aria-hidden="true" name="guia-marco-oculto" style="display:none" tabindex="-1" title="Registo"></iframe>
 </div>
