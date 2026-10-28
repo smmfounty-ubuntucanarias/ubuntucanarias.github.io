@@ -1685,6 +1685,56 @@
   <url><loc>https://ubuntucanarias.org/pt/testimonio-anisa.html</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://ubuntucanarias.org/enlaces.html</loc><lastmod>2026-10-12</lastmod></url>
   <url>
+    <loc>https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/en/noticia-gamificacion-entrevistas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/fr/noticia-gamificacion-entrevistas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/ar/noticia-gamificacion-entrevistas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ubuntucanarias.org/pt/noticia-gamificacion-entrevistas.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ubuntucanarias.org/fr/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ubuntucanarias.org/ar/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://ubuntucanarias.org/pt/noticia-gamificacion-entrevistas.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ubuntucanarias.org/noticia-gamificacion-entrevistas.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://ubuntucanarias.org/noticia-ellas-conectan-empresas.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://ubuntucanarias.org/noticia-ellas-conectan-empresas.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ubuntucanarias.org/en/noticia-ellas-conectan-empresas.html"/>
