@@ -19,7 +19,7 @@
 <link href="css/compass.css?v=20260727a" rel="stylesheet"/>
 <link href="css/legal.css?v=20260726a" rel="stylesheet"/>
 <link href="css/recursos.css?v=20260726a" rel="stylesheet"/>
-<link href="css/articulo.css?v=20261004b" rel="stylesheet"/>
+<link href="css/articulo.css?v=20261004h" rel="stylesheet"/>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -236,5 +236,17 @@
 <script defer="" src="js/idiomas.js?v=20260726a"></script>
 <script defer="" src="js/app.js?v=20260730a"></script>
 <script data-goatcounter="https://ubuntucanarias.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+(function(){var c=document.getElementById('carrusel');if(!c)return;var pista=c.querySelector('.carrusel__pista'),d=[].slice.call(c.querySelectorAll('.carrusel__diapo')),p=[].slice.call(c.querySelectorAll('.carrusel__punto')),cont=c.querySelector('.carrusel__contador'),ant=c.querySelector('.carrusel__flecha--prev'),sig=c.querySelector('.carrusel__flecha--next'),act=0;
+function ir(i,suave){if(i<0||i>=d.length)return;pista.scrollTo({left:d[i].offsetLeft-d[0].offsetLeft,behavior:suave===false?'auto':'smooth'});}
+function marcar(i){act=i;setTimeout(mitad,0);cont.textContent=(i+1)+' / '+d.length;p.forEach(function(b,k){b.setAttribute('aria-current',k===i?'true':'false')});ant.disabled=i===0;sig.disabled=i===d.length-1;}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting&&e.intersectionRatio>.6)marcar(d.indexOf(e.target))})},{root:pista,threshold:[.6]});d.forEach(function(x){io.observe(x)});
+ant.addEventListener('click',function(){ir(act-1)});sig.addEventListener('click',function(){ir(act+1)});
+p.forEach(function(b,k){b.addEventListener('click',function(){ir(k)})});
+pista.addEventListener('keydown',function(e){if(e.key==='ArrowRight'){e.preventDefault();ir(act+(document.documentElement.dir==='rtl'?-1:1))}if(e.key==='ArrowLeft'){e.preventDefault();ir(act+(document.documentElement.dir==='rtl'?1:-1))}});
+[].forEach.call(document.querySelectorAll('[data-ir-diapo]'),function(a){a.addEventListener('click',function(e){e.preventDefault();c.scrollIntoView({behavior:'smooth',block:'start'});var n=+a.getAttribute('data-ir-diapo')-1;setTimeout(function(){ir(n)},350)})});
+var esc=c.querySelector('.carrusel__escenario');function mitad(){var im=d[act]&&d[act].querySelector('img');if(im&&im.offsetHeight)esc.style.setProperty('--mitad',(im.offsetTop-pista.offsetTop+im.offsetHeight/2)+'px');}
+window.addEventListener('resize',mitad);d.forEach(function(x){var im=x.querySelector('img');if(im)im.addEventListener('load',mitad)});marcar(0);})();
+</script>
 </body>
 </html>
