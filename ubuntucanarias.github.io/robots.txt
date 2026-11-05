@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /gracias.html
-
-Sitemap: https://ubuntucanarias.org/sitemap.xml
