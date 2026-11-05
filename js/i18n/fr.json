@@ -154,7 +154,7 @@
     "subtitulo": "Nous sommes une équipe diverse, engagée et passionnée par la construction d'une société plus inclusive et solidaire.",
     "soraya": {
       "cargo": "Présidente",
-      "linea1": "Psychologue avec plus de 30 ans d'expérience en migration, intervention sociale et orientation professionnelle.",
+      "linea1": "Diplômée en psychologie, avec plus de 30 ans d'expérience en migration, intervention sociale et orientation professionnelle.",
       "linea2": "A fondé Ubuntu Canarias pour construire le projet dont elle a toujours rêvé : accompagner les personnes migrantes depuis l'expérience vécue, pas seulement depuis la théorie.",
       "conoceMasMini": "En savoir plus",
       "conoceMas": "En savoir plus sur moi"
@@ -361,7 +361,7 @@
     "viviendaEmpleo": {
       "etiqueta": "Logement et emploi",
       "titulo": "Logement, emploi et exclusion sociale à Grande Canarie",
-      "texto": "Une analyse territoriale de Soraya Mohamedi Mohamed, psychologue spécialisée en migration, droit des étrangers et insertion socioprofessionnelle, avec des données actualisées sur le logement, l'emploi, la pauvreté et les ressources sociales à Grande Canarie. Un document conçu pour appuyer l'intervention sociale et l'orientation socioprofessionnelle avec des données rigoureuses sur le territoire.",
+      "texto": "Une analyse territoriale de Soraya Mohamedi Mohamed, diplômée en psychologie, spécialisée en migration, droit des étrangers et insertion socioprofessionnelle, avec des données actualisées sur le logement, l'emploi, la pauvreté et les ressources sociales à Grande Canarie. Un document conçu pour appuyer l'intervention sociale et l'orientation socioprofessionnelle avec des données rigoureuses sur le territoire.",
       "boton": "Télécharger le PDF",
       "formato": "PDF",
       "soloEspanol": "Disponible uniquement en espagnol"
@@ -703,7 +703,7 @@
     "volver": "Retour au blog",
     "etiqueta": "Blog",
     "titulo": "Pourquoi je me sens coupable d'avoir émigré ?",
-    "cabecera": "Soraya Mohamedi Mohamed · Psychologue, spécialiste en migration et inclusion sociale · Fondatrice et présidente d'Ubuntu Canarias",
+    "cabecera": "Soraya Mohamedi Mohamed · Diplômée en psychologie, spécialiste en migration et inclusion sociale · Fondatrice et présidente d'Ubuntu Canarias",
     "lead": "Une personne tient son téléphone en regardant une photo de famille. De l'autre côté de l'écran, un appel vidéo avec ceux restés dans le pays d'origine. Parfois la distance se mesure en kilomètres. D'autres fois, en instants qui ne reviendront plus.",
     "seccion1Titulo": "Une question que beaucoup de gens se posent en silence",
     "seccion1Texto1": "Émigrer est souvent associé à la recherche d'opportunités, de sécurité ou d'une vie meilleure. Mais il y a une partie de cette expérience dont on parle beaucoup moins : la culpabilité.",
@@ -763,7 +763,7 @@
     "seccion10Texto3": "Il peut aussi être utile de réserver un espace pour prendre soin de la vie que l'on construit ici. Se permettre de profiter d'une bonne nouvelle, de se faire de nouveaux amis ou de se sentir en paix dans le pays d'accueil ne signifie pas oublier le lieu d'où l'on vient ni les personnes qui y sont restées. Les deux peuvent coexister, même si cela semble difficile à croire au début.",
     "seccion10Texto4": "Chaque parcours migratoire est différent, et il n'existe pas de bonne façon unique de le vivre. Certains ont besoin de beaucoup parler de ce qu'ils ont laissé derrière eux, d'autres préfèrent le faire peu à peu. L'important n'est pas de suivre un chemin précis, mais de trouver une façon d'avancer sans laisser la culpabilité occuper tout l'espace.",
     "seccion10Texto5": "Si, avec le temps, ce sentiment devient constant, nuit au repos, affecte les relations ou fait que chaque moment de bien-être s'accompagne de remords, il peut être utile de chercher un accompagnement professionnel. Non pas parce que ressentir de la culpabilité est un problème en soi, mais parce que personne ne devrait affronter seul ce qui le fait souffrir.",
-    "cierre": "Soraya Mohamedi Mohamed · Psychologue, spécialiste en migration et inclusion sociale",
+    "cierre": "Soraya Mohamedi Mohamed · Diplômée en psychologie, spécialiste en migration et inclusion sociale",
     "instagramNota": "Lien copié et nous avons ouvert Instagram : il vous suffit de le coller dans votre story ou publication.",
     "ctaTexto": "Avez-vous besoin de parler à quelqu'un de ce que vous ressentez dans votre parcours migratoire ?",
     "ctaBoton": "Demander un accompagnement psychosocial",
@@ -821,7 +821,7 @@
     "volver": "Retour au blog",
     "etiqueta": "Blog",
     "titulo": "Quand la mer cesse d'être un mur",
-    "cabecera": "Soraya Mohamedi Mohamed · Psychologue, spécialiste en migration et inclusion sociale · Fondatrice et présidente d'Ubuntu Canarias",
+    "cabecera": "Soraya Mohamedi Mohamed · Diplômée en psychologie, spécialiste en migration et inclusion sociale · Fondatrice et présidente d'Ubuntu Canarias",
     "lead": "Un arrêt du Tribunal suprême limite les refoulements à chaud pour les personnes qui traversent à la nage. Il coïncide avec une hausse des traversées à Ceuta. Que dit exactement cet arrêt, que n'explique-t-il pas, et pourquoi vaut-il mieux regarder au-delà de la coïncidence.",
     "intro": "Le 8 juillet dernier, le Tribunal suprême a confirmé un point qui peut sembler technique mais qui a des conséquences très concrètes : les personnes interceptées en mer alors qu'elles tentent d'entrer à la nage à Ceuta ou Melilla ne peuvent pas faire l'objet d'un refoulement à chaud.",
     "seccion1Titulo": "Ce que dit exactement l'arrêt",
@@ -840,7 +840,7 @@
     "seccion4Texto2": "Cette contradiction n'est pas un problème propre au tribunal, ni au droit européen pris isolément. Elle reflète un système qui n'a toujours pas tranché la place qu'il veut accorder aux droits individuels face à la gestion des frontières traitée comme un problème de sécurité. Et cette indétermination se paie, presque toujours, dans le corps de celles et ceux qui traversent.",
     "seccion5Titulo": "Une dernière réflexion",
     "seccion5Texto1": "Derrière chaque chiffre du type « 1 500 personnes en dix jours », il y a des décisions prises sous une pression que la plupart d'entre nous ne parviendront jamais vraiment à comprendre : trois heures de nage dans l'obscurité, la fatigue des tentatives précédentes, une information incomplète, le calcul d'un risque qu'aucun arrêt ne peut réduire. Comprendre ce contexte ne dispense pas les institutions de légiférer avec responsabilité. Mais cela devrait nous obliger, avant de tirer des conclusions hâtives sur les causes et les effets, à regarder avec plus d'attention ce qui se cache derrière chaque traversée.",
-    "cierre": "— Soraya Mohamedi Mohamed · Psychologue, spécialiste en migration et inclusion sociale",
+    "cierre": "— Soraya Mohamedi Mohamed · Diplômée en psychologie, spécialiste en migration et inclusion sociale",
     "instagramNota": "Lien copié et Instagram s'est ouvert : il vous suffit de le coller dans votre story ou votre publication.",
     "ctaTexto": "Vous voulez connaître vos droits dans une procédure de régularisation ?",
     "ctaBoton": "Voir les ressources juridiques",
