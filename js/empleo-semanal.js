@@ -24,7 +24,7 @@
       copiarEnlace: "Copiar",
       copiado: "¡Copiado!",
       mensajeCompartir: (puesto, empresa, ubicacion, enlace) =>
-        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 Más información e inscripción: ${enlace}\n\nVía Ubuntu Canarias — más ofertas de empleo en Gran Canaria: https://ubuntucanarias.org/acceso-ofertas.html`,
+        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 Más información e inscripción: ${enlace}\n\nVía Ubuntu Canarias — más ofertas de empleo en Gran Canaria: https://www.ubuntucanarias.org/acceso-ofertas.html`,
       contrato: { Indefinido: "Indefinido", Temporal: "Temporal" },
       botonAcceso: "Ver ofertas (ya tienes acceso)",
       areas: {
@@ -43,7 +43,7 @@
       copiarEnlace: "Copy",
       copiado: "Copied!",
       mensajeCompartir: (puesto, empresa, ubicacion, enlace) =>
-        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 More info and how to apply: ${enlace}\n\nVia Ubuntu Canarias — more job listings in Gran Canaria: https://ubuntucanarias.org/en/acceso-ofertas.html`,
+        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 More info and how to apply: ${enlace}\n\nVia Ubuntu Canarias — more job listings in Gran Canaria: https://www.ubuntucanarias.org/en/acceso-ofertas.html`,
       contrato: { Indefinido: "Permanent", Temporal: "Temporary" },
       botonAcceso: "View listings (you already have access)",
       areas: {
@@ -62,7 +62,7 @@
       copiarEnlace: "Copier",
       copiado: "Copié !",
       mensajeCompartir: (puesto, empresa, ubicacion, enlace) =>
-        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 Plus d'infos et candidature : ${enlace}\n\nVia Ubuntu Canarias — plus d'offres d'emploi à Gran Canaria : https://ubuntucanarias.org/fr/acceso-ofertas.html`,
+        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 Plus d'infos et candidature : ${enlace}\n\nVia Ubuntu Canarias — plus d'offres d'emploi à Gran Canaria : https://www.ubuntucanarias.org/fr/acceso-ofertas.html`,
       contrato: { Indefinido: "CDI", Temporal: "CDD" },
       botonAcceso: "Voir les offres (vous avez déjà accès)",
       areas: {
@@ -81,7 +81,7 @@
       copiarEnlace: "نسخ",
       copiado: "تم النسخ!",
       mensajeCompartir: (puesto, empresa, ubicacion, enlace) =>
-        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 لمزيد من المعلومات والتقديم: ${enlace}\n\nعبر أوبونتو كناريا — المزيد من عروض العمل في غران كناريا: https://ubuntucanarias.org/ar/acceso-ofertas.html`,
+        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 لمزيد من المعلومات والتقديم: ${enlace}\n\nعبر أوبونتو كناريا — المزيد من عروض العمل في غران كناريا: https://www.ubuntucanarias.org/ar/acceso-ofertas.html`,
       contrato: { Indefinido: "عقد دائم", Temporal: "عقد مؤقت" },
       botonAcceso: "شاهد العروض (لديك بالفعل صلاحية الوصول)",
       areas: {
@@ -100,7 +100,7 @@
       copiarEnlace: "Copiar",
       copiado: "Copiado!",
       mensajeCompartir: (puesto, empresa, ubicacion, enlace) =>
-        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 Mais informação e candidatura: ${enlace}\n\nVia Ubuntu Canarias — mais ofertas de emprego em Gran Canaria: https://ubuntucanarias.org/pt/acceso-ofertas.html`,
+        `🔎 ${puesto}\n🏢 ${empresa} · ${ubicacion}\n👉 Mais informação e candidatura: ${enlace}\n\nVia Ubuntu Canarias — mais ofertas de emprego em Gran Canaria: https://www.ubuntucanarias.org/pt/acceso-ofertas.html`,
       contrato: { Indefinido: "Efetivo", Temporal: "Temporário" },
       botonAcceso: "Ver ofertas (já tem acesso)",
       areas: {
