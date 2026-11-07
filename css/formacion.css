@@ -176,3 +176,5 @@ html[dir=rtl] .fg-sesiones{margin:10px 18px 0 0}
 .fg-destacado__logo{flex:0 0 200px;display:block}
 .fg-destacado__logo img{width:100%;height:auto;display:block}
 @media (max-width:640px){.fg-destacado__cuerpo{flex-direction:column-reverse;align-items:flex-start;padding:16px 18px;gap:12px}.fg-destacado__logo{flex-basis:auto;width:150px}}
+
+.fct--ubuntu{box-shadow:0 0 0 3px #138C8C,0 14px 34px rgba(19,140,140,.22)!important;position:relative}.fct__cat--ubuntu{background:#123B69!important;color:#fff!important}

@@ -1258,7 +1258,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/blog-homologacion-titulos.html"/>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.ubuntucanarias.org/en/blog-homologacion-titulos.html</loc>
@@ -1268,7 +1268,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/blog-homologacion-titulos.html"/>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.ubuntucanarias.org/fr/blog-homologacion-titulos.html</loc>
@@ -1278,7 +1278,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/blog-homologacion-titulos.html"/>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.ubuntucanarias.org/ar/blog-homologacion-titulos.html</loc>
@@ -1288,7 +1288,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/blog-homologacion-titulos.html"/>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.ubuntucanarias.org/pt/blog-homologacion-titulos.html</loc>
@@ -1298,7 +1298,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/blog-homologacion-titulos.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/blog-homologacion-titulos.html"/>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://www.ubuntucanarias.org/blog-lo-que-no-aparece-en-el-curriculum.html</loc>
@@ -4457,5 +4457,51 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/inscripcion-cibervoluntarios-6-seguridad-en-la-red.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/inscripcion-cibervoluntarios-6-seguridad-en-la-red.html"/>
     <lastmod>2026-11-06</lastmod>
+  </url>
+<url>
+    <loc>https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ubuntucanarias.org/en/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ubuntucanarias.org/fr/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <lastmod>2026-11-07</lastmod>
+  </url><url>
+    <loc>https://www.ubuntucanarias.org/en/noticia-feria-empleo-canarias.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ubuntucanarias.org/en/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ubuntucanarias.org/fr/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <lastmod>2026-11-07</lastmod>
+  </url><url>
+    <loc>https://www.ubuntucanarias.org/fr/noticia-feria-empleo-canarias.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ubuntucanarias.org/en/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ubuntucanarias.org/fr/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <lastmod>2026-11-07</lastmod>
+  </url><url>
+    <loc>https://www.ubuntucanarias.org/ar/noticia-feria-empleo-canarias.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ubuntucanarias.org/en/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ubuntucanarias.org/fr/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <lastmod>2026-11-07</lastmod>
+  </url><url>
+    <loc>https://www.ubuntucanarias.org/pt/noticia-feria-empleo-canarias.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ubuntucanarias.org/en/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.ubuntucanarias.org/fr/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.ubuntucanarias.org/ar/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.ubuntucanarias.org/pt/noticia-feria-empleo-canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.ubuntucanarias.org/noticia-feria-empleo-canarias.html"/>
+    <lastmod>2026-11-07</lastmod>
   </url>
 </urlset>
