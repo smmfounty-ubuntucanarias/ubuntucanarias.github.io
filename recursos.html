@@ -84,47 +84,38 @@
 </div>
 </div>
 </section>
-<!-- DUDAS SOBRE EXTRANJERÍA (destacado) -->
+<!-- DESTACADOS: DUDAS SOBRE EXTRANJERÍA + GUÍA UBUNTU DE EMPLEO -->
 <section>
 <div class="contenedor">
 <style>
-.banner-dudas{display:flex;flex-wrap:wrap;align-items:center;gap:26px;background:linear-gradient(135deg,#0D2C4F,#123B69 60%,#138C8C);border-radius:28px;padding:24px;margin:8px 0 18px;color:#fff;box-shadow:0 14px 34px rgba(18,59,105,.22);position:relative;overflow:hidden}
-.banner-dudas__img{flex:1 1 280px;max-width:420px;border-radius:18px;overflow:hidden;display:block}
-.banner-dudas__img img{width:100%;height:auto;display:block}
-.banner-dudas__txt{flex:1 1 300px}
-.banner-dudas__eye{display:inline-block;background:#E5B241;color:#0D2C4F;font-weight:800;font-size:.76rem;letter-spacing:.06em;padding:5px 12px;border-radius:999px}
-.banner-dudas h2{color:#fff;font-size:1.7rem;line-height:1.2;margin:12px 0 10px}
-.banner-dudas p{color:rgba(255,255,255,.9);line-height:1.6;margin:0 0 14px}
-.banner-dudas__chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
-.banner-dudas__chips a{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);color:#fff;text-decoration:none;padding:6px 12px;border-radius:999px;font-weight:600;font-size:.88rem}
-.banner-dudas__chips a:hover{background:rgba(255,255,255,.22)}
-.banner-dudas__btn{display:inline-flex;align-items:center;gap:8px;background:#E5B241;color:#0D2C4F;font-weight:800;text-decoration:none;padding:12px 22px;border-radius:999px}
-.banner-dudas__btn:hover{filter:brightness(1.06)}
+.destacados{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:6px 0 14px}
+@media (max-width:860px){.destacados{grid-template-columns:1fr}}
+.destacado{display:flex;align-items:center;gap:16px;padding:16px 18px;border-radius:22px;text-decoration:none;transition:transform .15s,box-shadow .15s}
+.destacado:hover{transform:translateY(-2px)}
+.destacado__img{flex:0 0 96px;width:96px;height:96px;border-radius:50%;object-fit:cover;border:4px solid #fff;box-shadow:0 6px 16px rgba(18,59,105,.18)}
+.destacado__txt{flex:1;min-width:0}
+.destacado__eye{display:inline-block;font-weight:800;font-size:.68rem;letter-spacing:.06em;padding:3px 10px;border-radius:999px}
+.destacado__t{display:block;font-weight:800;font-size:1.12rem;line-height:1.25;margin:6px 0 4px}
+.destacado__p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.9rem;line-height:1.45;margin:0 0 8px}
+.destacado__btn{display:inline-flex;align-items:center;gap:6px;font-weight:800;font-size:.88rem;padding:7px 14px;border-radius:999px;background:#E5B241;color:#0D2C4F}
+.destacado--dudas{background:linear-gradient(135deg,#0D2C4F,#123B69 60%,#138C8C);color:#fff;box-shadow:0 10px 26px rgba(18,59,105,.2)}
+.destacado--dudas .destacado__eye{background:#E5B241;color:#0D2C4F}
+.destacado--dudas .destacado__t{color:#fff}.destacado--dudas .destacado__p{color:rgba(255,255,255,.88)}
+.destacado--guia{background:#FBF3E3;border:2px solid #E5B241;color:#374151;box-shadow:0 8px 22px rgba(18,59,105,.08)}
+.destacado--guia .destacado__eye{background:#123B69;color:#fff}
+.destacado--guia .destacado__t{color:#123B69}
+@media (max-width:480px){.destacado{padding:14px}.destacado__img{flex-basis:72px;width:72px;height:72px}.destacado__t{font-size:1rem}}
 </style>
-<div class="banner-dudas">
-<a class="banner-dudas__img" href="recurso-dudas-extranjeria.html"><picture><source srcset="img/recurso-dudas-extranjeria.webp?v=20261108b" type="image/webp"/><img alt="Personas conversando en una mesa sobre sus dudas, con signos de interrogación en un bocadillo" loading="lazy" src="img/recurso-dudas-extranjeria.jpg?v=20261108b" width="1200" height="675"/></picture></a>
-<div class="banner-dudas__txt">
-<span class="banner-dudas__eye">NUEVO · PREGUNTAS FRECUENTES</span>
-<h2>Dudas sobre extranjería</h2>
-<p>Respuestas cortas y sencillas a las preguntas que más nos hacen: empadronamiento, NIE y TIE, asilo, arraigo, renovaciones, viajes y nacionalidad. Cada semana añadimos preguntas nuevas.</p>
-<div class="banner-dudas__chips"><a href="recurso-dudas-extranjeria.html#primeros-pasos">Primeros pasos</a><a href="recurso-dudas-extranjeria.html#arraigo">Arraigo</a><a href="recurso-dudas-extranjeria.html#renovar">Renovar mi permiso</a><a href="recurso-dudas-extranjeria.html#nacionalidad">Nacionalidad</a></div>
-<a class="banner-dudas__btn" href="recurso-dudas-extranjeria.html">Ver las preguntas →</a>
-</div>
-</div>
-</div>
-</section>
-<!-- GUÍA UBUNTU DE EMPLEO (destacada) -->
-<section>
-<div class="contenedor">
-<a href="recurso-guia-empleo-gran-canaria.html" style="display:flex;flex-wrap:wrap;align-items:center;gap:28px;background:#FBF3E3;border:2px solid #E5B241;border-radius:28px;padding:24px;margin:8px 0 8px;text-decoration:none;color:#374151;box-shadow:0 8px 24px rgba(18,59,105,.08)">
-<img alt="Personas buscando empleo con un portátil y un currículum" loading="lazy" src="img/recurso-guia-empleo-gran-canaria-bolsa.webp?v=20261025m" width="900" height="960" style="flex:1 1 260px;max-width:340px;width:100%;height:auto;border-radius:63% 37% 54% 46%/43% 47% 53% 57%;display:block;margin:0 auto;border:5px solid #fff;box-shadow:0 10px 26px rgba(18,59,105,.15)"/>
-<span style="flex:1 1 280px;display:block">
-<span style="display:inline-block;background:#123B69;color:#fff;font-weight:700;font-size:.78rem;letter-spacing:.06em;padding:5px 12px;border-radius:999px">NUEVA · GUÍA UBUNTU</span>
-<span style="display:block;color:#123B69;font-weight:800;font-size:1.6rem;line-height:1.2;margin:12px 0 10px">Dónde buscar trabajo en Gran Canaria</span>
-<span style="display:block;line-height:1.6;margin-bottom:18px">Nuestra libreta de direcciones del empleo en la isla: más de 200 portales, servicios públicos, ayuntamientos, empresas, ETT y entidades, con su enlace, dirección o teléfono. Gratis, solo tienes que registrarte.</span>
-<span class="boton boton-amarillo">Consigue la guía gratis <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
-</span>
+<div class="destacados">
+<a class="destacado destacado--dudas" href="recurso-dudas-extranjeria.html">
+<img class="destacado__img" alt="" loading="lazy" src="img/thumbs/recurso-dudas-extranjeria-thumb.jpg?v=20261108b"/>
+<span class="destacado__txt"><span class="destacado__eye">NUEVO · PREGUNTAS FRECUENTES</span><span class="destacado__t">Dudas sobre extranjería</span><span class="destacado__p">Empadronamiento, NIE, asilo, arraigo, renovaciones y nacionalidad, en respuestas cortas.</span><span class="destacado__btn">Ver las preguntas →</span></span>
 </a>
+<a class="destacado destacado--guia" href="recurso-guia-empleo-gran-canaria.html">
+<img class="destacado__img" alt="" loading="lazy" src="img/recurso-guia-empleo-gran-canaria-bolsa.webp?v=20261025m"/>
+<span class="destacado__txt"><span class="destacado__eye">NUEVA · GUÍA UBUNTU</span><span class="destacado__t">Dónde buscar trabajo en Gran Canaria</span><span class="destacado__p">Nuestra libreta de direcciones del empleo en la isla: más de 200 portales, servicios públicos, ayuntamientos, empresas, ETT y entidades, con su enlace, dirección o teléfono. Gratis, solo tienes que registrarte.</span><span class="destacado__btn">Consigue la guía gratis →</span></span>
+</a>
+</div>
 </div>
 </section>
 <!-- OFERTAS DE EMPLEO (versión compacta) -->
