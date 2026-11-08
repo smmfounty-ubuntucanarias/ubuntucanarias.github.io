@@ -85,7 +85,7 @@
 </div>
 </section>
 <!-- DESTACADOS: DUDAS SOBRE EXTRANJERÍA + GUÍA UBUNTU DE EMPLEO -->
-<section>
+<section class="seccion-destacados">
 <div class="contenedor">
 <style>
 .destacados{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:6px 0 14px}
@@ -105,6 +105,17 @@
 .destacado--guia .destacado__eye{background:#123B69;color:#fff}
 .destacado--guia .destacado__t{color:#123B69}
 @media (max-width:480px){.destacado{padding:14px}.destacado__img{flex-basis:72px;width:72px;height:72px}.destacado__t{font-size:1rem}}
+.destacado-mini{display:flex;align-items:center;gap:12px;margin:0 0 4px;padding:8px 10px 8px 8px;border-radius:999px;background:#123B69;color:#fff;text-decoration:none;max-width:560px;box-shadow:0 6px 16px rgba(18,59,105,.15)}
+.destacado-mini img{flex:0 0 48px;width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid #fff}
+.destacado-mini__t{flex:1;min-width:0;line-height:1.25}
+.destacado-mini__t strong{display:block;font-size:.95rem}
+.destacado-mini__t span{font-size:.8rem;color:rgba(255,255,255,.8)}
+.destacado-mini__btn{flex:0 0 auto;background:#E5B241;color:#0D2C4F;font-weight:800;font-size:.82rem;padding:7px 12px;border-radius:999px;white-space:nowrap}
+.destacado-mini:hover{filter:brightness(1.08)}
+.seccion-destacados{padding:14px 0 6px!important}
+.blog-filtros-seccion--arriba{padding-bottom:0!important}
+#rejilla-articulos{padding-top:22px!important}
+@media (max-width:480px){.destacado-mini__t span{display:none}}
 </style>
 <div class="destacados">
 <a class="destacado destacado--dudas" href="recurso-dudas-extranjeria.html">
@@ -116,6 +127,7 @@
 <span class="destacado__txt"><span class="destacado__eye">NEW · UBUNTU GUIDE</span><span class="destacado__t">Where to look for work in Gran Canaria</span><span class="destacado__p">Our address book for jobs on the island: more than 200 job sites, public services, town councils, companies, temp agencies and organisations, with their link, address or phone number. Free, you just need to sign up.</span><span class="destacado__btn">Get the free guide →</span></span>
 </a>
 </div>
+<a class="destacado-mini" href="empleo-semanal.html"><img alt="" loading="lazy" src="../img/banner-ofertas-empleo.webp?v=20260802a"/><span class="destacado-mini__t"><strong>Looking for work in Gran Canaria?</strong><span>New offers every week, free</span></span><span class="destacado-mini__btn">See offers →</span></a>
 </div>
 </section>
 <!-- REJILLA DE ARTÍCULOS -->

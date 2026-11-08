@@ -85,7 +85,7 @@
 </div>
 </section>
 <!-- DESTACADOS: DUDAS SOBRE EXTRANJERÍA + GUÍA UBUNTU DE EMPLEO -->
-<section>
+<section class="seccion-destacados">
 <div class="contenedor">
 <style>
 .destacados{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:6px 0 14px}
@@ -105,6 +105,17 @@
 .destacado--guia .destacado__eye{background:#123B69;color:#fff}
 .destacado--guia .destacado__t{color:#123B69}
 @media (max-width:480px){.destacado{padding:14px}.destacado__img{flex-basis:72px;width:72px;height:72px}.destacado__t{font-size:1rem}}
+.destacado-mini{display:flex;align-items:center;gap:12px;margin:0 0 4px;padding:8px 10px 8px 8px;border-radius:999px;background:#123B69;color:#fff;text-decoration:none;max-width:560px;box-shadow:0 6px 16px rgba(18,59,105,.15)}
+.destacado-mini img{flex:0 0 48px;width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid #fff}
+.destacado-mini__t{flex:1;min-width:0;line-height:1.25}
+.destacado-mini__t strong{display:block;font-size:.95rem}
+.destacado-mini__t span{font-size:.8rem;color:rgba(255,255,255,.8)}
+.destacado-mini__btn{flex:0 0 auto;background:#E5B241;color:#0D2C4F;font-weight:800;font-size:.82rem;padding:7px 12px;border-radius:999px;white-space:nowrap}
+.destacado-mini:hover{filter:brightness(1.08)}
+.seccion-destacados{padding:14px 0 6px!important}
+.blog-filtros-seccion--arriba{padding-bottom:0!important}
+#rejilla-articulos{padding-top:22px!important}
+@media (max-width:480px){.destacado-mini__t span{display:none}}
 </style>
 <div class="destacados">
 <a class="destacado destacado--dudas" href="recurso-dudas-extranjeria.html">
@@ -116,24 +127,7 @@
 <span class="destacado__txt"><span class="destacado__eye">NUEVA · GUÍA UBUNTU</span><span class="destacado__t">Dónde buscar trabajo en Gran Canaria</span><span class="destacado__p">Nuestra libreta de direcciones del empleo en la isla: más de 200 portales, servicios públicos, ayuntamientos, empresas, ETT y entidades, con su enlace, dirección o teléfono. Gratis, solo tienes que registrarte.</span><span class="destacado__btn">Consigue la guía gratis →</span></span>
 </a>
 </div>
-</div>
-</section>
-<!-- OFERTAS DE EMPLEO (versión compacta) -->
-<section>
-<div class="contenedor">
-<div class="mini-empleo">
-<a class="mini-empleo__imagen" href="empleo-semanal.html" aria-label="Consulta las ofertas de empleo de esta semana">
-<img alt="Consulta las ofertas de empleo de esta semana" loading="lazy" src="img/banner-ofertas-empleo.webp?v=20260802a"/>
-</a>
-<div class="mini-empleo__texto">
-<h2 data-i18n="recursos.miniEmpleo.titulo">¿Buscas empleo en Gran Canaria?</h2>
-<p data-i18n="recursos.miniEmpleo.texto">Cada semana rastreamos y recopilamos vacantes de empresas y entidades de la isla. Es un servicio 100% gratuito.</p>
-</div>
-<a class="boton boton-amarillo" href="empleo-semanal.html">
-<span data-i18n="recursos.miniEmpleo.boton">Recibe ofertas de empleo</span>
-<svg fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
-</a>
-</div>
+<a class="destacado-mini" href="empleo-semanal.html"><img alt="" loading="lazy" src="img/banner-ofertas-empleo.webp?v=20260802a"/><span class="destacado-mini__t"><strong>¿Buscas empleo en Gran Canaria?</strong><span>Ofertas nuevas cada semana, gratis</span></span><span class="destacado-mini__btn">Ver ofertas →</span></a>
 </div>
 </section>
 <!-- REJILLA DE ARTÍCULOS -->
