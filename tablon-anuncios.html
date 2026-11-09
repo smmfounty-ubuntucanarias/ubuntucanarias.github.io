@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html data-page="tablon-anuncios.html" dir="ltr" lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta name="robots" content="noindex, follow"/><link href="https://www.ubuntucanarias.org/tablon-anuncios.html" rel="canonical"/><link href="https://www.ubuntucanarias.org/tablon-anuncios.html" hreflang="es" rel="alternate"/><link href="https://www.ubuntucanarias.org/en/tablon-anuncios.html" hreflang="en" rel="alternate"/><link href="https://www.ubuntucanarias.org/fr/tablon-anuncios.html" hreflang="fr" rel="alternate"/><link href="https://www.ubuntucanarias.org/ar/tablon-anuncios.html" hreflang="ar" rel="alternate"/><link href="https://www.ubuntucanarias.org/pt/tablon-anuncios.html" hreflang="pt" rel="alternate"/><link href="https://www.ubuntucanarias.org/tablon-anuncios.html" hreflang="x-default" rel="alternate"/>
+<meta charset="utf-8"/><link href="https://www.ubuntucanarias.org/tablon-anuncios.html" rel="canonical"/><link href="https://www.ubuntucanarias.org/tablon-anuncios.html" hreflang="es" rel="alternate"/><link href="https://www.ubuntucanarias.org/en/tablon-anuncios.html" hreflang="en" rel="alternate"/><link href="https://www.ubuntucanarias.org/fr/tablon-anuncios.html" hreflang="fr" rel="alternate"/><link href="https://www.ubuntucanarias.org/ar/tablon-anuncios.html" hreflang="ar" rel="alternate"/><link href="https://www.ubuntucanarias.org/pt/tablon-anuncios.html" hreflang="pt" rel="alternate"/><link href="https://www.ubuntucanarias.org/tablon-anuncios.html" hreflang="x-default" rel="alternate"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Tablón de anuncios — Ubuntu Canarias</title>
 <meta content="Tablón de anuncios gratuito de Ubuntu Canarias: servicios que se ofrecen, personas que buscan a alguien y cosas que se regalan o intercambian en Gran Canaria." name="description"/>
@@ -133,20 +132,25 @@
 </ul>
 </div>
 <p>¿Buscas un empleo con contrato? Mira también nuestra <a href="empleo-semanal.html">bolsa de ofertas en Gran Canaria</a>.</p>
-<script src="js/anuncios-datos.js?v=20261109a"></script>
+<script src="js/anuncios-datos.js?v=20261109b"></script>
 <script>
 (function(){
 var lista=document.getElementById('tab-lista'),L={servicios:lista.getAttribute('data-ls'),busco:lista.getAttribute('data-lb'),regalo:lista.getAttribute('data-lr')};var vacio=document.getElementById('tab-vacio');
-var hoy=new Date().toISOString().slice(0,10);
-var datos=(typeof ANUNCIOS!=='undefined'?ANUNCIOS:[]).filter(function(a){return !a.caduca||a.caduca>=hoy;});
+var hoy=new Date().toISOString().slice(0,10),datos=[],actual='todos';
 function esc(s){return String(s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
-function pinta(tipo){
-  var v=datos.filter(function(a){return tipo==='todos'||a.tipo===tipo;});
+function csv(t){var r=[],f=[],c='',q=false;for(var i=0;i<t.length;i++){var ch=t[i];if(q){if(ch=='"'){if(t[i+1]=='"'){c+='"';i++;}else q=false;}else c+=ch;}else if(ch=='"')q=true;else if(ch==','){f.push(c);c='';}else if(ch=='\n'){f.push(c);r.push(f);f=[];c='';}else if(ch!='\r')c+=ch;}if(c||f.length){f.push(c);r.push(f);}return r;}
+function fecha(s){s=String(s||'').trim();var m=s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);if(m)return new Date(+m[1],m[2]-1,+m[3]);m=s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);if(m)return new Date(+m[3],m[2]-1,+m[1]);return null;}
+function iso(d){return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2);}
+function tipo(s){s=String(s||'').toLowerCase();if(s.indexOf('busco')==0)return 'busco';if(s.indexOf('regalo')==0)return 'regalo';return 'servicios';}
+function pinta(t){actual=t;
+  var v=datos.filter(function(a){return t==='todos'||a.tipo===t;});
   lista.innerHTML=v.map(function(a){return '<article class="tab-anuncio" data-tipo="'+esc(a.tipo)+'"><span class="tab-anuncio__tipo">'+esc(L[a.tipo]||'')+'</span><h3>'+esc(a.titulo)+'</h3><p>'+esc(a.descripcion)+'</p><div class="tab-anuncio__pie"><span>📍 '+esc(a.municipio)+'</span><span class="tab-anuncio__contacto">'+esc(a.contacto)+'</span></div></article>';}).join('');
   vacio.hidden=v.length>0;
 }
+function carga(extra){datos=(typeof ANUNCIOS!=='undefined'?ANUNCIOS:[]).concat(extra||[]).filter(function(a){return a.titulo&&(!a.caduca||a.caduca>=hoy);});datos.sort(function(a,b){return (b.publicado||'')<(a.publicado||'')?-1:1;});pinta(actual);}
 document.querySelectorAll('.tab-filtros button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.tab-filtros button').forEach(function(x){x.classList.toggle('activo',x===b);x.setAttribute('aria-pressed',x===b?'true':'false');});pinta(b.getAttribute('data-t'));});});
-pinta('todos');
+carga();
+if(typeof ANUNCIOS_CSV!=='undefined'&&ANUNCIOS_CSV){fetch(ANUNCIOS_CSV,{cache:'no-store'}).then(function(r){return r.text();}).then(function(t){var f=csv(t).slice(1),x=[];f.forEach(function(c){if(c.length<6)return;var d=fecha(c[0]),cad=null;if(d){var e=new Date(d.getTime());e.setDate(e.getDate()+30);cad=iso(e);}x.push({publicado:d?iso(d):'',caduca:cad,tipo:tipo(c[1]),titulo:c[2],descripcion:c[3],municipio:c[4],contacto:c[5]});});carga(x);}).catch(function(){});}
 })();
 </script>
 <div class="compartir-mini" data-compartir-pagina="">
