@@ -112,6 +112,10 @@
 .destacado-mini__t span{font-size:.8rem;color:rgba(255,255,255,.8)}
 .destacado-mini__btn{flex:0 0 auto;background:#E5B241;color:#0D2C4F;font-weight:800;font-size:.82rem;padding:7px 12px;border-radius:999px;white-space:nowrap}
 .destacado-mini:hover{filter:brightness(1.08)}
+.destacados-minis{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.destacados-minis .destacado-mini{max-width:none}
+.destacado-mini--tablon{background:#138C8C}
+@media (max-width:860px){.destacados-minis{grid-template-columns:1fr}}
 .seccion-destacados{padding:14px 0 6px!important}
 .blog-filtros-seccion--arriba{padding-bottom:0!important}
 #rejilla-articulos{padding-top:22px!important}
@@ -127,7 +131,9 @@
 <span class="destacado__txt"><span class="destacado__eye">NOUVEAU · GUIDE UBUNTU</span><span class="destacado__t">Où chercher du travail à Gran Canaria</span><span class="destacado__p">Notre carnet d’adresses de l’emploi sur l’île : plus de 200 sites d’emploi, services publics, mairies, entreprises, agences d’intérim et associations, avec leur lien, leur adresse ou leur téléphone. Gratuit, il suffit de vous inscrire.</span><span class="destacado__btn">Obtenez le guide gratuit →</span></span>
 </a>
 </div>
-<a class="destacado-mini" href="empleo-semanal.html"><img alt="" loading="lazy" src="../img/banner-ofertas-empleo.webp?v=20260802a"/><span class="destacado-mini__t"><strong>Tu cherches du travail à Grande Canarie ?</strong><span>Nouvelles offres chaque semaine, gratuit</span></span><span class="destacado-mini__btn">Voir les offres →</span></a>
+<div class="destacados-minis"><a class="destacado-mini" href="empleo-semanal.html"><img alt="" loading="lazy" src="../img/banner-ofertas-empleo.webp?v=20260802a"/><span class="destacado-mini__t"><strong>Tu cherches du travail à Grande Canarie ?</strong><span>Nouvelles offres chaque semaine, gratuit</span></span><span class="destacado-mini__btn">Voir les offres →</span></a>
+<a class="destacado-mini destacado-mini--tablon" href="tablon-anuncios.html"><img alt="" loading="lazy" src="../img/thumbs/tablon-anuncios-thumb.jpg?v=20261109a"/><span class="destacado-mini__t"><strong>Tableau d’annonces</strong><span>Propose tes services ou trouve quelqu’un, gratuitement</span></span><span class="destacado-mini__btn">Voir les annonces →</span></a>
+</div>
 </div>
 </section>
 <!-- REJILLA DE ARTÍCULOS -->

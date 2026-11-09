@@ -112,6 +112,10 @@
 .destacado-mini__t span{font-size:.8rem;color:rgba(255,255,255,.8)}
 .destacado-mini__btn{flex:0 0 auto;background:#E5B241;color:#0D2C4F;font-weight:800;font-size:.82rem;padding:7px 12px;border-radius:999px;white-space:nowrap}
 .destacado-mini:hover{filter:brightness(1.08)}
+.destacados-minis{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.destacados-minis .destacado-mini{max-width:none}
+.destacado-mini--tablon{background:#138C8C}
+@media (max-width:860px){.destacados-minis{grid-template-columns:1fr}}
 .seccion-destacados{padding:14px 0 6px!important}
 .blog-filtros-seccion--arriba{padding-bottom:0!important}
 #rejilla-articulos{padding-top:22px!important}
@@ -127,7 +131,9 @@
 <span class="destacado__txt"><span class="destacado__eye">جديد · دليل أوبونتو</span><span class="destacado__t">أين تبحث عن عمل في غران كناريا</span><span class="destacado__p">دفتر عناوين العمل في الجزيرة: أكثر من 200 موقع للتوظيف وخدمة عامة وبلدية وشركة ووكالة عمل مؤقت وجمعية، مع الرابط أو العنوان أو الهاتف. مجاني، يكفي أن تسجّل.</span><span class="destacado__btn">احصل على الدليل مجانًا ←</span></span>
 </a>
 </div>
-<a class="destacado-mini" href="empleo-semanal.html"><img alt="" loading="lazy" src="../img/banner-ofertas-empleo.webp?v=20260802a"/><span class="destacado-mini__t"><strong>تبحث عن عمل في غران كناريا؟</strong><span>عروض جديدة كل أسبوع، مجانًا</span></span><span class="destacado-mini__btn">اطّلع على العروض ←</span></a>
+<div class="destacados-minis"><a class="destacado-mini" href="empleo-semanal.html"><img alt="" loading="lazy" src="../img/banner-ofertas-empleo.webp?v=20260802a"/><span class="destacado-mini__t"><strong>تبحث عن عمل في غران كناريا؟</strong><span>عروض جديدة كل أسبوع، مجانًا</span></span><span class="destacado-mini__btn">اطّلع على العروض ←</span></a>
+<a class="destacado-mini destacado-mini--tablon" href="tablon-anuncios.html"><img alt="" loading="lazy" src="../img/thumbs/tablon-anuncios-thumb.jpg?v=20261109a"/><span class="destacado-mini__t"><strong>لوحة الإعلانات</strong><span>اعرض خدماتك أو جد من تبحث عنه، مجانًا</span></span><span class="destacado-mini__btn">اطّلع على الإعلانات ←</span></a>
+</div>
 </div>
 </section>
 <!-- REJILLA DE ARTÍCULOS -->
