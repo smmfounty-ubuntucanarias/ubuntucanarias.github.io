@@ -533,47 +533,6 @@ const OFERTAS_SEMANA = [
     "enlace": "tel:+34683102575"
   },
   {
-    "area": "administracion",
-    "categoria": {
-      "es": "Administración/Oficinas",
-      "en": "Administration/Office",
-      "fr": "Administration/Bureau",
-      "ar": "الإدارة/المكاتب",
-      "pt": "Administração/Escritórios"
-    },
-    "puesto": {
-      "es": "Técnico/a jurídico/a del área de Contratación",
-      "en": "Legal officer (Procurement)",
-      "fr": "Juriste (service des marchés publics)",
-      "ar": "تقني/ة قانوني/ة (قسم التعاقدات)",
-      "pt": "Técnico/a jurídico/a da área de Contratação"
-    },
-    "empresa": "Guaguas Municipales",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Ver oferta",
-      "en": "See offer",
-      "fr": "Voir l'offre",
-      "ar": "انظر العرض",
-      "pt": "Ver oferta"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 07/11/2026)",
-      "en": "Shared this week (checked 11/07/2026)",
-      "fr": "Partagée cette semaine (vérifié le 07/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 07/11/2026)"
-    },
-    "requisitos": {
-      "es": "Titulación en Derecho y experiencia en Derecho Administrativo. Se valora experiencia en contratación pública. Plazo: hasta el 16 de noviembre de 2026 a las 23:59.",
-      "en": "Law degree and experience in administrative law. Public procurement experience valued. Deadline: 16 November 2026 at 23:59.",
-      "fr": "Diplôme en droit et expérience en droit administratif. Expérience des marchés publics appréciée. Date limite : 16 novembre 2026 à 23 h 59.",
-      "ar": "شهادة في القانون وخبرة في القانون الإداري. تُقدَّر الخبرة في التعاقد العمومي. آخر أجل: 16 نوفمبر 2026 الساعة 23:59.",
-      "pt": "Licenciatura em Direito e experiência em Direito Administrativo. Valoriza-se experiência em contratação pública. Prazo: até 16 de novembro de 2026 às 23:59."
-    },
-    "enlace": "https://www.guaguas.com/empresa/trabaja-con-nosotros"
-  },
-  {
     "area": "construccion",
     "categoria": {
       "es": "Construcción y Oficios",
@@ -859,47 +818,6 @@ const OFERTAS_SEMANA = [
       "pt": "Experiência anterior em cozinha."
     },
     "enlace": "tel:+34604254290"
-  },
-  {
-    "area": "limpieza",
-    "categoria": {
-      "es": "Limpieza y Mantenimiento",
-      "en": "Cleaning & Maintenance",
-      "fr": "Nettoyage et entretien",
-      "ar": "التنظيف والصيانة",
-      "pt": "Limpeza e Manutenção"
-    },
-    "puesto": {
-      "es": "Limpiador/a (lista de reserva)",
-      "en": "Cleaner (reserve list)",
-      "fr": "Agent·e d’entretien (liste de réserve)",
-      "ar": "عامل/ة تنظيف (لائحة احتياط)",
-      "pt": "Pessoal de limpeza (lista de reserva)"
-    },
-    "empresa": "Mogán Gestión Municipal (GESTIONA)",
-    "ubicacion": "Mogán",
-    "jornada": {
-      "es": "Ver oferta",
-      "en": "See offer",
-      "fr": "Voir l'offre",
-      "ar": "انظر العرض",
-      "pt": "Ver oferta"
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 07/11/2026)",
-      "en": "Shared this week (checked 11/07/2026)",
-      "fr": "Partagée cette semaine (vérifié le 07/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 07/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 07/11/2026)"
-    },
-    "requisitos": {
-      "es": "Bases en la web. Plazo: hasta el 10 de noviembre de 2026 a las 13:00. Prueba escrita: 26 de noviembre.",
-      "en": "Rules on the website. Deadline: 10 November 2026 at 13:00. Written test: 26 November.",
-      "fr": "Règlement sur le site. Date limite : 10 novembre 2026 à 13 h. Épreuve écrite : 26 novembre.",
-      "ar": "الشروط في الموقع. آخر أجل: 10 نوفمبر 2026 الساعة 13:00. الاختبار الكتابي: 26 نوفمبر.",
-      "pt": "Bases no site. Prazo: até 10 de novembro de 2026 às 13:00. Prova escrita: 26 de novembro."
-    },
-    "enlace": "https://www.gestmogan.com"
   },
   {
     "area": "construccion",
@@ -3485,47 +3403,6 @@ const OFERTAS_SEMANA = [
     "enlace": "https://wa.me/34625074456"
   },
   {
-    "area": "otros",
-    "categoria": {
-      "es": "Deporte y Ocio",
-      "en": "Sport & Leisure",
-      "fr": "Sport et loisirs",
-      "ar": "الرياضة والترفيه",
-      "pt": "Desporto e Lazer"
-    },
-    "puesto": {
-      "es": "Casting publicidad Navidad (hombres +35, 16 de noviembre)",
-      "en": "Christmas advert casting (men over 35, 16 November)",
-      "fr": "Casting publicité de Noël (hommes de plus de 35 ans, 16 novembre)",
-      "ar": "اختيار ممثلين لإعلان أعياد الميلاد (رجال فوق 35 سنة، 16 نوفمبر)",
-      "pt": "Casting publicidade de Natal (homens com mais de 35 anos, 16 de novembro)"
-    },
-    "empresa": "Casting en Canarias",
-    "ubicacion": "Gran Canaria",
-    "jornada": {
-      "es": "Ver oferta",
-      "en": "See offer",
-      "fr": "Voir l'offre",
-      "ar": "انظر العرض",
-      "pt": "Ver oferta"
-    },
-    "fecha": {
-      "es": "Compartida antes (consultado 01/11/2026)",
-      "en": "Shared earlier (checked 11/01/2026)",
-      "fr": "Partagée précédemment (vérifiée le 01/11/2026)",
-      "ar": "تمت مشاركتها سابقًا (تم التحقق في 01/11/2026)",
-      "pt": "Partilhada anteriormente (verificado em 01/11/2026)"
-    },
-    "requisitos": {
-      "es": "Asunto: CASTNOEL. ⚠️ No envíes tu DNI ni datos personales hasta haber confirmado quién es la agencia y en qué consiste el trabajo. Ubuntu Canarias no se hace responsable.",
-      "en": "Email subject: CASTNOEL. ⚠️ Do not send your ID or personal data until you have confirmed who the agency is and what the job involves. Ubuntu Canarias is not responsible.",
-      "fr": "Objet du mail : CASTNOEL. ⚠️ N’envoie pas ta pièce d’identité ni tes données personnelles avant d’avoir vérifié qui est l’agence et en quoi consiste le travail. Ubuntu Canarias décline toute responsabilité.",
-      "ar": "موضوع البريد: CASTNOEL. ⚠️ لا ترسل بطاقة هويتك ولا بياناتك الشخصية قبل التأكد من هوية الوكالة وطبيعة العمل. Ubuntu Canarias غير مسؤولة.",
-      "pt": "Assunto do e-mail: CASTNOEL. ⚠️ Não envie o seu documento de identidade nem dados pessoais antes de confirmar quem é a agência e em que consiste o trabalho. A Ubuntu Canarias não se responsabiliza."
-    },
-    "enlace": "mailto:hola@castingencanarias.com"
-  },
-  {
     "area": "almacen",
     "categoria": {
       "es": "Logística y Almacén",
@@ -3729,47 +3606,6 @@ const OFERTAS_SEMANA = [
       "pt": "Indique na candidatura o posto de chófer-mozo/a."
     },
     "enlace": "https://www.ortegasl.com/curriculum.html"
-  },
-  {
-    "area": "construccion",
-    "categoria": {
-      "es": "Construcción y Mantenimiento",
-      "en": "Construction & Maintenance",
-      "fr": "Construction et maintenance",
-      "ar": "البناء والصيانة",
-      "pt": "Construção e Manutenção"
-    },
-    "puesto": {
-      "es": "Técnico/a de electricidad",
-      "en": "Electrician",
-      "fr": "Électricien·ne",
-      "ar": "تقني/ة كهرباء",
-      "pt": "Técnico/a de eletricidade"
-    },
-    "empresa": "Conde (empleoconde)",
-    "ubicacion": "Arucas",
-    "jornada": {
-      "es": "Completa, de 8:00 a 16:00. 1.800 € brutos/mes",
-      "en": "Full-time, 8:00 to 16:00. €1,800 gross/month",
-      "fr": "Temps plein, de 8h00 à 16h00. 1 800 € bruts/mois",
-      "ar": "دوام كامل، من 8:00 إلى 16:00. 1.800 يورو إجمالي شهريًا",
-      "pt": "Tempo inteiro, das 8:00 às 16:00. 1.800 € brutos/mês"
-    },
-    "fecha": {
-      "es": "Compartida antes (consultado 01/11/2026)",
-      "en": "Shared earlier (checked 11/01/2026)",
-      "fr": "Partagée précédemment (vérifiée le 01/11/2026)",
-      "ar": "تمت مشاركتها سابقًا (تم التحقق في 01/11/2026)",
-      "pt": "Partilhada anteriormente (verificado em 01/11/2026)"
-    },
-    "requisitos": {
-      "es": "Grado medio en Electricidad, carné B y curso de prevención de riesgos de 20 h. Solo se admiten CV por la web. Plazo: hasta el 10 de noviembre de 2026.",
-      "en": "Intermediate vocational qualification in electricity, B licence and 20-hour health and safety course. CVs only through the website. Deadline: 10 November 2026.",
-      "fr": "Diplôme professionnel en électricité, permis B et formation prévention des risques de 20 h. CV uniquement via le site. Date limite : 10 novembre 2026.",
-      "ar": "شهادة تكوين مهني متوسط في الكهرباء، رخصة B ودورة وقاية من المخاطر من 20 ساعة. السير الذاتية عبر الموقع فقط. آخر أجل: 10 نوفمبر 2026.",
-      "pt": "Curso profissional de eletricidade, carta B e curso de prevenção de riscos de 20 h. CV apenas pelo site. Prazo: até 10 de novembro de 2026."
-    },
-    "enlace": "https://empleoconde.empleactiva.com/oferta/tecnico-electricidad-gc"
   },
   {
     "area": "almacen",
@@ -8854,47 +8690,6 @@ const OFERTAS_SEMANA = [
       "pt": "Gostar de trabalhar com crianças. Conhecimentos das matérias escolares, sobretudo do ensino básico. Paciência, empatia e responsabilidade. Experiência não imprescindível. Valorizam-se estudos em Magistério, Educação Infantil, Pedagogia ou Psicologia."
     },
     "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/trabaja-como-canguro-apoyo-escolar-cuidado-infantil/of-i124d1f901d4a7ab429b261c086807e"
-  },
-  {
-    "area": "limpieza",
-    "categoria": {
-      "es": "Limpieza y Mantenimiento",
-      "en": "Cleaning & Maintenance",
-      "fr": "Nettoyage et entretien",
-      "ar": "التنظيف والصيانة",
-      "pt": "Limpeza e Manutenção"
-    },
-    "puesto": {
-      "es": "Operario/a de limpieza",
-      "en": "Cleaning operative",
-      "fr": "Agent·e de nettoyage",
-      "ar": "عامل/ة تنظيف",
-      "pt": "Operário/a de limpeza"
-    },
-    "empresa": "Servidis Facility Services",
-    "ubicacion": "Santa Brígida",
-    "jornada": {
-      "es": "Ver oferta",
-      "en": "See offer",
-      "fr": "Voir l'offre",
-      "ar": "انظر العرض",
-      "pt": "Ver oferta"
-    },
-    "fecha": {
-      "es": "Compartida antes (consultado 01/11/2026)",
-      "en": "Shared earlier (checked 11/01/2026)",
-      "fr": "Partagée précédemment (vérifiée le 01/11/2026)",
-      "ar": "تمت مشاركتها سابقًا (تم التحقق في 01/11/2026)",
-      "pt": "Partilhada anteriormente (verificado em 01/11/2026)"
-    },
-    "requisitos": {
-      "es": "Contrato temporal: Del 03/11 al 15/11. Lunes a Viernes de 08:00 a 16:00 Experiencia Mínima 1 año.",
-      "en": "Temporary contract from 03/11 to 15/11. Monday to Friday, 08:00 to 16:00. At least 1 year of experience.",
-      "fr": "Contrat temporaire du 03/11 au 15/11. Du lundi au vendredi, de 8h00 à 16h00. Au moins 1 an d’expérience.",
-      "ar": "عقد مؤقت من 03/11 إلى 15/11. من الاثنين إلى الجمعة، من 08:00 إلى 16:00. خبرة سنة على الأقل.",
-      "pt": "Contrato temporário de 03/11 a 15/11. Segunda a sexta, das 08:00 às 16:00. Mínimo de 1 ano de experiência."
-    },
-    "enlace": "https://www.infojobs.net/santa-brigida/operario-limpieza-santa-brigida-temporal/of-i24670eaaa14f64b26d4088d493b552"
   },
   {
     "area": "comercio",
