@@ -205,6 +205,129 @@ const OFERTAS_SEMANA = [
     "enlace": "https://gloriapalaceth.nivimu.net/ofertas"
   },
   {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Fregador/a (un día a la semana)",
+      "en": "Dishwasher (one day a week)",
+      "fr": "Plongeur·se (un jour par semaine)",
+      "ar": "غاسل/ة أطباق (يوم واحد في الأسبوع)",
+      "pt": "Copeiro/a (um dia por semana)"
+    },
+    "empresa": "Restaurante",
+    "ubicacion": "Playa del Inglés (San Bartolomé de Tirajana)",
+    "jornada": {
+      "es": "Martes de 18:30 a 22:30, con contrato y alta en la Seguridad Social. 4 horas semanales. Salario: unos 48 € al día (unos 200 € al mes).",
+      "en": "Tuesdays from 6:30 pm to 10:30 pm, with a contract and Social Security registration. 4 hours a week. Pay: unos 48 € al día (unos 200 € al mes).",
+      "fr": "Le mardi de 18h30 à 22h30, avec contrat et affiliation à la Sécurité sociale. 4 heures par semaine. Salaire : unos 48 € al día (unos 200 € al mes).",
+      "ar": "أيام الثلاثاء من 18:30 إلى 22:30، بعقد وتسجيل في الضمان الاجتماعي. 4 ساعة أسبوعيًا. الأجر: unos 48 € al día (unos 200 € al mes).",
+      "pt": "Às terças das 18:30 às 22:30, com contrato e inscrição na Segurança Social. 4 horas semanais. Salário: unos 48 € al día (unos 200 € al mes)."
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 21/11/2026)",
+      "en": "Shared this week (checked 11/21/2026)",
+      "fr": "Partagée cette semaine (vérifié le 21/11/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/11/2026)",
+      "pt": "Partilhada esta semana (verificado em 21/11/2026)"
+    },
+    "requisitos": {
+      "es": "WhatsApp: 628 813 949. ⚠️ Oferta no verificada por Ubuntu Canarias: anuncio de un particular o sin nombre de empresa. Ubuntu Canarias no se hace responsable. Antes de aceptar, confirma por escrito quién contrata, el contrato, el salario y el horario. No entregues documentos originales ni pagues nada.",
+      "en": "WhatsApp: 628 813 949. ⚠️ Offer not verified by Ubuntu Canarias: private advert or no company name given. Ubuntu Canarias is not responsible. Before accepting, confirm in writing who is hiring, the contract, pay and hours. Do not hand over original documents or pay anything.",
+      "fr": "WhatsApp : 628 813 949. ⚠️ Offre non vérifiée par Ubuntu Canarias : annonce d’un particulier ou sans nom d’entreprise. Ubuntu Canarias décline toute responsabilité. Avant d’accepter, confirme par écrit qui embauche, le contrat, le salaire et les horaires. Ne remets pas de documents originaux et ne paie rien.",
+      "ar": "واتساب: 628 813 949. ⚠️ عرض لم تتحقق منه Ubuntu Canarias: إعلان من فرد أو بدون اسم شركة. Ubuntu Canarias غير مسؤولة. قبل القبول، تأكد كتابيًا من الجهة المشغّلة والعقد والأجر والتوقيت. لا تسلّم وثائق أصلية ولا تدفع أي مبلغ.",
+      "pt": "WhatsApp: 628 813 949. ⚠️ Oferta não verificada pela Ubuntu Canarias: anúncio de um particular ou sem nome de empresa. A Ubuntu Canarias não se responsabiliza. Antes de aceitar, confirme por escrito quem contrata, o contrato, o salário e o horário. Não entregue documentos originais nem pague nada."
+    },
+    "enlace": "https://wa.me/34628813949"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Camarero/a",
+      "en": "Waiter/waitress",
+      "fr": "Serveur·se",
+      "ar": "نادل/ة",
+      "pt": "Empregado/a de mesa"
+    },
+    "empresa": "La Llave del Sabor",
+    "ubicacion": "Avenida de Canarias, Vecindario (Santa Lucía de Tirajana)",
+    "jornada": {
+      "es": "Incorporación inmediata.",
+      "en": "Immediate start.",
+      "fr": "Démarrage immédiat.",
+      "ar": "الالتحاق فورًا.",
+      "pt": "Início imediato."
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 21/11/2026)",
+      "en": "Shared this week (checked 11/21/2026)",
+      "fr": "Partagée cette semaine (vérifié le 21/11/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/11/2026)",
+      "pt": "Partilhada esta semana (verificado em 21/11/2026)"
+    },
+    "requisitos": {
+      "es": "Contacto: 617 834 609 o 683 397 603.",
+      "en": "Contact: 617 834 609 o 683 397 603.",
+      "fr": "Contact : 617 834 609 o 683 397 603.",
+      "ar": "للتواصل: 617 834 609 o 683 397 603.",
+      "pt": "Contacto: 617 834 609 o 683 397 603."
+    },
+    "enlace": "tel:+34617834609"
+  },
+  {
+    "area": "comercio",
+    "categoria": {
+      "es": "Comercio y Ventas",
+      "en": "Retail & Sales",
+      "fr": "Commerce et vente",
+      "ar": "التجارة والمبيعات",
+      "pt": "Comércio e Vendas"
+    },
+    "puesto": {
+      "es": "Personal de tienda (nueva apertura)",
+      "en": "Shop staff (new opening)",
+      "fr": "Personnel de magasin (nouvelle ouverture)",
+      "ar": "عاملو/ات متجر (افتتاح جديد)",
+      "pt": "Pessoal de loja (nova abertura)"
+    },
+    "empresa": "8 Islas Canarias (8IC)",
+    "ubicacion": "Vecindario (Santa Lucía de Tirajana)",
+    "jornada": {
+      "es": "Campaña de Navidad.",
+      "en": "Christmas season.",
+      "fr": "Campagne de Noël.",
+      "ar": "موسم عيد الميلاد.",
+      "pt": "Campanha de Natal."
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 21/11/2026)",
+      "en": "Shared this week (checked 11/21/2026)",
+      "fr": "Partagée cette semaine (vérifié le 21/11/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/11/2026)",
+      "pt": "Partilhada esta semana (verificado em 21/11/2026)"
+    },
+    "requisitos": {
+      "es": "CV a tienda8ic@gmail.com.",
+      "en": "Send your CV to tienda8ic@gmail.com.",
+      "fr": "CV à tienda8ic@gmail.com.",
+      "ar": "أرسل سيرتك الذاتية إلى tienda8ic@gmail.com.",
+      "pt": "CV para tienda8ic@gmail.com."
+    },
+    "enlace": "mailto:tienda8ic@gmail.com"
+  },
+  {
     "area": "formacion",
     "categoria": {
       "es": "Educación/Formación",
