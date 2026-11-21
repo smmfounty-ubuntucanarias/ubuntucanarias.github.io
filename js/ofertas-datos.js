@@ -6332,11 +6332,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Heladería El Tucán",
     "ubicacion": "Gran Canaria",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -6988,11 +6988,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Cafetería Timanfaya",
     "ubicacion": "San Fernando de Maspalomas (San Bartolomé de Tirajana)",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -7111,11 +7111,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Restaurante De Enyesque",
     "ubicacion": "Arucas",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -7152,11 +7152,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Primor",
     "ubicacion": "Gran Canaria",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -7890,11 +7890,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Fund Grube",
     "ubicacion": "El Tablero (San Bartolomé de Tirajana)",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -7931,11 +7931,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Activa Canarias",
     "ubicacion": "El Sebadal (Las Palmas de Gran Canaria)",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -7972,11 +7972,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Folias Hotels",
     "ubicacion": "Playa del Inglés (San Bartolomé de Tirajana)",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -9735,11 +9735,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Osteria Martini",
     "ubicacion": "Las Canteras (Las Palmas de Gran Canaria)",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -9858,11 +9858,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Particular",
     "ubicacion": "Gran Canaria",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -9940,11 +9940,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Perritos Burger",
     "ubicacion": "Vecindario (Santa Lucía de Tirajana)",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -9981,11 +9981,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Fund Grube",
     "ubicacion": "Gran Canaria",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -10145,11 +10145,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Rincón del Pan",
     "ubicacion": "Gran Canaria",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -10186,11 +10186,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Pizza Royers",
     "ubicacion": "Vecindario (Santa Lucía de Tirajana)",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -10391,11 +10391,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Pizza Royers",
     "ubicacion": "Gran Canaria",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -10473,11 +10473,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Helados Peña La Vieja",
     "ubicacion": "Las Palmas de Gran Canaria",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -10494,47 +10494,6 @@ const OFERTAS_SEMANA = [
       "pt": "CV para rrhh@heladosartesanospv.com."
     },
     "enlace": "mailto:rrhh@heladosartesanospv.com"
-  },
-  {
-    "area": "comercio",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Store manager (CC Las Terrazas)",
-      "en": "Store manager (Las Terrazas shopping centre)",
-      "fr": "Directeur·rice de magasin (CC Las Terrazas)",
-      "ar": "مدير/ة متجر (مركز لاس تيراثاس)",
-      "pt": "Gerente de loja (CC Las Terrazas)"
-    },
-    "empresa": "PUMA",
-    "ubicacion": "Telde",
-    "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 21/11/2026)",
-      "en": "Shared this week (checked 11/21/2026)",
-      "fr": "Partagée cette semaine (vérifié le 21/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 21/11/2026)"
-    },
-    "requisitos": {
-      "es": "Experiencia mínima de 2 años. Inglés.",
-      "en": "At least 2 years of experience. English.",
-      "fr": "Au moins 2 ans d’expérience. Anglais.",
-      "ar": "خبرة لا تقل عن 2 سنوات. الإنجليزية.",
-      "pt": "Experiência mínima de 2 anos. Inglês."
-    },
-    "enlace": "https://www.glassdoor.es/Empleo/las-palmas-empleos-SRCH_IL.0,10_IC2528538.htm"
   },
   {
     "area": "hosteleria",
@@ -12072,11 +12031,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Grupo Poges",
     "ubicacion": "Sur de Gran Canaria",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -14573,11 +14532,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Particular",
     "ubicacion": "Las Palmas de Gran Canaria",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -14778,11 +14737,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Restaurantes del sur",
     "ubicacion": "Maspalomas (San Bartolomé de Tirajana)",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -15065,11 +15024,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Restaurante Puerto Madera",
     "ubicacion": "La Garita (Telde)",
     "jornada": {
-      "es": "Consulta las condiciones en la oferta.",
-      "en": "See the conditions in the job offer.",
-      "fr": "Consulte les conditions dans l’offre.",
-      "ar": "راجع الشروط في العرض.",
-      "pt": "Consulte as condições na oferta."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 21/11/2026)",
@@ -15202,11 +15161,11 @@ const OFERTAS_SEMANA = [
       "pt": "Partilhada esta semana (verificado em 21/11/2026)"
     },
     "requisitos": {
-      "es": "Consulta los requisitos en el enlace.",
-      "en": "Check the requirements at the link.",
-      "fr": "Consultez les exigences sur le lien.",
-      "ar": "راجع الشروط في الرابط.",
-      "pt": "Consulte os requisitos no link."
+      "es": "Escribe a seleccion.hiperdino@grupodinosol.es para enviar tu CV y preguntar los requisitos.",
+      "en": "Write to seleccion.hiperdino@grupodinosol.es to send your CV and ask about the requirements.",
+      "fr": "Écris à seleccion.hiperdino@grupodinosol.es pour envoyer ton CV et demander les conditions.",
+      "ar": "راسل seleccion.hiperdino@grupodinosol.es لإرسال سيرتك الذاتية والسؤال عن المتطلبات.",
+      "pt": "Escreva para seleccion.hiperdino@grupodinosol.es para enviar o CV e perguntar os requisitos."
     },
     "enlace": "mailto:seleccion.hiperdino@grupodinosol.es"
   },
@@ -21730,47 +21689,6 @@ const OFERTAS_SEMANA = [
     "enlace": "https://www.infojobs.net/las-palmas-de-gran-canaria/administrador-sistemas/of-i1fe5b7c0104cb8823350c92c8a34cb"
   },
   {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Auxiliar técnico/a educativo/a (centro La Casita)",
-      "en": "Technical education assistant (La Casita centre)",
-      "fr": "Auxiliaire technique éducatif/ve (centre La Casita)",
-      "ar": "مساعد/ة تقني/ة تربوي/ة (مركز La Casita)",
-      "pt": "Auxiliar técnico/a educativo/a (centro La Casita)"
-    },
-    "empresa": "Grupo 5",
-    "ubicacion": "Tafira Alta (Las Palmas de Gran Canaria)",
-    "jornada": {
-      "es": "35 h semanales, de lunes a viernes de 8:00 a 15:00. Contrato indefinido. Plazo para enviar el CV: 20 de noviembre.",
-      "en": "35 h a week, Monday to Friday 8:00 to 15:00. Permanent contract. Send your CV by 20 November.",
-      "fr": "35 h par semaine, du lundi au vendredi de 8 h à 15 h. CDI. Envoi du CV jusqu’au 20 novembre.",
-      "ar": "35 ساعة أسبوعيًا، من الاثنين إلى الجمعة من 8:00 إلى 15:00. عقد دائم. آخر أجل لإرسال السيرة: 20 نوفمبر.",
-      "pt": "35 h semanais, de segunda a sexta das 8:00 às 15:00. Contrato sem termo. Prazo para enviar o CV: 20 de novembro."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 14/11/2026)",
-      "en": "Shared this week (checked 11/14/2026)",
-      "fr": "Partagée cette semaine (vérifié le 14/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 14/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 14/11/2026)"
-    },
-    "requisitos": {
-      "es": "Formación profesional y experiencia en un puesto similar. Apoyo a alumnado con necesidades educativas especiales.",
-      "en": "Vocational training and experience in a similar job. Supporting pupils with special educational needs.",
-      "fr": "Formation professionnelle et expérience dans un poste similaire. Accompagnement d’élèves à besoins éducatifs particuliers.",
-      "ar": "تكوين مهني وخبرة في منصب مماثل. دعم التلاميذ ذوي الاحتياجات التربوية الخاصة.",
-      "pt": "Formação profissional e experiência em posto semelhante. Apoio a alunos com necessidades educativas especiais."
-    },
-    "enlace": "https://www.glassdoor.es/job-listing/auxiliar-t%C3%A9cnico-a-educativo-a-indefinido-centro-la-casita-grupo-5-JV_IC2528538_KO0%2C58_KE59%2C66.htm?jl=1010324641144"
-  },
-  {
     "area": "administracion",
     "categoria": {
       "es": "Administración/Oficinas",
@@ -23042,47 +22960,6 @@ const OFERTAS_SEMANA = [
     "enlace": "https://www.randstad.es/candidatos/ofertas-empleo/oferta/azafata-o-dias-sueltos-con-idiomas-3023269/"
   },
   {
-    "area": "comercio",
-    "categoria": {
-      "es": "Comercio y Ventas",
-      "en": "Retail & Sales",
-      "fr": "Commerce et vente",
-      "ar": "التجارة والمبيعات",
-      "pt": "Comércio e Vendas"
-    },
-    "puesto": {
-      "es": "Agente comercial de seguros de salud (Sanitas)",
-      "en": "Health insurance sales agent (Sanitas)",
-      "fr": "Agent·e commercial·e en assurance santé (Sanitas)",
-      "ar": "وكيل/ة تجاري/ة في التأمين الصحي (Sanitas)",
-      "pt": "Agente comercial de seguros de saúde (Sanitas)"
-    },
-    "empresa": "Randstad",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Jornada completa, teletrabajo. Contrato a determinar en el proceso.",
-      "en": "Full-time, remote work. Type of contract decided during the process.",
-      "fr": "Temps plein, télétravail. Contrat défini pendant le processus.",
-      "ar": "دوام كامل، عمل عن بُعد. نوع العقد يحدد خلال العملية.",
-      "pt": "Tempo inteiro, teletrabalho. Contrato a definir no processo."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 14/11/2026)",
-      "en": "Shared this week (checked 11/14/2026)",
-      "fr": "Partagée cette semaine (vérifié le 14/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 14/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 14/11/2026)"
-    },
-    "requisitos": {
-      "es": "Bachillerato y un año de experiencia comercial o en telemarketing.",
-      "en": "Bachillerato and one year of sales or telemarketing experience.",
-      "fr": "Bachillerato (baccalauréat) et un an d’expérience commerciale ou en télémarketing.",
-      "ar": "البكالوريا وسنة خبرة تجارية أو في التسويق عبر الهاتف.",
-      "pt": "Bachillerato e um ano de experiência comercial ou em telemarketing."
-    },
-    "enlace": "https://www.randstad.es/candidatos/ofertas-empleo/oferta/agente-comercial-sanitas-3023244/"
-  },
-  {
     "area": "construccion",
     "categoria": {
       "es": "Construcción y Mantenimiento",
@@ -23297,47 +23174,6 @@ const OFERTAS_SEMANA = [
       "pt": "Educação/Formação"
     },
     "puesto": {
-      "es": "Docente FCOS02 (básico de prevención de riesgos laborales)",
-      "en": "Trainer for FCOS02 (basic occupational health and safety)",
-      "fr": "Formateur/trice FCOS02 (prévention des risques professionnels, niveau de base)",
-      "ar": "مكون/ة FCOS02 (أساسيات الوقاية من المخاطر المهنية)",
-      "pt": "Docente FCOS02 (prevenção de riscos laborais, nível básico)"
-    },
-    "empresa": "Fundación Canaria ISBS (agencia de colocación)",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "Del 17 al 23 de noviembre, de 8:00 a 15:00. Contrato temporal. Inscripción hasta el 17/11.",
-      "en": "17 to 23 November, 8:00 to 15:00. Temporary contract. Apply by 17/11.",
-      "fr": "Du 17 au 23 novembre, de 8 h à 15 h. CDD. Inscription jusqu’au 17/11.",
-      "ar": "من 17 إلى 23 نوفمبر، من 8:00 إلى 15:00. عقد مؤقت. التسجيل حتى 17/11.",
-      "pt": "De 17 a 23 de novembro, das 8:00 às 15:00. Contrato temporário. Inscrição até 17/11."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 14/11/2026)",
-      "en": "Shared this week (checked 11/14/2026)",
-      "fr": "Partagée cette semaine (vérifié le 14/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 14/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 14/11/2026)"
-    },
-    "requisitos": {
-      "es": "Técnico/a Superior en PRL y, además, capacitación docente (Máster, CAP o SSCE0110) o titulación en Psicología, Pedagogía o Psicopedagogía.",
-      "en": "Senior OHS Technician and either a teaching qualification (Master’s, CAP or SSCE0110) or a degree in Psychology, Pedagogy or Educational Psychology.",
-      "fr": "Technicien·ne supérieur·e en prévention et, en plus, une compétence pédagogique (master, CAP ou SSCE0110) ou un diplôme en psychologie, pédagogie ou psychopédagogie.",
-      "ar": "تقني/ة عالٍ في الوقاية من المخاطر، بالإضافة إلى تأهيل في التدريس (ماستر أو CAP أو SSCE0110) أو شهادة في علم النفس أو البيداغوجيا أو علم النفس التربوي.",
-      "pt": "Técnico/a Superior em PRL e, além disso, capacitação docente (Mestrado, CAP ou SSCE0110) ou formação em Psicologia, Pedagogia ou Psicopedagogia."
-    },
-    "enlace": "https://empleoisbs.empleactiva.com/oferta/fcos02-gc"
-  },
-  {
-    "area": "formacion",
-    "categoria": {
-      "es": "Educación/Formación",
-      "en": "Education/Training",
-      "fr": "Éducation/Formation",
-      "ar": "التعليم/التدريب",
-      "pt": "Educação/Formação"
-    },
-    "puesto": {
       "es": "Docente de ayudante de camarero/a",
       "en": "Trainer for assistant waiter/waitress course",
       "fr": "Formateur/trice commis de salle",
@@ -23368,47 +23204,6 @@ const OFERTAS_SEMANA = [
       "pt": "Capacitação docente (Mestrado, CAP ou SSCE0110), formação universitária ou Técnico Superior relacionado e um ano de experiência na área."
     },
     "enlace": "https://empleoisbs.empleactiva.com/oferta/camarero-gc"
-  },
-  {
-    "area": "formacion",
-    "categoria": {
-      "es": "Educación/Formación",
-      "en": "Education/Training",
-      "fr": "Éducation/Formation",
-      "ar": "التعليم/التدريب",
-      "pt": "Educação/Formação"
-    },
-    "puesto": {
-      "es": "Docente de camarero/a de pisos",
-      "en": "Trainer for room attendant course",
-      "fr": "Formateur/trice femme/valet de chambre",
-      "ar": "مكون/ة في دورة عامل/ة تنظيف الغرف",
-      "pt": "Docente de empregado/a de andares"
-    },
-    "empresa": "Fundación Canaria ISBS (agencia de colocación)",
-    "ubicacion": "Las Palmas de Gran Canaria",
-    "jornada": {
-      "es": "18 y 19 de noviembre. Contrato temporal. Inscripción hasta el 18/11.",
-      "en": "18 and 19 November. Temporary contract. Apply by 18/11.",
-      "fr": "18 et 19 novembre. CDD. Inscription jusqu’au 18/11.",
-      "ar": "18 و19 نوفمبر. عقد مؤقت. التسجيل حتى 18/11.",
-      "pt": "18 e 19 de novembro. Contrato temporário. Inscrição até 18/11."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 14/11/2026)",
-      "en": "Shared this week (checked 11/14/2026)",
-      "fr": "Partagée cette semaine (vérifié le 14/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 14/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 14/11/2026)"
-    },
-    "requisitos": {
-      "es": "Capacitación docente (Máster, CAP o SSCE0110), titulación universitaria o CFGS relacionada y un año de experiencia en el área.",
-      "en": "Teaching qualification (Master’s, CAP or SSCE0110), related university degree or higher vocational training and one year of experience in the field.",
-      "fr": "Compétence pédagogique (master, CAP ou SSCE0110), diplôme universitaire ou BTS lié et un an d’expérience dans le domaine.",
-      "ar": "تأهيل في التدريس (ماستر أو CAP أو SSCE0110)، شهادة جامعية أو تكوين مهني عالٍ ذو صلة وسنة خبرة في المجال.",
-      "pt": "Capacitação docente (Mestrado, CAP ou SSCE0110), formação universitária ou Técnico Superior relacionado e um ano de experiência na área."
-    },
-    "enlace": "https://empleoisbs.empleactiva.com/oferta/pisos-gc"
   },
   {
     "area": "formacion",
@@ -25008,47 +24803,6 @@ const OFERTAS_SEMANA = [
       "pt": "Enviar o CV por WhatsApp. ⚠️ Oferta não verificada pela Ubuntu Canarias: não consta o nome da empresa. A Ubuntu Canarias não se responsabiliza. Antes de aceitar, confirme por escrito quem contrata, o contrato, o salário e o horário. Não entregue documentos originais nem pague nada."
     },
     "enlace": "https://wa.me/34675852155"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Director/a de centros de protección de menores",
-      "en": "Director of child protection centres",
-      "fr": "Directeur/trice de centres de protection de l’enfance",
-      "ar": "مدير/ة مراكز حماية القاصرين",
-      "pt": "Diretor/a de centros de proteção de menores"
-    },
-    "empresa": "ASPROINFA",
-    "ubicacion": "Santa María de Guía y Valleseco",
-    "jornada": {
-      "es": "Candidaturas hasta el 17 de noviembre.",
-      "en": "Applications until 17 November.",
-      "fr": "Candidatures jusqu’au 17 novembre.",
-      "ar": "الترشيحات حتى 17 نوفمبر.",
-      "pt": "Candidaturas até 17 de novembro."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 12/11/2026)",
-      "en": "Shared this week (checked 11/12/2026)",
-      "fr": "Partagée cette semaine (vérifié le 12/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 12/11/2026)"
-    },
-    "requisitos": {
-      "es": "Titulación superior o grado del ámbito social o educativo y experiencia en el sector.",
-      "en": "Higher degree in the social or education field and experience in the sector.",
-      "fr": "Diplôme supérieur dans le domaine social ou éducatif et expérience dans le secteur.",
-      "ar": "شهادة عليا في المجال الاجتماعي أو التربوي وخبرة في القطاع.",
-      "pt": "Licenciatura ou grau na área social ou educativa e experiência no setor."
-    },
-    "enlace": "https://forms.gle/i6pedhm8LE3zor7M8"
   },
   {
     "area": "comercio",
@@ -26773,47 +26527,6 @@ const OFERTAS_SEMANA = [
     "enlace": "https://www.comercialjesuman.es/empleo/"
   },
   {
-    "area": "formacion",
-    "categoria": {
-      "es": "Educación/Formación",
-      "en": "Education/Training",
-      "fr": "Éducation/Formation",
-      "ar": "التعليم/التدريب",
-      "pt": "Educação/Formação"
-    },
-    "puesto": {
-      "es": "Docente de prevención de riesgos laborales (curso básico de 30 h)",
-      "en": "Occupational health and safety trainer (30-hour basic course)",
-      "fr": "Formateur/trice en prévention des risques professionnels (cours de base de 30 h)",
-      "ar": "مكون/ة في الوقاية من المخاطر المهنية (دورة أساسية 30 ساعة)",
-      "pt": "Docente de prevenção de riscos laborais (curso básico de 30 h)"
-    },
-    "empresa": "Centro Internacional Politécnico",
-    "ubicacion": "Gran Canaria",
-    "jornada": {
-      "es": "Del 19 al 24 de noviembre, de 13:30 a 21:00.",
-      "en": "19 to 24 November, 13:30 to 21:00.",
-      "fr": "Du 19 au 24 novembre, de 13 h 30 à 21 h.",
-      "ar": "من 19 إلى 24 نوفمبر، من 13:30 إلى 21:00.",
-      "pt": "De 19 a 24 de novembro, das 13:30 às 21:00."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 12/11/2026)",
-      "en": "Shared this week (checked 11/12/2026)",
-      "fr": "Partagée cette semaine (vérifié le 12/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 12/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 12/11/2026)"
-    },
-    "requisitos": {
-      "es": "Acreditación del SCE e inglés medio.",
-      "en": "SCE trainer accreditation and intermediate English.",
-      "fr": "Accréditation du SCE et anglais intermédiaire.",
-      "ar": "اعتماد من SCE ومستوى متوسط في الإنجليزية.",
-      "pt": "Acreditação do SCE e inglês intermédio."
-    },
-    "enlace": "mailto:coordinacionlpa4@formacioncip.com"
-  },
-  {
     "area": "hosteleria",
     "categoria": {
       "es": "Hostelería y Restauración",
@@ -27734,11 +27447,11 @@ const OFERTAS_SEMANA = [
     "empresa": "ICOT Hospital Cajal",
     "ubicacion": "Las Palmas de Gran Canaria",
     "jornada": {
-      "es": "Consultar con la empresa.",
-      "en": "Ask the employer.",
-      "fr": "À consulter avec l’employeur.",
-      "ar": "يُستفسر لدى الشركة.",
-      "pt": "Consultar a empresa."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 10/11/2026)",
@@ -28609,11 +28322,11 @@ const OFERTAS_SEMANA = [
       "pt": "Partilhada esta semana (verificado em 10/11/2026)"
     },
     "requisitos": {
-      "es": "Consulta los requisitos en el enlace.",
-      "en": "Check the requirements at the link.",
-      "fr": "Consulte les conditions sur le lien.",
-      "ar": "راجع المتطلبات في الرابط.",
-      "pt": "Consulta os requisitos no link."
+      "es": "Escribe a direccion.taliarte@grupoicot.es para enviar tu CV y preguntar los requisitos.",
+      "en": "Write to direccion.taliarte@grupoicot.es to send your CV and ask about the requirements.",
+      "fr": "Écris à direccion.taliarte@grupoicot.es pour envoyer ton CV et demander les conditions.",
+      "ar": "راسل direccion.taliarte@grupoicot.es لإرسال سيرتك الذاتية والسؤال عن المتطلبات.",
+      "pt": "Escreva para direccion.taliarte@grupoicot.es para enviar o CV e perguntar os requisitos."
     },
     "enlace": "mailto:direccion.taliarte@grupoicot.es"
   },
@@ -28657,88 +28370,6 @@ const OFERTAS_SEMANA = [
       "pt": "Certificado de deficiência e pelo menos três meses de experiência em limpeza. ⚠️ Oferta não verificada pela Ubuntu Canarias. A Ubuntu Canarias não se responsabiliza. Antes de aceitar, confirme por escrito o contrato, o salário e o horário. Não entregue documentos originais nem pague nada."
     },
     "enlace": "https://workeo.es/oferta/limpiador-a-con-discapacidad-en-arucas-las-palmas/"
-  },
-  {
-    "area": "otros",
-    "categoria": {
-      "es": "Ciencia e Investigación",
-      "en": "Science & Research",
-      "fr": "Sciences et recherche",
-      "ar": "العلوم والبحث",
-      "pt": "Ciência e Investigação"
-    },
-    "puesto": {
-      "es": "Titulado/a superior en Biotecnología · TSLP-03/26 (ensayos con microalgas)",
-      "en": "Graduate in Biotechnology · TSLP-03/26 (microalgae trials)",
-      "fr": "Diplômé·e en biotechnologie · TSLP-03/26 (essais sur les microalgues)",
-      "ar": "حاصل/ة على شهادة عليا في التكنولوجيا الحيوية · TSLP-03/26 (تجارب الطحالب الدقيقة)",
-      "pt": "Licenciado/a em Biotecnologia · TSLP-03/26 (ensaios com microalgas)"
-    },
-    "empresa": "Instituto Tecnológico de Canarias (ITC)",
-    "ubicacion": "Pozo Izquierdo, Santa Lucía de Tirajana",
-    "jornada": {
-      "es": "Contrato temporal. Plazo: hasta el 18 de noviembre a las 15:00.",
-      "en": "Temporary contract. Deadline: 18 November at 15:00.",
-      "fr": "Contrat temporaire. Date limite : 18 novembre à 15 h.",
-      "ar": "عقد مؤقت. آخر أجل: 18 نوفمبر الساعة 15:00.",
-      "pt": "Contrato temporário. Prazo: até 18 de novembro às 15:00."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 10/11/2026)",
-      "en": "Shared this week (checked 11/10/2026)",
-      "fr": "Partagée cette semaine (vérifié le 10/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 10/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 10/11/2026)"
-    },
-    "requisitos": {
-      "es": "Titulación universitaria de nivel 3 MECES (máster) en Biología, Biotecnología, Ciencias del Mar o afines.",
-      "en": "University degree at MECES level 3 (master’s) in Biology, Biotechnology, Marine Sciences or related fields.",
-      "fr": "Diplôme universitaire de niveau 3 MECES (master) en biologie, biotechnologie, sciences de la mer ou domaines proches.",
-      "ar": "شهادة جامعية بمستوى 3 MECES (ماستر) في البيولوجيا أو التكنولوجيا الحيوية أو علوم البحار أو ما يماثلها.",
-      "pt": "Formação universitária de nível 3 MECES (mestrado) em Biologia, Biotecnologia, Ciências do Mar ou afins."
-    },
-    "enlace": "https://www.itccanarias.org/web/es/empleo/tslp-03-26-provision-de-vacante-en-el-instituto-tecnologico-de-canarias-gran-canaria-titulado-superior-biotecnologia"
-  },
-  {
-    "area": "otros",
-    "categoria": {
-      "es": "Ciencia e Investigación",
-      "en": "Science & Research",
-      "fr": "Sciences et recherche",
-      "ar": "العلوم والبحث",
-      "pt": "Ciência e Investigação"
-    },
-    "puesto": {
-      "es": "Titulado/a superior en Biotecnología · TSLP-04/26 (cultivo de microalgas y economía circular)",
-      "en": "Graduate in Biotechnology · TSLP-04/26 (microalgae cultivation and circular economy)",
-      "fr": "Diplômé·e en biotechnologie · TSLP-04/26 (culture de microalgues et économie circulaire)",
-      "ar": "حاصل/ة على شهادة عليا في التكنولوجيا الحيوية · TSLP-04/26 (زراعة الطحالب الدقيقة والاقتصاد الدائري)",
-      "pt": "Licenciado/a em Biotecnologia · TSLP-04/26 (cultivo de microalgas e economia circular)"
-    },
-    "empresa": "Instituto Tecnológico de Canarias (ITC)",
-    "ubicacion": "Pozo Izquierdo, Santa Lucía de Tirajana",
-    "jornada": {
-      "es": "Contrato temporal. Plazo: hasta el 18 de noviembre a las 15:00.",
-      "en": "Temporary contract. Deadline: 18 November at 15:00.",
-      "fr": "Contrat temporaire. Date limite : 18 novembre à 15 h.",
-      "ar": "عقد مؤقت. آخر أجل: 18 نوفمبر الساعة 15:00.",
-      "pt": "Contrato temporário. Prazo: até 18 de novembro às 15:00."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 10/11/2026)",
-      "en": "Shared this week (checked 11/10/2026)",
-      "fr": "Partagée cette semaine (vérifié le 10/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 10/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 10/11/2026)"
-    },
-    "requisitos": {
-      "es": "Titulación universitaria de nivel 3 MECES (máster) en Biología, Biotecnología, Ciencias del Mar o afines.",
-      "en": "University degree at MECES level 3 (master’s) in Biology, Biotechnology, Marine Sciences or related fields.",
-      "fr": "Diplôme universitaire de niveau 3 MECES (master) en biologie, biotechnologie, sciences de la mer ou domaines proches.",
-      "ar": "شهادة جامعية بمستوى 3 MECES (ماستر) في البيولوجيا أو التكنولوجيا الحيوية أو علوم البحار أو ما يماثلها.",
-      "pt": "Formação universitária de nível 3 MECES (mestrado) em Biologia, Biotecnologia, Ciências do Mar ou afins."
-    },
-    "enlace": "https://www.itccanarias.org/web/es/empleo/tslp-04-26-provision-de-vacante-en-el-instituto-tecnologico-de-canarias-gran-canaria-titulado-superior-biotecnologia"
   },
   {
     "area": "otros",
@@ -28800,11 +28431,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Videoreport Canarias",
     "ubicacion": "Gran Canaria",
     "jornada": {
-      "es": "Consultar con la empresa.",
-      "en": "Ask the employer.",
-      "fr": "À consulter avec l’employeur.",
-      "ar": "يُستفسر لدى الشركة.",
-      "pt": "Consultar a empresa."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 10/11/2026)",
@@ -28814,11 +28445,11 @@ const OFERTAS_SEMANA = [
       "pt": "Partilhada esta semana (verificado em 10/11/2026)"
     },
     "requisitos": {
-      "es": "Consulta los requisitos en el enlace.",
-      "en": "Check the requirements at the link.",
-      "fr": "Consulte les conditions sur le lien.",
-      "ar": "راجع المتطلبات في الرابط.",
-      "pt": "Consulta os requisitos no link."
+      "es": "Escribe a rrhh@videoreportcanarias.es para enviar tu CV y preguntar los requisitos.",
+      "en": "Write to rrhh@videoreportcanarias.es to send your CV and ask about the requirements.",
+      "fr": "Écris à rrhh@videoreportcanarias.es pour envoyer ton CV et demander les conditions.",
+      "ar": "راسل rrhh@videoreportcanarias.es لإرسال سيرتك الذاتية والسؤال عن المتطلبات.",
+      "pt": "Escreva para rrhh@videoreportcanarias.es para enviar o CV e perguntar os requisitos."
     },
     "enlace": "mailto:rrhh@videoreportcanarias.es"
   },
@@ -29292,11 +28923,11 @@ const OFERTAS_SEMANA = [
     "empresa": "",
     "ubicacion": "C/ Guayadeque, 7, La Isleta, Las Palmas de Gran Canaria",
     "jornada": {
-      "es": "Consultar en el local.",
-      "en": "Ask at the restaurant.",
-      "fr": "Se renseigner sur place.",
-      "ar": "اسأل في المحل.",
-      "pt": "Pergunte no local."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 10/11/2026)",
@@ -29497,11 +29128,11 @@ const OFERTAS_SEMANA = [
     "empresa": "Calcusan (Copeca)",
     "ubicacion": "Telde",
     "jornada": {
-      "es": "Consultar con la empresa.",
-      "en": "Ask the company.",
-      "fr": "Demande à l’entreprise.",
-      "ar": "اسأل الشركة.",
-      "pt": "Pergunte à empresa."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 10/11/2026)",
@@ -29561,47 +29192,6 @@ const OFERTAS_SEMANA = [
     "enlace": "https://www.infojobs.net/ingenio/limpiador/of-i1a5b4df2124408a6c4a936fcc897ff"
   },
   {
-    "area": "otros",
-    "categoria": {
-      "es": "Estética y Peluquería",
-      "en": "Beauty & Hairdressing",
-      "fr": "Esthétique et coiffure",
-      "ar": "التجميل والحلاقة",
-      "pt": "Estética e Cabeleireiro"
-    },
-    "puesto": {
-      "es": "Manicurista",
-      "en": "Manicurist",
-      "fr": "Manucure",
-      "ar": "أخصائي/ة عناية بالأظافر",
-      "pt": "Manicure"
-    },
-    "empresa": "",
-    "ubicacion": "¿? (falta municipio; confirmar que es Gran Canaria)",
-    "jornada": {
-      "es": "Consultar.",
-      "en": "Ask for details.",
-      "fr": "Demande les détails.",
-      "ar": "اسأل عن التفاصيل.",
-      "pt": "Peça mais informações."
-    },
-    "fecha": {
-      "es": "Compartida esta semana (consultado 10/11/2026)",
-      "en": "Shared this week (checked 11/10/2026)",
-      "fr": "Partagée cette semaine (vérifié le 10/11/2026)",
-      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 10/11/2026)",
-      "pt": "Partilhada esta semana (verificado em 10/11/2026)"
-    },
-    "requisitos": {
-      "es": "Servicios de manicura. ⚠️ Oferta no verificada por Ubuntu Canarias: no consta el nombre de la empresa. Ubuntu Canarias no se hace responsable. Antes de aceptar, confirma por escrito quién contrata, el contrato, el salario y el horario. No entregues documentos originales ni pagues nada.",
-      "en": "Manicure services. ⚠️ Offer not verified by Ubuntu Canarias: the company name is not given. Ubuntu Canarias is not responsible. Before accepting, confirm in writing who is hiring, the contract, pay and hours. Do not hand over original documents or pay anything.",
-      "fr": "Prestations de manucure. ⚠️ Offre non vérifiée par Ubuntu Canarias : le nom de l’entreprise n’est pas indiqué. Ubuntu Canarias décline toute responsabilité. Avant d’accepter, confirme par écrit qui embauche, le contrat, le salaire et les horaires. Ne remets pas de documents originaux et ne paie rien.",
-      "ar": "خدمات العناية بالأظافر. ⚠️ عرض لم تتحقق منه Ubuntu Canarias: اسم الشركة غير مذكور. Ubuntu Canarias غير مسؤولة. قبل القبول، تأكد كتابيًا من الجهة المشغّلة والعقد والأجر والتوقيت. لا تسلّم وثائق أصلية ولا تدفع أي مبلغ.",
-      "pt": "Serviços de manicure. ⚠️ Oferta não verificada pela Ubuntu Canarias: não consta o nome da empresa. A Ubuntu Canarias não se responsabiliza. Antes de aceitar, confirme por escrito quem contrata, o contrato, o salário e o horário. Não entregue documentos originais nem pague nada."
-    },
-    "enlace": "https://wa.me/34610941096"
-  },
-  {
     "area": "administracion",
     "categoria": {
       "es": "Administración/Oficinas",
@@ -29620,11 +29210,11 @@ const OFERTAS_SEMANA = [
     "empresa": "",
     "ubicacion": "¿? (falta municipio)",
     "jornada": {
-      "es": "Consultar.",
-      "en": "Ask for details.",
-      "fr": "Demande les détails.",
-      "ar": "اسأل عن التفاصيل.",
-      "pt": "Peça mais informações."
+      "es": "Pregunta las condiciones al contactar.",
+      "en": "Ask about the conditions when you get in touch.",
+      "fr": "Demande les conditions lors du contact.",
+      "ar": "اسأل عن الشروط عند التواصل.",
+      "pt": "Pergunte as condições ao entrar em contacto."
     },
     "fecha": {
       "es": "Compartida esta semana (consultado 10/11/2026)",
@@ -29716,54 +29306,13 @@ const OFERTAS_SEMANA = [
       "pt": "Partilhada anteriormente (verificado em 07/11/2026)"
     },
     "requisitos": {
-      "es": "Consulta los requisitos en el enlace.",
-      "en": "Check the requirements at the link.",
-      "fr": "Consultez les exigences sur le lien.",
-      "ar": "راجع الشروط في الرابط.",
-      "pt": "Consulte os requisitos no link."
+      "es": "Escribe a direccionterapeuticocanarias@samu.es para enviar tu CV y preguntar los requisitos.",
+      "en": "Write to direccionterapeuticocanarias@samu.es to send your CV and ask about the requirements.",
+      "fr": "Écris à direccionterapeuticocanarias@samu.es pour envoyer ton CV et demander les conditions.",
+      "ar": "راسل direccionterapeuticocanarias@samu.es لإرسال سيرتك الذاتية والسؤال عن المتطلبات.",
+      "pt": "Escreva para direccionterapeuticocanarias@samu.es para enviar o CV e perguntar os requisitos."
     },
     "enlace": "mailto:direccionterapeuticocanarias@samu.es"
-  },
-  {
-    "area": "tercer-sector",
-    "categoria": {
-      "es": "Tercer Sector",
-      "en": "Third Sector",
-      "fr": "Secteur associatif",
-      "ar": "القطاع الثالث",
-      "pt": "Terceiro Setor"
-    },
-    "puesto": {
-      "es": "Mediador/a intercultural (centro de protección de menores)",
-      "en": "Intercultural mediator (child protection centre)",
-      "fr": "Médiateur·rice interculturel·le (centre de protection de l’enfance)",
-      "ar": "وسيط/ة بين الثقافات (مركز حماية القاصرين)",
-      "pt": "Mediador/a intercultural (centro de proteção de menores)"
-    },
-    "empresa": "Asproinfa",
-    "ubicacion": "Valleseco",
-    "jornada": {
-      "es": "Incorporación inmediata",
-      "en": "Immediate start",
-      "fr": "Prise de poste immédiate",
-      "ar": "بدء فوري",
-      "pt": "Início imediato"
-    },
-    "fecha": {
-      "es": "Compartida antes (consultado 07/11/2026)",
-      "en": "Shared earlier (checked 11/07/2026)",
-      "fr": "Partagée précédemment (vérifiée le 07/11/2026)",
-      "ar": "تمت مشاركتها سابقًا (تم التحقق في 07/11/2026)",
-      "pt": "Partilhada anteriormente (verificado em 07/11/2026)"
-    },
-    "requisitos": {
-      "es": "Imprescindible: árabe y formación en el ámbito social o en intervención con menores. Se valora formación en mediación, Integración Social, residir en Canarias, carné y vehículo. Plazo: hasta el 19 de noviembre de 2026.",
-      "en": "Essential: Arabic and training in social work or work with minors. Mediation training, Social Integration, living in the Canary Islands, licence and vehicle valued. Deadline: 19 November 2026.",
-      "fr": "Indispensable : arabe et formation dans le social ou l’intervention auprès de mineurs. Atouts : formation en médiation, Intégration sociale, résider aux Canaries, permis et véhicule. Date limite : 19 novembre 2026.",
-      "ar": "ضروري: العربية وتكوين في المجال الاجتماعي أو العمل مع القاصرين. يُقدَّر: تكوين في الوساطة أو الإدماج الاجتماعي، الإقامة في جزر الكناري، الرخصة والسيارة. آخر أجل: 19 نوفمبر 2026.",
-      "pt": "Imprescindível: árabe e formação na área social ou em intervenção com menores. Valoriza-se formação em mediação, Integração Social, residir nas Canárias, carta e veículo. Prazo: até 19 de novembro de 2026."
-    },
-    "enlace": "https://lnkd.in/dRWRTiic"
   },
   {
     "area": "sociosanitario",
@@ -29839,11 +29388,11 @@ const OFERTAS_SEMANA = [
       "pt": "Partilhada anteriormente (verificado em 07/11/2026)"
     },
     "requisitos": {
-      "es": "Consulta los requisitos en el enlace.",
-      "en": "Check the requirements at the link.",
-      "fr": "Consultez les exigences sur le lien.",
-      "ar": "راجع الشروط في الرابط.",
-      "pt": "Consulte os requisitos no link."
+      "es": "Escribe a coordinacionasistencial.taliarte@grupoicot.es para enviar tu CV y preguntar los requisitos.",
+      "en": "Write to coordinacionasistencial.taliarte@grupoicot.es to send your CV and ask about the requirements.",
+      "fr": "Écris à coordinacionasistencial.taliarte@grupoicot.es pour envoyer ton CV et demander les conditions.",
+      "ar": "راسل coordinacionasistencial.taliarte@grupoicot.es لإرسال سيرتك الذاتية والسؤال عن المتطلبات.",
+      "pt": "Escreva para coordinacionasistencial.taliarte@grupoicot.es para enviar o CV e perguntar os requisitos."
     },
     "enlace": "mailto:coordinacionasistencial.taliarte@grupoicot.es"
   },
@@ -30584,47 +30133,6 @@ const OFERTAS_SEMANA = [
       "pt": "Experiência e disponibilidade de horário."
     },
     "enlace": "mailto:rrhh@allendegastropro.com"
-  },
-  {
-    "area": "hosteleria",
-    "categoria": {
-      "es": "Turismo y Hostelería",
-      "en": "Tourism & Hospitality",
-      "fr": "Tourisme et hôtellerie",
-      "ar": "السياحة والضيافة",
-      "pt": "Turismo e Hotelaria"
-    },
-    "puesto": {
-      "es": "Mozo/a de carga",
-      "en": "Loading assistant",
-      "fr": "Manutentionnaire",
-      "ar": "عامل/ة تحميل",
-      "pt": "Carregador/a"
-    },
-    "empresa": "Hotel Taurito",
-    "ubicacion": "Taurito (Mogán)",
-    "jornada": {
-      "es": "Jornada completa, unas 3 semanas. Empieza el 10 de noviembre",
-      "en": "Full time, about 3 weeks. Starts 10 November",
-      "fr": "Temps plein, environ 3 semaines. Début le 10 novembre",
-      "ar": "دوام كامل، حوالي 3 أسابيع. البدء في 10 نوفمبر",
-      "pt": "Tempo inteiro, cerca de 3 semanas. Começa a 10 de novembro"
-    },
-    "fecha": {
-      "es": "Compartida antes (consultado 07/11/2026)",
-      "en": "Shared earlier (checked 11/07/2026)",
-      "fr": "Partagée précédemment (vérifiée le 07/11/2026)",
-      "ar": "تمت مشاركتها سابقًا (تم التحقق في 07/11/2026)",
-      "pt": "Partilhada anteriormente (verificado em 07/11/2026)"
-    },
-    "requisitos": {
-      "es": "Anuncio: milanuncios.com/otras-empleo/mozo-de-carga-taurito-624153315.htm",
-      "en": "Ad: milanuncios.com/otras-empleo/mozo-de-carga-taurito-624153315.htm",
-      "fr": "Annonce : milanuncios.com/otras-empleo/mozo-de-carga-taurito-624153315.htm",
-      "ar": "الإعلان: milanuncios.com/otras-empleo/mozo-de-carga-taurito-624153315.htm",
-      "pt": "Anúncio: milanuncios.com/otras-empleo/mozo-de-carga-taurito-624153315.htm"
-    },
-    "enlace": "https://wa.me/34623398107"
   },
   {
     "area": "hosteleria",
@@ -32217,11 +31725,11 @@ const OFERTAS_SEMANA = [
       "pt": "Partilhada anteriormente (verificado em 07/11/2026)"
     },
     "requisitos": {
-      "es": "Consulta los requisitos en el enlace. ⚠️ Oferta no verificada por Ubuntu Canarias: no consta el nombre de la empresa. Ubuntu Canarias no se hace responsable. Antes de aceptar, confirma por escrito quién contrata, el contrato, el salario y el horario. No entregues documentos originales ni pagues nada.",
-      "en": "Check the requirements at the link. ⚠️ Offer not verified by Ubuntu Canarias: the company name is not given. Ubuntu Canarias is not responsible. Before accepting, confirm in writing who is hiring, the contract, pay and hours. Do not hand over original documents or pay anything.",
-      "fr": "Consultez les exigences sur le lien. ⚠️ Offre non vérifiée par Ubuntu Canarias : le nom de l’entreprise n’est pas indiqué. Ubuntu Canarias décline toute responsabilité. Avant d’accepter, confirme par écrit qui embauche, le contrat, le salaire et les horaires. Ne remets pas de documents originaux et ne paie rien.",
-      "ar": "راجع الشروط في الرابط. ⚠️ عرض لم تتحقق منه Ubuntu Canarias: اسم الشركة غير مذكور. Ubuntu Canarias غير مسؤولة. قبل القبول، تأكد كتابيًا من الجهة المشغّلة والعقد والأجر والتوقيت. لا تسلّم وثائق أصلية ولا تدفع أي مبلغ.",
-      "pt": "Consulte os requisitos no link. ⚠️ Oferta não verificada pela Ubuntu Canarias: não consta o nome da empresa. A Ubuntu Canarias não se responsabiliza. Antes de aceitar, confirme por escrito quem contrata, o contrato, o salário e o horário. Não entregue documentos originais nem pague nada."
+      "es": "Escribe a lacempleo@gmail.com para enviar tu CV y preguntar los requisitos. ⚠️ Oferta no verificada por Ubuntu Canarias: no consta el nombre de la empresa. Ubuntu Canarias no se hace responsable. Antes de aceptar, confirma por escrito quién contrata, el contrato, el salario y el horario. No entregues documentos originales ni pagues nada.",
+      "en": "Write to lacempleo@gmail.com to send your CV and ask about the requirements. ⚠️ Offer not verified by Ubuntu Canarias: the company name is not given. Ubuntu Canarias is not responsible. Before accepting, confirm in writing who is hiring, the contract, pay and hours. Do not hand over original documents or pay anything.",
+      "fr": "Écris à lacempleo@gmail.com pour envoyer ton CV et demander les conditions. ⚠️ Offre non vérifiée par Ubuntu Canarias : le nom de l’entreprise n’est pas indiqué. Ubuntu Canarias décline toute responsabilité. Avant d’accepter, confirme par écrit qui embauche, le contrat, le salaire et les horaires. Ne remets pas de documents originaux et ne paie rien.",
+      "ar": "راسل lacempleo@gmail.com لإرسال سيرتك الذاتية والسؤال عن المتطلبات. ⚠️ عرض لم تتحقق منه Ubuntu Canarias: اسم الشركة غير مذكور. Ubuntu Canarias غير مسؤولة. قبل القبول، تأكد كتابيًا من الجهة المشغّلة والعقد والأجر والتوقيت. لا تسلّم وثائق أصلية ولا تدفع أي مبلغ.",
+      "pt": "Escreva para lacempleo@gmail.com para enviar o CV e perguntar os requisitos. ⚠️ Oferta não verificada pela Ubuntu Canarias: não consta o nome da empresa. A Ubuntu Canarias não se responsabiliza. Antes de aceitar, confirme por escrito quem contrata, o contrato, o salário e o horário. Não entregue documentos originais nem pague nada."
     },
     "enlace": "mailto:lacempleo@gmail.com"
   },
@@ -32463,11 +31971,11 @@ const OFERTAS_SEMANA = [
       "pt": "Partilhada anteriormente (verificado em 07/11/2026)"
     },
     "requisitos": {
-      "es": "Consulta los requisitos en el enlace.",
-      "en": "Check the requirements at the link.",
-      "fr": "Consultez les exigences sur le lien.",
-      "ar": "راجع الشروط في الرابط.",
-      "pt": "Consulte os requisitos no link."
+      "es": "Escribe a limpiezasmayelaspalmas@gmail.com para enviar tu CV y preguntar los requisitos.",
+      "en": "Write to limpiezasmayelaspalmas@gmail.com to send your CV and ask about the requirements.",
+      "fr": "Écris à limpiezasmayelaspalmas@gmail.com pour envoyer ton CV et demander les conditions.",
+      "ar": "راسل limpiezasmayelaspalmas@gmail.com لإرسال سيرتك الذاتية والسؤال عن المتطلبات.",
+      "pt": "Escreva para limpiezasmayelaspalmas@gmail.com para enviar o CV e perguntar os requisitos."
     },
     "enlace": "mailto:limpiezasmayelaspalmas@gmail.com"
   },
@@ -32504,11 +32012,11 @@ const OFERTAS_SEMANA = [
       "pt": "Partilhada anteriormente (verificado em 07/11/2026)"
     },
     "requisitos": {
-      "es": "Consulta los requisitos en el enlace. ⚠️ Oferta de un particular, no verificada por Ubuntu Canarias. Ubuntu Canarias no se hace responsable. Antes de aceptar, confirma por escrito contrato, salario, horario y descansos. No entregues documentos originales ni pagues nada.",
-      "en": "Check the requirements at the link. ⚠️ Offer from a private individual, not verified by Ubuntu Canarias. Ubuntu Canarias is not responsible. Before accepting, confirm the contract, pay, hours and rest periods in writing. Do not hand over original documents or pay anything.",
-      "fr": "Consultez les exigences sur le lien. ⚠️ Offre d’un particulier, non vérifiée par Ubuntu Canarias. Ubuntu Canarias décline toute responsabilité. Avant d’accepter, confirme par écrit le contrat, le salaire, les horaires et les repos. Ne remets pas de documents originaux et ne paie rien.",
-      "ar": "راجع الشروط في الرابط. ⚠️ عرض من شخص خاص، لم تتحقق منه Ubuntu Canarias. Ubuntu Canarias غير مسؤولة. قبل القبول، تأكد كتابيًا من العقد والأجر والتوقيت وأوقات الراحة. لا تسلّم وثائق أصلية ولا تدفع أي مبلغ.",
-      "pt": "Consulte os requisitos no link. ⚠️ Oferta de um particular, não verificada pela Ubuntu Canarias. A Ubuntu Canarias não se responsabiliza. Antes de aceitar, confirme por escrito contrato, salário, horário e descansos. Não entregue documentos originais nem pague nada."
+      "es": "Llama o escribe al 617 448 549 para preguntar los requisitos. ⚠️ Oferta de un particular, no verificada por Ubuntu Canarias. Ubuntu Canarias no se hace responsable. Antes de aceptar, confirma por escrito contrato, salario, horario y descansos. No entregues documentos originales ni pagues nada.",
+      "en": "Call or message 617 448 549 to ask about the requirements. ⚠️ Offer from a private individual, not verified by Ubuntu Canarias. Ubuntu Canarias is not responsible. Before accepting, confirm the contract, pay, hours and rest periods in writing. Do not hand over original documents or pay anything.",
+      "fr": "Appelle ou écris au 617 448 549 pour demander les conditions. ⚠️ Offre d’un particulier, non vérifiée par Ubuntu Canarias. Ubuntu Canarias décline toute responsabilité. Avant d’accepter, confirme par écrit le contrat, le salaire, les horaires et les repos. Ne remets pas de documents originaux et ne paie rien.",
+      "ar": "اتصل أو راسل الرقم 617 448 549 للسؤال عن المتطلبات. ⚠️ عرض من شخص خاص، لم تتحقق منه Ubuntu Canarias. Ubuntu Canarias غير مسؤولة. قبل القبول، تأكد كتابيًا من العقد والأجر والتوقيت وأوقات الراحة. لا تسلّم وثائق أصلية ولا تدفع أي مبلغ.",
+      "pt": "Ligue ou escreva para o 617 448 549 para perguntar os requisitos. ⚠️ Oferta de um particular, não verificada pela Ubuntu Canarias. A Ubuntu Canarias não se responsabiliza. Antes de aceitar, confirme por escrito contrato, salário, horário e descansos. Não entregue documentos originais nem pague nada."
     },
     "enlace": "tel:+34617448549"
   },
@@ -32586,11 +32094,11 @@ const OFERTAS_SEMANA = [
       "pt": "Partilhada anteriormente (verificado em 07/11/2026)"
     },
     "requisitos": {
-      "es": "Consulta los requisitos en el enlace.",
-      "en": "Check the requirements at the link.",
-      "fr": "Consultez les exigences sur le lien.",
-      "ar": "راجع الشروط في الرابط.",
-      "pt": "Consulte os requisitos no link."
+      "es": "Escribe a direccionpaterna@nuevofuturolp.org para enviar tu CV y preguntar los requisitos.",
+      "en": "Write to direccionpaterna@nuevofuturolp.org to send your CV and ask about the requirements.",
+      "fr": "Écris à direccionpaterna@nuevofuturolp.org pour envoyer ton CV et demander les conditions.",
+      "ar": "راسل direccionpaterna@nuevofuturolp.org لإرسال سيرتك الذاتية والسؤال عن المتطلبات.",
+      "pt": "Escreva para direccionpaterna@nuevofuturolp.org para enviar o CV e perguntar os requisitos."
     },
     "enlace": "mailto:direccionpaterna@nuevofuturolp.org"
   }
