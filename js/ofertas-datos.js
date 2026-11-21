@@ -205,6 +205,211 @@ const OFERTAS_SEMANA = [
     "enlace": "https://gloriapalaceth.nivimu.net/ofertas"
   },
   {
+    "area": "formacion",
+    "categoria": {
+      "es": "Educación/Formación",
+      "en": "Education/Training",
+      "fr": "Éducation/Formation",
+      "ar": "التعليم/التدريب",
+      "pt": "Educação/Formação"
+    },
+    "puesto": {
+      "es": "Beca en ingeniería eléctrica y energías renovables",
+      "en": "Electrical engineering and renewable energy internship",
+      "fr": "Stage en génie électrique et énergies renouvelables",
+      "ar": "منحة تدريب في الهندسة الكهربائية والطاقات المتجددة",
+      "pt": "Estágio em engenharia elétrica e energias renováveis"
+    },
+    "empresa": "Grupo Satocan",
+    "ubicacion": "Gran Canaria",
+    "jornada": {
+      "es": "Consulta las condiciones en la oferta.",
+      "en": "See the conditions in the job offer.",
+      "fr": "Consulte les conditions dans l’offre.",
+      "ar": "راجع الشروط في العرض.",
+      "pt": "Consulte as condições na oferta."
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 21/11/2026)",
+      "en": "Shared this week (checked 11/21/2026)",
+      "fr": "Partagée cette semaine (vérifié le 21/11/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/11/2026)",
+      "pt": "Partilhada esta semana (verificado em 21/11/2026)"
+    },
+    "requisitos": {
+      "es": "Titulación universitaria. Inscripción en el enlace de la oferta.",
+      "en": "University degree. Apply through the job link.",
+      "fr": "Diplôme universitaire. Candidature via le lien de l’offre.",
+      "ar": "شهادة جامعية. التقديم عبر رابط العرض.",
+      "pt": "Licenciatura. Candidatura através da ligação da oferta."
+    },
+    "enlace": "https://empleo.gruposatocan.es/job/Beca-Ingenier%C3%ADa-El%C3%A9ctrica-Energ%C3%ADas-Renovables/668-es_ES"
+  },
+  {
+    "area": "tercer-sector",
+    "categoria": {
+      "es": "Tercer Sector",
+      "en": "Third Sector",
+      "fr": "Secteur associatif",
+      "ar": "القطاع الثالث",
+      "pt": "Terceiro Setor"
+    },
+    "puesto": {
+      "es": "Educador/a de menores",
+      "en": "Youth care educator",
+      "fr": "Éducateur·rice pour mineurs",
+      "ar": "مربي/ة للقاصرين",
+      "pt": "Educador/a de menores"
+    },
+    "empresa": "Servicio Canario de Empleo",
+    "ubicacion": "Arucas",
+    "jornada": {
+      "es": "Consulta las condiciones en la oferta.",
+      "en": "See the conditions in the job offer.",
+      "fr": "Consulte les conditions dans l’offre.",
+      "ar": "راجع الشروط في العرض.",
+      "pt": "Consulte as condições na oferta."
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 21/11/2026)",
+      "en": "Shared this week (checked 11/21/2026)",
+      "fr": "Partagée cette semaine (vérifié le 21/11/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/11/2026)",
+      "pt": "Partilhada esta semana (verificado em 21/11/2026)"
+    },
+    "requisitos": {
+      "es": "Carné de conducir B. Para inscribirte tienes que estar registrado/a como demandante de empleo en el SCE (tel. 928 117 733).",
+      "en": "Driving licence (B). To apply, you must be registered as a job seeker with the SCE (Canary Islands Employment Service, tel. 928 117 733).",
+      "fr": "Permis de conduire B. Pour postuler, tu dois être inscrit·e comme demandeur·se d’emploi au SCE (Service canarien de l’emploi, tél. 928 117 733).",
+      "ar": "رخصة قيادة B. للتقديم يجب أن تكون مسجلاً كباحث عن عمل في SCE (خدمة التشغيل الكنارية، الهاتف 928 117 733).",
+      "pt": "Carta de condução B. Para se inscrever tem de estar registado/a como candidato/a a emprego no SCE (Serviço Canário de Emprego, tel. 928 117 733)."
+    },
+    "enlace": "https://www.gobiernodecanarias.org/empleo/sce/principal/areas_tematicas/empleo/demanda_y_ofertas_de_empleo/buscador_ofertas_empleo.html?cod_buscar=007994&is_open=true"
+  },
+  {
+    "area": "sociosanitario",
+    "categoria": {
+      "es": "Cuidado de Personas",
+      "en": "Personal Care",
+      "fr": "Aide à la personne",
+      "ar": "رعاية الأشخاص",
+      "pt": "Cuidado de Pessoas"
+    },
+    "puesto": {
+      "es": "Auxiliar de ayuda a domicilio (Servicio de Ayuda a Domicilio de Guía)",
+      "en": "Home care assistant (Guía home help service)",
+      "fr": "Aide à domicile (service d’aide à domicile de Guía)",
+      "ar": "مساعد/ة رعاية منزلية (خدمة الرعاية المنزلية في غيا)",
+      "pt": "Auxiliar de apoio domiciliário (serviço de Guía)"
+    },
+    "empresa": "Servicio de Ayuda a Domicilio de Guía",
+    "ubicacion": "Santa María de Guía",
+    "jornada": {
+      "es": "30 horas semanales. Contrato indefinido.",
+      "en": "30 hours a week. Permanent contract.",
+      "fr": "30 heures par semaine. CDI (contrat à durée indéterminée).",
+      "ar": "30 ساعة أسبوعيًا. عقد دائم.",
+      "pt": "30 horas semanais. Contrato sem termo."
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 21/11/2026)",
+      "en": "Shared this week (checked 11/21/2026)",
+      "fr": "Partagée cette semaine (vérifié le 21/11/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/11/2026)",
+      "pt": "Partilhada esta semana (verificado em 21/11/2026)"
+    },
+    "requisitos": {
+      "es": "Formación sociosanitaria (auxiliar de enfermería, atención a la dependencia o certificado de profesionalidad). Vehículo propio.",
+      "en": "Health and social care training (nursing assistant, dependency care or professional certificate). Own vehicle.",
+      "fr": "Formation socio-sanitaire (aide-soignant·e, aide aux personnes dépendantes ou certificat professionnel). Véhicule personnel.",
+      "ar": "تكوين صحي اجتماعي (مساعد/ة تمريض أو رعاية المعالين أو شهادة مهنية). سيارة خاصة.",
+      "pt": "Formação sociossanitária (auxiliar de enfermagem, apoio à dependência ou certificado profissional). Veículo próprio."
+    },
+    "enlace": "https://bit.ly/3WQzjE3"
+  },
+  {
+    "area": "almacen",
+    "categoria": {
+      "es": "Transporte y Conducción",
+      "en": "Transport & Driving",
+      "fr": "Transport et conduite",
+      "ar": "النقل والسياقة",
+      "pt": "Transporte e Condução"
+    },
+    "puesto": {
+      "es": "Conductor/a carné C1 o C (residuos RAEE)",
+      "en": "Driver with C1 or C licence (WEEE waste)",
+      "fr": "Chauffeur·se permis C1 ou C (déchets DEEE)",
+      "ar": "سائق/ة برخصة C1 أو C (نفايات إلكترونية)",
+      "pt": "Motorista com carta C1 ou C (resíduos REEE)"
+    },
+    "empresa": "Ewaste",
+    "ubicacion": "Polígono de Arinaga (Agüimes)",
+    "jornada": {
+      "es": "Incorporación inmediata.",
+      "en": "Immediate start.",
+      "fr": "Démarrage immédiat.",
+      "ar": "الالتحاق فورًا.",
+      "pt": "Início imediato."
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 21/11/2026)",
+      "en": "Shared this week (checked 11/21/2026)",
+      "fr": "Partagée cette semaine (vérifié le 21/11/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/11/2026)",
+      "pt": "Partilhada esta semana (verificado em 21/11/2026)"
+    },
+    "requisitos": {
+      "es": "Carné C. CAP y tarjeta de tacógrafo. Residir en la zona o cerca. CV a rrhh@ewaste.es.",
+      "en": "Truck licence (C). CAP certificate and tachograph card. Living in or near the area. Send your CV to rrhh@ewaste.es.",
+      "fr": "Permis C. CAP et carte conducteur (tachygraphe). Habiter dans la zone ou à proximité. CV à rrhh@ewaste.es.",
+      "ar": "رخصة C. شهادة CAP وبطاقة جهاز التاكوغراف. الإقامة في المنطقة أو بالقرب منها. أرسل سيرتك الذاتية إلى rrhh@ewaste.es.",
+      "pt": "Carta C. CAM e cartão de tacógrafo. Residir na zona ou perto. CV para rrhh@ewaste.es."
+    },
+    "enlace": "mailto:rrhh@ewaste.es"
+  },
+  {
+    "area": "hosteleria",
+    "categoria": {
+      "es": "Hostelería y Restauración",
+      "en": "Hospitality & Catering",
+      "fr": "Hôtellerie et restauration",
+      "ar": "الضيافة والمطاعم",
+      "pt": "Hotelaria e Restauração"
+    },
+    "puesto": {
+      "es": "Camareros/as y cocinero/a (cervecería en Vegueta)",
+      "en": "Waiters/waitresses and cook (beer bar in Vegueta)",
+      "fr": "Serveur·se·s et cuisinier·ère (brasserie à Vegueta)",
+      "ar": "نُدُل وطباخ/ة (حانة في فيغيتا)",
+      "pt": "Empregados/as de mesa e cozinheiro/a (cervejaria em Vegueta)"
+    },
+    "empresa": "Cervecería Pérez & Beer's",
+    "ubicacion": "Vegueta (Las Palmas de Gran Canaria)",
+    "jornada": {
+      "es": "40 horas semanales. Salario según convenio.",
+      "en": "40 hours a week. Pay according to collective agreement.",
+      "fr": "40 heures par semaine. Salaire selon la convention collective.",
+      "ar": "40 ساعة أسبوعيًا. الأجر حسب الاتفاقية الجماعية.",
+      "pt": "40 horas semanais. Salário segundo a convenção coletiva."
+    },
+    "fecha": {
+      "es": "Compartida esta semana (consultado 21/11/2026)",
+      "en": "Shared this week (checked 11/21/2026)",
+      "fr": "Partagée cette semaine (vérifié le 21/11/2026)",
+      "ar": "تمت مشاركتها هذا الأسبوع (تم التحقق في 21/11/2026)",
+      "pt": "Partilhada esta semana (verificado em 21/11/2026)"
+    },
+    "requisitos": {
+      "es": "Inglés. CV a Maripazcn32@hotmail.com. Dirección: Calle Obispo Codina, 6.",
+      "en": "English. Send your CV to Maripazcn32@hotmail.com. Address: Calle Obispo Codina, 6.",
+      "fr": "Anglais. CV à Maripazcn32@hotmail.com. Adresse : Calle Obispo Codina, 6.",
+      "ar": "الإنجليزية. أرسل سيرتك الذاتية إلى Maripazcn32@hotmail.com. العنوان: Calle Obispo Codina, 6.",
+      "pt": "Inglês. CV para Maripazcn32@hotmail.com. Morada: Calle Obispo Codina, 6."
+    },
+    "enlace": "mailto:Maripazcn32@hotmail.com"
+  },
+  {
     "area": "comercio",
     "categoria": {
       "es": "Comercio y Ventas",
