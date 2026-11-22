@@ -18,6 +18,7 @@
 
   const TEXTOS = {
     es: {
+      avisar: '¿Ya no está disponible? Avísanos',
       contador: (n) => n + " ofertas activas esta semana",
       verOferta: "Ver oferta",
       compartirWa: "Compartir por WhatsApp",
@@ -37,6 +38,7 @@
       },
     },
     en: {
+      avisar: 'No longer available? Let us know',
       contador: (n) => n + " active listings this week",
       verOferta: "View listing",
       compartirWa: "Share on WhatsApp",
@@ -56,6 +58,7 @@
       },
     },
     fr: {
+      avisar: 'Plus disponible ? Prévenez-nous',
       contador: (n) => n + " offres actives cette semaine",
       verOferta: "Voir l'offre",
       compartirWa: "Partager sur WhatsApp",
@@ -75,6 +78,7 @@
       },
     },
     ar: {
+      avisar: 'لم يعد متاحاً؟ أخبرنا',
       contador: (n) => n + " عرضاً نشطاً هذا الأسبوع",
       verOferta: "عرض الوظيفة",
       compartirWa: "مشاركة عبر واتساب",
@@ -94,6 +98,7 @@
       },
     },
     pt: {
+      avisar: 'Já não está disponível? Avise-nos',
       contador: (n) => n + " ofertas ativas esta semana",
       verOferta: "Ver oferta",
       compartirWa: "Partilhar no WhatsApp",
@@ -296,6 +301,15 @@
         .replace(/>/g, "&gt;");
     }
 
+    // Enlace al formulario para avisar de que una oferta ya no está
+    // disponible. Se rellena solo con el puesto, la empresa y el municipio.
+    const FORM_AVISO = "https://tally.so/r/bZWkOo";
+    // Siempre en español, para que el equipo identifique la oferta.
+    function enlaceAviso(oferta) {
+      const texto = `${campo(oferta.puesto, "es")} – ${oferta.empresa} (${oferta.ubicacion})`;
+      return `${FORM_AVISO}?oferta=${encodeURIComponent(texto)}&idioma=${idioma}`;
+    }
+
     function crearTarjetaOferta(oferta) {
       const puesto = campo(oferta.puesto, idioma);
       const jornada = campo(oferta.jornada, idioma);
@@ -318,6 +332,7 @@
           </div>
           <p class="semanal-descripcion">${requisitos}</p>
           <div class="semanal-oferta__acciones">
+            <a class="semanal-oferta__avisar" href="${enlaceAviso(oferta)}" target="_blank" rel="noopener noreferrer">${t.avisar}</a>
             <button type="button" class="semanal-btn-compartir semanal-btn-compartir--wa"
               data-puesto="${escapeAttr(puesto)}" data-empresa="${escapeAttr(oferta.empresa)}"
               data-ubicacion="${escapeAttr(oferta.ubicacion)}" data-enlace="${escapeAttr(oferta.enlace)}"
